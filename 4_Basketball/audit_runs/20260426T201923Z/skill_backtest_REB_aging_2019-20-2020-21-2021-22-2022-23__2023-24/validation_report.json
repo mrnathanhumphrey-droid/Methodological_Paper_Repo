@@ -1,0 +1,29 @@
+{
+  "fit_label": "backtest_REB_2023-24",
+  "checks": [
+    {
+      "name": "coverage_80_in_band",
+      "passed": true,
+      "summary": "80% CI coverage = 76.9% (target 70-90%)",
+      "details": []
+    },
+    {
+      "name": "bias_near_zero",
+      "passed": true,
+      "summary": "bias = +0.026 per-36 (target |b| < 0.5)",
+      "details": []
+    },
+    {
+      "name": "z_error_well_calibrated",
+      "passed": true,
+      "summary": "z-error mean=+0.04, sd=1.27 (target 0\u00b10.3, sd 0.7-1.4)",
+      "details": []
+    },
+    {
+      "name": "top_25_tier_accuracy",
+      "passed": true,
+      "summary": "top-25 overlap = 80.0% (target \u2265 50%)",
+      "details": []
+    }
+  ]
+}

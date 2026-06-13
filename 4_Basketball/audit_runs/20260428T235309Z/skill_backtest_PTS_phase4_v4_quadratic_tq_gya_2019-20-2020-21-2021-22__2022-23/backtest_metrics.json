@@ -1,0 +1,154 @@
+{
+  "stat": "PTS",
+  "test_season": "2022-23",
+  "n_players": 199,
+  "mae": 1.8783329661350368,
+  "rmse": 2.5076972988449375,
+  "bias": -0.149881057020674,
+  "coverage_50": 0.5175879396984925,
+  "coverage_80": 0.8241206030150754,
+  "coverage_90": 0.8542713567839196,
+  "z_error_mean": -0.06578594742345882,
+  "z_error_sd": 1.1494370979487052,
+  "top_25_accuracy": 0.84,
+  "top_50_accuracy": 0.76,
+  "worst_misses": [
+    {
+      "nba_api_id": 1628374,
+      "name": "Lauri Markkanen",
+      "projected": 18.38290058310305,
+      "projected_sd": 2.061480503396934,
+      "actual": 26.805812417437252,
+      "error": -8.4229118343342,
+      "z_error": -4.085855685006392
+    },
+    {
+      "nba_api_id": 1628392,
+      "name": "Isaiah Hartenstein",
+      "projected": 16.55192013253925,
+      "projected_sd": 2.129133384740825,
+      "actual": 8.96137339055794,
+      "error": 7.590546741981312,
+      "z_error": 3.565087465342287
+    },
+    {
+      "nba_api_id": 203081,
+      "name": "Damian Lillard",
+      "projected": 24.56619928916824,
+      "projected_sd": 2.655541667410198,
+      "actual": 31.791765262659723,
+      "error": -7.225565973491484,
+      "z_error": -2.7209386552530264
+    },
+    {
+      "nba_api_id": 202692,
+      "name": "Alec Burks",
+      "projected": 14.612311615593166,
+      "projected_sd": 2.0894230446605686,
+      "actual": 20.864,
+      "error": -6.251688384406835,
+      "z_error": -2.9920644363441657
+    },
+    {
+      "nba_api_id": 1628983,
+      "name": "Shai Gilgeous-Alexander",
+      "projected": 25.55879990510077,
+      "projected_sd": 2.3877848282000103,
+      "actual": 31.799751758378157,
+      "error": -6.240951853277387,
+      "z_error": -2.6136994337056825
+    },
+    {
+      "nba_api_id": 1627747,
+      "name": "Caris LeVert",
+      "projected": 20.253884500916147,
+      "projected_sd": 2.2513396400562375,
+      "actual": 14.448322147651007,
+      "error": 5.80556235326514,
+      "z_error": 2.5787145795203603
+    },
+    {
+      "nba_api_id": 1628969,
+      "name": "Mikal Bridges",
+      "projected": 14.746031194933332,
+      "projected_sd": 2.0135299115070215,
+      "actual": 20.288701517706578,
+      "error": -5.542670322773246,
+      "z_error": -2.7527131785317493
+    },
+    {
+      "nba_api_id": 1628381,
+      "name": "John Collins",
+      "projected": 21.19449547264193,
+      "projected_sd": 2.2317841155076183,
+      "actual": 15.72045028142589,
+      "error": 5.474045191216039,
+      "z_error": 2.4527664450963123
+    },
+    {
+      "nba_api_id": 1629048,
+      "name": "Goga Bitadze",
+      "projected": 18.67727549604144,
+      "projected_sd": 2.2930932053234785,
+      "actual": 13.213186813186812,
+      "error": 5.4640886828546265,
+      "z_error": 2.3828463100276935
+    },
+    {
+      "nba_api_id": 1628973,
+      "name": "Jalen Brunson",
+      "projected": 19.288163111156663,
+      "projected_sd": 2.1278632869858867,
+      "actual": 24.742424242424242,
+      "error": -5.454261131267579,
+      "z_error": -2.563257312923297
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1627750,
+      "name": "Jamal Murray",
+      "projected": 21.95206965789014,
+      "projected_sd": 2.683454201169681,
+      "actual": 21.9277334584702,
+      "error": 0.024336199419938254,
+      "z_error": 0.009068982585702575
+    },
+    {
+      "nba_api_id": 201145,
+      "name": "Jeff Green",
+      "projected": 14.36928498390991,
+      "projected_sd": 2.0323995704576565,
+      "actual": 14.419798350137487,
+      "error": -0.05051336622757674,
+      "z_error": -0.0248540527964204
+    },
+    {
+      "nba_api_id": 1630193,
+      "name": "Immanuel Quickley",
+      "projected": 18.637143466094834,
+      "projected_sd": 2.1225742693282768,
+      "actual": 18.57618437900128,
+      "error": 0.06095908709355413,
+      "z_error": 0.02871941301391806
+    },
+    {
+      "nba_api_id": 1629631,
+      "name": "De'Andre Hunter",
+      "projected": 17.36546424057505,
+      "projected_sd": 2.1657642122883964,
+      "actual": 17.432470588235294,
+      "error": -0.06700634766024294,
+      "z_error": -0.03093889319994003
+    },
+    {
+      "nba_api_id": 1628389,
+      "name": "Bam Adebayo",
+      "projected": 21.254890910630856,
+      "projected_sd": 2.294279294455983,
+      "actual": 21.187066974595844,
+      "error": 0.06782393603501191,
+      "z_error": 0.029562196807906182
+    }
+  ]
+}

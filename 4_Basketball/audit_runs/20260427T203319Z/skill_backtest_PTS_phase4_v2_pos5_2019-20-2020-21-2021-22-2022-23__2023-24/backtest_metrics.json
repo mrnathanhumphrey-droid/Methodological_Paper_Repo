@@ -1,0 +1,154 @@
+{
+  "stat": "PTS",
+  "test_season": "2023-24",
+  "n_players": 195,
+  "mae": 2.0504369542585454,
+  "rmse": 2.5445004374308775,
+  "bias": 0.7860742994580073,
+  "coverage_50": 0.4153846153846154,
+  "coverage_80": 0.8205128205128205,
+  "coverage_90": 0.882051282051282,
+  "z_error_mean": 0.3193517444466608,
+  "z_error_sd": 1.0049368757412078,
+  "top_25_accuracy": 0.72,
+  "top_50_accuracy": 0.8,
+  "worst_misses": [
+    {
+      "nba_api_id": 203081,
+      "name": "Damian Lillard",
+      "projected": 32.399006978980395,
+      "projected_sd": 2.9705725555368008,
+      "actual": 24.777045366421092,
+      "error": 7.6219616125593035,
+      "z_error": 2.5658224029414316
+    },
+    {
+      "nba_api_id": 1630256,
+      "name": "Jae'Sean Tate",
+      "projected": 16.738749095990705,
+      "projected_sd": 2.4342569253158652,
+      "actual": 9.235237173281703,
+      "error": 7.503511922709002,
+      "z_error": 3.082465061380223
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 20.52015385954175,
+      "projected_sd": 2.47946958448674,
+      "actual": 13.668874172185431,
+      "error": 6.851279687356319,
+      "z_error": 2.7632037635075735
+    },
+    {
+      "nba_api_id": 1628978,
+      "name": "Donte DiVincenzo",
+      "projected": 13.055138301977705,
+      "projected_sd": 2.2120577767254654,
+      "actual": 19.18070249682607,
+      "error": -6.125564194848364,
+      "z_error": -2.7691700729065527
+    },
+    {
+      "nba_api_id": 2544,
+      "name": "LeBron James",
+      "projected": 31.98371724770702,
+      "projected_sd": 2.7736855953854604,
+      "actual": 26.15311004784689,
+      "error": 5.830607199860129,
+      "z_error": 2.1021153982125527
+    },
+    {
+      "nba_api_id": 1629673,
+      "name": "Jordan Poole",
+      "projected": 26.313917484780287,
+      "projected_sd": 2.580784742186857,
+      "actual": 20.808184143222505,
+      "error": 5.505733341557782,
+      "z_error": 2.133356281737948
+    },
+    {
+      "nba_api_id": 1630231,
+      "name": "KJ Martin",
+      "projected": 16.0344143992253,
+      "projected_sd": 2.2237924286706816,
+      "actual": 10.809651474530831,
+      "error": 5.2247629246944705,
+      "z_error": 2.3494831879689784
+    },
+    {
+      "nba_api_id": 1628973,
+      "name": "Jalen Brunson",
+      "projected": 24.052130046131005,
+      "projected_sd": 2.5599812731509988,
+      "actual": 29.179919384389887,
+      "error": -5.127789338258882,
+      "z_error": -2.0030573629733044
+    },
+    {
+      "nba_api_id": 1630178,
+      "name": "Tyrese Maxey",
+      "projected": 19.992171810196364,
+      "projected_sd": 2.2718007447863515,
+      "actual": 24.914634146341463,
+      "error": -4.922462336145099,
+      "z_error": -2.1667667586789285
+    },
+    {
+      "nba_api_id": 201572,
+      "name": "Brook Lopez",
+      "projected": 19.696011615929905,
+      "projected_sd": 2.355788123864837,
+      "actual": 14.776119402985076,
+      "error": 4.919892212944829,
+      "z_error": 2.0884272923803513
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1630558,
+      "name": "Davion Mitchell",
+      "projected": 12.435576433118584,
+      "projected_sd": 2.192164802974189,
+      "actual": 12.414922656960872,
+      "error": 0.02065377615771169,
+      "z_error": 0.009421634782973419
+    },
+    {
+      "nba_api_id": 1626171,
+      "name": "Bobby Portis",
+      "projected": 20.18628413737882,
+      "projected_sd": 2.5051314209874374,
+      "actual": 20.218687872763418,
+      "error": -0.032403735384598065,
+      "z_error": -0.012934944295986522
+    },
+    {
+      "nba_api_id": 1628392,
+      "name": "Isaiah Hartenstein",
+      "projected": 11.008610593702624,
+      "projected_sd": 2.1531922471856264,
+      "actual": 11.044807590933052,
+      "error": -0.03619699723042835,
+      "z_error": -0.01681085248088756
+    },
+    {
+      "nba_api_id": 1626156,
+      "name": "D'Angelo Russell",
+      "projected": 19.875372241149726,
+      "projected_sd": 2.4527311609315565,
+      "actual": 19.832595573440646,
+      "error": 0.04277666770908084,
+      "z_error": 0.017440422493280552
+    },
+    {
+      "nba_api_id": 1626157,
+      "name": "Karl-Anthony Towns",
+      "projected": 23.91542441082791,
+      "projected_sd": 2.847399330243027,
+      "actual": 23.98222222222222,
+      "error": -0.06679781139430929,
+      "z_error": -0.023459235480190993
+    }
+  ]
+}

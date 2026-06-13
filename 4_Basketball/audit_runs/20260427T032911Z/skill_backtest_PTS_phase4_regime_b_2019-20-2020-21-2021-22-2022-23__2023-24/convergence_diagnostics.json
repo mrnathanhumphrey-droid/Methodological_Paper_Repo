@@ -1,0 +1,27 @@
+{
+  "passed": false,
+  "notes": [
+    "R-hat for mu_player[115]: 1.013 > 1.01",
+    "R-hat for mu_player[124]: 1.014 > 1.01",
+    "R-hat for mu_player[174]: 1.014 > 1.01",
+    "R-hat for mu_player[184]: 1.018 > 1.01",
+    "ESS for sigma_position: 263 < 400",
+    "R-hat for age_slope_player_z[75]: 1.010 > 1.01",
+    "R-hat for age_slope_player_z[152]: 1.010 > 1.01",
+    "R-hat for age_slope_player_z[184]: 1.015 > 1.01",
+    "R-hat for age_slope_player[21]: 1.010 > 1.01",
+    "R-hat for age_slope_player[26]: 1.011 > 1.01",
+    "R-hat for age_slope_player[32]: 1.011 > 1.01",
+    "R-hat for age_slope_player[48]: 1.010 > 1.01",
+    "R-hat for age_slope_player[75]: 1.010 > 1.01",
+    "R-hat for age_slope_player[152]: 1.011 > 1.01",
+    "R-hat for age_slope_player[184]: 1.017 > 1.01",
+    "R-hat for pts_per_36_at_27[115]: 1.012 > 1.01",
+    "R-hat for pts_per_36_at_27[124]: 1.014 > 1.01",
+    "R-hat for pts_per_36_at_27[174]: 1.014 > 1.01",
+    "R-hat for pts_per_36_at_27[184]: 1.016 > 1.01"
+  ],
+  "max_rhat": 1.01755,
+  "min_ess": 263.403,
+  "n_params_summarized": 891
+}

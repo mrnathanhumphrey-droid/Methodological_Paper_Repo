@@ -1,0 +1,3 @@
+dem coef net rent+income: 6.32 (p=0.0000)
+dem coef net rent+income+saiz: 6.28 (p=0.0000)
+attenuation: 1%

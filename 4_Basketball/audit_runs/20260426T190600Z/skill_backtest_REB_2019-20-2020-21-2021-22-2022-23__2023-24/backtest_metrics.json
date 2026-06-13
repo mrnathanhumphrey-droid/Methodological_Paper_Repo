@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2023-24",
+  "n_players": 195,
+  "mae": 0.6986451243389061,
+  "rmse": 0.9351859757275773,
+  "bias": 0.21888770546454955,
+  "coverage_50": 0.1641025641025641,
+  "coverage_80": 0.2923076923076923,
+  "coverage_90": 0.3333333333333333,
+  "z_error_mean": 1.1132461355553533,
+  "z_error_sd": 4.34645205952695,
+  "top_25_accuracy": 0.8,
+  "top_50_accuracy": 0.94,
+  "worst_misses": [
+    {
+      "nba_api_id": 1630191,
+      "name": "Isaiah Stewart",
+      "projected": 11.269,
+      "projected_sd": 0.304221,
+      "actual": 7.710674157303371,
+      "error": 3.558325842696629,
+      "z_error": 11.696516159951576
+    },
+    {
+      "nba_api_id": 1629020,
+      "name": "Jarred Vanderbilt",
+      "projected": 11.465,
+      "projected_sd": 0.30994,
+      "actual": 8.521440823327616,
+      "error": 2.943559176672384,
+      "z_error": 9.49719034868808
+    },
+    {
+      "nba_api_id": 1628978,
+      "name": "Donte DiVincenzo",
+      "projected": 6.85066,
+      "projected_sd": 0.205156,
+      "actual": 4.524756665256031,
+      "error": 2.3259033347439697,
+      "z_error": 11.337242560509903
+    },
+    {
+      "nba_api_id": 203076,
+      "name": "Anthony Davis",
+      "projected": 10.6442,
+      "projected_sd": 0.268599,
+      "actual": 12.808589411329137,
+      "error": -2.1643894113291378,
+      "z_error": -8.058069506324067
+    },
+    {
+      "nba_api_id": 1628975,
+      "name": "Jevon Carter",
+      "projected": 4.29962,
+      "projected_sd": 0.181136,
+      "actual": 2.155688622754491,
+      "error": 2.143931377245509,
+      "z_error": 11.836031364530015
+    },
+    {
+      "nba_api_id": 203937,
+      "name": "Kyle Anderson",
+      "projected": 7.66198,
+      "projected_sd": 0.217145,
+      "actual": 5.524451939291737,
+      "error": 2.137528060708263,
+      "z_error": 9.843782084359589
+    },
+    {
+      "nba_api_id": 203083,
+      "name": "Andre Drummond",
+      "projected": 16.8756,
+      "projected_sd": 0.367404,
+      "actual": 18.893995552260932,
+      "error": -2.018395552260934,
+      "z_error": -5.4936678758558255
+    },
+    {
+      "nba_api_id": 1630224,
+      "name": "Jalen Green",
+      "projected": 3.89343,
+      "projected_sd": 0.174125,
+      "actual": 5.856923076923077,
+      "error": -1.963493076923077,
+      "z_error": -11.276342150311999
+    },
+    {
+      "nba_api_id": 203926,
+      "name": "Doug McDermott",
+      "projected": 4.26853,
+      "projected_sd": 0.180047,
+      "actual": 2.349557522123894,
+      "error": 1.9189724778761064,
+      "z_error": 10.65817524244284
+    },
+    {
+      "nba_api_id": 1627749,
+      "name": "Dejounte Murray",
+      "projected": 7.29855,
+      "projected_sd": 0.189778,
+      "actual": 5.383177570093458,
+      "error": 1.915372429906542,
+      "z_error": 10.092700049039099
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1627827,
+      "name": "Dorian Finney-Smith",
+      "projected": 5.90203,
+      "projected_sd": 0.163088,
+      "actual": 5.9037765131919295,
+      "error": -0.001746513191929644,
+      "z_error": -0.01070902329987273
+    },
+    {
+      "nba_api_id": 1629640,
+      "name": "Keldon Johnson",
+      "projected": 6.6591,
+      "projected_sd": 0.209903,
+      "actual": 6.656204021579206,
+      "error": 0.00289597842079381,
+      "z_error": 0.013796746215127035
+    },
+    {
+      "nba_api_id": 1629637,
+      "name": "Jaxson Hayes",
+      "projected": 8.61851,
+      "projected_sd": 0.279589,
+      "actual": 8.622020431328036,
+      "error": -0.0035104313280349686,
+      "z_error": -0.012555684694444234
+    },
+    {
+      "nba_api_id": 1628470,
+      "name": "Torrey Craig",
+      "projected": 7.43009,
+      "projected_sd": 0.223259,
+      "actual": 7.425855513307984,
+      "error": 0.004234486692015871,
+      "z_error": 0.01896670097069265
+    },
+    {
+      "nba_api_id": 1630557,
+      "name": "Corey Kispert",
+      "projected": 3.92322,
+      "projected_sd": 0.190862,
+      "actual": 3.9168278529980656,
+      "error": 0.006392147001934578,
+      "z_error": 0.033490935869552756
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "label": "hierarchical_REB",
+  "model_path": "D:\\NBA Projections\\models\\skill\\stan\\hierarchical_one_stat.stan",
+  "n_observations": 20794,
+  "n_chains": 4,
+  "n_iter_warmup": 500,
+  "n_iter_sampling": 500,
+  "fit_started_at": "2026-04-26T18:51:31.329674+00:00",
+  "fit_ended_at": "2026-04-26T18:53:14.119714+00:00",
+  "elapsed_seconds": 102.79004,
+  "stat": "REB",
+  "n_players": 50,
+  "min_games": 30,
+  "max_players": 50
+}

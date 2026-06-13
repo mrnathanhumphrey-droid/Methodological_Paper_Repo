@@ -1,0 +1,22 @@
+{
+  "acs_dataset_used": "2024 acs/acs5",
+  "acs_note": "ACS5 2024 used (full county coverage 3222); ACS1 2024 covers only ~861 counties so would gut Balance-of-State CoC coverage.",
+  "n_coc_total": 408,
+  "n_with_total_population": 372,
+  "n_with_overall_homeless": 385,
+  "n_with_homeless_per_10k": 372,
+  "n_with_unsheltered_per_10k": 372,
+  "n_with_family_homeless": 385,
+  "n_with_rent_coc": 393,
+  "n_with_income_coc": 393,
+  "n_with_saiz_elasticity": 315,
+  "n_with_wrluri_coc": 342,
+  "saiz_match_rate": 0.8885,
+  "saiz_matched_count": 239,
+  "saiz_total_count": 269,
+  "n_full_core_homeless_rent_income": 371,
+  "n_full_coverage_core_plus_any_supply": 359,
+  "n_full_coverage_with_saiz": 302,
+  "n_full_coverage_with_wrluri": 325,
+  "failed_sources": []
+}

@@ -1,0 +1,14 @@
+{
+  "produced_at": "2026-06-04T22:23:22+00:00",
+  "target_date": "2025-11-01",
+  "season": "2025-26",
+  "n_rows": 1476,
+  "n_players": 123,
+  "rotation_source": "box_score_actuals",
+  "injury_source": "none",
+  "n_outs": 0,
+  "n_player_is_out": 0,
+  "n_injury_adjusted": 0,
+  "spec_version": "phase_1c_v1.1",
+  "shrinkage_cells_loaded_from": "{('BLK', 'B3_26-50'), ('STL', 'B1_1-10'), ('STL', 'B3_26-50'), ('TOV', 'B3_26-50'), ('STL', 'B2_11-25'), ('TOV', 'B1_1-10'), ('FG3M', 'B2_11-25'), ('FG3M', 'B1_1-10'), ('AST', 'B2_11-25'), ('REB', 'B2_11-25'), ('REB', 'B1_1-10'), ('PTS', 'B1_1-10'), ('AST', 'B1_1-10'), ('BLK', 'B2_11-25'), ('TOV', 'B2_11-25'), ('BLK', 'B1_1-10')}"
+}

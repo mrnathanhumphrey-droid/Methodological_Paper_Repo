@@ -1,0 +1,146 @@
+{
+  "years": {
+    "2016": {
+      "files": [
+        "reason_2016_tab19.xls"
+      ],
+      "layout_note": "Table 19 collapsed-only; no move-type; poverty marginal",
+      "rows_emitted": 16,
+      "caveats": []
+    },
+    "2017": {
+      "files": [
+        "reason_2017_tab19.xls"
+      ],
+      "layout_note": "Table 19 collapsed-only; no move-type; poverty marginal",
+      "rows_emitted": 16,
+      "caveats": []
+    },
+    "2018": {
+      "files": [
+        "reason_2018_tab17_1.xls",
+        "reason_2018_tab17_2.xls",
+        "reason_2018_tab17_3.xls",
+        "reason_2018_tab17_4.xls"
+      ],
+      "layout_note": "Table 17 4-part; move_type x poverty cross-tab",
+      "rows_emitted": 352,
+      "caveats": []
+    },
+    "2019": {
+      "files": [
+        "reason_2019_tab17_1.xls",
+        "reason_2019_tab17_2.xls",
+        "reason_2019_tab17_3.xls",
+        "reason_2019_tab17_4.xls"
+      ],
+      "layout_note": "Table 17 4-part; move_type x poverty cross-tab",
+      "rows_emitted": 349,
+      "caveats": []
+    },
+    "2021": {
+      "files": [
+        "reason_2021_mig17_01.xlsx",
+        "reason_2021_mig17_02.xlsx",
+        "reason_2021_mig17_03.xlsx",
+        "reason_2021_mig17_04.xlsx"
+      ],
+      "layout_note": "mig_17 4-part; move_type x poverty cross-tab",
+      "rows_emitted": 382,
+      "caveats": []
+    },
+    "2022": {
+      "files": [
+        "mig_13_2022_1yr.xlsx"
+      ],
+      "layout_note": "mig_13 single; poverty & move-type SEPARATE marginals",
+      "rows_emitted": 184,
+      "caveats": []
+    },
+    "2023": {
+      "files": [
+        "mig_13_2023_1yr.xlsx"
+      ],
+      "layout_note": "mig_13 single; poverty & move-type SEPARATE marginals",
+      "rows_emitted": 179,
+      "caveats": []
+    }
+  },
+  "global_caveats": [],
+  "row_count": 1478,
+  "columns": [
+    "year",
+    "reason_collapsed",
+    "reason_specific",
+    "move_type",
+    "poverty_status",
+    "count",
+    "source_file"
+  ],
+  "reason_collapsed_values": [
+    "employment",
+    "family",
+    "housing",
+    "other"
+  ],
+  "reason_specific_values": [
+    "better_neighborhood",
+    "change_in_marital_status",
+    "change_of_climate",
+    "cheaper_housing",
+    "foreclosure_eviction",
+    "health_reasons",
+    "natural_disaster",
+    "new_job_or_job_transfer",
+    "newer_better_larger_home",
+    "other_family_reason",
+    "other_housing_reason",
+    "other_job_related_reason",
+    "other_reasons",
+    "own_home_not_rent",
+    "relationship_with_unmarried_partner",
+    "retired",
+    "to_attend_or_leave_college",
+    "to_be_closer_to_work_easier_commute",
+    "to_establish_own_household",
+    "to_look_for_work_or_lost_job",
+    "total"
+  ],
+  "move_type_values": [
+    "all",
+    "different_county",
+    "from_abroad",
+    "within_county"
+  ],
+  "poverty_status_values": [
+    "100_to_149",
+    "all",
+    "at_or_above_150",
+    "below_100",
+    "below_150"
+  ],
+  "years_obtained": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "years_failed": {
+    "2020": "No CPS ASEC 1-year geographic mobility file published (COVID-19 data collection disruption); only 5-year ACS-style tables exist (different universe) - skipped per instructions.",
+    "2024": "Not yet published as of access date (no cps-2024 directory under geographic-mobility)."
+  },
+  "layout_assumptions": [
+    "Columns are reason categories; rows are demographic characteristics. Poverty Status and Type of Move are ROW blocks.",
+    "2016/2017 (Table 19): collapsed reasons only (no specific sub-reasons); poverty present; NO type-of-move => move_type='all'.",
+    "2018/2019 (Table 17, 4 parts) & 2021 (mig_17, 4 parts): each part = one move type (all/within_county/different_county/from_abroad); poverty rows inside each part => genuine move_type x poverty cross-tab.",
+    "2022/2023 (mig_13 single): poverty and type-of-move are SEPARATE marginal row blocks, NOT crossed. Captured as move_type x poverty='all' and poverty x move_type='all'. No joint cross-tab available in source.",
+    "move_type='different_county' corresponds to source 'Intercounty' (different county, includes different state). Source does not split intercounty into same-state vs different-state in the reason table; 'different_state' is therefore NOT separately available.",
+    "'Intercounty or From Abroad' rollup row in single-file tables is skipped to avoid double counting.",
+    "Suppressed cells ('D','S','-') are dropped (no row emitted), not imputed.",
+    "Specific housing sub-reasons captured: own_home_not_rent, newer_better_larger_home, better_neighborhood, cheaper_housing, foreclosure_eviction, other_housing_reason.",
+    "2021 renamed 'wanted cheaper housing' -> 'cheaper housing' (both map to cheaper_housing)."
+  ]
+}

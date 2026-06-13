@@ -1,0 +1,29 @@
+{
+  "fit_label": "backtest_STL_phase4_v2_2022-23",
+  "checks": [
+    {
+      "name": "coverage_80_in_band",
+      "passed": true,
+      "summary": "80% CI coverage = 86.9%",
+      "details": []
+    },
+    {
+      "name": "bias_near_zero",
+      "passed": true,
+      "summary": "bias = +0.040",
+      "details": []
+    },
+    {
+      "name": "z_error_well_calibrated",
+      "passed": true,
+      "summary": "z-error mean=+0.18, sd=0.91",
+      "details": []
+    },
+    {
+      "name": "top_25_tier_accuracy",
+      "passed": true,
+      "summary": "top-25 overlap = 72.0%",
+      "details": []
+    }
+  ]
+}

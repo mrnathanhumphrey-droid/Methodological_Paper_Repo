@@ -1,0 +1,33 @@
+{
+  "label": "backtest_PTS_phase4_v3_quadratic_2019-20-2020-21-2021-22-2022-23__2023-24",
+  "model_path": "D:\\NBA Projections\\models\\skill\\stan\\hierarchical_aging_quadratic_v1.stan",
+  "n_observations": 2933,
+  "n_chains": 2,
+  "n_iter_warmup": 50,
+  "n_iter_sampling": 50,
+  "fit_started_at": "2026-04-28T02:08:29.100736+00:00",
+  "fit_ended_at": "2026-04-28T02:10:17.116309+00:00",
+  "elapsed_seconds": 108.015573,
+  "stat": "PTS",
+  "phase": "4_regime_B_v2",
+  "mates_usage_stat": "FGA",
+  "train_seasons": [
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23"
+  ],
+  "test_season": "2023-24",
+  "min_games": 20,
+  "max_players": 10,
+  "oos_sd_added": 1.7303079654778677,
+  "pace_coverage": 1.0,
+  "mates_usage_coverage": 0.2,
+  "pos5": false,
+  "meta_adjust": false,
+  "age_decline": false,
+  "age_decline_breakpoint": null,
+  "age_decline_rate": null,
+  "quadratic_age": true,
+  "stan_file": "hierarchical_aging_quadratic_v1.stan"
+}

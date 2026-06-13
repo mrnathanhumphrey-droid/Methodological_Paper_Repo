@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2024-25",
+  "n_players": 119,
+  "mae": 0.6466288407143507,
+  "rmse": 0.9216424559486059,
+  "bias": -0.09719826700902151,
+  "coverage_50": 0.6302521008403361,
+  "coverage_80": 0.8823529411764706,
+  "coverage_90": 0.9243697478991597,
+  "z_error_mean": -0.09837880910510566,
+  "z_error_sd": 0.9422697481878645,
+  "top_25_accuracy": 0.96,
+  "top_50_accuracy": 0.92,
+  "worst_misses": [
+    {
+      "nba_api_id": 203083,
+      "name": "Andre Drummond",
+      "projected": 18.644710575228498,
+      "projected_sd": 1.3079614079252164,
+      "actual": 14.899866488651536,
+      "error": 3.744844086576961,
+      "z_error": 2.8631151224234554
+    },
+    {
+      "nba_api_id": 1626157,
+      "name": "Karl-Anthony Towns",
+      "projected": 9.587910715751775,
+      "projected_sd": 0.9362334876531755,
+      "actual": 13.153296266878474,
+      "error": -3.565385551126699,
+      "z_error": -3.8082226262424443
+    },
+    {
+      "nba_api_id": 201959,
+      "name": "Taj Gibson",
+      "projected": 7.265638435295869,
+      "projected_sd": 1.126978850067958,
+      "actual": 10.588235294117647,
+      "error": -3.322596858821778,
+      "z_error": -2.948233552583016
+    },
+    {
+      "nba_api_id": 1626172,
+      "name": "Kevon Looney",
+      "projected": 12.573239788598157,
+      "projected_sd": 1.0771306774941352,
+      "actual": 14.52576419213974,
+      "error": -1.9525244035415827,
+      "z_error": -1.8127089352649266
+    },
+    {
+      "nba_api_id": 201599,
+      "name": "DeAndre Jordan",
+      "projected": 12.966530895842489,
+      "projected_sd": 1.2957781518062184,
+      "actual": 14.838896952104498,
+      "error": -1.8723660562620097,
+      "z_error": -1.4449742447440332
+    },
+    {
+      "nba_api_id": 1628374,
+      "name": "Lauri Markkanen",
+      "projected": 8.644378930404994,
+      "projected_sd": 0.8826265964916002,
+      "actual": 6.7850847457627115,
+      "error": 1.8592941846422821,
+      "z_error": 2.1065467458525386
+    },
+    {
+      "nba_api_id": 203497,
+      "name": "Rudy Gobert",
+      "projected": 13.648097603543453,
+      "projected_sd": 1.0295378078839943,
+      "actual": 11.81438127090301,
+      "error": 1.833716332640444,
+      "z_error": 1.781106355296728
+    },
+    {
+      "nba_api_id": 1626158,
+      "name": "Richaun Holmes",
+      "projected": 10.258806692639233,
+      "projected_sd": 1.121489336984712,
+      "actual": 11.93258426966292,
+      "error": -1.673777577023687,
+      "z_error": -1.4924596443546065
+    },
+    {
+      "nba_api_id": 1627749,
+      "name": "Dejounte Murray",
+      "projected": 5.494301336069372,
+      "projected_sd": 0.7668957581223124,
+      "actual": 7.1146245059288535,
+      "error": -1.620323169859481,
+      "z_error": -2.1128336578972906
+    },
+    {
+      "nba_api_id": 1627826,
+      "name": "Ivica Zubac",
+      "projected": 12.36308674218453,
+      "projected_sd": 1.0411434608732317,
+      "actual": 13.861990087685855,
+      "error": -1.4989033455013256,
+      "z_error": -1.4396703257821548
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1626181,
+      "name": "Norman Powell",
+      "projected": 3.499048055006382,
+      "projected_sd": 0.7878759520105775,
+      "actual": 3.4915773353751915,
+      "error": 0.007470719631190281,
+      "z_error": 0.009482101353805485
+    },
+    {
+      "nba_api_id": 203915,
+      "name": "Spencer Dinwiddie",
+      "projected": 3.543629405235381,
+      "projected_sd": 0.7854327210991131,
+      "actual": 3.5274261603375527,
+      "error": 0.016203244897828206,
+      "z_error": 0.020629704445154547
+    },
+    {
+      "nba_api_id": 1627832,
+      "name": "Fred VanVleet",
+      "projected": 3.740848039725456,
+      "projected_sd": 0.7832764824866839,
+      "actual": 3.7652626597255088,
+      "error": -0.02441462000005279,
+      "z_error": -0.03116986216992395
+    },
+    {
+      "nba_api_id": 203471,
+      "name": "Dennis Schr\u00f6der",
+      "projected": 3.3518839070390425,
+      "projected_sd": 0.7983212090649205,
+      "actual": 3.3814041745730554,
+      "error": -0.029520267534012934,
+      "z_error": -0.036977932189212706
+    },
+    {
+      "nba_api_id": 1627783,
+      "name": "Pascal Siakam",
+      "projected": 7.64910542153498,
+      "projected_sd": 0.8753761488377549,
+      "actual": 7.614571092831962,
+      "error": 0.034534328703017536,
+      "z_error": 0.03945084492977
+    }
+  ]
+}

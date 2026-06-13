@@ -1,0 +1,21 @@
+{
+  "label": "phase4_v1_PTS_pace_usage_smoke",
+  "model_path": "D:\\NBA Projections\\models\\skill\\stan\\hierarchical_aging_pace_usage_v1.stan",
+  "n_observations": 32200,
+  "n_chains": 4,
+  "n_iter_warmup": 400,
+  "n_iter_sampling": 400,
+  "fit_started_at": "2026-04-27T02:11:32.332269+00:00",
+  "fit_ended_at": "2026-04-27T02:35:04.166827+00:00",
+  "elapsed_seconds": 1411.834558,
+  "stat": "PTS",
+  "phase": "4_regime_B",
+  "n_players": 80,
+  "n_player_seasons": 479,
+  "pace_coverage": 1.0,
+  "mates_usage_coverage": 0.5594989561586639,
+  "min_games": 20,
+  "max_players": 80,
+  "age_center": 27.0,
+  "age_slope_prior_sd": 0.05
+}

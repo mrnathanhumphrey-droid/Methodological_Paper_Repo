@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "country": "colombia",
+      "spearman_annual": -0.11288133139132434,
+      "n_cells_annual": 5489,
+      "spearman_monthly": -0.2585328601289071,
+      "n_cells_monthly": 20016,
+      "spearman_admin2_only": 0.19704053462671517,
+      "n_cells_admin2_only": 880,
+      "spearman_country_year": -0.5,
+      "n_cells_country_year": 11
+    },
+    {
+      "country": "sudan",
+      "spearman_annual": 0.32772333457259395,
+      "n_cells_annual": 823,
+      "spearman_monthly": 0.12269669227503721,
+      "n_cells_monthly": 6720,
+      "spearman_admin2_only": 0.425723398059439,
+      "n_cells_admin2_only": 79,
+      "spearman_country_year": 0.21818181818181823,
+      "n_cells_country_year": 11
+    },
+    {
+      "country": "drc",
+      "spearman_annual": 0.18232239513666107,
+      "n_cells_annual": 1691,
+      "spearman_monthly": -0.2114564567590875,
+      "n_cells_monthly": 7814,
+      "spearman_admin2_only": 0.29803147341039865,
+      "n_cells_admin2_only": 212,
+      "spearman_country_year": -0.4272727272727273,
+      "n_cells_country_year": 11
+    },
+    {
+      "country": "yemen",
+      "spearman_annual": 0.10874391903211177,
+      "n_cells_annual": 2820,
+      "spearman_monthly": -0.19153594682442104,
+      "n_cells_monthly": 14646,
+      "spearman_admin2_only": 0.34194121040399217,
+      "n_cells_admin2_only": 329,
+      "spearman_country_year": 0.10909090909090911,
+      "n_cells_country_year": 11
+    }
+  ],
+  "ran_at": "2026-05-18 05:51:18"
+}

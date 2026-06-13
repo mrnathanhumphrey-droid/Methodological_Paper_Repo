@@ -1,0 +1,16 @@
+{
+  "version": "v6",
+  "delta_vs_v5": "added career-blended FG%/FT%/3PT% rates; derive FGA/FTA/FG3A from FGM/rate",
+  "blend_weights": {
+    "prior": 0.3,
+    "career": 0.7
+  },
+  "league_priors": {
+    "FG_pct": 0.46,
+    "FT_pct": 0.78,
+    "FG3_pct": 0.36,
+    "n": 50
+  },
+  "n_players": 567,
+  "consistency_guarantee": "PTS = 2*FGM + FG3M + FTM, FG% = FGM/FGA, FT% = FTM/FTA, 3PT% = FG3M/FG3A all hold by construction"
+}

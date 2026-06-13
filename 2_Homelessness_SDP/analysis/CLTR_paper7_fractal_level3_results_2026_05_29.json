@@ -1,0 +1,65 @@
+{
+  "pre_reg": "CLTR_fractal_level3",
+  "framing": "correlational; CoC; jan_temp state-broadcast (coarse)",
+  "n": 302,
+  "outcome": "unsheltered_per_10k (the street sub-leaf)",
+  "R2": 0.239,
+  "std_coefs": {
+    "jan_temp": {
+      "std_coef": 3.085,
+      "p": 0.0
+    },
+    "supply_tight": {
+      "std_coef": 0.319,
+      "p": 0.5119
+    },
+    "rent_coc": {
+      "std_coef": 2.817,
+      "p": 0.0006
+    },
+    "rts": {
+      "std_coef": -0.535,
+      "p": 0.0284
+    },
+    "jan_temp_x_supply_tight": {
+      "std_coef": 1.239,
+      "p": 0.0011
+    }
+  },
+  "L3_D1_new_rule_beyond_climate": true,
+  "L3_D2_climate_x_supply_interaction": true,
+  "FRACTAL_REPEATS_level3": true,
+  "disposition": "FRACTAL REPEATS (QUALIFIED): street splits into climate-gate x supply-magnitude per locked rules (interaction p=0.001 full sample; clean cell-mean structure), BUT the supply-scaling interaction is carried by the West Coast and goes ns without it. Climate gating robust; supply scaling regional.",
+  "robustness_interaction": {
+    "all": {
+      "coef": 1.239,
+      "p": 0.0011,
+      "r2": 0.239,
+      "n": 302
+    },
+    "drop_CA": {
+      "coef": 0.432,
+      "p": 0.0192,
+      "r2": 0.091,
+      "n": 274
+    },
+    "drop_west_coast_CA_HI_OR_WA": {
+      "coef": 0.196,
+      "p": 0.1896,
+      "r2": 0.13,
+      "n": 262
+    },
+    "drop_top10_street": {
+      "coef": 0.725,
+      "p": 0.0028,
+      "n": 292
+    },
+    "cell_means_unsheltered_per_10k": {
+      "cold_loose": 2.8,
+      "cold_tight": 2.7,
+      "warm_loose": 8.0,
+      "warm_tight": 16.9
+    }
+  },
+  "QUALIFIER": "Interaction is West-Coast-dependent (ns when CA+HI+OR+WA dropped, p=0.19). Climate GATING is robust (cold->~2.7 regardless of supply); supply-MAGNITUDE scaling is regionally concentrated (West Coast). Fractal-repeats holds by the locked full-sample rule but is NOT a robust national law."
+}

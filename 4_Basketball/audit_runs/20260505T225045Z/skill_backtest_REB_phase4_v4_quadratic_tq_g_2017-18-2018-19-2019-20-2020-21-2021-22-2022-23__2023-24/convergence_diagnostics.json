@@ -1,0 +1,27 @@
+{
+  "passed": false,
+  "notes": [
+    "R-hat for mu_league: 1.011 > 1.01",
+    "R-hat for mu_player[15]: 1.010 > 1.01",
+    "R-hat for mu_player[16]: 1.012 > 1.01",
+    "R-hat for mu_player[24]: 1.013 > 1.01",
+    "R-hat for sigma_age_player: 1.010 > 1.01",
+    "ESS for sigma_age_player: 347 < 400",
+    "R-hat for age_tilt_player_z[32]: 1.011 > 1.01",
+    "R-hat for age_tilt_player_z[64]: 1.012 > 1.01",
+    "R-hat for age_tilt_player_z[117]: 1.011 > 1.01",
+    "R-hat for age_tilt_player_z[131]: 1.012 > 1.01",
+    "R-hat for age_tilt_player_z[132]: 1.012 > 1.01",
+    "R-hat for age_tilt_player_z[182]: 1.013 > 1.01",
+    "R-hat for age_tilt_player_z[195]: 1.010 > 1.01",
+    "R-hat for age_tilt_player[64]: 1.015 > 1.01",
+    "R-hat for age_tilt_player[179]: 1.010 > 1.01",
+    "R-hat for rate_per_36_at_27[15]: 1.010 > 1.01",
+    "R-hat for rate_per_36_at_27[16]: 1.012 > 1.01",
+    "R-hat for rate_per_36_at_27[24]: 1.013 > 1.01",
+    "R-hat for rate_per_36_league_at_27: 1.012 > 1.01"
+  ],
+  "max_rhat": 1.01468,
+  "min_ess": 346.764,
+  "n_params_summarized": 905
+}

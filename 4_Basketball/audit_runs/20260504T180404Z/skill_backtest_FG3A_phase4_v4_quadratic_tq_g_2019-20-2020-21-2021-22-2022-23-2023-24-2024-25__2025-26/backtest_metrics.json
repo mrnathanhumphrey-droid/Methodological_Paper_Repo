@@ -1,0 +1,154 @@
+{
+  "stat": "FG3A",
+  "test_season": "2025-26",
+  "n_players": 133,
+  "mae": 0.4023770272680008,
+  "rmse": 0.6001158836855254,
+  "bias": -0.06187261741294073,
+  "coverage_50": 0.849624060150376,
+  "coverage_80": 0.9699248120300752,
+  "coverage_90": 0.9774436090225563,
+  "z_error_mean": -0.06985042435664247,
+  "z_error_sd": 0.5556867184535914,
+  "top_25_accuracy": 0.88,
+  "top_50_accuracy": 0.88,
+  "worst_misses": [
+    {
+      "nba_api_id": 1627742,
+      "name": "Brandon Ingram",
+      "projected": 4.327894392904855,
+      "projected_sd": 1.055563414720323,
+      "actual": 6.96969696969697,
+      "error": -2.6418025767921147,
+      "z_error": -2.502741701683621
+    },
+    {
+      "nba_api_id": 1626204,
+      "name": "Larry Nance Jr.",
+      "projected": 3.3023980615061816,
+      "projected_sd": 1.050544359479588,
+      "actual": 5.909287257019439,
+      "error": -2.606889195513257,
+      "z_error": -2.4814651299490498
+    },
+    {
+      "nba_api_id": 1627749,
+      "name": "Dejounte Murray",
+      "projected": 8.172012111862989,
+      "projected_sd": 1.2209406269119094,
+      "actual": 6.1897233201581034,
+      "error": 1.9822887917048853,
+      "z_error": 1.6235750928516748
+    },
+    {
+      "nba_api_id": 203903,
+      "name": "Jordan Clarkson",
+      "projected": 7.073044571838293,
+      "projected_sd": 1.0865798123851558,
+      "actual": 8.654922279792746,
+      "error": -1.5818777079544537,
+      "z_error": -1.4558320428225768
+    },
+    {
+      "nba_api_id": 1628978,
+      "name": "Donte DiVincenzo",
+      "projected": 11.347190589892088,
+      "projected_sd": 1.2648253892351162,
+      "actual": 9.824299065420561,
+      "error": 1.522891524471527,
+      "z_error": 1.2040330131200738
+    },
+    {
+      "nba_api_id": 1628969,
+      "name": "Mikal Bridges",
+      "projected": 6.7026396521034055,
+      "projected_sd": 1.0270770335215273,
+      "actual": 5.482894736842105,
+      "error": 1.219744915261301,
+      "z_error": 1.1875885405393356
+    },
+    {
+      "nba_api_id": 1627763,
+      "name": "Malcolm Brogdon",
+      "projected": 4.7447321832902665,
+      "projected_sd": 1.0938769581289407,
+      "actual": 3.568141592920354,
+      "error": 1.1765905903699125,
+      "z_error": 1.0756151152342144
+    },
+    {
+      "nba_api_id": 202692,
+      "name": "Alec Burks",
+      "projected": 9.766092999297836,
+      "projected_sd": 1.2816224155484255,
+      "actual": 8.615028901734103,
+      "error": 1.151064097563733,
+      "z_error": 0.8981304349855456
+    },
+    {
+      "nba_api_id": 1626220,
+      "name": "Royce O'Neale",
+      "projected": 9.769633568217547,
+      "projected_sd": 1.1781502006866926,
+      "actual": 8.618892508143322,
+      "error": 1.1507410600742247,
+      "z_error": 0.9767354446007883
+    },
+    {
+      "nba_api_id": 2544,
+      "name": "LeBron James",
+      "projected": 4.8001891704624065,
+      "projected_sd": 0.9808936369457585,
+      "actual": 5.825909276665304,
+      "error": -1.0257201062028978,
+      "z_error": -1.045699622842612
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 203915,
+      "name": "Spencer Dinwiddie",
+      "projected": 5.500703193203501,
+      "projected_sd": 1.0164428060653135,
+      "actual": 5.50210970464135,
+      "error": -0.0014065114378487564,
+      "z_error": -0.001383758564137428
+    },
+    {
+      "nba_api_id": 200768,
+      "name": "Kyle Lowry",
+      "projected": 4.790082584555783,
+      "projected_sd": 1.0638208006901393,
+      "actual": 4.792738275340393,
+      "error": -0.00265569078460981,
+      "z_error": -0.002496370425251101
+    },
+    {
+      "nba_api_id": 1626157,
+      "name": "Karl-Anthony Towns",
+      "projected": 4.836962307650634,
+      "projected_sd": 0.9904394451221558,
+      "actual": 4.832406671961874,
+      "error": 0.004555635688759274,
+      "z_error": 0.004599610517528818
+    },
+    {
+      "nba_api_id": 203992,
+      "name": "Bogdan Bogdanovi\u0107",
+      "projected": 7.722213924227191,
+      "projected_sd": 1.1523634105495053,
+      "actual": 7.7295690936106975,
+      "error": -0.007355169383506777,
+      "z_error": -0.00638268216100289
+    },
+    {
+      "nba_api_id": 202681,
+      "name": "Kyrie Irving",
+      "projected": 7.167753994879645,
+      "projected_sd": 1.0677709849857249,
+      "actual": 7.176013325930039,
+      "error": -0.008259331050394003,
+      "z_error": -0.007735114707677155
+    }
+  ]
+}

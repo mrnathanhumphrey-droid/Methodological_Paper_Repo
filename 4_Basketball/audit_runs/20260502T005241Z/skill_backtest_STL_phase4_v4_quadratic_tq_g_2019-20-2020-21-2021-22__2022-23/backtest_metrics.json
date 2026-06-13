@@ -1,0 +1,154 @@
+{
+  "stat": "STL",
+  "test_season": "2022-23",
+  "n_players": 199,
+  "mae": 0.17157685872970957,
+  "rmse": 0.21320517516681048,
+  "bias": 0.03953736665008782,
+  "coverage_50": 0.5226130653266332,
+  "coverage_80": 0.8693467336683417,
+  "coverage_90": 0.914572864321608,
+  "z_error_mean": 0.18198070592259988,
+  "z_error_sd": 0.9148554438266491,
+  "top_25_accuracy": 0.72,
+  "top_50_accuracy": 0.7,
+  "worst_misses": [
+    {
+      "nba_api_id": 1626153,
+      "name": "Delon Wright",
+      "projected": 2.0371604316357925,
+      "projected_sd": 0.26935832162107426,
+      "actual": 2.703673469387755,
+      "error": -0.6665130377519626,
+      "z_error": -2.474447545339232
+    },
+    {
+      "nba_api_id": 1629599,
+      "name": "Amir Coffey",
+      "projected": 0.9861593757645298,
+      "projected_sd": 0.23750818740848542,
+      "actual": 0.4019138755980861,
+      "error": 0.5842455001664437,
+      "z_error": 2.4598962525936505
+    },
+    {
+      "nba_api_id": 1629723,
+      "name": "John Konchar",
+      "projected": 1.3403201390424297,
+      "projected_sd": 0.2662380944940586,
+      "actual": 1.855421686746988,
+      "error": -0.5151015477045582,
+      "z_error": -1.9347402132043625
+    },
+    {
+      "nba_api_id": 203110,
+      "name": "Draymond Green",
+      "projected": 1.6580934567216956,
+      "projected_sd": 0.25610643423555424,
+      "actual": 1.1587646802957807,
+      "error": 0.4993287764259149,
+      "z_error": 1.949692431259484
+    },
+    {
+      "nba_api_id": 1629661,
+      "name": "Cameron Johnson",
+      "projected": 1.024478817028351,
+      "projected_sd": 0.2360986516465002,
+      "actual": 1.5037593984962405,
+      "error": -0.47928058146788954,
+      "z_error": -2.0300013495438956
+    },
+    {
+      "nba_api_id": 203903,
+      "name": "Jordan Clarkson",
+      "projected": 1.0609987679504307,
+      "projected_sd": 0.21233431186117402,
+      "actual": 0.5972850678733032,
+      "error": 0.46371370007712753,
+      "z_error": 2.1838849124879425
+    },
+    {
+      "nba_api_id": 1628983,
+      "name": "Shai Gilgeous-Alexander",
+      "projected": 1.2133267837252122,
+      "projected_sd": 0.20538364238467674,
+      "actual": 1.6681836988001655,
+      "error": -0.4548569150749533,
+      "z_error": -2.2146696289620835
+    },
+    {
+      "nba_api_id": 1628384,
+      "name": "OG Anunoby",
+      "projected": 1.47904348047693,
+      "projected_sd": 0.2345826306951639,
+      "actual": 1.92964824120603,
+      "error": -0.45060476072910016,
+      "z_error": -1.9208786234248234
+    },
+    {
+      "nba_api_id": 1629060,
+      "name": "Rui Hachimura",
+      "projected": 0.9174713816629593,
+      "projected_sd": 0.2128505300680491,
+      "actual": 0.4668941979522184,
+      "error": 0.45057718371074085,
+      "z_error": 2.1168713254634115
+    },
+    {
+      "nba_api_id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "projected": 1.2466961392838654,
+      "projected_sd": 0.22058560703548266,
+      "actual": 1.691275167785235,
+      "error": -0.44457902850136954,
+      "z_error": -2.0154489428218048
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 203935,
+      "name": "Marcus Smart",
+      "projected": 1.7065620791009923,
+      "projected_sd": 0.23880416234707522,
+      "actual": 1.7072921978582356,
+      "error": -0.0007301187572432699,
+      "z_error": -0.0030573954409643988
+    },
+    {
+      "nba_api_id": 203991,
+      "name": "Clint Capela",
+      "projected": 0.940195712300032,
+      "projected_sd": 0.22033590082216487,
+      "actual": 0.9385863267670916,
+      "error": 0.0016093855329403217,
+      "z_error": 0.0073042365176761255
+    },
+    {
+      "nba_api_id": 1629638,
+      "name": "Nickeil Alexander-Walker",
+      "projected": 1.3021878807772578,
+      "projected_sd": 0.2503011623522714,
+      "actual": 1.306122448979592,
+      "error": -0.003934568202334177,
+      "z_error": -0.015719336519886808
+    },
+    {
+      "nba_api_id": 1626181,
+      "name": "Norman Powell",
+      "projected": 1.1420769876005235,
+      "projected_sd": 0.22640195251934706,
+      "actual": 1.148691767708998,
+      "error": -0.006614780108474605,
+      "z_error": -0.029216974654444918
+    },
+    {
+      "nba_api_id": 1629651,
+      "name": "Nic Claxton",
+      "projected": 1.021342223865793,
+      "projected_sd": 0.2388484135137599,
+      "actual": 1.0317460317460316,
+      "error": -0.010403807880238647,
+      "z_error": -0.04355820382972437
+    }
+  ]
+}

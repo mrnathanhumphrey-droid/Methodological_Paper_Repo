@@ -1,0 +1,110 @@
+g++ not available, if using conda: `conda install gxx`
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [alpha, sigma_country, sigma_year, sigma_channel, sigma_y, z_country, z_year, z_channel]
+C:\Users\Nate\AppData\Local\Programs\Python\Python312\Lib\site-packages\pymc\step_methods\hmc\quadpotential.py:321: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+================================================================================
+PAPER 6 PHASE 1 — Residue-class Stan/PyMC fit (PRE_REG_022)
+================================================================================
+
+[1/5] Building country-year-hazard panel...
+  Panel rows: 3341
+  Countries: 209
+  Channels: ['Flood' 'Earthquake' 'Storm' 'Drought' 'Conflict']
+
+[2/5] Applying Papers 2 + 4 class assignments...
+  Classified rows: 1239
+  Unique classes: 14
+  Class counts:
+    Conflict_E: 223
+    Disaster_R4a: 184
+    Disaster_R6: 144
+    Disaster_R3a: 119
+    Disaster_R4c: 105
+    Disaster_R4b: 96
+    Disaster_R1: 66
+    Disaster_R3: 60
+    Conflict_A: 59
+    Conflict_C: 48
+    Disaster_R3b: 46
+    Disaster_R2: 38
+    Conflict_B: 31
+    Conflict_D: 20
+
+[3/5] Preparing PyMC tensors...
+  n_countries=52, n_years=17, n_channels=5, n_classes=14, n_obs=1239
+
+[4/5] Fitting BASELINE model (no typology)...
+  Sampling baseline (cores=1 for Windows reliability)...
+                                                                               
+                                 Step    Grad                                  
+  Progress       Draw    Dive…   size    evals   Speed          Elap…   Rema…  
+ ───────────────────────────────────────────────────────────────────────────── 
+  ------------   2000    0       0.071   63      699.55 draw…   0:00…   0:00…  
+  ------------   2000    14      0.094   63      753.01 draw…   0:00…   0:00…  
+                                                                               
+C:\Users\Nate\AppData\Local\Programs\Python\Python312\Lib\site-packages\pymc\sampling\mcmc.py:1163: FutureWarning: Passing `log_likelihood` via `idata_kwargs` is deprecated and will be removed in future versions. Call `pm.compute_log_likelihood(idata)` instead.
+  return _sample_return(
+Sampling 2 chains for 1_000 tune and 1_000 draw iterations (2_000 + 2_000 draws total) took 6 seconds.
+There were 14 divergences after tuning. Increase `target_accept` or reparameterize.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (2 chains in 1 job)
+NUTS: [alpha, sigma_country, sigma_year, sigma_channel, sigma_class, sigma_y, z_country, z_year, z_channel, z_class]
+C:\Users\Nate\AppData\Local\Programs\Python\Python312\Lib\site-packages\pymc\step_methods\hmc\quadpotential.py:321: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+  Baseline sample summary:
+                mean     sd eti89_lb  ... r_hat  mcse_mean  mcse_sd
+alpha           9.48   0.75      8.2  ...  1.01      0.045     0.04
+sigma_country   1.82   0.21      1.5  ...  1.00     0.0093   0.0081
+sigma_year      0.27  0.122     0.08  ...  1.00     0.0051   0.0041
+sigma_channel   1.38    0.7     0.66  ...  1.00      0.045    0.054
+sigma_y        2.365   0.05      2.3  ...  1.01     0.0011  0.00076
+
+[5 rows x 9 columns]
+
+[5/5] Fitting RESIDUE-CLASS model (Papers 2 + 4 typology)...
+  Sampling residue-class (cores=1 for Windows reliability)...
+                                                                               
+                                 Step    Grad                                  
+  Progress       Draw    Dive…   size    evals   Speed          Elap…   Rema…  
+ ───────────────────────────────────────────────────────────────────────────── 
+  ------------   2000    0       0.086   127     522.47 draw…   0:00…   0:00…  
+  ------------   2000    1       0.051   127     505.94 draw…   0:00…   0:00…  
+                                                                               
+C:\Users\Nate\AppData\Local\Programs\Python\Python312\Lib\site-packages\pymc\sampling\mcmc.py:1163: FutureWarning: Passing `log_likelihood` via `idata_kwargs` is deprecated and will be removed in future versions. Call `pm.compute_log_likelihood(idata)` instead.
+  return _sample_return(
+Sampling 2 chains for 1_000 tune and 1_000 draw iterations (2_000 + 2_000 draws total) took 8 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+  Residue-class sample summary:
+                mean     sd eti89_lb  ... r_hat  mcse_mean  mcse_sd
+alpha           9.75   0.85      8.3  ...  1.00      0.033    0.028
+sigma_country   1.46  0.179      1.2  ...  1.00     0.0059   0.0046
+sigma_year      0.29   0.13    0.086  ...  1.01     0.0067   0.0051
+sigma_channel   1.29   0.57      0.6  ...  1.00      0.019    0.018
+sigma_class     1.56   0.41        1  ...  1.00      0.016    0.015
+sigma_y        2.334  0.048      2.3  ...  1.00    0.00085  0.00061
+
+[6 rows x 9 columns]
+
+================================================================================
+LOO-CV COMPARISON (PRE_REG_022 H1)
+================================================================================
+
+Baseline LOO-CV elpd_loo: -2855.23 ± 29.35
+Residue-class LOO-CV elpd_loo: -2841.57 ± 30.22
+
+Model comparison (LOO-CV):
+               rank    elpd     p  elpd_diff  weight    se  dse  warning
+residue_class     0 -2840.0  62.7        0.0     1.0  30.0  0.0    False
+baseline          1 -2860.0  58.3      -10.0     0.0  29.0  5.0    False
+
+ΔLOO (residue_class - baseline) = 13.66
+  Predicted: ≥ 5 (PRE_REG_022 H1)
+  Status: SUPPORTED
+
+F1 (ΔLOO < 5): NOT FIRED
+
+Results saved: D:/IDP/analysis/paper6_phase1_loo_results_2026_05_27.json

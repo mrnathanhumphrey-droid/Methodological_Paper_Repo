@@ -1,0 +1,12 @@
+{
+  "produced_at": "2026-06-11T14:26:39+00:00",
+  "bet_date": "2026-06-11",
+  "season": "2025-26",
+  "n_rows": 209,
+  "method": "rolling-clean prior-season Bayesian-shrunk AST \u00d7 s2d_mpg ratio",
+  "shrinkage_k": 30,
+  "min_prior_games_for_s2d": 5,
+  "league_mean_ast_per_game": 2.453152349007329,
+  "recommended_edge_threshold": 1.0,
+  "backtest_validation": "Forward-clean backtest 2026-05-26: AST market 56.7% WR / +3.95% ROI on n=7,717. Big-edge tier (\u22651.85): 59.5% WR / +8.7% ROI."
+}

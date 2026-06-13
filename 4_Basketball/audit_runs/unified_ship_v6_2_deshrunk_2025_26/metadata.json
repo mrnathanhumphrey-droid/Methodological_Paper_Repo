@@ -1,0 +1,110 @@
+{
+  "version": "v6.2_deshrunk_2025_26",
+  "source_ship": "audit_runs/unified_ship_v6_1_2025_26/per_player_projections_2025-26.csv",
+  "applied_stats": [
+    "PTS",
+    "REB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV",
+    "FGM",
+    "FGA",
+    "FG3A",
+    "FTM",
+    "FTA"
+  ],
+  "applied_log": {
+    "PTS": {
+      "alpha": 1.5813999631534212,
+      "gamma": 0.8673425636321006,
+      "mean_before": 9.081263050727024,
+      "mean_after": 9.45796593858847,
+      "shift": 0.37670288786144646,
+      "expected_mae_delta_pct": -3.288659037001529
+    },
+    "REB": {
+      "alpha": 0.5429967002916194,
+      "gamma": 0.8369501937443085,
+      "mean_before": 3.692183450279263,
+      "mean_after": 3.633170354342377,
+      "shift": -0.059013095936886195,
+      "expected_mae_delta_pct": -4.905410031346102
+    },
+    "AST": {
+      "alpha": 0.29919134568928474,
+      "gamma": 0.8807874873598891,
+      "mean_before": 2.1494843425338646,
+      "mean_after": 2.1924302588691105,
+      "shift": 0.042945916335245915,
+      "expected_mae_delta_pct": -1.178209090954696
+    },
+    "STL": {
+      "alpha": 0.2034119089709029,
+      "gamma": 0.739905938714282,
+      "mean_before": 0.6744460983219722,
+      "mean_after": 0.7024385824620067,
+      "shift": 0.027992484140034524,
+      "expected_mae_delta_pct": -5.892200966288286
+    },
+    "BLK": {
+      "alpha": 0.07918208790458153,
+      "gamma": 0.789663388107714,
+      "mean_before": 0.40192160829096263,
+      "mean_after": 0.3965648668613246,
+      "shift": -0.0053567414296380456,
+      "expected_mae_delta_pct": -6.919921348710312
+    },
+    "TOV": {
+      "alpha": 0.2082558590806114,
+      "gamma": 0.8492506651747419,
+      "mean_before": 1.098586626333538,
+      "mean_after": 1.141231282246444,
+      "shift": 0.042644655912906115,
+      "expected_mae_delta_pct": -2.074342026927689
+    },
+    "FGM": {
+      "alpha": 0.5844746452427723,
+      "gamma": 0.8427298705619475,
+      "mean_before": 3.3734012365681534,
+      "mean_after": 3.427340632689366,
+      "shift": 0.05393939612121246,
+      "expected_mae_delta_pct": -4.010357379258844
+    },
+    "FGA": {
+      "alpha": 1.3273151704592108,
+      "gamma": 0.8310916416988556,
+      "mean_before": 7.254805068173488,
+      "mean_after": 7.356723024772695,
+      "shift": 0.10191795659920633,
+      "expected_mae_delta_pct": -4.779103502923898
+    },
+    "FG3A": {
+      "alpha": 0.6006660430174278,
+      "gamma": 0.8389636296674178,
+      "mean_before": 2.932239675393288,
+      "mean_after": 3.0607084841401915,
+      "shift": 0.12846880874690347,
+      "expected_mae_delta_pct": -1.3830188939085275
+    },
+    "FTM": {
+      "alpha": 0.17746736812295505,
+      "gamma": 0.9824738315907613,
+      "mean_before": 1.360874243438336,
+      "mean_after": 1.5144907003869954,
+      "shift": 0.15361645694865933,
+      "expected_mae_delta_pct": -0.6272381780004777
+    },
+    "FTA": {
+      "alpha": 0.26579553923583576,
+      "gamma": 0.9615058045751257,
+      "mean_before": 1.744516586432022,
+      "mean_after": 1.9431583632678087,
+      "shift": 0.19864177683578665,
+      "expected_mae_delta_pct": -2.1049017731149533
+    }
+  },
+  "method": "actual = alpha + gamma * proj (Galton de-shrinkage), per-stat OLS fit",
+  "calibration_basis": "25-26 actuals (in-sample for demo; cross-season validation pending)",
+  "note": "Galton/Tukey shrinkage correction. v6.1 hierarchical posterior shrinks rates too aggressively toward the league mean; \u03b3 < 1 across all stats reverses this."
+}

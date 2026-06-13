@@ -1,0 +1,67 @@
+{
+  "F1": {
+    "PTS_per36": {
+      "R2": 0.159429289149834,
+      "fires": false
+    },
+    "REB_per36": {
+      "R2": 0.21248963220849082,
+      "fires": false
+    },
+    "AST_per36": {
+      "R2": 0.15189181179727362,
+      "fires": false
+    },
+    "BLK_per36": {
+      "R2": 0.0846314513240305,
+      "fires": false
+    }
+  },
+  "F2": {
+    "clean_frac": 0.6037735849056604,
+    "n_clean": 32,
+    "n_denom": 53,
+    "fires": false
+  },
+  "F3": {
+    "fires": false,
+    "vacuous": true,
+    "n_subpartitions": 0
+  },
+  "F4": {
+    "PTS_per36": {
+      "kappa": 0.05673758865248224,
+      "n_cells": 19,
+      "fires": true
+    },
+    "REB_per36": {
+      "kappa": -0.041935483870967794,
+      "n_cells": 19,
+      "fires": true
+    },
+    "AST_per36": {
+      "kappa": 0.07317073170731703,
+      "n_cells": 19,
+      "fires": true
+    },
+    "BLK_per36": {
+      "kappa": -0.027027027027026973,
+      "n_cells": 19,
+      "fires": true
+    }
+  },
+  "step5_transfer": {
+    "col_r": {
+      "regime_int": 0.2833186917450409,
+      "sigma_within": 0.9899952859193762,
+      "rho_LOSO": 0.9999999999999999,
+      "beta_rc": 0.9114057079609833
+    },
+    "mean_r": 0.7961799214063501,
+    "fires_threshold": 0.8,
+    "passes": "False"
+  },
+  "comparative": {
+    "TIE": 76
+  }
+}

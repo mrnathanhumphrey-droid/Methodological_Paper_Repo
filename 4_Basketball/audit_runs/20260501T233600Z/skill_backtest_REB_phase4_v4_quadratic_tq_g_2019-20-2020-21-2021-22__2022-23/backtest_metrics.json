@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2022-23",
+  "n_players": 199,
+  "mae": 0.7471501683752567,
+  "rmse": 1.0024282717963693,
+  "bias": 0.1637229202279744,
+  "coverage_50": 0.4271356783919598,
+  "coverage_80": 0.7286432160804021,
+  "coverage_90": 0.7989949748743719,
+  "z_error_mean": 0.2308997625530263,
+  "z_error_sd": 1.29682491546847,
+  "top_25_accuracy": 0.8,
+  "top_50_accuracy": 0.86,
+  "worst_misses": [
+    {
+      "nba_api_id": 203076,
+      "name": "Anthony Davis",
+      "projected": 9.260570350896531,
+      "projected_sd": 0.7470318720099656,
+      "actual": 13.259181532004197,
+      "error": -3.998611181107666,
+      "z_error": -5.352664766965021
+    },
+    {
+      "nba_api_id": 1627749,
+      "name": "Dejounte Murray",
+      "projected": 8.099223384610418,
+      "projected_sd": 0.7013102608009236,
+      "actual": 5.196289424860854,
+      "error": 2.9029339597495643,
+      "z_error": 4.139300566391686
+    },
+    {
+      "nba_api_id": 1626172,
+      "name": "Kevon Looney",
+      "projected": 11.099149602825554,
+      "projected_sd": 0.8165493578905716,
+      "actual": 13.95206527281999,
+      "error": -2.8529156699944362,
+      "z_error": -3.4938679975996805
+    },
+    {
+      "nba_api_id": 203500,
+      "name": "Steven Adams",
+      "projected": 12.784420221666528,
+      "projected_sd": 0.8642768371921739,
+      "actual": 15.424028268551236,
+      "error": -2.6396080468847085,
+      "z_error": -3.0541233240267736
+    },
+    {
+      "nba_api_id": 203954,
+      "name": "Joel Embiid",
+      "projected": 12.973444096943908,
+      "projected_sd": 0.8494139173620822,
+      "actual": 10.541958041958042,
+      "error": 2.431486054985866,
+      "z_error": 2.862545580294971
+    },
+    {
+      "nba_api_id": 1626171,
+      "name": "Bobby Portis",
+      "projected": 10.925693301708815,
+      "projected_sd": 0.7925978539716181,
+      "actual": 13.32892561983471,
+      "error": -2.4032323181258946,
+      "z_error": -3.0320954139398304
+    },
+    {
+      "nba_api_id": 1628467,
+      "name": "Maxi Kleber",
+      "projected": 7.6281296637866145,
+      "projected_sd": 0.7371211276761594,
+      "actual": 5.225806451612904,
+      "error": 2.4023232121737106,
+      "z_error": 3.259061668395329
+    },
+    {
+      "nba_api_id": 1628374,
+      "name": "Lauri Markkanen",
+      "projected": 6.793850337901858,
+      "projected_sd": 0.7121779965647528,
+      "actual": 9.035667107001322,
+      "error": -2.2418167690994633,
+      "z_error": -3.147832114882859
+    },
+    {
+      "nba_api_id": 203497,
+      "name": "Rudy Gobert",
+      "projected": 15.889654977062083,
+      "projected_sd": 0.9369145723160827,
+      "actual": 13.655172413793103,
+      "error": 2.2344825632689798,
+      "z_error": 2.384937356396611
+    },
+    {
+      "nba_api_id": 1626157,
+      "name": "Karl-Anthony Towns",
+      "projected": 11.100872302373311,
+      "projected_sd": 0.7782598952660913,
+      "actual": 8.877742946708464,
+      "error": 2.223129355664847,
+      "z_error": 2.8565385023530565
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 203501,
+      "name": "Tim Hardaway Jr.",
+      "projected": 4.202956545221891,
+      "projected_sd": 0.65211438518534,
+      "actual": 4.202790697674419,
+      "error": 0.00016584754747217545,
+      "z_error": 0.00025432278636981645
+    },
+    {
+      "nba_api_id": 1629655,
+      "name": "Daniel Gafford",
+      "projected": 9.697398161885326,
+      "projected_sd": 0.789614661440777,
+      "actual": 9.706102117061022,
+      "error": -0.008703955175695555,
+      "z_error": -0.011023041491926974
+    },
+    {
+      "nba_api_id": 1629726,
+      "name": "Garrison Mathews",
+      "projected": 3.835208437113098,
+      "projected_sd": 0.6594994456714112,
+      "actual": 3.82532751091703,
+      "error": 0.00988092619606773,
+      "z_error": 0.01498246323165342
+    },
+    {
+      "nba_api_id": 1629013,
+      "name": "Landry Shamet",
+      "projected": 3.0134367755387546,
+      "projected_sd": 0.6617927439920643,
+      "actual": 2.9925558312655083,
+      "error": 0.02088094427324627,
+      "z_error": 0.03155209008078314
+    },
+    {
+      "nba_api_id": 203924,
+      "name": "Jerami Grant",
+      "projected": 4.56267401629452,
+      "projected_sd": 0.6666908387396475,
+      "actual": 4.540106951871659,
+      "error": 0.02256706442286127,
+      "z_error": 0.03384936932015356
+    }
+  ]
+}

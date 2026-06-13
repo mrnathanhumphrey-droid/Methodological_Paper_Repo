@@ -1,0 +1,288 @@
+{
+  "source": "D:\\IDP\\data\\paper7\\oecd_socx\\socx.csv",
+  "n_rows_raw": 616,
+  "n_countries_latest": 43,
+  "latest": [
+    {
+      "iso3": "AUS",
+      "country": "Australia",
+      "year_socx": 2022,
+      "social_spend_pct_gdp": 17.067
+    },
+    {
+      "iso3": "AUT",
+      "country": "Austria",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 31.554
+    },
+    {
+      "iso3": "BEL",
+      "country": "Belgium",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 28.573
+    },
+    {
+      "iso3": "BGR",
+      "country": "Bulgaria",
+      "year_socx": 2021,
+      "social_spend_pct_gdp": 20.496
+    },
+    {
+      "iso3": "CAN",
+      "country": "Canada",
+      "year_socx": 2022,
+      "social_spend_pct_gdp": 19.331
+    },
+    {
+      "iso3": "CHE",
+      "country": "Switzerland",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 15.997
+    },
+    {
+      "iso3": "CHL",
+      "country": "Chile",
+      "year_socx": 2023,
+      "social_spend_pct_gdp": 12.882
+    },
+    {
+      "iso3": "COL",
+      "country": "Colombia",
+      "year_socx": 2023,
+      "social_spend_pct_gdp": 14.063
+    },
+    {
+      "iso3": "CRI",
+      "country": "Costa Rica",
+      "year_socx": 2022,
+      "social_spend_pct_gdp": 12.644
+    },
+    {
+      "iso3": "CZE",
+      "country": "Czechia",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 22.096
+    },
+    {
+      "iso3": "DEU",
+      "country": "Germany",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 27.854
+    },
+    {
+      "iso3": "DNK",
+      "country": "Denmark",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 26.423
+    },
+    {
+      "iso3": "ESP",
+      "country": "Spain",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 25.871
+    },
+    {
+      "iso3": "EST",
+      "country": "Estonia",
+      "year_socx": 2023,
+      "social_spend_pct_gdp": 17.204
+    },
+    {
+      "iso3": "FIN",
+      "country": "Finland",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 31.437
+    },
+    {
+      "iso3": "FRA",
+      "country": "France",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 30.649
+    },
+    {
+      "iso3": "GBR",
+      "country": "United Kingdom",
+      "year_socx": 2023,
+      "social_spend_pct_gdp": 22.985
+    },
+    {
+      "iso3": "GRC",
+      "country": "Greece",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 23.744
+    },
+    {
+      "iso3": "HRV",
+      "country": "Croatia",
+      "year_socx": 2021,
+      "social_spend_pct_gdp": 22.478
+    },
+    {
+      "iso3": "HUN",
+      "country": "Hungary",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 17.996
+    },
+    {
+      "iso3": "IRL",
+      "country": "Ireland",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 14.359
+    },
+    {
+      "iso3": "ISL",
+      "country": "Iceland",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 19.215
+    },
+    {
+      "iso3": "ISR",
+      "country": "Israel",
+      "year_socx": 2023,
+      "social_spend_pct_gdp": 16.283
+    },
+    {
+      "iso3": "ITA",
+      "country": "Italy",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 27.569
+    },
+    {
+      "iso3": "JPN",
+      "country": "Japan",
+      "year_socx": 2022,
+      "social_spend_pct_gdp": 24.736
+    },
+    {
+      "iso3": "KOR",
+      "country": "Korea",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 15.326
+    },
+    {
+      "iso3": "LTU",
+      "country": "Lithuania",
+      "year_socx": 2023,
+      "social_spend_pct_gdp": 16.941
+    },
+    {
+      "iso3": "LUX",
+      "country": "Luxembourg",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 23.962
+    },
+    {
+      "iso3": "LVA",
+      "country": "Latvia",
+      "year_socx": 2023,
+      "social_spend_pct_gdp": 19.705
+    },
+    {
+      "iso3": "MEX",
+      "country": "Mexico",
+      "year_socx": 2023,
+      "social_spend_pct_gdp": 10.034
+    },
+    {
+      "iso3": "NLD",
+      "country": "Netherlands",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 18.873
+    },
+    {
+      "iso3": "NOR",
+      "country": "Norway",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 24.055
+    },
+    {
+      "iso3": "NZL",
+      "country": "New Zealand",
+      "year_socx": 2022,
+      "social_spend_pct_gdp": 24.625
+    },
+    {
+      "iso3": "OECD",
+      "country": "OECD",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 21.229
+    },
+    {
+      "iso3": "PER",
+      "country": "Peru",
+      "year_socx": 2023,
+      "social_spend_pct_gdp": 7.548
+    },
+    {
+      "iso3": "POL",
+      "country": "Poland",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 23.067
+    },
+    {
+      "iso3": "PRT",
+      "country": "Portugal",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 24.107
+    },
+    {
+      "iso3": "ROU",
+      "country": "Romania",
+      "year_socx": 2021,
+      "social_spend_pct_gdp": 17.566
+    },
+    {
+      "iso3": "SVK",
+      "country": "Slovak Republic",
+      "year_socx": 2023,
+      "social_spend_pct_gdp": 19.294
+    },
+    {
+      "iso3": "SVN",
+      "country": "Slovenia",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 22.997
+    },
+    {
+      "iso3": "SWE",
+      "country": "Sweden",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 26.086
+    },
+    {
+      "iso3": "TUR",
+      "country": "T\u00fcrkiye",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 10.355
+    },
+    {
+      "iso3": "USA",
+      "country": "United States",
+      "year_socx": 2024,
+      "social_spend_pct_gdp": 19.814
+    }
+  ],
+  "correlations": {
+    "social_spend_vs_homeless_per_100k": {
+      "r": -0.5029732157869592,
+      "n": 8
+    },
+    "military_pct_gdp_vs_homeless_per_100k": {
+      "r": 0.8515012852619068,
+      "n": 7
+    }
+  },
+  "merged_columns": [
+    "iso3",
+    "country_x",
+    "military_pct_gdp",
+    "life_expectancy",
+    "gdp_per_capita",
+    "education_pct_gdp",
+    "health_pct_gdp",
+    "homeless_per_100k",
+    "country_y",
+    "year_socx",
+    "social_spend_pct_gdp"
+  ]
+}

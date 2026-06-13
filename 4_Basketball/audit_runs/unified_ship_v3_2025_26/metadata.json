@@ -1,0 +1,9 @@
+{
+  "version": "v3",
+  "delta_vs_v2": "career 3PT% 50/50 blend with v2 ours_3pct, cascading FG3M -> FGM -> PTS",
+  "blend_weights": {
+    "ours": 0.5,
+    "career": 0.5
+  },
+  "n_players": 567
+}

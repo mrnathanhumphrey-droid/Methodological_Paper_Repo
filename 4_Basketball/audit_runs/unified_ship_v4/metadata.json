@@ -1,0 +1,12 @@
+{
+  "version": "v4",
+  "delta_vs_v3": "FG3A blend = 0.3*naive + 0.7*career-3y-exp; cascade to FG3M/FGA/FGM/PTS",
+  "blend_weights": {
+    "naive": 0.3,
+    "career": 0.7
+  },
+  "career_decay": 0.5,
+  "career_lookback": 3,
+  "n_players": 195,
+  "rationale": "shot-zone v5 stage 1 FG3A model added no signal beyond naive in cohort diagnostic"
+}

@@ -1,0 +1,23 @@
+# RMD-SRC Migration study — Python deps
+# Pinned loosely; lock with pip freeze after first successful install.
+
+# IPUMS API client (PRE_REG §2.1 data source)
+ipumspy>=0.6
+
+# data
+pandas>=2.2
+pyarrow>=15
+numpy>=1.26
+scipy>=1.12
+
+# modeling (PRE_REG §2.5 PCA opportunity index, §3.3 trajectory class,
+# §3.4 response-function OLS with clustered SE)
+scikit-learn>=1.4
+statsmodels>=0.14
+
+# IRS SOI downloader already uses stdlib urllib; nothing extra needed
+requests>=2.31
+
+# notebooks
+jupyter>=1.0
+matplotlib>=3.8

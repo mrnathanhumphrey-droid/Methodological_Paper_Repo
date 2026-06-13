@@ -1,0 +1,29 @@
+{
+  "fit_label": "backtest_TOV_phase4_v2_2025-26",
+  "checks": [
+    {
+      "name": "coverage_80_in_band",
+      "passed": true,
+      "summary": "80% CI coverage = 76.2%",
+      "details": []
+    },
+    {
+      "name": "bias_near_zero",
+      "passed": true,
+      "summary": "bias = -0.092",
+      "details": []
+    },
+    {
+      "name": "z_error_well_calibrated",
+      "passed": true,
+      "summary": "z-error mean=-0.26, sd=1.23",
+      "details": []
+    },
+    {
+      "name": "top_25_tier_accuracy",
+      "passed": true,
+      "summary": "top-25 overlap = 52.0%",
+      "details": []
+    }
+  ]
+}

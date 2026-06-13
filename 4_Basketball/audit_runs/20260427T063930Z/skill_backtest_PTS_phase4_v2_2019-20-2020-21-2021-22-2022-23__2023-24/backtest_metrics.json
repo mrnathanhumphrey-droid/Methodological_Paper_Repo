@@ -1,0 +1,154 @@
+{
+  "stat": "PTS",
+  "test_season": "2023-24",
+  "n_players": 195,
+  "mae": 2.0540695333436414,
+  "rmse": 2.546727788688359,
+  "bias": 0.7893082044685437,
+  "coverage_50": 0.4256410256410256,
+  "coverage_80": 0.8205128205128205,
+  "coverage_90": 0.8717948717948718,
+  "z_error_mean": 0.3194485209264354,
+  "z_error_sd": 1.0025984824960725,
+  "top_25_accuracy": 0.72,
+  "top_50_accuracy": 0.8,
+  "worst_misses": [
+    {
+      "nba_api_id": 203081,
+      "name": "Damian Lillard",
+      "projected": 32.417633462561625,
+      "projected_sd": 3.025936373277636,
+      "actual": 24.777045366421092,
+      "error": 7.640588096140533,
+      "z_error": 2.5250326357207555
+    },
+    {
+      "nba_api_id": 1630256,
+      "name": "Jae'Sean Tate",
+      "projected": 16.680045954207735,
+      "projected_sd": 2.48506991419876,
+      "actual": 9.235237173281703,
+      "error": 7.4448087809260315,
+      "z_error": 2.9958146200994906
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 20.881456728130715,
+      "projected_sd": 2.4764620565894675,
+      "actual": 13.668874172185431,
+      "error": 7.212582555945284,
+      "z_error": 2.9124542961414495
+    },
+    {
+      "nba_api_id": 1628978,
+      "name": "Donte DiVincenzo",
+      "projected": 13.075346814160376,
+      "projected_sd": 2.2038734784330676,
+      "actual": 19.18070249682607,
+      "error": -6.105355682665692,
+      "z_error": -2.7702841122288655
+    },
+    {
+      "nba_api_id": 2544,
+      "name": "LeBron James",
+      "projected": 31.777929490568745,
+      "projected_sd": 2.735591875008937,
+      "actual": 26.15311004784689,
+      "error": 5.624819442721854,
+      "z_error": 2.0561617740232094
+    },
+    {
+      "nba_api_id": 1628973,
+      "name": "Jalen Brunson",
+      "projected": 23.997767526534584,
+      "projected_sd": 2.591162149021414,
+      "actual": 29.179919384389887,
+      "error": -5.1821518578553025,
+      "z_error": -1.9999334506381274
+    },
+    {
+      "nba_api_id": 1630231,
+      "name": "KJ Martin",
+      "projected": 15.979259254154895,
+      "projected_sd": 2.2365581622342945,
+      "actual": 10.809651474530831,
+      "error": 5.169607779624064,
+      "z_error": 2.3114121809645622
+    },
+    {
+      "nba_api_id": 204456,
+      "name": "T.J. McConnell",
+      "projected": 15.215718025556162,
+      "projected_sd": 2.4262535292361984,
+      "actual": 20.210038610038612,
+      "error": -4.99432058448245,
+      "z_error": -2.058449590820254
+    },
+    {
+      "nba_api_id": 201572,
+      "name": "Brook Lopez",
+      "projected": 19.671597874402938,
+      "projected_sd": 2.4227902966182358,
+      "actual": 14.776119402985076,
+      "error": 4.895478471417862,
+      "z_error": 2.0205952113358876
+    },
+    {
+      "nba_api_id": 1626181,
+      "name": "Norman Powell",
+      "projected": 23.839024912902165,
+      "projected_sd": 2.661381793949976,
+      "actual": 19.1035175879397,
+      "error": 4.735507324962466,
+      "z_error": 1.7793415945534479
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1630558,
+      "name": "Davion Mitchell",
+      "projected": 12.382027408541147,
+      "projected_sd": 2.1552625209029244,
+      "actual": 12.414922656960872,
+      "error": -0.032895248419725576,
+      "z_error": -0.01526275713547158
+    },
+    {
+      "nba_api_id": 1626171,
+      "name": "Bobby Portis",
+      "projected": 20.25721986466328,
+      "projected_sd": 2.571262852712794,
+      "actual": 20.218687872763418,
+      "error": 0.03853199189986256,
+      "z_error": 0.014985629282984287
+    },
+    {
+      "nba_api_id": 1628392,
+      "name": "Isaiah Hartenstein",
+      "projected": 10.977065371922459,
+      "projected_sd": 2.1095808797239335,
+      "actual": 11.044807590933052,
+      "error": -0.06774221901059363,
+      "z_error": -0.032111695579767764
+    },
+    {
+      "nba_api_id": 1630202,
+      "name": "Payton Pritchard",
+      "projected": 15.611983805368562,
+      "projected_sd": 2.3444672677020093,
+      "actual": 15.54141524958859,
+      "error": 0.07056855577997112,
+      "z_error": 0.030100038824231796
+    },
+    {
+      "nba_api_id": 202704,
+      "name": "Reggie Jackson",
+      "projected": 16.397244467197126,
+      "projected_sd": 2.315822084087917,
+      "actual": 16.485981308411215,
+      "error": -0.08873684121408942,
+      "z_error": -0.03831764185331979
+    }
+  ]
+}

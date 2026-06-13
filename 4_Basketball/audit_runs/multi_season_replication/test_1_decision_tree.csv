@@ -1,0 +1,4 @@
+cell,expected_couple,n_seasons_confirmed,n_seasons_total,per_season_confirm
+PTS x Center,True,0,3,"{'2023-24': False, '2024-25': False, '2025-26 (full ship)': False}"
+REB x Center,True,2,3,"{'2023-24': False, '2024-25': True, '2025-26 (full ship)': True}"
+AST x 13+,False,3,3,"{'2023-24': True, '2024-25': True, '2025-26 (full ship)': True}"

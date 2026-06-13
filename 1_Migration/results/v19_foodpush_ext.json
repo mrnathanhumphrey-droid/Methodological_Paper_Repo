@@ -1,0 +1,149 @@
+{
+  "groups": {
+    "NH_White": {
+      "n_train": 93815,
+      "FARA_national": {
+        "n": 93815,
+        "n_origins": 627,
+        "beta_train": -0.06361612800313342,
+        "p_train": 0.7478309106234879,
+        "beta_holdout": -0.31230747361016803,
+        "p_holdout": 0.09017492237051022
+      },
+      "HOLC": {
+        "n": 33950,
+        "beta_redline": 0.7371531626915764,
+        "p_redline": 8.155508356732107e-06
+      },
+      "HOLC_plus_density": {
+        "beta_redline": 0.7977484886084405,
+        "p_redline": 7.180105792887525e-10,
+        "beta_logdens": -0.10695306594788649,
+        "p_logdens": 4.925259517171336e-06,
+        "redline_survives_density": true
+      },
+      "F4_on_holc_origins": {
+        "beta_redline": 0.7371531626915764,
+        "beta_fara": 0.0546272278686184,
+        "p_fara": 0.8860373893195393,
+        "sign_agree": true
+      }
+    },
+    "NH_Black": {
+      "n_train": 18011,
+      "FARA_national": {
+        "n": 18011,
+        "n_origins": 621,
+        "beta_train": 0.09226006386871916,
+        "p_train": 0.6735479662183738,
+        "beta_holdout": -0.09289518025692634,
+        "p_holdout": 0.6164234929014167
+      },
+      "HOLC": {
+        "n": 8452,
+        "beta_redline": 0.1303496243042806,
+        "p_redline": 0.4773731601269483
+      },
+      "HOLC_plus_density": {
+        "beta_redline": 0.0359461265337806,
+        "p_redline": 0.8230013118076576,
+        "beta_logdens": -0.15901582934612357,
+        "p_logdens": 1.873384903097743e-05,
+        "redline_survives_density": false
+      },
+      "F4_on_holc_origins": {
+        "beta_redline": 0.1303496243042806,
+        "beta_fara": 0.5735017016437871,
+        "p_fara": 0.13246567102009307,
+        "sign_agree": true
+      }
+    },
+    "Hispanic": {
+      "n_train": 19647,
+      "FARA_national": {
+        "n": 19647,
+        "n_origins": 623,
+        "beta_train": 0.22386181436963437,
+        "p_train": 0.3459478535637742,
+        "beta_holdout": 0.06503762812098257,
+        "p_holdout": 0.7506024219863645
+      },
+      "HOLC": {
+        "n": 8279,
+        "beta_redline": 0.4515528679400576,
+        "p_redline": 0.04863889421122872
+      },
+      "HOLC_plus_density": {
+        "beta_redline": 0.5276771452717594,
+        "p_redline": 0.0046814573663792,
+        "beta_logdens": -0.14548756012610478,
+        "p_logdens": 2.2741641486875583e-05,
+        "redline_survives_density": true
+      },
+      "F4_on_holc_origins": {
+        "beta_redline": 0.4515528679400576,
+        "beta_fara": 0.8460154546353544,
+        "p_fara": 0.02833823863948688,
+        "sign_agree": true
+      }
+    },
+    "NH_AsianPI": {
+      "n_train": 11526,
+      "FARA_national": {
+        "n": 11526,
+        "n_origins": 607,
+        "beta_train": -0.0689929902359017,
+        "p_train": 0.8013460820846957,
+        "beta_holdout": -0.27523744405932365,
+        "p_holdout": 0.29386820466934593
+      },
+      "HOLC": {
+        "n": 6194,
+        "beta_redline": 0.46547461056910855,
+        "p_redline": 0.042228530599847956
+      },
+      "HOLC_plus_density": {
+        "beta_redline": 0.6206021604479656,
+        "p_redline": 0.0029712093520462258,
+        "beta_logdens": -0.13883132998120512,
+        "p_logdens": 0.0002790110552307391,
+        "redline_survives_density": true
+      },
+      "F4_on_holc_origins": {
+        "beta_redline": 0.46547461056910855,
+        "beta_fara": 0.6600464071046579,
+        "p_fara": 0.15387365198791517,
+        "sign_agree": true
+      }
+    },
+    "NH_Other": {
+      "n_train": 7759,
+      "FARA_national": {
+        "n": 7759,
+        "n_origins": 619,
+        "beta_train": -0.021738816644011782,
+        "p_train": 0.8929242539053232,
+        "beta_holdout": -0.07937857253343199,
+        "p_holdout": 0.5381084961460706
+      },
+      "HOLC": {
+        "n": 3410,
+        "beta_redline": 0.24502840809986232,
+        "p_redline": 0.05731240178564296
+      },
+      "HOLC_plus_density": {
+        "beta_redline": 0.25681446437011635,
+        "p_redline": 0.05092809110959301,
+        "beta_logdens": -0.055403740501072454,
+        "p_logdens": 0.00794714703731036,
+        "redline_survives_density": false
+      },
+      "F4_on_holc_origins": {
+        "beta_redline": 0.24502840809986232,
+        "beta_fara": 0.12925655620839308,
+        "p_fara": 0.6584518012404894,
+        "sign_agree": true
+      }
+    }
+  }
+}

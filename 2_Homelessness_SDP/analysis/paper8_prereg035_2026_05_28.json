@@ -1,0 +1,60 @@
+{
+  "setA_split": {
+    "CF": {
+      "full": 0.6908432149687869,
+      "early": 0.2400102255055399,
+      "late": -0.28571428571428575
+    },
+    "CD": {
+      "full": 0.8300456066926322,
+      "early": null,
+      "late": 0.3214285714285715
+    },
+    "FD": {
+      "full": 0.5815548558382593,
+      "early": null,
+      "late": 0.0
+    }
+  },
+  "setA_cd_drop": null,
+  "setA_supported": false,
+  "setB_leave_window_out": {
+    "CF": {
+      "full": 0.6908432149687869,
+      "leave_window_out": 0.6430974560562895,
+      "boot_90ci": [
+        0.46,
+        0.81
+      ],
+      "collapsed": false
+    },
+    "CD": {
+      "full": 0.8300456066926322,
+      "leave_window_out": 0.8258370404350178,
+      "boot_90ci": [
+        0.67,
+        0.9
+      ],
+      "collapsed": false
+    },
+    "FD": {
+      "full": 0.5815548558382593,
+      "leave_window_out": 0.5359150533814026,
+      "boot_90ci": [
+        0.23,
+        0.81
+      ],
+      "collapsed": false
+    }
+  },
+  "setB_cd_collapsed": false,
+  "setC_shock_overlap_rho": 0.40269114285114066,
+  "setC_p": 0.004122747671106928,
+  "setC_n": 49,
+  "drop_window": [
+    2020,
+    2021,
+    2022
+  ],
+  "split_year": 2018
+}

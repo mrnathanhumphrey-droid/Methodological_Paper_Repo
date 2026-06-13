@@ -1,0 +1,92 @@
+{
+  "sources": {
+    "crosswalk": {
+      "status": "ok",
+      "rows": 3198,
+      "n_coc": 394,
+      "n_county": 3132
+    },
+    "county_population_b01003": {
+      "status": "ok",
+      "n_county_2012": 3221,
+      "n_county_2024": 3222
+    },
+    "mit_election_countypres": {
+      "status": "ok",
+      "file": "countypres_2000-2020.tab (Dataverse datafile id 10778153)",
+      "n_county_2012": 3154,
+      "n_county_2020": 3154,
+      "metric": "two-party Dem share = DEM/(DEM+REP) candidatevotes",
+      "mode_handling": "use mode=='TOTAL' where present else sum over modes; 10 states (AR,AZ,GA,IA,KY,MD,NC,OK,SC,VA) report 2020 by mode with no TOTAL row -> summed.",
+      "coc_weight": "county major-party votes * pop-share"
+    },
+    "acs5_B11001_single_person_hh": {
+      "status": "ok",
+      "metric": "B11001_008E / B11001_001E (householder living alone / total HH)",
+      "n_county_2012": 3221,
+      "n_county_2024": 3222
+    },
+    "acs5_B12001_never_married": {
+      "status": "ok",
+      "metric": "(B12001_003E + B12001_012E) / B12001_001E (never-married / pop15+)",
+      "n_county_2012": 3221,
+      "n_county_2024": 3222
+    },
+    "social_capital_index_nercrd": {
+      "status": "ok",
+      "file": "social_capital_2014.xlsx (sheet '2014 social capital data', col sk2014)",
+      "source": "Rupasingha-Goetz county Social Capital Index (2014), Penn State NERCRD (nercrd.psu.edu social-capital-variables-spreadsheet)",
+      "n_county_sk2014": 3141,
+      "note": "2014 is the most recent vintage NERCRD publishes -> single vintage; no 2012->recent change for social capital."
+    },
+    "arda_religion_census_rcms": {
+      "status": "FAILED_MISSING",
+      "reason": "thearda.com download.aspx serves a JavaScript agreement-shell page (no input/viewstate/submit fields; method=post returns the same HTML, data-archive?fid=... 500 without session / JS-only with session). The RCMSCY10/RCMSCY20 .DTA/.SAV/.ASC files are delivered only after a client-side agreement interaction a scripted HTTP client cannot complete. relig_adherence_2010/2020 left missing.",
+      "attempted": [
+        "GET download.aspx?file=RCMSCY10.DTA / RCMSCY20.DTA",
+        "POST same with session cookies + browser UA",
+        "data-archive?fid=RCMSCY10 / RCMSCY20"
+      ]
+    }
+  },
+  "n_cocs_per_variable": {
+    "dem_share_2012": 394,
+    "dem_share_2020": 394,
+    "d_dem_share": 394,
+    "single_person_hh_share_2012": 394,
+    "single_person_hh_share_2024": 392,
+    "d_single_person": 392,
+    "never_married_share_2012": 394,
+    "never_married_share_2024": 392,
+    "d_never_married": 392,
+    "social_capital_index": 394
+  },
+  "notes": [
+    "NO regressions; all values aggregated from downloaded county series only.",
+    "Partisan lean: MIT Election Lab county presidential 2012 & 2020 two-party Dem share.",
+    "single-person HH share and never-married share both available 2012 & 2024 (+change).",
+    "social_capital_index = NERCRD Rupasingha-Goetz 2014 county index (sk2014); single vintage (no change) -- 2014 is the latest NERCRD publishes.",
+    "Religiosity (ARDA RCMS 2010/2020) NOT obtained -- JS-gated download; flagged missing.",
+    "County rates aggregated to CoC by pop-weighted mean (Dem share by major-party votes * pop-share)."
+  ],
+  "data_corrections": {
+    "connecticut_2024_acs_nulled": {
+      "n_coc": 2,
+      "reason": "ACS5 2024 reports CT as 9 planning-region FIPS (09110-09190) vs 8 county FIPS (09001-09015) in 2012 and in the county->CoC crosswalk; 2024 ACS join incomparable -> single_person/never_married 2024 values and their changes set NaN for CT CoCs (2012 values retained)."
+    }
+  },
+  "total_cocs_in_output": 394,
+  "columns": [
+    "coc_number",
+    "dem_share_2012",
+    "dem_share_2020",
+    "d_dem_share",
+    "single_person_hh_share_2012",
+    "single_person_hh_share_2024",
+    "d_single_person",
+    "never_married_share_2012",
+    "never_married_share_2024",
+    "d_never_married",
+    "social_capital_index"
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "P2-C Caribbean": [
+    {
+      "iso": "JAM",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "PRI",
+      "regime": "3a (Bimodal-mega-storm)",
+      "predicted": "3",
+      "match": "YES",
+      "total": 149769.0,
+      "flood_pct": 0.0,
+      "storm_pct": 92.53517082974447,
+      "eq_pct": 7.464829170255527,
+      "drought_pct": 0.0,
+      "flood_max_median": 0,
+      "flood_mega": 0,
+      "storm_max_median": 238.35135135135135,
+      "storm_mega": 0,
+      "storm_yrs": 6
+    },
+    {
+      "iso": "BHS",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "TTO",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "BRB",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "GRD",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "LCA",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    }
+  ],
+  "P2-D South Pacific small states": [
+    {
+      "iso": "KIR",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "TUV",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "WSM",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "TON",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "NRU",
+      "regime": "MISSING",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "PLW",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    },
+    {
+      "iso": "COK",
+      "regime": "DATA-SPARSE",
+      "predicted": "3",
+      "match": "DATA"
+    }
+  ],
+  "P2-B Regime 6 expansion": [
+    {
+      "iso": "IRN",
+      "regime": "4a (Flood-leaning mixed)",
+      "predicted": "6",
+      "match": "NO",
+      "total": 1177257.0,
+      "flood_pct": 51.52230991193937,
+      "storm_pct": 5.481216081110581,
+      "eq_pct": 41.883717828817325,
+      "drought_pct": 0.0,
+      "flood_max_median": 56.59417040358744,
+      "flood_mega": 0,
+      "storm_max_median": 2.0633453175826055,
+      "storm_mega": 0,
+      "storm_yrs": 6
+    },
+    {
+      "iso": "GRC",
+      "regime": "4c (Balanced mixed)",
+      "predicted": "6",
+      "match": "NO",
+      "total": 290731.0,
+      "flood_pct": 1.7755244538766075,
+      "storm_pct": 10.011316302699058,
+      "eq_pct": 6.06952818928838,
+      "drought_pct": 0.0,
+      "flood_max_median": 71.69565217391305,
+      "flood_mega": 0,
+      "storm_max_median": 45.56206896551724,
+      "storm_mega": 0,
+      "storm_yrs": 6
+    },
+    {
+      "iso": "NZL",
+      "regime": "DATA-SPARSE",
+      "predicted": "6 or 4",
+      "match": "DATA"
+    },
+    {
+      "iso": "AFG",
+      "regime": "4a (Flood-leaning mixed)",
+      "predicted": "4",
+      "match": "YES",
+      "total": 2550525.0,
+      "flood_pct": 58.179551268856414,
+      "storm_pct": 0.24398898266043265,
+      "eq_pct": 23.766636280765724,
+      "drought_pct": 16.383372050852277,
+      "flood_max_median": 46.54544617791891,
+      "flood_mega": 1,
+      "storm_max_median": 27.311827956989248,
+      "storm_mega": 0,
+      "storm_yrs": 8
+    }
+  ],
+  "P2-G Regime 2 replication": [
+    {
+      "iso": "CHN",
+      "regime": "4c (Balanced mixed)",
+      "predicted": "2 or 4",
+      "match": "YES",
+      "total": 105302782.0,
+      "flood_pct": 45.880822028044804,
+      "storm_pct": 34.81939726910539,
+      "eq_pct": 18.062134388814155,
+      "drought_pct": 0.0,
+      "flood_max_median": 8.359595540396246,
+      "flood_mega": 14,
+      "storm_max_median": 2.405156862925956,
+      "storm_mega": 13,
+      "storm_yrs": 17
+    },
+    {
+      "iso": "MMR",
+      "regime": "4b (Storm-leaning mixed)",
+      "predicted": "4",
+      "match": "YES",
+      "total": 7536461.0,
+      "flood_pct": 47.37376070810955,
+      "storm_pct": 52.038788497678155,
+      "eq_pct": 0.38744975924376174,
+      "drought_pct": 0.0,
+      "flood_max_median": 15.99814170488692,
+      "flood_mega": 1,
+      "storm_max_median": 91.1632429804303,
+      "storm_mega": 1,
+      "storm_yrs": 13
+    },
+    {
+      "iso": "ARG",
+      "regime": "UNCLASSIFIED",
+      "predicted": "4 or 2",
+      "match": "NO",
+      "total": 175642.0,
+      "flood_pct": 85.42660639254848,
+      "storm_pct": 11.11009895127589,
+      "eq_pct": 0.03359105453137632,
+      "drought_pct": 0.0,
+      "flood_max_median": 4.980425055928412,
+      "flood_mega": 0,
+      "storm_max_median": 24.775,
+      "storm_mega": 0,
+      "storm_yrs": 10
+    },
+    {
+      "iso": "KHM",
+      "regime": "UNCLASSIFIED",
+      "predicted": "2",
+      "match": "NO",
+      "total": 912686.0,
+      "flood_pct": 75.74971019605867,
+      "storm_pct": 23.750665617748055,
+      "eq_pct": 0.0,
+      "drought_pct": 0.0,
+      "flood_max_median": 10.612184175944062,
+      "flood_mega": 0,
+      "storm_max_median": 12.687427912341407,
+      "storm_mega": 0,
+      "storm_yrs": 13
+    },
+    {
+      "iso": "THA",
+      "regime": "1 (Bimodal-mega-flood)",
+      "predicted": "4",
+      "match": "NO",
+      "total": 3255870.0,
+      "flood_pct": 94.25794027402814,
+      "storm_pct": 5.716690162690771,
+      "eq_pct": 0.0,
+      "drought_pct": 0.0,
+      "flood_max_median": 129.99589659417316,
+      "flood_mega": 2,
+      "storm_max_median": 13.690915186054308,
+      "storm_mega": 0,
+      "storm_yrs": 14
+    }
+  ]
+}

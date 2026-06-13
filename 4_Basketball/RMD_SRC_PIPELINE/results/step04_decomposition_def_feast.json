@@ -1,0 +1,10 @@
+{
+  "arm": "def_feast",
+  "locked_sha_v1_0": "cd40b46",
+  "locked_sha_v1_1": "",
+  "n_step2_non_stationary": 34,
+  "n_step3_clean_non_stationary": 0,
+  "n_step4_eligible": 0,
+  "step4_disposition": "vacuous",
+  "per_cell_outcomes": []
+}

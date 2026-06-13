@@ -1,0 +1,12 @@
+{
+  "version": "v5",
+  "delta_vs_v4": "PTS authoritative; FGM/FG3M/FTM derived from PTS x 30/70 prior+career shares",
+  "blend_weights": {
+    "prior": 0.3,
+    "career": 0.7
+  },
+  "career_decay": 0.5,
+  "career_lookback": 3,
+  "n_players": 567,
+  "consistency_guarantee": "PTS = 2*FGM + FG3M + FTM by construction"
+}

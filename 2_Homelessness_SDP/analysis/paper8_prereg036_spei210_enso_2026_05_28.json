@@ -1,0 +1,351 @@
+{
+  "baseline_lanina_pct": 35.1,
+  "windows": {
+    "full": {
+      "baseline": 35.1,
+      "thr": {
+        "-0.8": {
+          "12": {
+            "ETH": [
+              1955,
+              1973,
+              1980,
+              1984,
+              2002,
+              2009
+            ],
+            "SOM": [
+              1954,
+              1955,
+              1958,
+              1959,
+              1973,
+              1974,
+              1980,
+              2009
+            ],
+            "HORN": [
+              1954,
+              1955,
+              1958,
+              1959,
+              1973,
+              1974,
+              1980,
+              1984,
+              2002,
+              2009
+            ],
+            "horn_lanina_pct": 50.0,
+            "horn_nl": 5,
+            "horn_ne": 3,
+            "BRA": [
+              1983,
+              1992,
+              2015,
+              2016,
+              2017,
+              2023
+            ],
+            "bra_lanina_pct": 50.0,
+            "bra_ne": 2,
+            "n_horn": 10,
+            "n_bra": 6
+          },
+          "03": {
+            "ETH": [
+              1955,
+              1969,
+              1974,
+              1975,
+              1980,
+              1981,
+              1984,
+              1985,
+              1986,
+              1990
+            ],
+            "SOM": [
+              1955,
+              1958,
+              1970,
+              1974,
+              1975,
+              1979,
+              1983,
+              1986
+            ],
+            "HORN": [
+              1955,
+              1958,
+              1969,
+              1970,
+              1974,
+              1975,
+              1979,
+              1980,
+              1981,
+              1983,
+              1984,
+              1985,
+              1986,
+              1990
+            ],
+            "horn_lanina_pct": 42.9,
+            "horn_nl": 6,
+            "horn_ne": 4,
+            "BRA": [
+              1967,
+              1969,
+              1991,
+              2012,
+              2015,
+              2023
+            ],
+            "bra_lanina_pct": 0.0,
+            "bra_ne": 4,
+            "n_horn": 14,
+            "n_bra": 6
+          }
+        },
+        "-1.0": {
+          "12": {
+            "ETH": [
+              1973,
+              1980,
+              1984,
+              2009
+            ],
+            "SOM": [
+              1955,
+              1959,
+              1980
+            ],
+            "HORN": [
+              1955,
+              1959,
+              1973,
+              1980,
+              1984,
+              2009
+            ],
+            "horn_lanina_pct": 50.0,
+            "horn_nl": 3,
+            "horn_ne": 1,
+            "BRA": [
+              1983,
+              2015,
+              2016
+            ],
+            "bra_lanina_pct": 66.7,
+            "bra_ne": 1,
+            "n_horn": 6,
+            "n_bra": 3
+          },
+          "03": {
+            "ETH": [
+              1969,
+              1974,
+              1985
+            ],
+            "SOM": [
+              1955,
+              1958,
+              1974,
+              1975,
+              1986
+            ],
+            "HORN": [
+              1955,
+              1958,
+              1969,
+              1974,
+              1975,
+              1985,
+              1986
+            ],
+            "horn_lanina_pct": 42.9,
+            "horn_nl": 3,
+            "horn_ne": 3,
+            "BRA": [
+              1969,
+              2015
+            ],
+            "bra_lanina_pct": 0.0,
+            "bra_ne": 2,
+            "n_horn": 7,
+            "n_bra": 2
+          }
+        },
+        "-1.5": {
+          "12": {
+            "ETH": [
+              1984
+            ],
+            "SOM": [
+              1955
+            ],
+            "HORN": [
+              1955,
+              1984
+            ],
+            "horn_lanina_pct": 100.0,
+            "horn_nl": 2,
+            "horn_ne": 0,
+            "BRA": [],
+            "bra_lanina_pct": null,
+            "bra_ne": 0,
+            "n_horn": 2,
+            "n_bra": 0
+          },
+          "03": {
+            "ETH": [
+              1974
+            ],
+            "SOM": [
+              1974
+            ],
+            "HORN": [
+              1974
+            ],
+            "horn_lanina_pct": 100.0,
+            "horn_nl": 1,
+            "horn_ne": 0,
+            "BRA": [
+              2015
+            ],
+            "bra_lanina_pct": 0.0,
+            "bra_ne": 1,
+            "n_horn": 1,
+            "n_bra": 1
+          }
+        }
+      }
+    },
+    "w2008": {
+      "baseline": 50.0,
+      "thr": {
+        "-0.8": {
+          "12": {
+            "ETH": [
+              2009
+            ],
+            "SOM": [
+              2009
+            ],
+            "HORN": [
+              2009
+            ],
+            "horn_lanina_pct": 0.0,
+            "horn_nl": 0,
+            "horn_ne": 1,
+            "BRA": [
+              2015,
+              2016,
+              2017,
+              2023
+            ],
+            "bra_lanina_pct": 50.0,
+            "bra_ne": 2,
+            "n_horn": 1,
+            "n_bra": 4
+          },
+          "03": {
+            "ETH": [],
+            "SOM": [],
+            "HORN": [],
+            "horn_lanina_pct": null,
+            "horn_nl": 0,
+            "horn_ne": 0,
+            "BRA": [
+              2012,
+              2015,
+              2023
+            ],
+            "bra_lanina_pct": 0.0,
+            "bra_ne": 2,
+            "n_horn": 0,
+            "n_bra": 3
+          }
+        },
+        "-1.0": {
+          "12": {
+            "ETH": [
+              2009
+            ],
+            "SOM": [],
+            "HORN": [
+              2009
+            ],
+            "horn_lanina_pct": 0.0,
+            "horn_nl": 0,
+            "horn_ne": 1,
+            "BRA": [
+              2015,
+              2016
+            ],
+            "bra_lanina_pct": 50.0,
+            "bra_ne": 1,
+            "n_horn": 1,
+            "n_bra": 2
+          },
+          "03": {
+            "ETH": [],
+            "SOM": [],
+            "HORN": [],
+            "horn_lanina_pct": null,
+            "horn_nl": 0,
+            "horn_ne": 0,
+            "BRA": [
+              2015
+            ],
+            "bra_lanina_pct": 0.0,
+            "bra_ne": 1,
+            "n_horn": 0,
+            "n_bra": 1
+          }
+        },
+        "-1.5": {
+          "12": {
+            "ETH": [],
+            "SOM": [],
+            "HORN": [],
+            "horn_lanina_pct": null,
+            "horn_nl": 0,
+            "horn_ne": 0,
+            "BRA": [],
+            "bra_lanina_pct": null,
+            "bra_ne": 0,
+            "n_horn": 0,
+            "n_bra": 0
+          },
+          "03": {
+            "ETH": [],
+            "SOM": [],
+            "HORN": [],
+            "horn_lanina_pct": null,
+            "horn_nl": 0,
+            "horn_ne": 0,
+            "BRA": [
+              2015
+            ],
+            "bra_lanina_pct": 0.0,
+            "bra_ne": 1,
+            "n_horn": 0,
+            "n_bra": 1
+          }
+        }
+      }
+    }
+  },
+  "verdicts": {
+    "horn_lanina_pct": 50.0,
+    "bra_lanina_pct": 66.7,
+    "baseline": 35.1,
+    "enrichment_pp": 14.9,
+    "setA": false,
+    "setB": false,
+    "setC_artifact": false,
+    "displacement_034_pct": 50.0
+  }
+}

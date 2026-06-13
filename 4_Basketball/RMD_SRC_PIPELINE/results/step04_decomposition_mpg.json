@@ -1,0 +1,10 @@
+{
+  "arm": "mpg",
+  "locked_sha_v1_0": "db0ed9a899c28691183cd5b640f460c10f3c2a75",
+  "locked_sha_v1_1": "4d0602df832d5a45402a212acf48b19a4dfee070",
+  "n_step2_non_stationary": 15,
+  "n_step3_clean_non_stationary": 0,
+  "n_step4_eligible": 0,
+  "step4_disposition": "vacuous",
+  "per_cell_outcomes": []
+}

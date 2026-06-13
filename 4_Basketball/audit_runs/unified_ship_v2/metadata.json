@@ -1,0 +1,24 @@
+{
+  "version": "v2",
+  "shipped_2026_04_30": true,
+  "delta_vs_v1": "MPG replaced with 0.3*naive + 0.7*career-age-adj; per_game cascade rescaled by mpg_ratio",
+  "mpg_blend_weights": {
+    "naive": 0.3,
+    "career_age_adj": 0.7
+  },
+  "n_players": 195,
+  "v2_mae_2023_24": {
+    "PTS": 2.010666200920389,
+    "REB": 0.6682713405759269,
+    "AST": 0.6666310026047675,
+    "STL": 0.15599611131979224,
+    "BLK": 0.13981666314038954,
+    "TOV": 0.2814880010335682,
+    "FGM": 0.8917322111724254,
+    "FGA": 1.8127111645997924,
+    "FG3M": 0.3438331791864032,
+    "FG3A": 0.839340491305246,
+    "FTM": 0.5083015722815081,
+    "FTA": 0.6172575203749707
+  }
+}

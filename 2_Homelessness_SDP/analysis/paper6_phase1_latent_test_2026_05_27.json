@@ -1,0 +1,79 @@
+{
+  "loo_results": {
+    "baseline": {
+      "elpd": -2854.249320718981,
+      "se": 29.308310245973633
+    },
+    "covariates_only": {
+      "elpd": -2852.9722749226094,
+      "se": 29.493178125021092
+    },
+    "typology_only": {
+      "elpd": -2841.6068921206697,
+      "se": 30.22812805256106
+    },
+    "covariates_plus_typology": {
+      "elpd": -2840.4886406893975,
+      "se": 30.27703475369785
+    }
+  },
+  "marginal": {
+    "covariates_only_vs_baseline": 1.2770457963715671,
+    "typology_only_vs_baseline": 12.642428598311199,
+    "both_vs_baseline": 13.760680029583455,
+    "typology_given_covariates": 12.483634233211887,
+    "covariates_given_typology": 1.118251431272256
+  },
+  "n_obs": 1239,
+  "n_countries": 52,
+  "compare_table": {
+    "rank": {
+      "covariates_plus_typology": 0,
+      "typology_only": 1,
+      "covariates_only": 2,
+      "baseline": 3
+    },
+    "elpd": {
+      "covariates_plus_typology": -2840.0,
+      "typology_only": -2840.0,
+      "covariates_only": -2850.0,
+      "baseline": -2850.0
+    },
+    "p": {
+      "covariates_plus_typology": 57.9,
+      "typology_only": 62.7,
+      "covariates_only": 54.6,
+      "baseline": 57.5
+    },
+    "elpd_diff": {
+      "covariates_plus_typology": 0.0,
+      "typology_only": -1.0,
+      "covariates_only": -12.0,
+      "baseline": -14.0
+    },
+    "weight": {
+      "covariates_plus_typology": 0.68,
+      "typology_only": 0.32,
+      "covariates_only": 0.0,
+      "baseline": 0.0
+    },
+    "se": {
+      "covariates_plus_typology": 30.0,
+      "typology_only": 30.0,
+      "covariates_only": 29.0,
+      "baseline": 29.0
+    },
+    "dse": {
+      "covariates_plus_typology": 0.0,
+      "typology_only": 2.6,
+      "covariates_only": 4.3,
+      "baseline": 4.5
+    },
+    "warning": {
+      "covariates_plus_typology": false,
+      "typology_only": false,
+      "covariates_only": false,
+      "baseline": false
+    }
+  }
+}

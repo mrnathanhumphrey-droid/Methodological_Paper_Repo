@@ -1,0 +1,80 @@
+{
+  "loo_results": {
+    "baseline": {
+      "elpd": -1756.682464540677,
+      "se": 23.053827231810967
+    },
+    "polity_only": {
+      "elpd": -1757.1022051662994,
+      "se": 23.013677815275067
+    },
+    "typology_only": {
+      "elpd": -1743.286572546142,
+      "se": 23.731261131252463
+    },
+    "polity_plus_typology": {
+      "elpd": -1744.1835625474341,
+      "se": 23.746472465504866
+    }
+  },
+  "marginal": {
+    "polity_only_vs_baseline": -0.41974062562235304,
+    "typology_only_vs_baseline": 13.395891994535077,
+    "both_vs_baseline": 12.498901993242953,
+    "typology_given_polity": 12.918642618865306,
+    "polity_given_typology": -0.8969900012921244
+  },
+  "n_obs": 753,
+  "n_countries": 31,
+  "n_classes": 11,
+  "compare_table": {
+    "rank": {
+      "typology_only": 0,
+      "polity_plus_typology": 1,
+      "baseline": 2,
+      "polity_only": 3
+    },
+    "elpd": {
+      "typology_only": -1740.0,
+      "polity_plus_typology": -1740.0,
+      "baseline": -1760.0,
+      "polity_only": -1760.0
+    },
+    "p": {
+      "typology_only": 44.0,
+      "polity_plus_typology": 43.7,
+      "baseline": 41.4,
+      "polity_only": 41.2
+    },
+    "elpd_diff": {
+      "typology_only": 0.0,
+      "polity_plus_typology": -1.0,
+      "baseline": -13.0,
+      "polity_only": -14.0
+    },
+    "weight": {
+      "typology_only": 1.0,
+      "polity_plus_typology": 0.0,
+      "baseline": 0.0,
+      "polity_only": 0.0
+    },
+    "se": {
+      "typology_only": 24.0,
+      "polity_plus_typology": 24.0,
+      "baseline": 23.0,
+      "polity_only": 23.0
+    },
+    "dse": {
+      "typology_only": 0.0,
+      "polity_plus_typology": 1.3,
+      "baseline": 4.4,
+      "polity_only": 4.4
+    },
+    "warning": {
+      "typology_only": false,
+      "polity_plus_typology": false,
+      "baseline": false,
+      "polity_only": false
+    }
+  }
+}

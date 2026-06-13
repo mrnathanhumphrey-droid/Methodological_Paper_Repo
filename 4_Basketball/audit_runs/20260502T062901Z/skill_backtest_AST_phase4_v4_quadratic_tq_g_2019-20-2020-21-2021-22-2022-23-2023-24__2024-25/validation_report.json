@@ -1,0 +1,29 @@
+{
+  "fit_label": "backtest_AST_phase4_v2_2024-25",
+  "checks": [
+    {
+      "name": "coverage_80_in_band",
+      "passed": true,
+      "summary": "80% CI coverage = 83.2%",
+      "details": []
+    },
+    {
+      "name": "bias_near_zero",
+      "passed": true,
+      "summary": "bias = +0.140",
+      "details": []
+    },
+    {
+      "name": "z_error_well_calibrated",
+      "passed": true,
+      "summary": "z-error mean=+0.17, sd=1.06",
+      "details": []
+    },
+    {
+      "name": "top_25_tier_accuracy",
+      "passed": true,
+      "summary": "top-25 overlap = 76.0%",
+      "details": []
+    }
+  ]
+}

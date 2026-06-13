@@ -1,0 +1,25 @@
+{
+  "label": "backtest_REB_2019-20-2020-21-2021-22-2022-23__2023-24",
+  "model_path": "D:\\NBA Projections\\models\\skill\\stan\\hierarchical_one_stat.stan",
+  "n_observations": 47136,
+  "n_chains": 4,
+  "n_iter_warmup": 500,
+  "n_iter_sampling": 500,
+  "fit_started_at": "2026-04-26T19:12:04.530172+00:00",
+  "fit_ended_at": "2026-04-26T19:15:23.329626+00:00",
+  "elapsed_seconds": 198.799454,
+  "stat": "REB",
+  "train_seasons": [
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23"
+  ],
+  "test_season": "2023-24",
+  "n_train_obs": 47185,
+  "n_test_obs": 13040,
+  "min_games": 20,
+  "max_players": 200,
+  "min_test_minutes": 400.0,
+  "oos_sd_added": 0.6697947463026458
+}

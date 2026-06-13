@@ -1,0 +1,154 @@
+{
+  "stat": "FGA",
+  "test_season": "2025-26",
+  "n_players": 256,
+  "mae": 1.5060618883668622,
+  "rmse": 1.9906238931987474,
+  "bias": -0.132592472151406,
+  "coverage_50": 0.44921875,
+  "coverage_80": 0.76953125,
+  "coverage_90": 0.83203125,
+  "z_error_mean": -0.10599998881392098,
+  "z_error_sd": 1.2336694605506924,
+  "top_25_accuracy": 0.68,
+  "top_50_accuracy": 0.76,
+  "worst_misses": [
+    {
+      "nba_api_id": 1628415,
+      "name": "Dillon Brooks",
+      "projected": 12.258215297988286,
+      "projected_sd": 1.5840508993027402,
+      "actual": 20.284371327849588,
+      "error": -8.026156029861301,
+      "z_error": -5.066854880354044
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 10.311389617471956,
+      "projected_sd": 1.5138780252867652,
+      "actual": 16.382541720154045,
+      "error": -6.071152102682088,
+      "z_error": -4.0103310843236954
+    },
+    {
+      "nba_api_id": 1629008,
+      "name": "Michael Porter Jr.",
+      "projected": 14.383080204502955,
+      "projected_sd": 1.5657367011792243,
+      "actual": 20.407100591715977,
+      "error": -6.024020387213023,
+      "z_error": -3.847403195362331
+    },
+    {
+      "nba_api_id": 1629638,
+      "name": "Nickeil Alexander-Walker",
+      "projected": 10.631185810029773,
+      "projected_sd": 1.504753052733649,
+      "actual": 16.527084133691893,
+      "error": -5.89589832366212,
+      "z_error": -3.91818332779002
+    },
+    {
+      "nba_api_id": 1628960,
+      "name": "Grayson Allen",
+      "projected": 10.486132952666171,
+      "projected_sd": 1.5461755638287629,
+      "actual": 16.345813478556842,
+      "error": -5.859680525890671,
+      "z_error": -3.789789893833572
+    },
+    {
+      "nba_api_id": 1627759,
+      "name": "Jaylen Brown",
+      "projected": 17.160464333752397,
+      "projected_sd": 1.6205551215630176,
+      "actual": 22.74692874692875,
+      "error": -5.586464413176351,
+      "z_error": -3.447253560735554
+    },
+    {
+      "nba_api_id": 1630568,
+      "name": "Luka Garza",
+      "projected": 16.045650462852862,
+      "projected_sd": 2.1279406907160916,
+      "actual": 11.547169811320755,
+      "error": 4.498480651532107,
+      "z_error": 2.1140065938671837
+    },
+    {
+      "nba_api_id": 1629661,
+      "name": "Cameron Johnson",
+      "projected": 14.773167682334716,
+      "projected_sd": 1.612648569724236,
+      "actual": 10.376213592233011,
+      "error": 4.396954090101705,
+      "z_error": 2.7265420207786417
+    },
+    {
+      "nba_api_id": 1629614,
+      "name": "Andrew Nembhard",
+      "projected": 10.901069760736878,
+      "projected_sd": 1.5456197034444479,
+      "actual": 15.178051511758119,
+      "error": -4.276981751021241,
+      "z_error": -2.767163061838492
+    },
+    {
+      "nba_api_id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "projected": 7.919936794030408,
+      "projected_sd": 1.4483496351739356,
+      "actual": 12.154981549815497,
+      "error": -4.235044755785089,
+      "z_error": -2.9240486226079607
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 203076,
+      "name": "Anthony Davis",
+      "projected": 19.240050737368055,
+      "projected_sd": 1.6268916824028674,
+      "actual": 19.2384,
+      "error": 0.0016507373680560988,
+      "z_error": 0.001014657205461898
+    },
+    {
+      "nba_api_id": 1628370,
+      "name": "Malik Monk",
+      "projected": 16.68612265020559,
+      "projected_sd": 1.6432220752447542,
+      "actual": 16.69258987527513,
+      "error": -0.0064672250695387845,
+      "z_error": -0.003935697534111758
+    },
+    {
+      "nba_api_id": 1630230,
+      "name": "Naji Marshall",
+      "projected": 13.574364903409137,
+      "projected_sd": 1.5701817481466493,
+      "actual": 13.539166284928996,
+      "error": 0.035198618480141164,
+      "z_error": 0.02241690716484735
+    },
+    {
+      "nba_api_id": 1629651,
+      "name": "Nic Claxton",
+      "projected": 10.968744851682356,
+      "projected_sd": 1.5434700605342164,
+      "actual": 10.93125,
+      "error": 0.037494851682355446,
+      "z_error": 0.024292568181969114
+    },
+    {
+      "nba_api_id": 1630162,
+      "name": "Anthony Edwards",
+      "projected": 20.805105369858538,
+      "projected_sd": 1.653360212952813,
+      "actual": 20.76663542642924,
+      "error": 0.038469943429298326,
+      "z_error": 0.0232677326621965
+    }
+  ]
+}

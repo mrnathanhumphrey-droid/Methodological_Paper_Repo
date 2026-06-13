@@ -1,0 +1,12 @@
+# RMD-SRC Gymnadenia v2.0 Step 0 ℙ₀ freeze
+# Generated: 2026-06-01T19:27:35.020569+00:00
+# Per PRE_REG_v2.0 §2.4 (Region × Pop, K=8, time-invariant)
+
+P0_partition_v20.parquet sha256       = d6751b2c4bb64cbe852d1c8713a733e878510d33fbdc68eab111ed97a2b80d3d
+P0_partition rows                      = 1028
+P0_partition K                         = 8
+P0_partition merges                    = 0
+
+inherited rotation W_v11 sha256       = 553e06b0840294e8dc5dd394f56556b94d5bddf6179b693dd64a10a6a76338a1
+inherited scores_v11 sha256           = 29a4a965a85ad4f88f8c4f10c7b8fd50c748ab227319336875cbda2fdddcb86e
+source SelectionAnalysis.xlsx sha256  = 48073ac7f9d92d247e6b4cc993602694fe92f9aa8d131bfe59fb1f3202110490

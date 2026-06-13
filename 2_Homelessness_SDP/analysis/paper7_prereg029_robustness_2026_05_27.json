@@ -1,0 +1,24 @@
+{
+  "axes": {
+    "primary_2024_jantemp": {
+      "homeless_per_10k": 0.3548,
+      "unsheltered_share": 0.1989
+    },
+    "axis2_region_climate": {
+      "homeless_per_10k": 0.3415,
+      "unsheltered_share": 0.2448
+    },
+    "axis4_drop_RTS": {
+      "homeless_per_10k": -0.1384,
+      "unsheltered_share": 0.1985
+    },
+    "axis4_n": 48,
+    "axis1_pooled_panel_5fold": {
+      "homeless_per_10k": 0.4917,
+      "unsheltered_share": 0.1878
+    },
+    "axis1_n": 816
+  },
+  "H2_ROBUST_n_of_4": "4/4",
+  "interpretation": "H2 (SDP-legit: policy explains displacement net of climate) ROBUST count"
+}

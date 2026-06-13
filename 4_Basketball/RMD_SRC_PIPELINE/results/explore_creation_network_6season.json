@@ -1,0 +1,179 @@
+{
+  "per_season": {
+    "2019-20": {
+      "n": 381,
+      "Hub": {
+        "ratio": 4.147,
+        "n": 127
+      },
+      "Guard": {
+        "ratio": 2.17,
+        "n": 185
+      },
+      "court_region": {
+        "Rim": {
+          "ratio": 0.908,
+          "n": 98
+        },
+        "Paint": {
+          "ratio": NaN,
+          "n": 1
+        },
+        "Perimeter": {
+          "ratio": 1.059,
+          "n": 280
+        }
+      }
+    },
+    "2020-21": {
+      "n": 395,
+      "Hub": {
+        "ratio": 4.004,
+        "n": 132
+      },
+      "Guard": {
+        "ratio": 1.866,
+        "n": 192
+      },
+      "court_region": {
+        "Rim": {
+          "ratio": 1.023,
+          "n": 97
+        },
+        "Paint": {
+          "ratio": NaN,
+          "n": 1
+        },
+        "Perimeter": {
+          "ratio": 1.007,
+          "n": 295
+        }
+      }
+    },
+    "2021-22": {
+      "n": 409,
+      "Hub": {
+        "ratio": 2.724,
+        "n": 137
+      },
+      "Guard": {
+        "ratio": 2.06,
+        "n": 203
+      },
+      "court_region": {
+        "Rim": {
+          "ratio": 0.731,
+          "n": 105
+        },
+        "Paint": {
+          "ratio": 0.904,
+          "n": 7
+        },
+        "Perimeter": {
+          "ratio": 1.247,
+          "n": 296
+        }
+      }
+    },
+    "2022-23": {
+      "n": 398,
+      "Hub": {
+        "ratio": 3.189,
+        "n": 133
+      },
+      "Guard": {
+        "ratio": 2.016,
+        "n": 189
+      },
+      "court_region": {
+        "Rim": {
+          "ratio": 1.051,
+          "n": 107
+        },
+        "Paint": {
+          "ratio": 1.308,
+          "n": 5
+        },
+        "Perimeter": {
+          "ratio": 0.911,
+          "n": 286
+        }
+      }
+    },
+    "2023-24": {
+      "n": 398,
+      "Hub": {
+        "ratio": 2.214,
+        "n": 133
+      },
+      "Guard": {
+        "ratio": 1.819,
+        "n": 188
+      },
+      "court_region": {
+        "Rim": {
+          "ratio": 0.711,
+          "n": 90
+        },
+        "Paint": {
+          "ratio": 2.639,
+          "n": 10
+        },
+        "Perimeter": {
+          "ratio": 0.921,
+          "n": 295
+        }
+      }
+    },
+    "2024-25": {
+      "n": 411,
+      "Hub": {
+        "ratio": 2.69,
+        "n": 137
+      },
+      "Guard": {
+        "ratio": 2.125,
+        "n": 202
+      },
+      "court_region": {
+        "Rim": {
+          "ratio": 0.599,
+          "n": 94
+        },
+        "Paint": {
+          "ratio": 3.222,
+          "n": 10
+        },
+        "Perimeter": {
+          "ratio": 1.003,
+          "n": 307
+        }
+      }
+    }
+  },
+  "pooled": {
+    "n": 2392,
+    "Hub": {
+      "ratio": 2.956,
+      "n": 799
+    },
+    "Guard": {
+      "ratio": 1.984,
+      "n": 1159
+    },
+    "court_region": {
+      "Rim": {
+        "ratio": 0.838,
+        "n": 591
+      },
+      "Paint": {
+        "ratio": 2.023,
+        "n": 34
+      },
+      "Perimeter": {
+        "ratio": 1.008,
+        "n": 1759
+      }
+    }
+  }
+}

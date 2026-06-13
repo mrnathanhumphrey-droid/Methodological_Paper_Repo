@@ -1,0 +1,63 @@
+{
+  "arm": "off_feast",
+  "K": 15,
+  "F1": {
+    "PTS_per36": {
+      "R2": 0.1533919591426659,
+      "fires": false
+    },
+    "REB_per36": {
+      "R2": 0.13695713346313132,
+      "fires": false
+    },
+    "AST_per36": {
+      "R2": 0.12293069869229245,
+      "fires": false
+    },
+    "BLK_per36": {
+      "R2": 0.04375676403397821,
+      "fires": false
+    }
+  },
+  "F2": {
+    "clean_frac": 0.5652173913043478,
+    "n_clean": 26,
+    "n_denom": 46,
+    "fires": false
+  },
+  "F4": {
+    "PTS_per36": {
+      "kappa": -0.11428571428571432,
+      "n_cells": 15,
+      "fires": true
+    },
+    "REB_per36": {
+      "kappa": -0.010362694300518172,
+      "n_cells": 15,
+      "fires": true
+    },
+    "AST_per36": {
+      "kappa": -0.015624999999999778,
+      "n_cells": 15,
+      "fires": true
+    },
+    "BLK_per36": {
+      "kappa": -0.17647058823529416,
+      "n_cells": 15,
+      "fires": true
+    }
+  },
+  "F4_mean_kappa": -0.07918599920538161,
+  "F4_any_clears_040": false,
+  "step5_mean_r": 0.7700683223790821,
+  "step5_col_r": {
+    "regime_int": 0.19096819227788317,
+    "sigma_within": 0.993389631222946,
+    "rho_LOSO": 1.0,
+    "beta_rc": 0.8959154660154989
+  },
+  "dip_pass_frac": 0.0,
+  "comparative_v61": {
+    "TIE": 60
+  }
+}

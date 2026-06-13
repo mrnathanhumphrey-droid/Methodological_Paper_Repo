@@ -1,0 +1,38 @@
+{
+  "pre_reg": "CLTR_food_poverty_confirm",
+  "n": 50,
+  "bivariate": {
+    "precarity_behind_to_food_r": 0.334,
+    "precarity_evrisk_to_food_r": 0.435,
+    "poverty_to_food_r": 0.691
+  },
+  "food~behind+poverty": {
+    "R2": 0.479,
+    "coefs": {
+      "behind_on_rent": {
+        "std_b": -0.091,
+        "p": 0.752
+      },
+      "poverty": {
+        "std_b": 1.652,
+        "p": 0.0
+      }
+    }
+  },
+  "food~evrisk+poverty": {
+    "R2": 0.487,
+    "coefs": {
+      "eviction_risk": {
+        "std_b": 0.255,
+        "p": 0.3702
+      },
+      "poverty": {
+        "std_b": 1.473,
+        "p": 0.0
+      }
+    }
+  },
+  "VERDICT": "CONFIRMED: food rides POVERTY, not rent-precarity \u2014 precarity->food vanishes net of poverty (039 D1 was a poverty confound); food sits on the poverty axis, NOT the rent-soft branch",
+  "precarity_survives_net_of_poverty": false,
+  "poverty_dominates": true
+}

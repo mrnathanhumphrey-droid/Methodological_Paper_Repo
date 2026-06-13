@@ -1,0 +1,18 @@
+{
+  "version": "v1 (simplified \u2014 regime ratio adjustment, not Stan refit)",
+  "n_projections": 335,
+  "population_playoff_vs_rs_ratios": {
+    "PTS": 0.9227682230023203,
+    "REB": 0.9768063458138175,
+    "AST": 0.7601913110630543,
+    "STL": 0.8437614174142125,
+    "BLK": 1.0096172379674384,
+    "TOV": 0.9469992205767732,
+    "FGA": 0.9362765203773444,
+    "FG3A": 0.88682628046688,
+    "FTA": 0.9821974353867182,
+    "MPG": 0.9145428560006397
+  },
+  "method": "For each playoff player: project per-min rate = RS per-min \u00d7 (playoff cohort median ratio per stat). Project minutes = RS MPG \u00d7 playoff MPG ratio. Project per-game = per-min \u00d7 minutes.",
+  "deviation_from_pre_reg": "No pre-reg locked for v1; this is a regime-adjustment layer pending a separate Stan playoff refit (v2)."
+}

@@ -1,0 +1,18 @@
+# Regenerable MCMC posterior-sample arrays (reproduce from the phase scripts)
+*.npy
+# caches / envs
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+*.log
+
+# manuscripts / third-party literature
+*.tex
+paper_draft/
+pdfs/
+

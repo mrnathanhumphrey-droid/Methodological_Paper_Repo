@@ -1,0 +1,111 @@
+{
+  "pre_reg": "CLTR_fractal",
+  "framing": "correlational; cross-sectional; state; leaf1 confirmatory, leaf2 coarse/data-limited",
+  "LEAF1_homeless_street_vs_sheltered": {
+    "n": 51,
+    "split_model_unsheltered_share": {
+      "R2": 0.523,
+      "std_coefs": {
+        "jan_temp": {
+          "std_coef": 0.113,
+          "p": 0.0
+        },
+        "rent_floor": {
+          "std_coef": -0.019,
+          "p": 0.3186
+        },
+        "rts": {
+          "std_coef": -0.041,
+          "p": 0.0286
+        }
+      }
+    },
+    "street_model_unsheltered_per_10k": {
+      "R2": 0.496,
+      "std_coefs": {
+        "jan_temp": {
+          "std_coef": 3.118,
+          "p": 0.0012
+        },
+        "rent_floor": {
+          "std_coef": 2.02,
+          "p": 0.052
+        },
+        "rts": {
+          "std_coef": -1.622,
+          "p": 0.0635
+        },
+        "medicaid_exp": {
+          "std_coef": 1.31,
+          "p": 0.1339
+        },
+        "rent_control_allowed": {
+          "std_coef": 2.274,
+          "p": 0.0186
+        }
+      },
+      "dominant": "jan_temp"
+    },
+    "sheltered_model_per_10k": {
+      "R2": 0.683,
+      "std_coefs": {
+        "jan_temp": {
+          "std_coef": -0.945,
+          "p": 0.5436
+        },
+        "rent_floor": {
+          "std_coef": 4.82,
+          "p": 0.0077
+        },
+        "rts": {
+          "std_coef": 10.111,
+          "p": 0.0
+        },
+        "medicaid_exp": {
+          "std_coef": 2.383,
+          "p": 0.1108
+        },
+        "rent_control_allowed": {
+          "std_coef": -0.467,
+          "p": 0.7703
+        }
+      },
+      "dominant": "rts"
+    },
+    "L1_D1_rent_sets_level_not_split": true,
+    "L1_D2_distinct_dominant_drivers": true,
+    "L1_D3_children_clean": true,
+    "FRACTAL_POSITIVE": true
+  },
+  "LEAF2_food_rural_vs_urban": {
+    "n": 50,
+    "R2": 0.528,
+    "std_coefs": {
+      "poverty": {
+        "std_coef": 1.708,
+        "p": 0.0
+      },
+      "food_floor": {
+        "std_coef": 0.329,
+        "p": 0.1775
+      },
+      "rural_share": {
+        "std_coef": -0.067,
+        "p": 0.8134
+      },
+      "ffxrural": {
+        "std_coef": -0.402,
+        "p": 0.1669
+      }
+    },
+    "L2_D1_two_channels": false,
+    "L2_D2_access_rural_concentrated": false,
+    "FRACTAL_SUGGESTIVE": false,
+    "note": "COARSE/data-limited: FEA food insecurity is state-only; clean split needs county food insecurity (Map-the-Meal-Gap, not on disk)"
+  },
+  "VERDICT": {
+    "leaf1_fractal_positive": true,
+    "leaf2_suggestive": false,
+    "reading": "SELF-SIMILAR at level 2 (fractal motif repeats once): homelessness leaf splits into street/sheltered governed by a NEW orthogonal rule, children clean"
+  }
+}

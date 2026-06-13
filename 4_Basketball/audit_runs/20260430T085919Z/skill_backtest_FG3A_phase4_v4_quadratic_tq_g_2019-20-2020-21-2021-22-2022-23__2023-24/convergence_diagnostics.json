@@ -1,0 +1,32 @@
+{
+  "passed": false,
+  "notes": [
+    "R-hat for mu_player[44]: 1.012 > 1.01",
+    "R-hat for mu_player[110]: 1.012 > 1.01",
+    "R-hat for peak_age_pos[2]: 1.018 > 1.01",
+    "ESS for peak_age_pos[2]: 240 < 400",
+    "R-hat for gamma_pos[1]: 1.014 > 1.01",
+    "R-hat for beta_age_pos[1]: 1.011 > 1.01",
+    "ESS for beta_age_pos[2]: 364 < 400",
+    "R-hat for age_tilt_player_z[129]: 1.013 > 1.01",
+    "R-hat for age_tilt_player[80]: 1.010 > 1.01",
+    "R-hat for age_tilt_player[124]: 1.012 > 1.01",
+    "R-hat for age_tilt_player[129]: 1.010 > 1.01",
+    "R-hat for age_tilt_player[193]: 1.014 > 1.01",
+    "R-hat for rate_per_36_at_27[44]: 1.012 > 1.01",
+    "R-hat for rate_per_36_at_27[110]: 1.012 > 1.01",
+    "R-hat for age_curve_position[1,15]: 1.012 > 1.01",
+    "R-hat for age_curve_position[1,16]: 1.013 > 1.01",
+    "R-hat for age_curve_position[1,17]: 1.014 > 1.01",
+    "R-hat for age_curve_position[1,18]: 1.015 > 1.01",
+    "R-hat for age_curve_position[1,19]: 1.016 > 1.01",
+    "R-hat for age_curve_position[1,20]: 1.016 > 1.01",
+    "R-hat for age_curve_position[1,21]: 1.017 > 1.01",
+    "R-hat for age_curve_position[1,22]: 1.017 > 1.01",
+    "R-hat for age_curve_position[1,23]: 1.017 > 1.01",
+    "R-hat for age_curve_position[1,24]: 1.017 > 1.01"
+  ],
+  "max_rhat": 1.01791,
+  "min_ess": 239.696,
+  "n_params_summarized": 910
+}

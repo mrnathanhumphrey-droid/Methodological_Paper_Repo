@@ -1,0 +1,51 @@
+{
+  "produced_at": "2026-06-05T14:00:04+00:00",
+  "bet_date": "2026-06-05",
+  "n_rows": 2244,
+  "n_players": 204,
+  "stats": [
+    "AST",
+    "BLK",
+    "FG3M",
+    "PA",
+    "PR",
+    "PRA",
+    "PTS",
+    "RA",
+    "REB",
+    "STL",
+    "TOV"
+  ],
+  "ship_source": "audit_runs/unified_ship_v6_1_2025_26/per_player_projections_2025-26.csv",
+  "multipliers_source": "runs/run_nba_playoffs_backtest_22_25/playoff_regime_multipliers.json",
+  "multipliers_applied": {
+    "PTS": 0.7915,
+    "REB": 0.8008,
+    "AST": 0.7109,
+    "STL": 0.7917,
+    "BLK": 0.8645,
+    "TOV": 0.7883,
+    "FG3M": 0.8793,
+    "PRA": 0.7815,
+    "PR": 0.794,
+    "PA": 0.7758,
+    "RA": 0.7653
+  },
+  "rmse_source": "runs/run_nba_playoffs_backtest_22_25/backtest_playoff_residuals.csv",
+  "schema_doc": "D:/sports_lines/live/playoff_baseline.py + recommend.py",
+  "notes": [
+    "projected_mean = v6.1_per_game * (playoff_MPG_adjusted / RS_MPG) * per-minute_playoff_multiplier.",
+    "projected_sd   = v6.1_per_game_sd * sqrt(playoff_MPG_adjusted / RS_MPG) * per-minute_playoff_multiplier (Poisson-like sd scaling).",
+    "playoff_MPG = cumulative average across 25-26 playoff games to date (R1 + extra_rounds).",
+    "playoff_MPG_adjusted = playoff_MPG + injury_uplift_min, where uplift = same_pos_out_mpg * 0.30 + other_pos_out_mpg * 0.10 (calibrated 2026-05-10 in D:/sports_lines/calibration_check_v7.py).",
+    "OUT players on date_iso (PDF status = 'Out' or 'Not With Team') project to mpg=0 across all stats (mpg_source='out_tonight').",
+    "Players on teams with OUT teammates get their MPG bumped via position-aware redistribution (mpg_source='injury_adjusted').",
+    "Players on teams with no OUT teammates use cumulative playoff MPG directly (mpg_source='playoff_actual').",
+    "If PDF status parquet has no entries for date_iso (stale or off-day), injury adjustment is silently skipped \u2014 producer falls back to playoff_actual MPG for all players.",
+    "Per-minute playoff multiplier derived from 22-25 R1-R4 backtest's playoff_mult_loo. Cross-season + cross-round stable (per-stat range < 0.05 for primary stats).",
+    "Active cohort = players with >=1 minute in 25-26 playoff games + present in v6.1 ship.",
+    "n_playoff_games_prior = count of 25-26 playoff games the player has appeared in.",
+    "min_avg field populated with playoff_MPG_adjusted for forward-compat with E2 teammate-out uplift; current recommend.py line 110 hard-codes None for the projection branch \u2014 field is dead-letter until that patch lands.",
+    "Re-run daily via cli/playoff_daily_refresh.py at 10am ET; ad-hoc --date <YYYY-MM-DD> override available. recommend.py picks up the per-date file automatically."
+  ]
+}

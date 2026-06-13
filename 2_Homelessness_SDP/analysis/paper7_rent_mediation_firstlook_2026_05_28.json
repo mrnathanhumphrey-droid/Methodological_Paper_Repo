@@ -1,0 +1,55 @@
+{
+  "n": 49,
+  "framing": "EXPLORATORY first-look; correlational; mediation PATTERN not proof",
+  "stage_a_zoning_to_rent": {
+    "coefs": {
+      "const": {
+        "coef": 1346.469,
+        "p": 0.0
+      },
+      "zoning": {
+        "coef": 72.053,
+        "p": 0.0017
+      },
+      "median_hh_income": {
+        "coef": 251.158,
+        "p": 0.0
+      },
+      "rental_vacancy_rate": {
+        "coef": 79.55,
+        "p": 0.0006
+      }
+    },
+    "r2": 0.8054
+  },
+  "stage_b_rent_to_homeless_ctrl_zoning": {
+    "coefs": {
+      "const": {
+        "coef": 18.27,
+        "p": 0.0
+      },
+      "median_gross_rent": {
+        "coef": 8.827,
+        "p": 0.0001
+      },
+      "zoning": {
+        "coef": -2.902,
+        "p": 0.1752
+      },
+      "rental_vacancy_rate": {
+        "coef": -4.745,
+        "p": 0.0101
+      }
+    },
+    "r2": 0.3773
+  },
+  "mediation_standardized": {
+    "a_zoning_to_rent": 0.548,
+    "b_rent_to_homeless": 0.6,
+    "indirect_a_times_b": 0.329,
+    "c_total_zoning_to_homeless": 0.159,
+    "cprime_direct_zoning": -0.17,
+    "prop_mediated": 2.075,
+    "reading": "zoning reaches homelessness THROUGH rent (indirect>0, direct~0) = mediation pattern"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "unit_note": "touch-ast were season totals -> converted to per-game",
+  "n": 278,
+  "marginal": {
+    "origin_region": {
+      "Drive": {
+        "ratio": 1.042,
+        "p": 0.22641406659265953,
+        "n": 241
+      },
+      "Paint": {
+        "ratio": 0.206,
+        "p": 0.03147258129993665,
+        "n": 11
+      },
+      "Elbow": {
+        "ratio": 1.265,
+        "p": 0.8875300746059548,
+        "n": 21
+      },
+      "Post": {
+        "ratio": 0.377,
+        "p": 0.12453690280260485,
+        "n": 5
+      }
+    },
+    "role_tier": {
+      "OnBallHub": {
+        "ratio": 1.089,
+        "p": 0.34977828028554175,
+        "n": 93
+      },
+      "Mid": {
+        "ratio": 0.652,
+        "p": 0.017248121608084477,
+        "n": 92
+      },
+      "OffBall": {
+        "ratio": 0.713,
+        "p": 0.005669707190522255,
+        "n": 93
+      }
+    },
+    "position": {
+      "Guard": {
+        "ratio": 1.189,
+        "p": 0.18887988509490286,
+        "n": 164
+      },
+      "Forward": {
+        "ratio": 0.696,
+        "p": 0.1197710385219842,
+        "n": 81
+      },
+      "Center": {
+        "ratio": 0.983,
+        "p": 0.11358273870917056,
+        "n": 28
+      }
+    },
+    "best_origin": [
+      "Elbow",
+      1.265
+    ],
+    "best_role": [
+      "OnBallHub",
+      1.089
+    ],
+    "best_position": [
+      "Guard",
+      1.189
+    ]
+  },
+  "dependency_how_on_where": {
+    "eta2_drib_per_touch_across_origin": 0.302,
+    "mean_drib_per_touch_by_origin": {
+      "Drive": 3.09,
+      "Elbow": 1.23,
+      "Paint": 0.55,
+      "Post": 0.78
+    },
+    "crosstab_origin_x_role": {
+      "Mid": {
+        "Drive": 90,
+        "Elbow": 2,
+        "Paint": 0,
+        "Post": 0
+      },
+      "OffBall": {
+        "Drive": 58,
+        "Elbow": 19,
+        "Paint": 11,
+        "Post": 5
+      },
+      "OnBallHub": {
+        "Drive": 93,
+        "Elbow": 0,
+        "Paint": 0,
+        "Post": 0
+      }
+    }
+  },
+  "conditional": {
+    "role_within_Elbow": {
+      "OnBallHub": {
+        "ratio": NaN,
+        "p": NaN,
+        "n": 0
+      },
+      "Mid": {
+        "ratio": NaN,
+        "p": NaN,
+        "n": 2
+      },
+      "OffBall": {
+        "ratio": NaN,
+        "p": NaN,
+        "n": 19
+      }
+    },
+    "origin_within_OnBallHub": {
+      "Drive": {
+        "ratio": NaN,
+        "p": NaN,
+        "n": 93
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "stat": "AST",
+  "test_season": "2025-26",
+  "n_players": 133,
+  "mae": 0.3001152857736349,
+  "rmse": 0.3964682381139782,
+  "bias": 0.03043134538885684,
+  "coverage_50": 0.8646616541353384,
+  "coverage_80": 0.9924812030075187,
+  "coverage_90": 1.0,
+  "z_error_mean": 0.04084262371908522,
+  "z_error_sd": 0.4674712992837085,
+  "top_25_accuracy": 0.92,
+  "top_50_accuracy": 0.96,
+  "worst_misses": [
+    {
+      "nba_api_id": 203901,
+      "name": "Elfrid Payton",
+      "projected": 10.256462541328547,
+      "projected_sd": 1.3859548929251189,
+      "actual": 11.71764705882353,
+      "error": -1.4611845174949831,
+      "z_error": -1.054279994936263
+    },
+    {
+      "nba_api_id": 2544,
+      "name": "LeBron James",
+      "projected": 7.098652684798489,
+      "projected_sd": 0.862597856060883,
+      "actual": 8.459337964854925,
+      "error": -1.360685280056435,
+      "z_error": -1.5774271527523904
+    },
+    {
+      "nba_api_id": 1626192,
+      "name": "Pat Connaughton",
+      "projected": 3.194499984597486,
+      "projected_sd": 0.8070366165472908,
+      "actual": 4.158415841584159,
+      "error": -0.9639158569866724,
+      "z_error": -1.194389247306462
+    },
+    {
+      "nba_api_id": 1627749,
+      "name": "Dejounte Murray",
+      "projected": 7.198782898907679,
+      "projected_sd": 0.8907904851436986,
+      "actual": 8.110671936758893,
+      "error": -0.9118890378512132,
+      "z_error": -1.0236852021428036
+    },
+    {
+      "nba_api_id": 203482,
+      "name": "Kelly Olynyk",
+      "projected": 6.070306496849912,
+      "projected_sd": 0.9024492975604516,
+      "actual": 5.16013437849944,
+      "error": 0.9101721183504718,
+      "z_error": 1.0085576229167634
+    },
+    {
+      "nba_api_id": 1626179,
+      "name": "Terry Rozier",
+      "projected": 4.503205433473144,
+      "projected_sd": 0.7768724544680446,
+      "actual": 3.6326283987915406,
+      "error": 0.8705770346816033,
+      "z_error": 1.1206177148830974
+    },
+    {
+      "nba_api_id": 1627750,
+      "name": "Jamal Murray",
+      "projected": 6.841328598204725,
+      "projected_sd": 0.8679392557515891,
+      "actual": 5.992565055762082,
+      "error": 0.8487635424426427,
+      "z_error": 0.977906618254821
+    },
+    {
+      "nba_api_id": 203937,
+      "name": "Kyle Anderson",
+      "projected": 6.034464467372973,
+      "projected_sd": 0.8736407166000152,
+      "actual": 5.1940298507462686,
+      "error": 0.8404346166267045,
+      "z_error": 0.9619911259372843
+    },
+    {
+      "nba_api_id": 1627734,
+      "name": "Domantas Sabonis",
+      "projected": 7.052981942282316,
+      "projected_sd": 0.8192525733596475,
+      "actual": 6.271828665568369,
+      "error": 0.7811532767139475,
+      "z_error": 0.953495054047301
+    },
+    {
+      "nba_api_id": 1628398,
+      "name": "Kyle Kuzma",
+      "projected": 3.575380943376575,
+      "projected_sd": 0.7742720123259098,
+      "actual": 2.8264462809917354,
+      "error": 0.7489346623848396,
+      "z_error": 0.967275906221953
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 203507,
+      "name": "Giannis Antetokounmpo",
+      "projected": 6.806171175769947,
+      "projected_sd": 0.8193053089906825,
+      "actual": 6.804015713662157,
+      "error": 0.0021554621077903846,
+      "z_error": 0.0026308411335033803
+    },
+    {
+      "nba_api_id": 1626164,
+      "name": "Devin Booker",
+      "projected": 6.823392598233726,
+      "projected_sd": 0.8134626955046899,
+      "actual": 6.813595706618962,
+      "error": 0.009796891614763936,
+      "z_error": 0.012043443010850956
+    },
+    {
+      "nba_api_id": 1627736,
+      "name": "Malik Beasley",
+      "projected": 2.1794757333771035,
+      "projected_sd": 0.7181285071974842,
+      "actual": 2.189934354485777,
+      "error": -0.010458621108673238,
+      "z_error": -0.014563718058608045
+    },
+    {
+      "nba_api_id": 1628467,
+      "name": "Maxi Kleber",
+      "projected": 2.4409421154430975,
+      "projected_sd": 0.77971485717214,
+      "actual": 2.4301412872841444,
+      "error": 0.010800828158953113,
+      "z_error": 0.013852279534758925
+    },
+    {
+      "nba_api_id": 1626167,
+      "name": "Myles Turner",
+      "projected": 1.8228339844332324,
+      "projected_sd": 0.7364001113512295,
+      "actual": 1.8380864765409384,
+      "error": -0.015252492107705962,
+      "z_error": -0.02071223492853495
+    }
+  ]
+}

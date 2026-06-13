@@ -1,0 +1,17 @@
+{
+  "label": "hierarchical_TOV_aging",
+  "model_path": "D:\\NBA Projections\\models\\skill\\stan\\hierarchical_aging.stan",
+  "n_observations": 20794,
+  "n_chains": 4,
+  "n_iter_warmup": 500,
+  "n_iter_sampling": 500,
+  "fit_started_at": "2026-04-26T20:41:46.605849+00:00",
+  "fit_ended_at": "2026-04-26T20:45:39.042187+00:00",
+  "elapsed_seconds": 232.436338,
+  "stat": "TOV",
+  "n_players": 50,
+  "min_games": 30,
+  "max_players": 50,
+  "age_center": 27.0,
+  "age_slope_prior_sd": 0.05
+}

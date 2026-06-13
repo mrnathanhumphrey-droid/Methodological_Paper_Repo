@@ -1,0 +1,120 @@
+{
+  "per_season": [
+    {
+      "season": "2013-14",
+      "n": 362,
+      "n_hub": 121,
+      "hub_ratio": 3.933,
+      "p": 2.3597956035416977e-16,
+      "mean_pot_ast_pg_hub": 8.81
+    },
+    {
+      "season": "2014-15",
+      "n": 385,
+      "n_hub": 129,
+      "hub_ratio": 4.83,
+      "p": 5.919981569997743e-23,
+      "mean_pot_ast_pg_hub": 8.44
+    },
+    {
+      "season": "2015-16",
+      "n": 376,
+      "n_hub": 126,
+      "hub_ratio": 4.456,
+      "p": 2.9744455085410896e-19,
+      "mean_pot_ast_pg_hub": 8.45
+    },
+    {
+      "season": "2016-17",
+      "n": 374,
+      "n_hub": 125,
+      "hub_ratio": 3.5,
+      "p": 2.1552471362259917e-12,
+      "mean_pot_ast_pg_hub": 8.36
+    },
+    {
+      "season": "2017-18",
+      "n": 384,
+      "n_hub": 128,
+      "hub_ratio": 3.865,
+      "p": 1.6799525764416487e-17,
+      "mean_pot_ast_pg_hub": 8.11
+    },
+    {
+      "season": "2018-19",
+      "n": 392,
+      "n_hub": 131,
+      "hub_ratio": 3.268,
+      "p": 1.0454345244459933e-12,
+      "mean_pot_ast_pg_hub": 8.08
+    },
+    {
+      "season": "2019-20",
+      "n": 381,
+      "n_hub": 127,
+      "hub_ratio": 4.009,
+      "p": 1.0391772362443966e-19,
+      "mean_pot_ast_pg_hub": 8.27
+    },
+    {
+      "season": "2020-21",
+      "n": 395,
+      "n_hub": 132,
+      "hub_ratio": 4.029,
+      "p": 5.133942558132401e-16,
+      "mean_pot_ast_pg_hub": 8.56
+    },
+    {
+      "season": "2021-22",
+      "n": 408,
+      "n_hub": 136,
+      "hub_ratio": 2.69,
+      "p": 2.449011633124551e-10,
+      "mean_pot_ast_pg_hub": 8.6
+    },
+    {
+      "season": "2022-23",
+      "n": 398,
+      "n_hub": 133,
+      "hub_ratio": 3.171,
+      "p": 3.485011523622136e-12,
+      "mean_pot_ast_pg_hub": 8.5
+    },
+    {
+      "season": "2023-24",
+      "n": 397,
+      "n_hub": 133,
+      "hub_ratio": 2.268,
+      "p": 6.430546675322973e-08,
+      "mean_pot_ast_pg_hub": 8.34
+    },
+    {
+      "season": "2024-25",
+      "n": 411,
+      "n_hub": 137,
+      "hub_ratio": 2.717,
+      "p": 8.309555936064438e-09,
+      "mean_pot_ast_pg_hub": 8.43
+    }
+  ],
+  "hub_ratio_series": [
+    3.933,
+    4.83,
+    4.456,
+    3.5,
+    3.865,
+    3.268,
+    4.009,
+    4.029,
+    2.69,
+    3.171,
+    2.268,
+    2.717
+  ],
+  "era_means": {
+    "early_pace_space_2013_2016": 4.406,
+    "heliocentric_iso_2016_2019": 3.544,
+    "distributed_2019_2025": 3.147
+  },
+  "trend_slope_per_season": -0.169
+}

@@ -1,0 +1,58 @@
+[21:12:08] === Building horn_of_africa panel for ['SOM', 'SDN', 'SSD', 'ETH', 'ERI'] ===
+[1] GIDD displacement
+  GIDD: 71 country-year rows
+[2] GIDD Disasters hazard
+  Disasters: 60 rows x 7 hazard cols
+[3] UCDP-GED
+  UCDP-GED events for cluster: 17864
+[4] HAPI food security
+[5] V-Dem + WDI
+
+[21:12:20] panel saved: D:\IDP\analysis\horn_of_africa_stratified_panel_2026_05_21.parquet
+  shape: (135, 31)
+
+=== horn_of_africa period x country x cause ===
+              period iso3  conflict_disp  disaster_disp  war_fatal  strife_fatal  one_sided_fatal
+     acute_2020_2024  ERI              0              0          4             0                0
+     acute_2020_2024  ETH       10047000        2622000     313201          1158            11029
+     acute_2020_2024  SDN       10652000         916000      10166          3322             4348
+     acute_2020_2024  SOM        2452000        4659000      13312           536              386
+     acute_2020_2024  SSD        1588000        2135000        302          2742              244
+     early_2014_2019  ERI              0              0         25             0                0
+     early_2014_2019  ETH        5161000        1734000        214          1315             1072
+     early_2014_2019  SDN         941000         765300       3872          2736             1274
+     early_2014_2019  SOM        1508000        2079000      10332           433              606
+     early_2014_2019  SSD        3221000         502600       4044          2088             1941
+pre_crisis_1998_2013  ERI              0            100      19845             0                0
+pre_crisis_1998_2013  ETH         429000         164000      80638          4252             1172
+pre_crisis_1998_2013  SDN        2105000         533000      27567          9114            13172
+pre_crisis_1998_2013  SOM        1065000         105200      13099          5625              522
+pre_crisis_1998_2013  SSD         923000         456000       1413          1717              755
+
+=== horn_of_africa V-Dem libdem trajectory ===
+  SOM 2018: 0.106
+  SDN 2018: 0.068
+  SSD 2018: 0.053
+  ETH 2018: 0.131
+  ERI 2018: 0.007
+  SOM 2020: 0.105
+  SDN 2020: 0.054
+  SSD 2020: 0.069
+  ETH 2020: 0.152
+  ERI 2020: 0.010
+  SOM 2024: 0.127
+  SDN 2024: 0.030
+  SSD 2024: 0.071
+  ETH 2024: 0.093
+  ERI 2024: 0.009
+
+=== horn_of_africa disaster hazard types (acute 2020-2024) ===
+iso3                    ERI      ETH     SDN      SOM      SSD
+disaster_drought          0   840590       0  1659627     2600
+disaster_earthquake       0    10000       0        0        0
+disaster_flood            0  1742103  911115  2947516  2131768
+disaster_mass_movement    0    21710       0     1675        0
+disaster_storm            0     6000       0    46400      520
+disaster_wildfire         0      750    2700     4200      200
+
+[21:12:20] complete

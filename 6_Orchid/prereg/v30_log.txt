@@ -1,0 +1,17 @@
+# RMD-SRC Gymnadenia v3.0 — Huber + Anderson-Darling pipeline
+# Generated: 2026-06-01T23:55:29.536496+00:00
+# Per PRE_REG_v3.0
+
+step3_response_function_v30.parquet sha     = 56cb1b5743ec3bf2ae731809231fdba48db22ad8f60acb689ee91858b83828ee
+step3_cell_cleanness_v30.parquet sha        = bf0be00134c96f5dc58fe94e259b0be045b45f514f5be839129f1cc22292eb45
+step4_leaves_v30.parquet sha                = 7cb682de684c148997242c8f35d7955b991324d23e5b1c7dc80773e4a7db4b4d
+step_falsifier_report_v30.parquet sha       = 1cd339c76b61afa90fc03978c54892d983444aca1c6503a85f2981e33f1e62f5
+
+H1 global AD pass count (>= 4 to confirm): 2/7
+H2 post-decomp clean (>= 50% to silence F2): 16.1%
+H3 Corviglia mono-obs failed: 3/3
+
+F1 fires (>= 80%):  False
+F2 fires (< 50%):   True
+F3 fires (>= 30%):  False
+F4 fires (< 0.40):  True

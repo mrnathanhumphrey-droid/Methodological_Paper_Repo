@@ -1,0 +1,69 @@
+{
+  "pre_reg": "CLTR_fractal_sheltered",
+  "framing": "correlational; state; authentic NOAA climate; RTS/cold confounded (low power)",
+  "n": 51,
+  "SH_D1_need_plus_capacity": {
+    "model_sheltered": {
+      "jan_auth": {
+        "b": -1.621,
+        "p": 0.5073
+      },
+      "rts": {
+        "b": 9.983,
+        "p": 0.0
+      },
+      "rent_floor": {
+        "b": 5.258,
+        "p": 0.0004
+      }
+    },
+    "R2": 0.662,
+    "pass": false,
+    "note": "needs cold(jan_temp<0) AND rts(>0) both sig"
+  },
+  "SH_D2_ES_vs_TH_split": {
+    "ES_model": {
+      "jan_auth": {
+        "b": -0.27,
+        "p": 0.9154
+      },
+      "rts": {
+        "b": 9.413,
+        "p": 0.0
+      },
+      "rent_floor": {
+        "b": 3.538,
+        "p": 0.0012
+      },
+      "medicaid_exp": {
+        "b": 2.286,
+        "p": 0.0274
+      }
+    },
+    "ES_R2": 0.673,
+    "ES_dominant": "rts",
+    "TH_model": {
+      "jan_auth": {
+        "b": -0.379,
+        "p": 0.1276
+      },
+      "rts": {
+        "b": 0.641,
+        "p": 0.5157
+      },
+      "rent_floor": {
+        "b": 0.938,
+        "p": 0.0213
+      },
+      "medicaid_exp": {
+        "b": 0.14,
+        "p": 0.2026
+      }
+    },
+    "TH_R2": 0.232,
+    "TH_dominant": "rent_floor",
+    "pass": false
+  },
+  "SHELTERED_FRACTAL_CONTINUES": false,
+  "disposition": "SHELTERED TERMINAL \u2014 RTS/rent dominates; no clean further split (ASYMMETRY: street recurses, sheltered terminal)"
+}

@@ -1,0 +1,34 @@
+# P0 partition hash record
+# Per PRE_REG_v1.0_RMD_SRC_migration.md §3.1, this file freezes the
+# SHA256 of data/derived/P0_partition.parquet at the moment the partition
+# is assigned, BEFORE any moment-flow statistic on outcomes is computed.
+#
+# This is the anchor that makes ℙ₀ pre-registration enforceable: any later
+# change to the partition is detectable as a hash mismatch.
+#
+# Format (one block per ℙ₀ build; append-only, never edit prior blocks):
+#
+# ---
+# version: vX.Y
+# computed_at: YYYY-MM-DD HH:MM:SS TZ
+# partition_file: data/derived/P0_partition.parquet
+# sha256: <64-char hex>
+# row_count: <n>
+# cell_count: <k, expected 12-16 per §2.4>
+# source_data: <pointer to IPUMS extract id and IRS SOI release>
+# code_commit: <git sha of src/rmd_src code used>
+# notes: <any deviations from §2.4, e.g. which sparse cells collapsed>
+# ---
+
+# (no entries yet — first entry written at Step 0 freeze)
+---
+version: v1.2
+computed_at: 2026-05-27 23:42:16
+partition_file: data/derived/P0_partition.parquet
+sha256: 0df160d5b8d68914b5425a0b139429fbf331a29555302e516b83c72ab6c6ccb2
+row_count: 23332197
+cell_count: 38
+source_data: IPUMS usa_00001.csv.gz (extract #1) + scope 2012-2021
+code_commit: step0_build_p0.py (v1.2 collapse)
+notes: 10 sub-500 cells merged per v1.2 deterministic algorithm; K=38 (12-16 prior superseded, see PRE_REG_v1.2_amendment.md)
+---

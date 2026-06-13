@@ -1,0 +1,23 @@
+# RMD-SRC Gymnadenia v2.0 -- full pipeline
+# Generated: 2026-06-01T19:29:25.452481+00:00
+# Per PRE_REG_v2.0 + inherited v1.1/v1.2/v1.3
+
+P0_partition_v20.parquet sha           = d6751b2c4bb64cbe852d1c8713a733e878510d33fbdc68eab111ed97a2b80d3d
+moment_trajectories_v20.parquet sha    = 4db67e4c6f609f3a9bec5da62bb16ac9372851a1427276d2593505e578291096
+step2_regimes_v20.parquet sha          = 095a399ccff8b8eb8691a75eab3b0939f1620bdac32288e5e120395dae45225b
+step3_response_function_v20.parquet sha= 771f73288ecf8566ffd503761cd931bf7996413206ad33936fbe746327c1bd88
+step3_cell_cleanness_v20.parquet sha   = 74be89abe8a6f7782e76810c862f710a424c932cfec72c8dcd1ad48c751d7b0c
+step4_leaves_v20.parquet sha           = 4179dcea6921efbc5822c7092f2df0ecff64cf08fdf271d4aee69a6f463cc625
+step5_F4_pairs_v20.parquet sha         = 76bcc10890146437e562d6d9e59468975c5b65f9e246faa1e6e391593353a1d6
+step_falsifier_report_v20.parquet sha  = 38598a8c0ca72d88f126d5e2dc681c2369258e4952d4b629c74c0a59b9d72db2
+
+K cells (v2.0)              = 8
+original (cell, obs) total  = 56
+pre-decomp clean             = 3 (5.36%)
+post-decomp clean (leaves)   = 3 / 56
+recovered / orig             = 3/56 = 5.36%
+
+F1 fires (>= 80%)            = False
+F2 fires (< 50%)             = True
+F3 fires (>= 30%)            = False
+F4 fires (< 0.40)            = True

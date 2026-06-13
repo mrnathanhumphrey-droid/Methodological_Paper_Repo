@@ -1,0 +1,1701 @@
+
+--- PAGE 1 ---
+Institutional Order in Episodes of 
+Autocratization
+Yuko Sato, Martin Lundstedt, 
+Kelly Morrison, Vanessa A. Boese,
+Staﬀan I. Lindberg
+Working Paper 
+SERIES 2022:133
+THE VARIETIES OF DEMOCRACY INSTITUTE 
+October 2022
+
+--- PAGE 2 ---
+Varieties of Democracy (V-Dem) is a unique approach to conceptualization and measurement 
+of democracy. The headquarters – the V-Dem Institute – is based at the University of Gothenburg 
+with 20 staff. The project includes a worldwide team with 5 Principal Investigators, 22 Project 
+Managers, 3 3 Regional Managers, 1 34 Country Coordinators, Research Assistants, and 3, 700 
+Country Experts. The V -Dem project is one of the largest ever social science research -oriented 
+data collection programs. 
+P
+lease address comments and/or queries to: 
+V-De
+m Institute
+Department of Political Science
+University of Gothenburg
+Sprängkullsgatan 19, Box 711
+405 30 Gothenburg
+Sweden
+E-mail: contact@v-dem.net
+V-Dem Working Papers are available in electronic format at https://www.v-dem.net
+Copyright ©2022 by authors. All rights reserved. 
+--- PAGE 3 ---
+Institutional Order in Episodes of Autocratization ∗†
+Yuko Sato1, Martin Lundstedt 1, Kelly Morrison 2, Vanessa A. Boese 3, and
+Staﬀan I. Lindberg 1
+1V-Dem Institute, University of Gothenburg
+2University of Tennessee, Knoxville
+3Geschwister-Scholl-Institut, Ludwig-Maximilians-Universit¨ at M¨ unchen
+October 2022
+∗We presented previous version of this paper at the 2022 MPSA Annual Conference. We are grateful to
+Hans Lueders and conference participants for their useful feedback.
+†Corresponding author : Yuko Sato, yuko.sato@v-dem.net
+F unding: We recognize support by Knut and Alice Wallenberg Foundation to Wallenberg Academy Fellow
+Staﬀan I. Lindberg, Grant 2018.0144; by European Research Council, Grant 724191, PI: Staﬀan I. Lindberg; as
+well as by internal grants from the Vice- Chancellor’s oﬃce, the Dean of the College of Social Sciences, and the
+Department of Political Science at University of Gothenburg. The computations of expert data were enabled
+by the Swedish National Infrastructure for Computing (SNIC) at National Supercomputer Centre, Link¨ oping
+University, partially funded by the Swedish Research Council through grant agreement no. 2019/3-516.
+--- PAGE 4 ---
+Abstract
+Are there patterns in the sequences of institutional change when democracies autocratize? If so,
+are such patterns distinct for democracies that transition to authoritarianism versus those that
+avert democratic breakdown? The Episodes of Regime Transformation (ERT) dataset provides
+a global sample of all 69 autocratization episodes between 1900-2021. Using this data and pair-
+wise domination analysis, we describe the general order of reforms in 31 variables which make
+up diﬀerent types of accountability mechanisms constraining the government. Our ﬁndings
+suggest that institutional decay starts with horizontal accountability, followed by declines in
+diagonal accountability, and, ﬁnally, vertical accountability. This pattern becomes more appar-
+ent in countries with low democratic stock and during the third wave of autocratization. This
+study makes strong contributions to a growing academic literature on patterns of autocrati-
+zation as well as initiatives among policymakers and practitioners to counteract autocratization.
+Keywords: Autocratization, pathways to autocracy, ERT dataset, domination analysis
+--- PAGE 5 ---
+Introduction
+The “third wave” of autocratization has become a major threat to democracies across the world (e.g.,
+L¨ uhrmann and Lindberg, 2019; Boese, Lindberg, and L¨ uhrmann, 2021; Boese et al., 2021). With
+growing concern over this trend, recent studies have developed conceptualizations of autocratization
+(e.g., Bermeo, 2016; L¨ uhrmann and Lindberg, 2019; Waldner and Lust, 2018) and started investigating
+the exogenous causes of democratic breakdown as well as the conditions that increase resilience to such
+changes.1
+One of the limitations of existing studies is that they rarely unpack the process of autocrati-
+zation,2 or the order in which diﬀerent aspects of democracy regress. This omission is consequential
+because the nature of the autocratization process itself may have causal eﬀects, by strengthening the
+power of executives or by disorienting and disorganizing the opposition, for instance (Haggard and
+Kaufman, 2021, p. 2). Further, policymakers would beneﬁt from greater clarity about how the process
+of autocratization unfolds in order to recognize the warning signs of regression. This paper explores
+three research questions regarding the process of autocratization: When democracies autocratize, are
+there observable patterns in the sequence of institutional change? Are such conﬁgurations distinct for
+democracies that transition to authoritarianism versus those that avert democratic breakdown? Do
+such conﬁgurations vary by the underlying conditions of autocratizing countries?
+As a point of departure, we examine Juan J. Linz’s classic study The Breakdown of Democratic
+Regimes: Crisis, Breakdown, and Reequilibration (1978) and some recent contributions on the process
+of democratic backsliding. While some claim that the process of autocratization is highly hetero-
+geneous (e.g. Waldner and Lust, 2018), most contemporary processes of autocratization share one
+commonality: “democracy rarely dies overnight” (L¨ uhrmann, 2021, p. 1017). The sequence of events
+or the dynamics of the process that are observed across autocratization episodes may help explain the
+mechanism of destabilization or overthrow of a democratic system (Linz, 1978). Drawing from recent
+advances in the literature, we seek to identify how the order of change is associated with declines in
+three types of democratic accountability: the extent to which governments are accountable to citizens
+(vertical accountability), to state institutions (horizontal accountability), and to the media and civil
+1For comprehensive reviews of such studies, see Waldner and Lust (2018) and Hyde (2020).
+2In this paper, we use the word autocratization to refer to processes of decline in democratic institutions
+that begins in democracies. Such processes are also referred to as democratic regression (e.g. Maerz et al., 2021)
+or democratic backsliding (e.g. Bermeo, 2016).
+2
+--- PAGE 6 ---
+society (diagonal accountability) (L¨ uhrmann, Marquardt, and Mechkova, 2020). We also hypothesize
+that sequences diﬀer by previous democratic experience and across waves of autocratization.
+We evaluate these theoretically driven sequences of autocratization using the Episodes of Regime
+Transformation (ERT) dataset (Edgell et al., 2022), which provides a complete sample of all 69
+autocratization episodes between 1900 and 2021. We use pairwise domination analysis—a method
+adapted from evolutionary biology (Lindenfors, Krusell, and Lindberg, 2019; Lindenfors et al., 2018;
+Edgell et al., 2021)—to generate descriptive analysis of the general order of regression in 31 variables
+that make up the diﬀerent types of accountability in the Varieties of Democracy (V-Dem) data (version
+12) (Coppedge et al., 2022a).
+Our results reveal several novel insights about the autocratization process. First, democracies
+undergoing autocratization tend to follow a common pattern in the sequence of their anti-democratic
+reforms: they ﬁrst reduce horizontal and diagonal accountability and, only later, vertical account-
+ability. Second, this paper demonstrates that there are remarkably few diﬀerences in the sequence
+of autocratization in episodes that result in democratic breakdown and those in which breakdown
+is averted. However, we also demonstrate that autocratization episodes that begin with reforms to
+reduce executive oversight, to weaken the legislative’s capacity to investigate, or to constrain the elec-
+tion management body’s (EMB) autonomy early on in the process of autocratization typically result
+in democratic breakdown. Third, the indicators of diagonal accountability tend to decline in the early
+phase of the episode in countries with high levels of democratic stock. Finally, the analysis points to a
+unique feature of the third wave of autocratization: the indicators of horizontal and vertical account-
+ability are more likely to decline earlier in the autocratization process in the third wave compared
+with the previous period.
+The ﬁndings are of high relevance for academic knowledge about the process of autocratization
+and its driving mechanisms. Our theoretical arguments, as well as empirical ﬁndings, advance our
+understanding of the expected institutional order of autocratization. Our work also demonstrates
+how (and whether) the sequence of autocratization varies with the outcome of each episode (either
+democratic survival or breakdown) and the underlying conditions of autocratizing countries. More-
+over, our study contributes to policymakers and practitioners seeking to counteract autocratization by
+identifying early warning signs of democratic erosion. In particular, our empirical results suggest that
+countries undergoing particular kinds of democratic erosion—in executive oversight, legislative inves-
+3
+--- PAGE 7 ---
+tigative capacity, and EMB autonomy—in the early phase of autocratization episodes are especially
+likely to experience democratic breakdown.
+In the following sections, we ﬁrst deﬁne autocratization in democracies. Next, we review pre-
+vious studies of autocratization to identify theoretically derived propositions about the sequence of
+autocratization and underlying conditions that may shape autocratization processes. Thereafter, we
+discuss the methodology for analyzing the institutional order of autocratization. Finally, we present
+our empirical results and summarize the implications of our study.
+Determinants of Autocratization
+With the number of countries undergoing autocratization rising signiﬁcantly over the past two decades
+(e.g., Boese et al., 2021; L¨ uhrmann and Lindberg, 2019), a series of studies have developed conceptu-
+alizations of the phenomenon (e.g., Bermeo, 2016; Boese, Lindberg, and L¨ uhrmann, 2021; Cassani and
+Tomini, 2020; Diamond, 2015; Levitsky and Ziblatt, 2018; L¨ uhrmann and Lindberg, 2019; Runciman,
+2018; Waldner and Lust, 2018). Following L¨ uhrmann and Lindberg (2019), we deﬁne autocratization
+as “substantial de-facto decline of core institutional requirements for electoral democracy” (1096).
+Although autocratization as a concept encompasses declines starting at any level and in any type of
+regime, this paper focuses on processes of autocratization starting in democracies. Those have two
+possible outcomes: democratic breakdown and survival.
+The existing literature investigates exogenous factors to explain democratic backsliding and
+breakdown.3 This body of contributions can be roughly sorted into three areas. First set focuses on
+how a country’s economic situation aﬀects the probability of democratic breakdown. One established
+discussion and ﬁnding is that democracies become more resilient from the risk of breakdown if they
+reach a certain level of income (e.g., Przeworski and Limongi, 1997; Boix and Stokes, 2003; Epstein
+et al., 2006). Other studies indicate that positive economic growth is a key predictor of democratic
+survival or regime stability (e.g., Bernhard, Reenock, and Nordstrom, 2003; Gasiorowski, 1995; Gates
+et al., 2006). Another group of studies more speciﬁcally found that levels of inequality play a critical
+role in destabilizing democratic regime (e.g., Alem´ an and Yang, 2011; Boix et al., 2003; Houle, 2009).
+A second part of the literature suggests that actors, primarily political leaders and ruling parties,
+play a critical role in the process of autocratization. Research in this vein argues that exogenous shocks
+3The diﬀerence between “exogenous” and “endogenous” factors to explain democratic regression is further
+conceptualized by Gerschewski (2021).
+4
+--- PAGE 8 ---
+can result in increased mobilization of anti-democratic forces (e.g., Linz, 1978; Capoccia, 2005). The
+strategic interaction of an anti-democratic opposition and the incumbent creates an opportunity for
+autocratization. Other studies ﬁnd that once anti-pluralist parties are in power, they signiﬁcantly
+weaken commitments to democratic institutions, procedures, and norms (e.g., Levitsky and Ziblatt,
+2018). For example, L¨ uhrmann (2021) shows how anti-pluralist parties in government contribute to
+decline in levels of democracy. 4
+A third branch of the literature suggests that the magnitude of eﬀects of either of the above two
+sets of factors are conditional on intervening variables. For example, some authors ﬁnd that the types
+or strengths of democratic institutions are vital for the resilience of democracy. Institutional instability
+is alternatively derived from presidential systems (Linz, 1990), weak party systems (Huntington, 2006),
+party-system fractionalization (e.g., Mainwaring, Scully, et al., 1995), or the breakdown of a party
+brand (Lupu, 2014). Another suggested conditioning factor is a country’s experience with democracy,
+where more democratic “stock” is associated with a lower probability of breakdown (e.g., Svolik, 2015;
+P´ erez-Li˜ n´ an and Mainwaring, 2013; Boese et al., 2021). Finally, a changing international environment
+is suggested as a permitting condition for autocratic leaders to come to power. This worsening (for
+prospects of democracy) environment may be due to the decline in Western linkages (Levitsky and Way,
+2010), declining international support for democracy, or the weakening of international democracy
+norms (Hyde, 2020).
+In this paper, we do not seek to contest the wisdom of these important ﬁndings. Rather, we
+focus on a novel aspect of autocratization: the process of autocratization. We examine the order in
+which diﬀerent aspects of democracy decline during autocratization and what, if any, association exists
+between the order of autocratization and the outcome of autocratization episodes (either democratic
+breakdown or survival).
+There are a few exceptions to the above literature that investigate the role that the sequence
+of autocratization plays in explaining democratic breakdown and survival. One is L¨ uhrmann (2021)’s
+ideal-typical autocratization sequence describing a process where an increase in citizens’ discontent
+with democratic institutions and parties lays the groundwork for anti-pluralist parties rising to power.
+In turn, these parties dismantle democratic institutions. Similarly, Haggard and Kaufman (2021) sug-
+gest that rising levels of political polarization strengthen anti-system parties that proceed to instigate
+antidemocratic reforms.
+4See also L¨ uhrmann, Medzihorsky, and Lindberg (2021), who show the relationship between anti-pluralist
+ruling parties and the onset of autocratization.
+5
+--- PAGE 9 ---
+There are also a couple of descriptive, comparative case-studies examining the autocratization
+process. Hellmeier et al. (2021) compare the eight most outstanding autocratizers between 2010 to
+2020 and ﬁnd that the ruling government typically repress the media, academic freedoms, and civil
+society before they attempts to reform formal institutions like the quality of elections. Laebens and
+L¨ uhrmann (2021) analyze three autocratizers that avoided democratic breakdown and ﬁnd that ac-
+countability mechanisms play a critical role in defending democratic institutions against anti-pluralist
+leaders’ attempts to erode them. Such accountability mechanism includes parliamentary and judicial
+oversight (horizontal accountability), pressures from civil society and the media (diagonal accountabil-
+ity), and electoral competition between parties and within parties (vertical accountability) (L¨ uhrmann,
+Marquardt, and Mechkova, 2020). The study thus suggests the importance of focusing on account-
+ability mechanisms to understand how institutional change itself creates an opportunity for further
+autocratization.
+Still, we do not have a comprehensive analysis of patterns of institutional decay during auto-
+cratization. We thus do not yet know if there is any speciﬁc sequence found across autocratization
+episodes or whether speciﬁc sequences inﬂuence the likelihood of democratic breakdown or survival.
+And ﬁnally, we do not yet know whether such sequences vary by the underlying conditions of auto-
+cratizing countries. These are the issues this paper addresses. The following section therefore looks
+closely at the process of autocratization to identify theoretical expectations regarding these questions.
+In line with recent literature, such as Laebens and L¨ uhrmann (2021), we describe the decline in the
+diﬀerent dimensions of accountability that constrain political leaders to proceed with autocratization.
+The Sequence of Democratic Breakdown
+In his canonical work, The Breakdown of Democratic Regimes: Crisis, Breakdown, and Reequilibration,
+Juan J. Linz details autocratization processes across a wide range of cases to identify generally impor-
+tant sequences of events. In so doing, Linz (1978) provides a descriptive model of common patterns
+that lead to democratic breakdown. In this section, we condense Linz’s depiction into three sequential
+processes: (1) the emergence of anti-democratic movements, coupled with an increase in violence and
+repression, (2) aggrandizement of the executive, and (3) dismantling of democratic institutions. We
+then discuss how these developments are associated with declines in the diﬀerent aspects of democratic
+accountability.
+6
+--- PAGE 10 ---
+Emergence of Anti-Democratic Movements: Erosion of Diagonal Ac-
+countability
+Linz (1978) ﬁnds that autocratization episodes typically start with a crisis of legitimacy for democ-
+racy. Such crises often emerge when anti-democratic groups 5 become active in society and question
+democratic regimes. The anti-democratic forces can be political parties, movements, or organizations
+that “explicitly reject political systems based on the existence of the authority of the state or any
+central authority with coercive powers” (Linz, 1978, p. 28). The rise of anti-democratic groups in
+the opposition may be due to various causes, such as widespread revolutionary movements from the
+left, economic crisis or stagnation, anti-neoliberal policies or immigration trends. Despite the het-
+erogeneity of causes, Linz (1978) argues that we tend to observe increased political violence, various
+conspiracies, and even failed coups and unsuccessful revolutionary attempts during this early stage of
+autocratization, extending the legitimacy crisis of democratic regimes.
+Such mounting citizen discontent with democratic regimes is not unique to the period that Linz
+(1978) observes. Recent studies also ﬁnd that declining support for democratic norms and parties is
+an early driver of the autocratization process (L¨ uhrmann, 2021). 6 Speciﬁcally, a decline of trust in
+government institutions leads to a reduction in vote share for established parties, opening a window of
+opportunity for outsider parties (often anti-pluralists) to grow (Petrarca, Giebler, and Weßels, 2022).
+Violent repression against anti-democratic forces tends to lead to escalation and contribute to
+further mobilization (Linz, 1978, p. 57). However, the government often counters anti-democratic
+mobilization by “accepting limits on the civil liberties for the sake of stabilizing the situation and
+ensuring the survival of the system” (Linz, 1978, p. 90), while it signiﬁcantly erodes the regime
+legitimacy. Thus, “militant democracy” — the use of legal restrictions on political expression or
+participation to curb extremist actors in democratic regimes 7 — plays a critical role in the early
+process of autocratization (Capoccia, 2013). In this scenario, autocratization sequences tend to begin
+with violent attacks by the anti-democratic forces, followed by the democratic incumbent’s attempts
+to restrict citizens’ rights or even to use repression against anti-democratic forces. To prevent an
+escalation of the conﬂict, the government also seeks more control over information by censoring the
+media. Accordingly, we are likely to observe erosion in non-institutional democratic constraints in the
+ﬁrst phase of institutional decay, namely those associated with diagonal accountability.
+5Linz (1978) calls such actors the “disloyal opposition” to the democratic regime.
+6L¨ uhrmann (2021) especially highlights that contemporary autocratizers typically come to power through
+popular vote, not military coups, which gives citizens a vital role in autocratization processes.
+7The term originally introduced by Karl Lowenstein (1937).
+7
+--- PAGE 11 ---
+Executive Aggrandizement: Erosion of Horizontal Accountability
+The second phase Linz (1978) identiﬁes as leading towards breakdown is an executive enlargement
+or “aggrandizement (Bermeo, 2016),” which the current literature typically refers to as weakening of
+horizontal accountability. In this second phase, increased public support for anti-democratic forces
+ﬁrst translates into the emergence of “anti-pluralist parties.” Once these parties increase their presence
+in the parliament, the government typically faces growing diﬃculty in ensuring coalition support and
+reaching a consensus in any policy area (Linz, 1978, p. 66). This type of political crisis opens up for
+political leadership to propose constitutional amendments, grant emergency powers, suspend sessions
+of the legislature, intervene, suspend or interfere with regional or local governments, and/or reshuﬄe
+the top-level military command in order for the government to take all “necessary” decisions (Linz,
+1978, pp. 69–71).
+Moreover, the government’s use of violence against undemocratic forces is often legitimized
+through the legal process. The judiciary deals leniently with the government as they feel sympathetic
+to the motives of the government agencies engaging in violence or hostility rather than their victims
+(Linz, 1978, p. 57). Thus, judicial decision tend to land in favor of the government.
+Recent studies especially highlight that the conﬂict within the government becomes salient once
+the polarization between anti- and pro-democratic forces at the elite levels elevates (McCoy, Rahman,
+and Somer, 2018; Somer, McCoy, and Luke, 2021). Polarization may create an opportunity for the
+government to justify changes to concentrate its power in both the judiciary (i.e., assigning judges in
+favor of the government) and the legislature (i.e., creating a new legislature with the majority seats
+taken by the ruling parties) by portraying the opposition as threatening (Haggard and Kaufman,
+2021, p. 2). Such increased polarization and the aggrandizement of the executive are observed in both
+scenarios: pro-democratic incumbent facing the increasing inﬂuence by anti-democratic oppositions or
+anti-democratic forces in power with pro-democratic oppositions resisting the government. The ﬁrst
+scenario includes the early phase of classic episodes, like the rise of Fascism in the Weimar Republic or
+the military uprising in Spain in 1936. Later includes the contemporary autocratization episodes like
+Hungary or Turkey, where the elected anti-pluralists strategically used polarization to strengthen the
+concentration of power in the executive. This concentration of power is equivalent to what is typically
+referred to and can be observed empirically as an erosion of horizontal accountability.
+8
+--- PAGE 12 ---
+Approaching Democratic Breakdown: Erosion of Vertical Account-
+ability
+Linz (1978, pp. 81–82) sketches ﬁve scenarios for the last stage. The ﬁrst scenario leading to breakdown
+is the unconstitutional displacement of a democratically elected government by a military coup. In
+the second scenario, the anti-democratic government incorporates part of the political class of the
+previous democratic regime (often professional politicians). Such regimes form royal dictatorships
+with a military-bureaucratic character.
+The third alternative is that the democratic government is terminated without a successful
+power transition, resulting in civil war. A fourth option is the establishment of a (non-military)
+authoritarian regime excluding all leading political actors of the preceding democratic regime that
+lacks any form of mass mobilization in support of its rule.
+The ﬁnal scenario Linz (1978) portrays is that well-organized anti-democratic forces with a mass
+base in society take over the democratic government. According to Linz (1978), typical cases of this
+pattern are the Fascists in Italy and Germany. However, this scenario also parallels much of the recent
+literature suggesting that democratically elected authoritarian-minded leaders typically head gradual
+institutional decays leading to the breakdown of democracy (e.g., Bermeo, 2016; L¨ uhrmann and Lind-
+berg, 2019; Waldner and Lust, 2018). This includes more overt violations of the democratic procedure
+such as manipulating election results, keeping opposition candidates oﬀ the ballot, hampering voter
+registration, or packing the electoral commission.
+In any of the scenarios above, the observable implications are signiﬁcant declines in the quality
+of core democratic institutions that are typically thought to ensure vertical accountability.
+In sum, and following the theoretical intuitions from Linz (1978)’s work, we expect to see the
+institutional order of autocratization as Figure 1 presents.
+Figure 1. Expected Sequence of Autocratization
+The main hypothesis we seek to evaluate is:
+9
+--- PAGE 13 ---
+H1: Autocratization starts with declines in diagonal accountability, followed by declining horizontal
+accountability, and ﬁnally declines in vertical accountability.
+Linz (1978) does not provide any expectations about whether these sequences are likely to diﬀer
+by the outcome of autocratization episodes: democratic breakdown or survival. The underlying as-
+sumption is that the survival cases do not experience a decline in all three accountability mechanisms.
+In particular, in cases where democracy survives, the autocratization process should stop before lead-
+ers signiﬁcantly erode vertical accountability mechanisms. Accordingly, observable autocratization
+processes should be the same in cases of both democratic breakdown and survival, with cases of sur-
+vival stopping short of the last phases of autocratization. Ultimately, it is an open empirical question
+whether there are diﬀerences between autocratization processes in cases that survive and cases that
+ultimately break down. We examine these diﬀerences in our analysis.
+Expectations From Sample Heterogeneity
+In addition to the expectations derived from Linz (1978)’s theory of democratic regime breakdown,
+there are reasons to formulate at least two theoretical propositions based on expected sample hetero-
+geneity. Among others, Waldner and Lust (2018) noted that the sample of autocratization episodes is
+highly heterogeneous. Sample heterogeneity is typically a clue to varying background vulnerabilities
+that can shift the extent to which cases are susceptible to probabilistic causes of autocratization. Based
+on the existing literature, two factors seem particularly salient to shift underlying vulnerabilities to
+processes of democratic breakdown: previous democratic experience and the wave of autocratization.
+Length of Previous Democratic Experience
+There is an established ﬁnding in the literature that new democracies are more vulnerable to breakdown
+compared to established democracies (e.g., Svolik, 2015; Boese et al., 2021). Arguments about the
+origin of democratic resilience vary, but they generally propose that resilience has to do with reinforcing
+mechanisms. Some argue that particular institutions, such as party systems deeply rooted in society
+(Linz, 1978) or judicial processes that require a bold procedures for changing constitutions (P´ erez-
+Li˜ n´ an and Mainwaring, 2013; Reenock, Staton, and Radean, 2013; Ginsburg and Huq, 2018; Weyland,
+2020), create bulwarks that make it diﬃcult for the ruling government to derail democratic institutions.
+10
+--- PAGE 14 ---
+Other arguments suggest that the iteration of elections builds incentives for actors to accept the
+rules of the game (Lindberg, 2006) and that the everyday experience of living under democracy
+promotes democratic attitudes (Fuchs-Sch¨ undeln and Sch¨ undeln, 2015). Regardless, the expected
+outcome is that a longer experience with democracy should be associated with greater resilience to
+the government’s attempts that violate democratic norms (e.g., Guiso, Sapienza, and Zingales, 2016;
+Persson and Tabellini, 2009).
+Accordingly, we expect that formal democratic institutions in countries with longer democratic
+experiences are more resilient to autocratization. We therefore intuit that, in such cases, the govern-
+ment is especially likely to target non-institutional constraints represented by diagonal accountability
+before attempting to change formal institutions. In H1, we hypothesized that the general order of
+autocratization would tend to start with the decline of diagonal accountability. However, if we com-
+pare the cases with high and low democratic experiences, we expect to ﬁnd that elements of diagonal
+accountability are more likely to decline earlier in the process in the cases with high democratic
+experience compared to the cases with limited democratic experience.
+Thus, the second hypothesis follows below:
+H2: In countries with high democratic stock, it is more likely that autocratization will begin with
+declines in diagonal accountability compared to countries with low democratic stock.
+Waves of Autocratization
+A growing body of literature distinguishes between diﬀerent waves of autocratization, similar to Hunt-
+ington’s (1993) formulation of waves of democratization. 8 One consistent ﬁnding in this research is
+that episodes of autocratization in the ﬁrst (roughly 1920s to 1940s) and second (roughly 1960s into
+1970s) waves were often swift processes dominated by coups, the installation of one-party regimes, and
+foreign invasions (L¨ uhrmann and Lindberg, 2019). The current, third wave of autocratization (be-
+ginning around 1994) is instead characterized by gradual processes where (often elected) incumbents
+undermine democratic institutions one step at a time (e.g., Bermeo, 2016; Haggard and Kaufman,
+2021; L¨ uhrmann and Lindberg, 2019).
+8L¨ uhrmann and Lindberg (2019, p. 1102) deﬁnes an autocratization wave as “the time period during which
+the number of countries undergoing democratization declines while at the same time autocratization aﬀects
+more and more countries.”
+11
+--- PAGE 15 ---
+One prominent characteristic of the third wave of autocratization is that their autocratization
+processes tend to start once anti-pluralist parties are elected as heads of government, while the earlier
+waves are likely to start when democratic-incumbent represses anti-democratic movements. This
+diﬀerence may come from the characteristics of these “anti-pluralist” forces in the third wave. In
+the contemporary period, anti-pluralists tend not to position themselves as “anti-democratic” or use
+violent tactics at the beginning of their movement. For example, Hugo Ch´ avez and the populist
+leaders emulated his strategies, like Evo Morales in Bolivia and Rafael Correa in Ecuador, came into
+power by actively advocating a superior model of democracy. Such movements were even endorsed
+by prominent politicians and journalists (Hawkins, 2016). Since the contemporary anti-pluralists are
+not always seen as a serious threat to the democratic regime (Kaltwasser and Taggart, 2016), they are
+allowed to take oﬃce without facing repression. This means that the ﬁrst phase of the general order of
+autocratization (decline in diagonal accountability) is likely to be skipped. Once anti-pluralists come
+into power, they immediately implement several reforms that fragment democratic constraints.
+The decline in the diagonal accountability may, however, also be observed in the third wave of
+autocratization in the later stage of the process. Once anti-pluralist leaders enter the oﬃce, they tend
+to repress civil society groups or media that vocally oppose the government (e.g., Hellmeier et al.,
+2021; Mechkova, L¨ uhrmann, and Lindberg, 2017). One expected diﬀerence between the pre-third
+wave and during the third wave is that the decline in horizontal accountability is likely to be observed
+before the decline in diagonal accountability. Thus, we expect that for autocratization episodes in the
+third wave, the sequence of institutional decay is more likely to start from the decline of horizontal
+accountability:
+H3: In the third wave, autocratization sequences are more likely to start with declines in horizontal
+accountability compared to the ﬁrst and second waves.
+Lastly, we consider the variation in the order of the institutional decay during the third wave
+of autocratization. We expect anti-pluralist incumbents to start anti-democratic reforms immediately
+after they are in power. However, as we discussed in the previous section, if the resilience of democratic
+institutions is high, they are likely to target non-institutional accountability mechanisms ﬁrst before
+eroding the formal institutional constraints or horizontal accountability. Thus, if we compare the
+episodes with high and low democratic experiences during the third wave, we expect to ﬁnd that
+12
+--- PAGE 16 ---
+elements of diagonal accountability are more likely to decline earlier in the process in the cases with
+high democratic experience compared to the cases with limited democratic experience.
+Thus, the last hypothesis follows below:
+H4: During the third wave of autocratization, autocratization sequences in countries with high demo-
+cratic stock are more likely to start with declines in diagonal accountability compared to countries
+with low democratic stock.
+Research Design
+The sample consists of episodes of autocratization starting in countries classiﬁed as democracies from
+the Episodes of Regime Transformation(ERT) dataset (version 4.0) (Edgell et al., 2022). The ERT
+builds on L¨ uhrmann and Lindberg (2019) in deﬁning autocratization episodes as periods of substantial
+and sustained decline of democratic attributes and similarly uses the Electoral Democracy Index (EDI)
+from the V-Dem dataset (version 12) (Coppedge et al., 2022a). However, the group behind the ERT
+has developed a more sophisticated operationalization of autocratization episodes. 9
+To measure the decline of diﬀerent aspects of democratic attributes, we use indicators forming
+three accountability indices developed by L¨ uhrmann, Marquardt, and Mechkova (2020). These indices
+measure diagonal accountability with 13 indicators, horizontal accountability with 7 indicators, and
+vertical accountability with 11 indicators (see Table A3 of the Appendix for all indicators). 10 These
+indicators also overlap with the critical components of the electoral and liberal democracy indices. 11
+Accordingly, the accountability indicators also capture the essential elements of democracy.
+The ERT contains 69 completed episodes of autocratization in democracies from 1900 to 2021
+(see Appendix Table A1 for a complete list of cases). Another 12 episodes of autocratization were
+ongoing (censored) by the end of 2021 and are therefore omitted from our analysis. The ERT also codes
+the outcome of each episode, which allows us to evaluate if the order of institutional change is diﬀerent
+9See Maerz et al. (2021) for details. While autocratization episodes include cases where autocratization
+started from electoral or closed autocracy, we only include episodes starting in democracies.
+10Given our interest in the temporal ordering of reforms, we omit the elected oﬃcials’ index, variables for
+whether the legislature questions oﬃcials in practice, whether the legislature is bicameral, and internet censor-
+ship from the original indicators introduced by L¨ uhrmann, Marquardt, and Mechkova (2020) in our analysis.
+These variables all exhibit limited within-country variation in our sample.
+1111 indicators are from the EDI, including the component indices for suﬀrage, clean elections, freedom of
+expression, or association. 8 indicators are from the Liberal Democracy Index (LDI), including the component
+indices for equality before the law and individual liberty, judicial and legislative constraints on the executive.
+13
+--- PAGE 17 ---
+in countries that averted breakdown and stayed democratic and those that ended as autocracies. Of
+the 69 autocratization episodes, 62 resulted in a democratic breakdown while only 7 survived. We
+do not expect the general order of decline in accountability to vary by the outcome of each episode.
+However, we compare the institutional order across the two outcome categories (democratic breakdown
+and survival) to evaluate whether we ﬁnd novel insights about the relationship between the sequence
+and outcome of autocratization.
+To evaluate the second hypothesis, we compare cases with relatively longer and shorter previous
+democratic experiences. For this analysis we draw on a recently developed measure of democratic stock
+(Edgell et al., 2020). 12 To avoid concerns about endogeneity, we divide the sample based on the level
+of democratic stock at the start of each episode. We do not have a theory of what counts as “high” or
+“suﬃcient” democratic experience. Therefore, we consider episodes with democratic stock below the
+sample average to have low democratic stock and episodes with stock above the average to have high
+democratic stock.
+To evaluate the third hypothesis, we compare the episodes before and during the third wave
+of autocratization. We take the delimitation identiﬁed by L¨ uhrmann and Lindberg (2019) where the
+third wave began in 1994.
+Lastly, to evaluate the fourth hypothesis, we compare episodes during the third wave with low
+democratic stock and those with high democratic stock. The list of countries by waves and the level
+of democratic stock is in Table A2 of the Appendix.
+Empirical Approach
+To determine the order of institutional decay during autocratization episodes, we use pairwise dom-
+ination analysis, a methodology which explores the temporal relationship between ordinal variables
+developed by Lindenfors, Krusell, and Lindberg (2019) and Lindenfors et al. (2018). The method has
+been adapted from evolutionary biology, and it compares pairs of ordinal indicators to assess which are
+dominant within the overall indicators of interest (in this case, the indicators measuring democratic
+accountability). The interpretation and visualizations of the results were further developed by Edgell
+12The stock measure oﬀers calculations based on any democracy index. Since our theory proposes that strong
+judicial constraints make political leaders less likely to be able to erode democratic institutions, we use the
+stock measure based on the LDI, which includes indicators for judicial constraints on the executive. Due to the
+missing data for the democratic stock, 9 cases are dropped from this part of the analysis.
+14
+--- PAGE 18 ---
+et al. (2021), who used it to analyze the order of institutional change in episodes of liberalization. We
+adopt their approach here and apply it to episodes of autocratization.
+By deﬁnition, we expect to observe that indicators generally move from higher to lower values
+during the process of autocratization. Thus, we infer that a domination indicator , whose value is
+greater than the paired indicator over the observation period, declines later in the autocratization
+episode compared with the indicators it dominates. Using the R package seqR (Krussell, 2017), we
+compare the observed values of all unique pairs of the 31 selected ordinal indicators measuring the
+three types of accountability. We then sum the number of indicators that an indicator dominates
+(d) or is dominated by (r), which compose a domination table. To aid with interpretation, following
+Edgell et al. (2021), we also calculate a domination score based on the diﬀerence in these two values
+(score = r−d), with lower values indicating that the variable dominates many other variables and thus
+declines later in the autocratization process. Then, we use this score to illustrate the general order
+of institutional decay as well as to test similarities in these scores across diﬀerent episode outcomes
+(survival vs. breakdown) and underlying conditions (high vs. low democratic stock or pre-third wave
+vs. third wave) with a simple bivariate linear regression. We also use their residuals to ﬁnd the
+variables that deviate from this trend across episodes.
+This empirical approach requires some important assumptions. First, similar to Edgell et al.
+(2021), we assume that 50 percent is substantial enough to constitute domination. Since we aim to
+identify the most common path(s) of autocratization, we highlight those relationships that occur a
+majority of the time over the episodes. In addition, empirically, the 50 per cent threshold establishes
+a clear pattern of dominance. For a given pair of ordinal indicators, X and Y , when X > Y more
+than 50 per cent of the time, it is rarely the case that X < Y more than 20 per cent of the time
+because X = Y is also a common pattern. We also show that our main conclusions are robust when
+we increase the domination threshold to two-thirds of the observations (see Table A13 - A15).
+Second, because the same kind of process can play out quickly in one country and slowly in
+another, the method does not consider the time elapsed between institutional changes. The methodol-
+ogy achieves this by collapsing duplicate country-year observations, when values of all 31 variables are
+constant, into a single observed ‘state.’ This approach resolves the problem that stable states could
+overwhelm changes in terms of numbers in a country-year matrix. We report comparable results using
+country-year data in Appendix (Tables A10 - A12).
+15
+--- PAGE 19 ---
+Third, the method requires the ordinal scale to be consistent between observations on the
+same indicator (Lindenfors, Krusell, and Lindberg, 2019; Lindenfors et al., 2018). The V-Dem data
+largely satisﬁes this assumption as the project’s extensive work has been addressing diﬀerential item
+functioning of expert rating using various tools (Marquardt et al., 2018; Marquardt and Pemstein,
+2018; Pemstein et al., 2022).
+Fourth, the ordinal scales between indicators should be comparable. An ordinal level on one
+indicator should correspond to the same level on all other indicators in the analysis (e.g., ordinal level
+1 should correspond to a 1 on everything else). This implies that the indicators should have the same
+observable ranges and level of measurement. For this reason and following Edgell et al. (2021), we
+rescaled 6 variables relating to media and civic participation (by min/max) and suﬀrage (by quintiles)
+into V-Dem’s standard 0-4 ordinal scale for comparability.
+Finally, the analysis here does not account for exogenous variables, such as economic recession,
+pandemics, migration crisis, that may aﬀect the course of autocratization. While we are aware of
+importance of such exogenous conditions, we rather focus on the process of internal reform in this
+study. This is because such internal processes have not received suﬃcient attention in previous studies
+and these processes are likely to inﬂuence how policymakers respond to ongoing changes in democratic
+regimes. However, we recognize that unobserved confounders may at least partly drive the results of
+our domination analyses.
+Results
+Figure 2 shows the general order of institutional decay in the full sample of episodes based on the
+domination scores for the indicators of the three accountability indices. Higher values of the score
+suggest that the indicator declined earlier in the autocratization process, while lower values of the
+score mean that the indicator declined later in the process. The ﬁgure demonstrates the average
+values of domination score for the indicators of each accountability index and the 99% conﬁdence
+limits obtained by the basic nonparametric bootstrap.
+For the full sample of episodes, horizontal accountability has the largest average domination
+score, indicating that it tends to be an earlier decliner across all autocratization episodes. Then,
+diagonal accountability has the second-largest score. Therefore, the most common institutional order
+of change tends to be (1) horizontal accountability, (2) diagonal accountability, and (3) vertical ac-
+16
+--- PAGE 20 ---
+countability. This partly contradicts H1, which suggested that institutional decay would most often
+start from diagonal accountability but also proposed that vertical accountability would be the last
+category to decline.
+Second, Figure 3 demonstrates the diﬀerence in the domination scores for the indicators of three
+accountability indices across diﬀerent categories of episodes. For example, we subtract the domination
+scores for each indicator in the breakdown episodes from the scores in the survival episodes. If the
+diﬀerence is 0, the order is the same in both categories of episodes. But if the diﬀerence is negative,
+the score is larger for breakdown cases meaning that the decline of the indicator happens earlier in
+the breakdown episodes compared with survival cases. If the diﬀerence is positive, then the score is
+smaller for breakdown cases meaning that the decline of the indicator happens later in the breakdown
+episodes compared with survival cases.
+First, the institutional order of autocratization in episodes that lead to democratic survival
+yields a slight diﬀerence from the breakdown episodes (Figure 3, upper left). The score for horizontal
+accountability is lower in the survival episodes. This indicates that, on average, the decline of horizon-
+tal accountability is more often coming later in the episodes leading to democratic survival compared
+with the breakdown episodes. The upper-right panel in Figure 3 shows that the institutional order
+of autocratization episodes yields several diﬀerences depending on democratic stock. The diﬀerence
+in the domination score for diagonal accountability is positive, indicating that the score for diagonal
+accountability is higher in the episodes with high democratic stock. Thus, the decline in diagonal
+accountability happens earlier in episodes taking place in countries with high democratic stock. This
+is in accordance with our theoretical expectation: autocratization sequences are likely to start with
+declines in diagonal accountability if levels of democratic stock are high (H2). In addition, compared
+to the episodes with low democratic stock, horizontal accountability declines at later stages in the
+episodes with longer democratic experience.
+The results also show that the order of institutional decay tends to vary depending on the wave
+of autocratization (Figure 3, lower-left panel). The scores for vertical and horizontal accountability are
+higher in the episodes in the third wave. This indicates that both horizontal and vertical accountability
+tend to decline earlier for the episodes of the third wave compared with the episodes before the third
+wave. Meanwhile, the indicators of diagonal accountability on average tend to decline later in the
+third wave compared with episodes before it. This is in accordance with our theoretical expectations
+in H3.
+17
+--- PAGE 21 ---
+Figure 2. Order of Institutional Decay in Autocratization Episodes
+Diagonal Accountability
+Horizontal Accountability
+Vertical Accountability
+−30 −20 −10 0 10 20 30
+Domination Score (Later to Early) for Entire Episodes
+Note: The ﬁgure shows the distribution of domination scores for indicators in each of the three accountability
+indices in entire episodes and the 99% conﬁdence limits. The indicators with lower scores decline later in the
+autocratization process while the indicators with higher scores decline earlier in the process.
+Lastly, the lower-right panel in Figure 3 shows that, the institutional order slightly diﬀers by
+the democratic stock during the third wave of autocratization. The direction of the diﬀerence is
+consistent with the upper-right panel comparing the order by democratic stock for the entire sample.
+The diﬀerence in the domination score for diagonal accountability is positive, indicating that the
+decline in diagonal accountability happens earlier in episodes taking place in countries with high
+democratic stock during the third wave. This is in accordance with our theoretical expectation in H4.
+Figure A3 in Appendix further shows the distribution of the average ﬁrst values of indicators
+for three accountability mechanisms. An absence of substantial diﬀerence in the ﬁrst values between
+waves indicates that the observed diﬀerence in the institutional order is not derived from the initial
+conditions of the autocratization episodes by waves. In addition, the ﬁrst values for diagonal account-
+ability indicators are, on average, larger in the third wave than before. It indicates that diagonal
+accountability tends to decline later in the third wave, not because they declined before the autocra-
+tization episode starts. But it is because the order of institutional decay is diﬀerent in the third wave
+of autocratization.
+Breakdown and Survival in Detail
+Next, we further analyze the institutional order of autocratization by focusing on the indicators that
+compose the three accountability mechanisms. First, Figure 4 plots the domination scores for each
+18
+--- PAGE 22 ---
+Figure 3. Diﬀerence in Order of Institutional Decay by Episode Outcome, Democratic Stock,
+and Wave
+Diagonal Accountability
+Horizontal Accountability
+Vertical Accountability
+−20 −10 0 10 20
+Difference in Scores for Survival and Breakdown Episodes
+Diagonal Accountability
+Horizontal Accountability
+Vertical Accountability
+−20 −10 0 10 20
+Difference in Scores for High and Low Democratic Stock
+Diagonal Accountability
+Horizontal Accountability
+Vertical Accountability
+−20 −10 0 10 20
+Difference in Scores for Third Wave and Pre−Third Wave
+Diagonal Accountability
+Horizontal Accountability
+Vertical Accountability
+−20 −10 0 10 20
+Difference in Scores for High and Low Democratic Stock in Third Wave
+Note: The ﬁgure shows the distribution of the diﬀerence in domination scores of the indicators in the three
+accountability indices across diﬀerent categories of episodes and the 99% conﬁdence limits. A score of 0 means
+that there is no diﬀerence in the institutional order between the categories.
+of the 31 indicators, comparing episodes with a democratic breakdown (horizontal axis) to those that
+survived the autocratization process (vertical axis). Indicators developing comparatively earlier or
+later for both outcomes appear in the upper-right and the lower-left quadrants, respectively. The
+shaded area represents the estimated 99 percent conﬁdence interval from a bivariate linear regression
+between domination scores for survival and breakdown episodes. For example, the indicator for suﬀrage
+is almost on the estimated line of the lower-left quadrant, meaning that suﬀrage declines in the end of
+the autocratization process in both survival or breakdown episodes. “Freedom of discussion for men,”
+on the other hand, falls outside of the conﬁdence intervals, meaning it declines rather early in episodes
+that have experienced a democratic breakdown compared with episodes that have survived.
+This ﬁgure yields three additional and novel insights about the institutional order of autocra-
+tization. First, the results reveal a remarkable consistency in the ordering of reforms during autoc-
+ratization, regardless of its outcome. The ﬁtted linear regression shows a strong correlation between
+domination scores for the episodes that resulted in democratic breakdown or survival, with a coeﬃcient
+of 0.88 ( p < 0.01) and an adjusted R2 of 0.79 (Model 1, Table A8).
+Second, we demonstrate that some variables distinguish episodes that lead to breakdown from
+ones that survive. They are the ones with the greatest and statistically signiﬁcant deviations from the
+regression diagonal. Notably, executive oversight by the legislature, legislature investigates in practice,
+19
+--- PAGE 23 ---
+Figure 4. Pairwise Domination Scores in Autocratization Episodes by Episode Outcome
+Suffrage
+Elections multiparty
+Barriers to parties
+Party ban
+Opposition parties autonomy
+Print/broadcast media perspectives
+Election voter registry
+Election government intimidation
+Election free and fair
+CSO participatory environment
+Print/broadcast media critical
+EMB capacity
+Freedom of discussion for men
+Freedom of discussion for women
+CSO repression
+Media bias
+EMB autonomy
+CSO entry and exit
+Compliance with high court
+Compliance with judiciary
+Lower court independence
+Executive respects constitution
+Election other voting irregularities
+High court independence
+Government censorship effort −−− Media
+Legislature investigates in practice
+Engaged society
+Harassment of journalists
+Executive oversight
+Later Earlier
+−30
+−20
+−10
+0
+10
+20
+30
+Later
+Earlier
+−30 −20 −10 0 10 20 30
+Democratic Breakdown
+Democratic Survival
+Diagonal Accountability Horizontal Accountability Vertical Accountability
+and EMB autonomy decline relatively earlier in democracies that eventually break down (upper-right
+quadrant).13 This seems to indicate that democratic breakdown depends on incumbents that can
+swiftly derail safeguards of democracy that provide counter-balancing power to the executive and
+guarantee independent election administration. Meanwhile, election free and fair and print/broadcast
+media critical decline relatively earlier in the survival cases (upper-left quadrant). 14
+Democratic Stock in Detail
+Figure 5 again plots the domination scores for all the 31 indicators but now compares episodes with low
+democratic stock (horizontal axis) to those with high democratic stock (vertical axis). Similar to the
+13Executive oversight ( e = −11.35), legislature investigates in practice ( e = −7.70), and EMB autonomy
+(e = −7.42) have the highest residual values (Table A9).
+14Election free and fair ( e = 12.73) and print/broadcast media critical ( e = 10.31).
+20
+--- PAGE 24 ---
+ﬁrst model comparing the outcomes of the episode, we ﬁnd the strong similarities in the autocratization
+process across episodes with low and high democratic experiences. 15
+However, there is a notable diﬀerence in the institutional order of decay between the episodes
+with high and low democratic stock. The variables making up diagonal accountability, such as gov-
+ernment censorship eﬀort, freedom of academic and cultural expression, CSO repression, and freedom
+of discussion for men and women, decline earlier in episodes with high democratic stock compared
+to episodes with low democratic stock (see also Table A9). 16 Meanwhile, the variables relating to
+horizontal and vertical accountability decline relatively early in the cases with low democratic stock.
+These variables include high court independence (horizontal accountability), election other voting
+irregularity (vertical accountability), and EMB autonomy (vertical accountability). 17
+Thus, the results reveal that institutional decay is likely to start with the erosion of diagonal
+accountability in the episodes with high democratic stock, while it is likely to start with the erosion
+of horizontal and vertical accountability in the episodes with limited democratic experience. These
+results corroborate the underlying theoretical intuitions for H2. If an incumbent wants to derail
+democracy in a country with a long history of democracy, where institutions of horizontal checks and
+balances and electoral integrity are strong, he would probably do best to begin by attacking more
+“vulnerable” aspects of democracy, such as civil society, academic freedom, and media freedom.
+Waves of Autocratization in Detail
+Figure 6 plots the domination scores comparing episodes in the pre-third wave of autocratization
+(horizontal axis) to those in the third wave (vertical axis). The results conﬁrm the general consistency
+in the ordering of democratic regression across the waves of autocratization. 18
+There is also a notable diﬀerence in the institutional order of decay between the two subsets of
+episodes. The variables composing horizontal and vertical accountability decline relatively earlier in the
+third wave of autocratization compared to previous waves.19 Meanwhile, the variables associated with
+15The regression coeﬃcient is 0.92 ( p < 0.01) and an adjusted R2 of 0.81 (Model 2, Table A8).
+16Freedom of academic and cultural expression ( e = 13 .00), CSO repression ( e = 10 .55), and freedom of
+discussion for men and women (both e = 8.62) (Table A9).
+17Election voter registry (e = −14.45), election other voting irregularities ( e = −10.49), election free and fair
+(e = −12.30), and EMB capacity ( e = −8.08).
+18The regression coeﬃcient is 0.88 ( p < 0.01) and the adjusted R2 is 0.77 (Model 3, Table A8).
+19Election other voting irregularities ( e = 16.00), high court independence ( e = 13.59), lower court indepen-
+dence (e = 12.47), and executive respects constitution ( e = 10.82) (Table A9).
+21
+--- PAGE 25 ---
+Figure 5. Pairwise Domination Scores in Autocratization Episodes by Democratic Stock
+Suffrage
+Elections multiparty
+Barriers to parties
+Party ban
+Print/broadcast media perspectives
+Opposition parties autonomy
+Election government intimidation
+CSO participatory environment
+CSO repression
+Election voter registry
+Print/broadcast media critical
+Freedom of discussion for men
+Freedom of discussion for women
+Election free and fair
+EMB capacity
+Media bias
+Freedom of academic and cultural expression
+CSO entry and exit
+Media self−censorship
+EMB autonomy
+Compliance with high court
+Compliance with judiciary
+Executive respects constitution
+Government censorship effort −−− Media
+High court independence
+Lower court independence
+Executive oversight
+Engaged society
+Election other voting irregularities
+Legislature investigates in practice
+Harassment of journalists
+Later Earlier
+−30
+−20
+−10
+0
+10
+20
+30
+Later
+Earlier
+−30 −20 −10 0 10 20 30
+Low Democratic Stock
+High Democratic Stock
+Diagonal Accountability Horizontal Accountability Vertical Accountability
+diagonal accountability, including Print/broadcast media perspectives, CSO entry and exit, freedom of
+academic and cultural expression, declined earlier in the pre-third wave compared to the third wave.20
+These results indicate that the erosion of horizontal accountability (and certain aspects of ver-
+tical accountability) happens earlier during the third wave of autocratization than in the pre-third
+wave period. This ﬁnding is in accordance with our expectations in H3: in the third wave, autoc-
+ratization sequences are especially likely to start with declines in horizontal accountability. Further,
+the erosion of diagonal accountability happens later in the third wave of autocratization compared
+with before. This result may suggest that anti-pluralists tend to come to power without facing re-
+pression during contemporary autocratization episodes. However, once in oﬃce, anti-pluralists almost
+immediately reduce executive constraints by the legislature and judiciary. Only later do they repress
+20Print/broadcast media perspectives (e = −10.82), CSO entry and exit (e = −9.23), and freedom of academic
+and cultural expression ( e = −8.47).
+22
+--- PAGE 26 ---
+Figure 6. Pairwise Domination Scores in Autocratization Episodes by Wave
+Suffrage
+Elections multiparty
+Barriers to parties
+Election voter registry
+Opposition parties autonomy
+Election government intimidation
+Party ban
+Election free and fair
+Print/broadcast media perspectives
+CSO participatory environment EMB capacity
+Print/broadcast media critical
+Election other voting irregularities
+Freedom of discussion for men
+Media self−censorship
+CSO repression
+EMB autonomy
+Freedom of discussion for women
+Compliance with high court
+Lower court independence
+High court independence
+Media bias
+Compliance with judiciary
+Executive respects constitution
+Freedom of academic and cultural expression
+CSO entry and exit
+Legislature investigates in practice
+Government censorship effort −−− Media
+Engaged society
+Executive oversight
+Harassment of journalists
+Later Earlier
+−30
+−20
+−10
+0
+10
+20
+30
+Later
+Earlier
+−30 −20 −10 0 10 20 30
+Before the Third Wave of Autocratization
+Third Wave of Autocratization
+Diagonal Accountability Horizontal Accountability Vertical Accountability
+non-institutional actors and reform electoral procedures. 21 Such ﬁndings align with previous research
+showing that democratic resilience is substantially weaker in the third wave of autocratization (Boese
+et al., 2021).
+Conclusion
+In this article, we examined the order of institutional changes that characterize autocratization. Pre-
+vious studies evaluated the factors that inﬂuence the onset of autocratization episodes or democratic
+breakdown. However, past research has rarely unpacked the process of autocratization: the order in
+which diﬀerent aspects of democracy decline. To address this gap, we revisit existing theories capturing
+21The detailed analysis comparing the episodes among the third wave of autocratization (high vs. low demo-
+cratic stock) is not included because the sample size is very small (N= 35), and it has limited capacity to make
+a general implication.
+23
+--- PAGE 27 ---
+observable patterns of democratic breakdown and analyze the autocratization process in a systematic
+way. We utilize new data on autocratization episodes and a unique methodological approach, pairwise
+domination analysis, to understand the order in which autocratization processes unfold.
+Our research yields several important insights. We ﬁrst ﬁnd that autocratization generally
+follows a common pattern: aspects of horizontal and diagonal accountability decline ﬁrst, followed
+by declines in vertical accountability. However, we also ﬁnd that democratic breakdown is espe-
+cially common when executive oversight, legislature investigation, or EMB autonomy decline early in
+the autocratization process. These ﬁndings generate two plausible inferences. First, the substantial
+similarity in the patterns of reforms could suggest that exogenous factors may matter more than insti-
+tutional ordering when explaining the outcomes of autocratization. Alternatively, our ﬁndings could
+mean that minimal changes in the sequence of reforms have substantive eﬀects on the propensity for
+democratic breakdown. For example, democratic breakdown is especially common when incumbents
+swiftly reduce checks on the executive and guarantees for independent electoral administration. If the
+latter inference holds, earlier reforms to executive oversight, legislative investigations, and EMB may
+provide essential warning signs about the trajectory of autocratization.
+Our empirical results also indicate that underlying conditions in autocratizing countries yield
+diﬀerent sequences of autocratization, each of which may be more or less vulnerable to democratic
+breakdown. First, in episodes with high democratic stock, institutional decay tends to start with the
+erosion of diagonal accountability. In contrast, the level of judicial constraints or EMB autonomy
+tends to decline earlier in countries with low democratic stock. These empirical ﬁndings suggest
+that leaders in countries with solid democratic institutions start their anti-democratic reforms with
+more vulnerable institutions, such as those protecting the rights of civil society, academics, and the
+media. Second, our ﬁndings show that the decline of horizontal and vertical accountability tends to
+be observed in the earlier phase during the third wave of autocratization. In detail, the erosion of high
+court independence and/or election irregularities happens earlier during the third wave compared with
+episodes observed before. Such ﬁndings may corroborate studies that stress the erosion of democratic
+institutions as a central characteristic found in the third wave of autocratization (e.g., Bermeo, 2016).
+Future research needs to examine whether these diﬀerences in ordering by the diﬀerent outcomes
+or underlying conditions are causal and whether they hold up to models accounting for exogenous
+forces. Our research using the domination analysis provides a starting point to study independent
+eﬀects of the order of the autocratic reform on the course of the autocratization process.
+24
+--- PAGE 28 ---
+References
+Alem´ an, Jos´ e and David D Yang (2011). “A duration analysis of democratic transitions and
+authoritarian backslides”. In: Comparative Political Studies 44.9, pp. 1123–1151.
+Bermeo, Nancy G (2016). “On democratic backsliding”. In: Journal of Democracy 27.1, pp. 5–
+19.
+Bernhard, Michael, Christopher Reenock, and Timothy Nordstrom (2003). “Economic perfor-
+mance and survival in new democracies: Is there a honeymoon eﬀect?” In: Comparative
+Political Studies 36.4, pp. 404–431.
+Boese, Vanessa A, Amanda B Edgell, Sebastian Hellmeier, Seraphine F Maerz, and Staﬀan I
+Lindberg (2021). “How democracies prevail: democratic resilience as a two-stage process”.
+In: Democratization 5.28, pp. 885–907.
+Boese, Vanessa A, Staﬀan I Lindberg, and Anna L¨ uhrmann (2021). “Waves of autocratization
+and democratization: a rejoinder”. In: Democratization 6.28, pp. 1202–1210.
+Boix, Carles and Susan C Stokes (2003). “Endogenous democratization”. In: World politics
+55.4, pp. 517–549.
+Boix, Carles et al. (2003). Democracy and redistribution. Cambridge University Press.
+Capoccia, Giovanni (2005). Defending democracy: Reactions to extremism in interwar Europe .
+JHU Press.
+— (2013). “Militant democracy: The institutional bases of democratic self-preservation”. In:
+Annual Review of Law and Social Science 9, pp. 207–226.
+Cassani, Andrea and Luca Tomini (2020). “Reversing regimes and concepts: from democrati-
+zation to autocratization”. In: European Political Science 19.2, pp. 272–287.
+Coppedge, Michael, John Gerring, Carl Henrik Knutsen, Staﬀan I. Lindberg, Jan Teorell, Nazifa
+Alizada, David Altman, Michael Bernhard, Agnes Cornell, M. Steven Fish, Lisa Gastaldi,
+Haakon Gjerløw, Adam Glynn, Sandra Grahn, Allen Hicken, Garry Hindle, Nina Ilchenko,
+Katrin Kinzelbach, Joshua Krusell, Kyle L. Marquardt, Kelly McMann, Valeriya Mechkova,
+Juraj Medzihorsky, Pamela Paxton, Daniel Pemstein, Joseﬁne Pernes, Oskar Ryd /acute.ts1en, Jo-
+hannes von R¨ omer, Brigitte Seim, Rachel Sigman, Svend-Erik Skaaning, Jeﬀrey Staton, Ak-
+sel Sundstr¨ om, Eitan Tzelgov, Yi-ting Wang, Tore Wig, Steven Wilson, and Daniel Ziblatt
+(2022a). V-Dem Country-Year Dataset v12 . doi: https://doi.org/10.23696/vdemds22.
+Coppedge, Michael, John Gerring, Carl Henrik Knutsen, Staﬀan I Lindberg, Jan Teorell, Kyle
+L Marquardt, Juraj Medzihorsky, Daniel Pemstein, Nazifa Alizada, Lisa Gastaldi, Garry
+Hindle, Joseﬁne Pernes, Johannes von R¨ omer, Eitan Tzelgov, Yi-ting Wang, and Steven
+Wilson (2022b). V-Dem Codebook v12 . Varieties of Democracy (V-Dem) Project.
+Diamond, Larry (2015). “Facing up to the democratic recession”. In: Journal of Democracy
+26.1, pp. 141–155.
+Edgell, Amanda B, Vanessa A Boese, Seraphine F Maerz, Patrik Lindenfors, and Staﬀan I
+Lindberg (2021). “The Institutional Order of Liberalization”. In: British Journal of Political
+Science 3.52, pp. 1465–1471.
+Edgell, Amanda B., Seraphine F. Maerz, Laura Maxwell, Richard Morgan, Juraj Medzihorsky,
+Matthew C. Wilson, Vanessa A. Boese, Sebastian Hellmeier, Jean Lachapelle, Patrik Linden-
+fors, Anna L¨ uhrmann, and Staﬀan I. Lindberg (2022).Episodes of Regime Transformation
+Dataset, v4 . url: https://github.com/vdeminstitute/ERT.
+Edgell, Amanda B, Matthew C Wilson, Vanessa A Boese, and Sandra Grahn (2020). “Demo-
+cratic legacies: using democratic stock to assess norms, growth, and regime trajectories”.
+In: V-Dem Working Paper 100.
+25
+--- PAGE 29 ---
+Epstein, David L, Robert Bates, Jack Goldstone, Ida Kristensen, and Sharyn O’Halloran (2006).
+“Democratic transitions”. In: American journal of political science 50.3, pp. 551–569.
+Fuchs-Sch¨ undeln, Nicola and Matthias Sch¨ undeln (2015). “On the endogeneity of political
+preferences: Evidence from individual experience with democracy”. In: Science 347.6226,
+pp. 1145–1148.
+Gasiorowski, Mark J (1995). “Economic crisis and political regime change: An event history
+analysis”. In: American political science review 89.4, pp. 882–897.
+Gates, Scott, H˚ avard Hegre, Mark P Jones, and H˚ avard Strand (2006). “Institutional incon-
+sistency and political instability: Polity duration, 1800–2000”. In: American Journal of
+Political Science 50.4, pp. 893–908.
+Gerschewski, Johannes (2021). “Erosion or decay? Conceptualizing causes and mechanisms of
+democratic regression”. In: Democratization 28.1, pp. 43–62.
+Ginsburg, Tom and Aziz Z Huq (2018). “How to save a constitutional democracy”. In: How to
+Save a Constitutional Democracy . University of Chicago Press.
+Guiso, Luigi, Paola Sapienza, and Luigi Zingales (2016). “Long-term persistence”. In: Journal
+of the European Economic Association 14.6, pp. 1401–1436.
+Haggard, Stephan and Robert Kaufman (2021). Backsliding: Democratic Regress in the Con-
+temporary World. Cambridge University Press.
+Hawkins, Kirk A (2016). “Responding to radical populism: Chavismo in Venezuela”. In: De-
+mocratization 23.2, pp. 242–262.
+Hellmeier, Sebastian, Rowan Cole, Sandra Grahn, Palina Kolvani, Jean Lachapelle, Anna
+L¨ uhrmann, Seraphine F Maerz, Shreeya Pillai, and Staﬀan I Lindberg (2021). “State of
+the world 2020: autocratization turns viral”. In: Democratization 6.28, pp. 1053–1074.
+Houle, Christian (2009). “Inequality and democracy: Why inequality harms consolidation but
+does not aﬀect democratization”. In: World politics 61.4, pp. 589–622.
+Huntington, Samuel P (1993). The third wave: Democratization in the late twentieth century .
+Vol. 4. University of Oklahoma press.
+— (2006). Political order in changing societies . Yale University Press.
+Hyde, Susan D (2020). “Democracy’s backsliding in the international environment”. In:Science
+369.6508, pp. 1192–1196.
+Kaltwasser, Crist´ obal Rovira and Paul Taggart (2016). “Dealing with populists in government:
+a framework for analysis”. In: Democratization 23.2, pp. 201–220.
+Krussell, Joshua (2017). SeqR: Ordinal Sequence Analysis, v0.1.0. url: https://github.com/
+jsks/seqR.
+Laebens, Melis G and Anna L¨ uhrmann (2021). “What halts democratic erosion? The changing
+role of accountability”. In: Democratization 5.28, pp. 908–928.
+Levitsky, Steven and Lucan A Way (2010). Competitive authoritarianism: Hybrid regimes after
+the Cold War . Cambridge University Press.
+Levitsky, Steven and Daniel Ziblatt (2018). How democracies die . Broadway Books.
+Lindberg, Staﬀan I. (2006). Democracy and elections in Africa. Johns Hopkins University Press.
+Lindenfors, Patrik, Fredrik Jansson, Yi-ting Wang, and Staﬀan I Lindberg (2018). “Investi-
+gating sequences in ordinal data: A new approach with adapted evolutionary models”. In:
+Political Science Research and Methods 6.3, pp. 449–466.
+Lindenfors, Patrik, Joshua Krusell, and Staﬀan I Lindberg (2019). “Sequential Requisites Anal-
+ysis: A New Method for Analyzing Sequential Relationships in Ordinal Data”. In: Social
+science quarterly 100.3, pp. 838–856.
+Linz, Juan J. (1978). The Breakdown of Democratic Regimes: Crisis, Breakdown and Re-
+equilibration. Baltimore, Johns Hopkins University Press.
+26
+--- PAGE 30 ---
+Linz, Juan J (1990). “The perils of presidentialism”. In: Journal of democracy 1.1, pp. 51–69.
+Loewenstein, Karl (1937). “Militant democracy and fundamental rights”. In:American Political
+Science Review 31.3, pp. 417–432.
+L¨ uhrmann, Anna (2021). “Disrupting the autocratization sequence: towards democratic re-
+silience”. In: Democratization 28.5, pp. 1017–1039.
+L¨ uhrmann, Anna and Staﬀan I Lindberg (2019). “A third wave of autocratization is here: what
+is new about it?” In: Democratization 26.7, pp. 1095–1113.
+L¨ uhrmann, Anna, Kyle L Marquardt, and Valeriya Mechkova (2020). “Constraining govern-
+ments: New indices of vertical, horizontal, and diagonal accountability”. In: American Po-
+litical Science Review 114.3, pp. 811–820.
+L¨ uhrmann, Anna, Juraj Medzihorsky, and Staﬀan I Lindberg (2021). “Walking the Talk: How
+to Identify Anti-Pluralist Parties”. In: V-Dem Working Paper 116.
+Lupu, Noam (2014). “Brand dilution and the breakdown of political parties in Latin America”.
+In: World Politics 66.4, pp. 561–602.
+Maerz, Seraphine F, Amanda Edgell, Matthew C Wilson, Sebastian Hellmeier, and Staﬀan I
+Lindberg (2021). “A framework for understanding regime transformation: introducing the
+ERT dataset”. In: V-Dem Working Paper 113.
+Mainwaring, Scott, Timothy Scully, et al. (1995). Building democratic institutions: Party sys-
+tems in Latin America . Stanford University Press Stanford.
+Marquardt, Kyle L and Daniel Pemstein (2018). “IRT models for expert-coded panel data”.
+In: Political Analysis 26.4, pp. 431–456.
+Marquardt, Kyle L, Daniel Pemstein, Brigitte Seim, and Yi-ting Wang (2018). “What makes
+experts reliable?” In: V-Dem Working Paper 68.
+McCoy, Jennifer, Tahmina Rahman, and Murat Somer (2018). “Polarization and the global cri-
+sis of democracy: Common patterns, dynamics, and pernicious consequences for democratic
+polities”. In: American Behavioral Scientist 62.1, pp. 16–42.
+Mechkova, Valeriya, Anna L¨ uhrmann, and Staﬀan I Lindberg (2017). “How much democratic
+backsliding?” In: Journal of Democracy 28.4, pp. 162–169.
+Pemstein, Daniel, Kyle L. Marquardt, Eitan Tzelgov, Yi-ting Wang, Juraj Medzihorsky, Joshua
+Krusell, Farhad Miri, and Johannes von R¨ omer (2022). “The V–Dem Measurement Model:
+Latent Variable Analysis for Cross-National and Cross-Temporal Expert-Coded Data”. In:
+V-Dem Working Paper 21, 7th edition.
+P´ erez-Li˜ n´ an, An´ ıbal and Scott Mainwaring (2013). “Regime legacies and levels of democracy:
+evidence from Latin America”. In: Comparative Politics 45.4, pp. 379–397.
+Persson, Torsten and Guido Tabellini (2009). “Democratic capital: The nexus of political and
+economic change”. In: American Economic Journal: Macroeconomics 1.2, pp. 88–126.
+Petrarca, Constanza Sanhueza, Heiko Giebler, and Bernhard Weßels (2022). “Support for insider
+parties: The role of political trust in a longitudinal-comparative perspective”. In: Party
+Politics 28.2, pp. 329–341.
+Przeworski, Adam and Fernando Limongi (1997). “Modernization: Theories and facts”. In:
+World politics 49.2, pp. 155–183.
+Reenock, Christopher, Jeﬀrey K Staton, and Marius Radean (2013). “Legal institutions and
+democratic survival”. In: The Journal of Politics 75.2, pp. 491–505.
+Runciman, David (2018). How democracy ends . Proﬁle Books.
+Somer, Murat, Jennifer L. McCoy, and Russell E. Luke (2021). “Pernicious polarization, auto-
+cratization and opposition strategies”. In: Democratization 28.5, pp. 929–948.
+27
+--- PAGE 31 ---
+Svolik, Milan W (2015). “Which democracies will last? Coups, incumbent takeovers, and the
+dynamic of democratic consolidation”. In: British Journal of Political Science 45.4, pp. 715–
+738.
+Waldner, David and Ellen Lust (2018). “Unwelcome change: Coming to terms with democratic
+backsliding”. In: Annual Review of Political Science 21, pp. 93–113.
+Weyland, Kurt (2020). “Populism’s threat to democracy: Comparative lessons for the United
+States”. In: Perspectives on Politics 18.2, pp. 389–406.
+28
+--- PAGE 32 ---
+Appendix
+Table A1. List of the Autocratization Episodes (1900-2021)
+Country Start End Outcome
+1 Argentina 1930 1931 Democratic breakdown
+2 Argentina 1966 1967 Democratic breakdown
+3 Armenia 1993 2008 Democratic breakdown
+4 Austria 1931 1938 Democratic breakdown
+5 Bangladesh 2002 2007 Democratic breakdown
+6 Belarus 1995 2001 Democratic breakdown
+7 Belgium 1914 1915 Democratic breakdown
+8 Belgium 1940 1941 Democratic breakdown
+9 Benin 2018 2021 Democratic breakdown
+10 Bolivia 2006 2020 Democratic breakdown
+11 Burkina Faso 2014 2015 Democratic breakdown
+12 Chile 1972 1974 Democratic breakdown
+13 Czech Republic 1930 1940 Democratic breakdown
+14 Denmark 1940 1944 Democratic breakdown
+15 Ecuador 2007 2013 Averted regression
+16 El Salvador 2015 2021 Democratic breakdown
+17 Estonia 1932 1935 Democratic breakdown
+18 Estonia 1991 1992 Democratic breakdown
+19 Fiji 1987 1988 Democratic breakdown
+20 Fiji 2000 2001 Democratic breakdown
+21 France 1939 1941 Democratic breakdown
+22 France 1965 1965 Averted regression
+23 Germany 1923 1939 Democratic breakdown
+24 Honduras 2006 2010 Democratic breakdown
+25 Hungary 2010 2021 Democratic breakdown
+26 India 1971 1975 Preempted democrtic breakdown
+27 India 2000 2021 Democratic breakdown
+28 Ivory Coast 2019 2021 Democratic breakdown
+29 Latvia 1934 1939 Democratic breakdown
+30 Lesotho 2015 2017 Averted regression
+31 Lithuania 1924 1927 Democratic breakdown
+32 Luxembourg 1940 1941 Democratic breakdown
+33 Madagascar 1997 2002 Democratic breakdown
+34 Malawi 1999 2004 Democratic breakdown
+35 Maldives 2012 2016 Democratic breakdown
+36 Mali 2007 2012 Democratic breakdown
+37 Mali 2017 2021 Democratic breakdown
+38 Malta 1958 1959 Democratic breakdown
+39 Moldova 1998 2006 Democratic breakdown
+40 Moldova 2012 2017 Averted regression
+41 Netherlands 1940 1941 Democratic breakdown
+42 Nicaragua 2006 2021 Democratic breakdown
+43 Niger 1996 1996 Democratic breakdown
+44 Niger 2009 2010 Democratic breakdown
+Continued on next page
+i
+--- PAGE 33 ---
+Table A1 – Continued from previous page
+45 North Macedonia 2000 2000 Preempted democrtic breakdown
+46 North Macedonia 2005 2012 Democratic breakdown
+47 Norway 1940 1943 Democratic breakdown
+48 Palestine/West Bank 2006 2008 Democratic breakdown
+49 Papua New Guinea 2007 2013 Democratic breakdown
+50 Peru 1990 1992 Democratic breakdown
+51 Philippines 2001 2005 Democratic breakdown
+52 Philippines 2016 2021 Democratic breakdown
+53 Poland 1926 1931 Democratic breakdown
+54 Serbia 2010 2021 Democratic breakdown
+55 Solomon Islands 2000 2001 Democratic breakdown
+56 South Korea 2008 2014 Averted regression
+57 Spain 1936 1940 Democratic breakdown
+58 Sri Lanka 1970 1982 Democratic breakdown
+59 Sri Lanka 2004 2006 Democratic breakdown
+60 Suriname 1980 1981 Democratic breakdown
+61 Thailand 2005 2007 Democratic breakdown
+62 Turkey 1980 1981 Democratic breakdown
+63 Turkey 2005 2021 Democratic breakdown
+64 Ukraine 1997 2004 Democratic breakdown
+65 Ukraine 2010 2014 Democratic breakdown
+66 Uruguay 1933 1934 Democratic breakdown
+67 Uruguay 1963 1974 Democratic breakdown
+68 Venezuela 1998 2007 Democratic breakdown
+69 Zambia 2010 2019 Democratic breakdown
+Notes: To be considered sustained and substantial, the default ERT data requires that the EDI decrease by at
+least 0.01 in the initial year and by at least 0.10 (10 percent of the total scale) throughout the episode (Maerz
+et al., 2021). Episodes terminate due to prolonged (5-year) periods of stasis, any substantial one-year (0.03)
+or ﬁve-year (0.10) improves, or a transition to electoral autocracy. Survival encompasses two sub-categories in
+the ERT data: averted regression and preempted democratic breakdown. We do not distinguish between these
+sub-categories in the analysis given that the number of episodes in which democracy survives is so small. Recent
+autocratization cases, including Brazil and Poland, are considered censored (or unﬁnished) cases.
+ii
+--- PAGE 34 ---
+Figure A1. The three waves of autocratization (1900-2021)
+1. Wave 2. Wave 3. Wave
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+1900 1910 1920 1930 1940 1950 1960 1970 1980 1990 2000 2010 2020
+Number of Countries
+Autocratization
+Autocratization in (former) democracies
+Democratization
+Figure A2. Distribution of democratic stock in autocratization episodes (1900-2021)
+0
+2
+4
+6
+0.1 0.2 0.3 0.4 0.5
+Democracy Stock
+count
+Note: The ﬁgure shows the distribution of the starting values of democratic stock based on the LDI (scaled by
+0-1) among autocratization episodes. The mean value is 0.21.
+iii
+--- PAGE 35 ---
+Table A2. Autocratization Episodes by Conditions
+Before the Third Wave During the Third Wave
+(1900-1993) (1994-2021)
+Belgium (1914-1915) Benin (2018-2021)
+Belgium (1940-1941) Ecuador (2007-2013)
+Chile (1972-1974) Fiji (2000-2001)
+Denmark (1940-1944) India (2000-2021)
+Fiji (1987-1988) Papua New Guinea (2007-2013)
+High France (1939-1941) Philippines (2001-2005)
+Democratic Stock France (1965-1965) Philippines (2016-2021)
+Luxembourg (1940-1941) Solomon Islands (2000-2001)
+Malta (1958-1959) Sri Lanka (2004-2006)
+Netherlands (1940-1941) Venezuela (1998-2007)
+Norway (1940-1943)
+Sri Lanka (1970-1982)
+Suriname (1980-1981)
+Uruguay (1933-1934)
+Uruguay (1963-1974)
+Armenia (1993-2008) Bangladesh (2002-2007)
+Estonia (1932-1935) Belarus (1995-2001)
+Estonia (1991-1992) Bolivia (2006-2020)
+Germany (1923-1939) Burkina Faso (2014-2015)
+India (1971-1975) Ivory Coast (2019-2021)
+Latvia (1934-1939) Lesotho (2015-2017)
+Lithuania (1924-1927) Madagascar (1997-2002)
+Poland (1926-1931) Malawi (1999-2004)
+Spain (1936-1940) Maldives (2012-2016)
+Turkey (1980-1981) Mali (2007-2012)
+Mali (2017-2021)
+Moldova (1998-2006)
+Moldova (2012-2017)
+Nicaragua (2006-2021)
+Low Niger (1996-1996)
+Democratic Stock Niger (2009-2010)
+North Macedonia (2000-2000)
+North Macedonia (2005-2012)
+Serbia (2010-2021)
+South Korea (2008-2014)
+Thailand (2005-2007)
+Turkey (2005-2021)
+Ukraine (1997-2004)
+Ukraine (2010-2014)
+Zambia (2010-2019)
+Notes: 9 cases are not included as the information about democratic stock is missing.
+iv
+--- PAGE 36 ---
+Figure A3. Distribution of the average ﬁrst values of three accountability’s indicators by
+pre-third wave and third wave of autocratization episodes
+0 1 2 3 4
+0
+5
+10
+15
+20
+25
+0
+5
+10
+15
+20
+25
+Diagonal Accountability
+count
+0 1 2 3 4
+Horizontal Accountability
+Pre−Third WaveThird Wave
+0 1 2 3 4
+Vertical Accountability
+v
+--- PAGE 37 ---
+Table A3. Summary statistics of indicators
+Collapsed states Country-year
+Indicator Variable Index Obs Mean SD Obs Mean SD
+1 CSO repression v2csreprss ord Diagonal Accountability 204 2.91 0.84 258 2.97 0.81
+2 CSO entry and exit v2cseeorgs ord Diagonal Accountability 204 2.67 0.80 258 2.74 0.78
+3 CSO participatory environment v2csprtcpt ord Diagonal Accountability 204 3.05 1.04 258 3.14 1.01
+4 Engaged society v2dlengage ord Diagonal Accountability 204 2.16 0.66 258 2.23 0.65
+5 Freedom of discussion for men v2cldiscm ord Diagonal Accountability 204 3.05 0.83 258 3.10 0.79
+6 Freedom of discussion for women v2cldiscw ord Diagonal Accountability 204 2.98 0.71 258 3.03 0.68
+7 Freedom of academic and cultural expression v2clacfreeord Diagonal Accountability 204 2.72 0.75 258 2.79 0.74
+8 Media self-censorship v2meslfcen ord Diagonal Accountability 204 2.89 0.86 258 2.95 0.79
+9 Harassment of journalists v2meharjrn ord Diagonal Accountability 204 2.13 0.56 258 2.14 0.53
+10 Media bias v2mebias ord Diagonal Accountability 203 2.99 0.65 257 3.04 0.62
+11 Print/broadcast media critical v2mecrit ord Diagonal Accountability 204 3.14 0.71 258 3.20 0.68
+12 Government censorship eﬀort — Media v2mecenefmord Diagonal Accountability 204 2.32 0.97 258 2.41 0.94
+13 Print/broadcast media perspectives v2merange ord Diagonal Accountability 204 3.45 0.81 258 3.53 0.76
+14 Compliance with judiciary v2jucomp ord Horizontal Accountability 204 2.60 0.75 258 2.64 0.72
+15 Compliance with high court v2juhccomp ord Horizontal Accountability 204 2.74 0.67 258 2.77 0.64
+16 High court independence v2juhcind ord Horizontal Accountability 204 2.37 0.90 258 2.41 0.87
+17 Lower court independence v2juncind ord Horizontal Accountability 204 2.45 0.82 258 2.50 0.80
+18 Legislature investigates in practice v2lginvstp ord Horizontal Accountability 202 2.14 0.95 256 2.15 0.92
+19 Executive oversight v2lgotovst ord Horizontal Accountability 201 2.06 0.93 255 2.08 0.92
+20 Executive respects constitution v2exrescon ord Horizontal Accountability 204 2.53 0.63 258 2.58 0.60
+21 EMB autonomy v2elembaut ord Vertical Accountability 204 2.73 0.89 258 2.78 0.84
+22 EMB capacity v2elembcap ord Vertical Accountability 204 3.04 0.74 258 3.11 0.73
+23 Election voter registry v2elrgstry ord Vertical Accountability 204 3.46 0.68 258 3.49 0.64
+24 Election other voting irregularities v2elirreg ord Vertical Accountability 204 2.53 0.90 258 2.56 0.88
+25 Election free and fair v2elfrfair ord Vertical Accountability 204 3.29 0.72 258 3.34 0.68
+26 Election government intimidation v2elintim ord Vertical Accountability 204 3.44 0.59 258 3.48 0.57
+27 Elections multiparty v2elmulpar ord Vertical Accountability 204 3.94 0.37 258 3.95 0.33
+28 Suﬀrage e v2xsuﬀr5C Vertical Accountability 204 3.95 0.31 258 3.96 0.28
+29 Party ban v2psparban ord Vertical Accountability 204 3.80 0.57 258 3.84 0.52
+30 Barriers to parties v2psbars ord Vertical Accountability 204 3.81 0.61 258 3.85 0.55
+31 Opposition parties autonomy v2psoppaut ord Vertical Accountability 204 3.59 0.61 258 3.63 0.58
+Notes: Range for all variables is 0-4. The range for the following variables have been rescaled from their original 0-3 or 0-5 (engaged society) ordinal scale by division:
+media critical (v2mecritord), media perspectives (v2merangeord), media self-censorship (v2meslf cenord), CSO participatory environment (v2csprtcptord), and
+engaged society (v2dlengageord). Suﬀrage (e v2x suf f r5C) has been rescaled from 0-1 proportion quintiles to a 0-4 range by multiplication. The following election-
+speciﬁc variables have been carried forward within the electoral regime (v2 elecreg): v2elmulparord, v2elrgstryord, v2elvotbuyord, v2elirregord, v2elintimord.
+Given our interest in the temporal ordering of reforms, we omit variables exhibit limited within-country variation in our sample from the original indicators by
+L¨ uhrmann, Marquardt, and Mechkova (2020). Further, the variables for elected head of the executive (v2exelechos) and legislature questions oﬃcials in practice
+(v2lgqstexp) are both variables measured as 1 (yes) or 0 (no), which makes it diﬃcult to see incremental changes. Legislature bicameral (v2lgbicam) has an alternative
+response of 2 (having multiple legislatures), but these values are not ordered. The data for internet censorship (v2mecenef i) is only available after 2000. See Coppedge
+et al. (2022b) for the detail.
+vi
+--- PAGE 38 ---
+Table A4. Domination table for Figure 3 and 4 (outcome)
+Breakdown Survival
+Indicator Index d r score d r score
+Executive oversight Horizontal Accountability 0 23 23 2 11 9
+Engaged society Diagonal Accountability 0 22 22 0 27 27
+Harassment of journalists Diagonal Accountability 0 22 22 0 29 29
+Legislature investigates in practice Horizontal Accountability 0 20 20 2 12 10
+Government censorship eﬀort — Media Diagonal Accountability 0 17 17 1 13 12
+High court independence Horizontal Accountability 0 14 14 1 14 13
+Election other voting irregularities Vertical Accountability 1 14 13 2 9 7
+Lower court independence Horizontal Accountability 1 13 12 2 12 10
+Executive respects constitution Horizontal Accountability 0 12 12 2 12 10
+Compliance with judiciary Horizontal Accountability 3 11 8 2 11 9
+CSO entry and exit Diagonal Accountability 3 9 6 2 9 7
+Compliance with high court Horizontal Accountability 3 9 6 2 11 9
+Freedom of academic and cultural expression Diagonal Accountability 4 9 5 2 8 6
+EMB autonomy Vertical Accountability 4 9 5 8 5 -3
+Freedom of discussion for women Diagonal Accountability 6 6 0 7 4 -3
+CSO repression Diagonal Accountability 6 6 0 2 8 6
+Media bias Diagonal Accountability 5 5 0 2 8 6
+Freedom of discussion for men Diagonal Accountability 7 6 -1 18 0 -18
+Media self-censorship Diagonal Accountability 7 5 -2 2 8 6
+EMB capacity Vertical Accountability 8 5 -3 7 6 -1
+CSO participatory environment Diagonal Accountability 10 4 -6 10 4 -6
+Print/broadcast media critical Diagonal Accountability 10 4 -6 3 8 5
+Election free and fair Vertical Accountability 14 3 -11 3 6 3
+Election government intimidation Vertical Accountability 14 1 -13 10 6 -4
+Election voter registry Vertical Accountability 14 0 -14 17 0 -17
+Print/broadcast media perspectives Diagonal Accountability 17 0 -17 20 0 -20
+Opposition parties autonomy Vertical Accountability 20 0 -20 20 0 -20
+Party ban Vertical Accountability 22 0 -22 23 0 -23
+Elections multiparty Vertical Accountability 23 0 -23 23 0 -23
+Barriers to parties Vertical Accountability 23 0 -23 23 0 -23
+Suﬀrage Vertical Accountability 24 0 -24 23 0 -23
+Notes: Results from pairwise domination analysis of collapsed “states” in episodes of autocratizing democracy, disaggregated
+by outcome type. Statistics: d= number of indicators dominated; r =number of indicators dominated by; score= domination
+score (d-r). Results are sorted from low to high on domination score for episodes with democratic breakdown. Unit of analysis
+is the collapsed state.
+vii
+--- PAGE 39 ---
+Table A5. Domination table for Figure 3 and 5 (democracy stock)
+High Stock Low Stock
+Indicator Index d r score d r score
+Harassment of journalists Diagonal Accountability 0 27 27 0 22 22
+Engaged society Diagonal Accountability 0 24 24 0 20 20
+Executive oversight Horizontal Accountability 0 21 21 0 19 19
+Legislature investigates in practice Horizontal Accountability 0 19 19 0 20 20
+Government censorship eﬀort — Media Diagonal Accountability 1 17 16 0 14 14
+Executive respects constitution Horizontal Accountability 1 15 14 0 13 13
+Freedom of academic and cultural expression Diagonal Accountability 1 14 13 6 6 0
+High court independence Horizontal Accountability 2 12 10 0 16 16
+Compliance with judiciary Horizontal Accountability 2 11 9 1 11 10
+Lower court independence Horizontal Accountability 2 11 9 0 18 18
+Compliance with high court Horizontal Accountability 3 11 8 3 8 5
+Election other voting irregularities Vertical Accountability 3 11 8 0 20 20
+CSO entry and exit Diagonal Accountability 4 11 7 6 7 1
+CSO repression Diagonal Accountability 5 10 5 10 4 -6
+Freedom of discussion for men Diagonal Accountability 5 9 4 9 4 -5
+Freedom of discussion for women Diagonal Accountability 5 8 3 9 5 -4
+Media self-censorship Diagonal Accountability 6 7 1 5 7 2
+EMB autonomy Vertical Accountability 6 7 1 2 7 5
+Media bias Diagonal Accountability 7 6 -1 7 6 -1
+Print/broadcast media critical Diagonal Accountability 9 6 -3 10 4 -6
+EMB capacity Vertical Accountability 13 4 -9 7 6 -1
+CSO participatory environment Diagonal Accountability 13 0 -13 11 4 -7
+Election government intimidation Vertical Accountability 15 0 -15 14 2 -12
+Election free and fair Vertical Accountability 16 0 -16 8 4 -4
+Print/broadcast media perspectives Diagonal Accountability 18 0 -18 18 0 -18
+Opposition parties autonomy Vertical Accountability 20 0 -20 17 0 -17
+Election voter registry Vertical Accountability 20 0 -20 10 4 -6
+Suﬀrage Vertical Accountability 21 0 -21 25 0 -25
+Elections multiparty Vertical Accountability 21 0 -21 25 0 -25
+Barriers to parties Vertical Accountability 21 0 -21 24 0 -24
+Party ban Vertical Accountability 21 0 -21 24 0 -24
+Notes: Results from pairwise domination analysis of collapsed “states” in episodes of autocratizing democracy, disaggregated
+by levels of democracy stock. Statistics: d= number of indicators dominated; r =number of indicators dominated by; score=
+domination score (d-r). Results are sorted from low to high on domination score for episodes with a high democracy stock. Unit
+of analysis is the collapsed state.
+viii
+--- PAGE 40 ---
+Table A6. Domination table for Figure 3 and 6 (waves)
+Third wave Pre-third wave
+Indicator Index d r score d r score
+Harassment of journalists Diagonal Accountability 0 22 22 0 24 24
+Engaged society Diagonal Accountability 0 21 21 0 24 24
+Legislature investigates in practice Horizontal Accountability 0 20 20 0 17 17
+Executive oversight Horizontal Accountability 0 20 20 0 24 24
+High court independence Horizontal Accountability 0 18 18 3 8 5
+Executive respects constitution Horizontal Accountability 0 17 17 3 10 7
+Election other voting irregularities Vertical Accountability 0 16 16 7 7 0
+Lower court independence Horizontal Accountability 0 16 16 4 8 4
+Government censorship eﬀort — Media Diagonal Accountability 0 15 15 0 19 19
+Compliance with judiciary Horizontal Accountability 1 13 12 3 9 6
+Compliance with high court Horizontal Accountability 2 9 7 4 8 4
+CSO entry and exit Diagonal Accountability 4 8 4 0 15 15
+EMB autonomy Vertical Accountability 5 8 3 5 8 3
+Freedom of academic and cultural expression Diagonal Accountability 4 7 3 0 13 13
+Media self-censorship Diagonal Accountability 6 6 0 5 7 2
+Media bias Diagonal Accountability 8 6 -2 3 8 5
+Freedom of discussion for women Diagonal Accountability 9 5 -4 4 8 4
+Print/broadcast media critical Diagonal Accountability 10 5 -5 7 5 -2
+Freedom of discussion for men Diagonal Accountability 9 4 -5 6 8 2
+CSO repression Diagonal Accountability 10 5 -5 5 8 3
+Election free and fair Vertical Accountability 10 4 -6 17 0 -17
+EMB capacity Vertical Accountability 10 4 -6 7 5 -2
+CSO participatory environment Diagonal Accountability 11 4 -7 8 5 -3
+Election government intimidation Vertical Accountability 13 0 -13 20 0 -20
+Election voter registry Vertical Accountability 14 0 -14 21 0 -21
+Print/broadcast media perspectives Diagonal Accountability 17 0 -17 9 2 -7
+Opposition parties autonomy Vertical Accountability 18 0 -18 21 0 -21
+Suﬀrage Vertical Accountability 23 0 -23 23 0 -23
+Elections multiparty Vertical Accountability 23 0 -23 23 0 -23
+Barriers to parties Vertical Accountability 23 0 -23 22 0 -22
+Party ban Vertical Accountability 23 0 -23 20 0 -20
+Notes: Results from pairwise domination analysis of collapsed “states” in episodes of autocratizing democracy, disaggregated by
+levels of polarization. Statistics: d= number of indicators dominated; r =number of indicators dominated by; score= domination
+score (d-r). Results are sorted from low to high on domination score for episodes in the third wave of autocratization. Unit of
+analysis is the collapsed state.
+ix
+--- PAGE 41 ---
+Table A7. Domination table for Figure 3 (democracy stock for the episodes in the third wave
+autocratization)
+High Stock Low Stock
+Indicator Index d r score d r score
+Harassment of journalists Diagonal Accountability 0 27 27 0 22 22
+Engaged society Diagonal Accountability 0 21 21 0 19 19
+Executive respects constitution Horizontal Accountability 0 19 19 0 14 14
+Legislature investigates in practice Horizontal Accountability 0 19 19 0 20 20
+Executive oversight Horizontal Accountability 1 19 18 0 20 20
+High court independence Horizontal Accountability 1 18 17 0 20 20
+Election other voting irregularities Vertical Accountability 1 18 17 0 21 21
+Government censorship eﬀort — Media Diagonal Accountability 1 16 15 0 15 15
+Freedom of academic and cultural expression Diagonal Accountability 1 13 12 7 6 -1
+Lower court independence Horizontal Accountability 1 13 12 0 19 19
+Compliance with judiciary Horizontal Accountability 2 11 9 1 12 11
+Compliance with high court Horizontal Accountability 2 10 8 3 9 6
+CSO entry and exit Diagonal Accountability 6 11 5 7 6 -1
+Media self-censorship Diagonal Accountability 6 7 1 7 8 1
+EMB autonomy Vertical Accountability 7 7 0 4 7 3
+CSO repression Diagonal Accountability 8 7 -1 10 5 -5
+Freedom of discussion for men Diagonal Accountability 8 6 -2 9 4 -5
+Freedom of discussion for women Diagonal Accountability 8 6 -2 9 5 -4
+Print/broadcast media critical Diagonal Accountability 10 6 -4 10 5 -5
+Media bias Diagonal Accountability 10 6 -4 8 5 -3
+Election government intimidation Vertical Accountability 12 5 -7 13 3 -10
+Election free and fair Vertical Accountability 13 4 -9 8 4 -4
+EMB capacity Vertical Accountability 13 4 -9 9 6 -3
+CSO participatory environment Diagonal Accountability 13 0 -13 12 2 -10
+Election voter registry Vertical Accountability 16 0 -16 11 4 -7
+Opposition parties autonomy Vertical Accountability 20 0 -20 19 0 -19
+Party ban Vertical Accountability 22 0 -22 24 0 -24
+Print/broadcast media perspectives Diagonal Accountability 22 0 -22 17 0 -17
+Suﬀrage Vertical Accountability 23 0 -23 25 0 -25
+Elections multiparty Vertical Accountability 23 0 -23 25 0 -25
+Barriers to parties Vertical Accountability 23 0 -23 23 0 -23
+Notes: Results from pairwise domination analysis of collapsed “states” in episodes of autocratizing democracy, disaggregated
+by levels of democracy stock. Statistics: d= number of indicators dominated; r =number of indicators dominated by; score=
+domination score (d-r). Results are sorted from low to high on domination score for episodes with a high democracy stock. Unit
+of analysis is the collapsed state.
+x
+--- PAGE 42 ---
+Table A8. Estimating the similarity of domination scores in episodes of autocratizing
+democracies with (1) democratic breakdown vs. survival, (2) high vs. low
+democracy stock, and (3) before and after the third wave of autocratization
+Comparison:
+(1) (2) (3)
+Outcome Dem. Stock Waves
+Coeﬃcient 0.88 ∗∗∗ 0.92∗∗∗ 0.88∗∗∗
+(0.08) (0.08) (0.09)
+Constant 0.00 0.00 -0.00
+(1.20) (1.19) (1.29)
+Observations 31 31 31
+R2 0.80 0.81 0.77
+Adjusted R2 0.79 0.81 0.76
+Residual Std. Error (df = 29) 6.66 6.63 7.21
+F Statistic (df = 1; 29) 112.98 ∗∗∗ 126.77∗∗∗ 98.25∗∗∗
+Notes: Estimated coeﬃcients and standard errors from bivariate linear regression
+models. The dependent variable (y) is the domination score for 31 indicators in
+autocratizing democracies that (1) have survive, (2) have a high democracy stock,
+and (3) occured in the third wave of autocratization. The independent variable (x)
+is the domination score for those same 31 indicators in episodes of autocratizing
+democracy that (1) have breakdown, (2) have a low democracy stock, and (3) oc-
+curred before the third wave of autocratization. Domination scores calculated using
+collapsed states. ∗p<0.1; ∗∗p<0.05; ∗∗∗p<0.01
+xi
+--- PAGE 43 ---
+Table A9. Residuals from bivariate regressions reported in Table A8
+(1) (2) (3)
+Indicator Index Outcome Dem. Stock Waves
+Freedom of discussion for men Diagonal Accountability -17.12 8.62 -6.76
+Executive oversight Horizontal Accountability -11.35 3.43 -1.17
+Legislature investigates in practice Horizontal Accountability -7.70 0.51 5.00
+EMB autonomy Vertical Accountability -7.42 -3.62 0.35
+Print/broadcast media perspectives Diagonal Accountability -4.96 -1.36 -10.82
+Election voter registry Vertical Accountability -4.61 -14.45 4.53
+Election other voting irregularities Vertical Accountability -4.50 -10.49 16.00
+Party ban Vertical Accountability -3.53 1.19 -5.36
+Government censorship eﬀort — Media Diagonal Accountability -3.04 3.06 -1.76
+Freedom of discussion for women Diagonal Accountability -3.00 6.70 -7.53
+Elections multiparty Vertical Accountability -2.65 2.11 -2.71
+Barriers to parties Vertical Accountability -2.65 1.19 -3.59
+Opposition parties autonomy Vertical Accountability -2.30 -4.28 0.53
+Suﬀrage Vertical Accountability -1.76 2.11 -2.71
+CSO participatory environment Diagonal Accountability -0.69 -6.53 -4.35
+Lower court independence Horizontal Accountability -0.62 -7.64 12.47
+Executive respects constitution Horizontal Accountability -0.62 1.98 10.82
+High court independence Horizontal Accountability 0.61 -4.79 13.59
+Freedom of academic and cultural expression Diagonal Accountability 1.58 13.00 -8.47
+EMB capacity Vertical Accountability 1.65 -8.08 -4.24
+CSO entry and exit Diagonal Accountability 1.69 6.08 -9.23
+Compliance with judiciary Horizontal Accountability 1.92 -0.25 6.71
+Compliance with high court Horizontal Accountability 3.69 3.38 3.47
+CSO repression Diagonal Accountability 6.00 10.55 -7.65
+Media bias Diagonal Accountability 6.00 -0.08 -6.41
+Election government intimidation Vertical Accountability 7.50 -3.91 4.64
+Engaged society Diagonal Accountability 7.53 5.51 -0.17
+Media self-censorship Diagonal Accountability 7.77 -0.85 -1.76
+Harassment of journalists Diagonal Accountability 9.53 6.66 0.83
+Print/broadcast media critical Diagonal Accountability 10.31 2.55 -3.24
+Election free and fair Vertical Accountability 12.73 -12.30 9.00
+Notes: Estimated residuals from bivariate linear regression models of Table A8.
+xii
+--- PAGE 44 ---
+Table A10. Bivariate regressions of domination scores (1) democratic breakdown vs. survival,
+(2) high vs. low democracy stock, and (3) before and after the third wave of
+autocratization, based on country-year observations
+Comparison:
+(1) (2) (3)
+Outcome Dem. Stock Waves
+Coeﬃcients 0.89 ∗∗∗ 0.95∗∗∗ 0.99∗∗∗
+(0.09) (0.08) (0.07)
+Constant 0.00 0.00 0.00
+(1.30) (1.19) (1.03)
+Observations 31 31 31
+R2 0.77 0.82 0.86
+Adjusted R2 0.76 0.81 0.86
+Residual Std. Error (df = 29) 7.26 6.60 5.75
+F Statistic (df = 1; 29) 96.74 ∗∗∗ 130.27∗∗∗ 178.26∗∗∗
+Notes: Estimated coeﬃcients and standard errors from bivariate linear regression
+models. The dependent variable (y) is the domination score for 31 indicators in
+autocratizing democracies that (1) have survive, (2) have a high democracy stock, and
+(3) occured in the third wave of autocratization. The independent variable (x) is the
+domination score for those same 31 indicators in episodes of autocratizing democracy
+that (1) have breakdown, (2) have a low democracy stock, and (3) occurred before
+the third wave of autocratization. Domination scores calculated using country-year
+observations. ∗p<0.1; ∗∗p<0.05; ∗∗∗p<0.01
+xiii
+--- PAGE 45 ---
+Table A11. Residuals from bivariate regressions reported in Table A10
+(1) (2) (3)
+Indicator Index Outcome Dem. Stock Waves
+Freedom of discussion for men Diagonal Accountability -17.11 8.82 -5.01
+Freedom of discussion for women Diagonal Accountability -17.00 7.82 -5.98
+Executive oversight Horizontal Accountability -8.40 2.87 -3.75
+Legislature investigates in practice Horizontal Accountability -7.51 -0.09 2.19
+Election other voting irregularities Vertical Accountability -6.30 -11.09 12.04
+Election voter registry Vertical Accountability -5.58 -13.27 0.83
+Print/broadcast media perspectives Diagonal Accountability -4.92 -0.82 -3.15
+Party ban Vertical Accountability -2.49 1.95 -3.21
+EMB capacity Vertical Accountability -2.45 -8.09 -7.01
+EMB autonomy Vertical Accountability -2.43 -3.77 -1.95
+Government censorship eﬀort — Media Diagonal Accountability -2.19 4.59 -0.83
+Opposition parties autonomy Vertical Accountability -2.15 -4.73 -0.19
+CSO participatory environment Diagonal Accountability -1.79 -4.46 -1.06
+Suﬀrage Vertical Accountability -1.60 1.91 -1.23
+Elections multiparty Vertical Accountability -1.60 1.91 -1.23
+Barriers to parties Vertical Accountability -1.60 0.95 -2.22
+High court independence Horizontal Accountability 0.58 -5.27 12.06
+Freedom of academic and cultural expression Diagonal Accountability 0.79 13.05 -7.89
+Executive respects constitution Horizontal Accountability 1.24 1.55 10.07
+Lower court independence Horizontal Accountability 1.36 -6.27 10.06
+Compliance with judiciary Horizontal Accountability 3.90 0.46 7.06
+Engaged society Diagonal Accountability 4.15 6.77 -2.75
+Election government intimidation Vertical Accountability 4.42 -2.64 2.82
+CSO entry and exit Diagonal Accountability 5.68 6.14 -4.89
+Compliance with high court Horizontal Accountability 6.57 2.27 3.06
+Harassment of journalists Diagonal Accountability 6.83 5.05 -1.75
+Media bias Diagonal Accountability 7.00 -0.05 -7.94
+Media self-censorship Diagonal Accountability 8.77 -3.82 1.01
+CSO repression Diagonal Accountability 10.77 11.73 -4.99
+Print/broadcast media critical Diagonal Accountability 11.32 -1.27 -1.04
+Election free and fair Vertical Accountability 11.76 -12.18 6.85
+Notes: Estimated residuals from bivariate linear regression models of Table A10.
+xiv
+--- PAGE 46 ---
+Table A12. Domination table for country-year observations by groups of episodes
+Outcome Democracy Stock Waves
+Breakdown Survival Low High Pre-third Third
+Indicator d r score d r score d r score d r score d r score d r score
+Harassment of journalists 0 25 25 0 29 29 0 23 23 0 27 27 0 24 24 0 22 22
+Executive oversight 0 23 23 1 13 12 0 19 19 0 21 21 0 24 24 0 20 20
+Legislature investigates in practice 0 22 22 1 13 12 0 20 20 0 19 19 0 18 18 0 20 20
+Engaged society 0 19 19 0 21 21 0 17 17 0 23 23 0 24 24 0 21 21
+Government censorship eﬀort — Media 0 16 16 1 13 12 0 13 13 1 18 17 0 16 16 0 15 15
+Election other voting irregularities 1 16 15 2 9 7 0 20 20 3 11 8 5 9 4 0 16 16
+High court independence 1 15 14 1 14 13 0 16 16 2 12 10 3 9 6 0 18 18
+Lower court independence 1 13 12 1 13 12 0 16 16 2 11 9 3 9 6 0 16 16
+Executive respects constitution 1 12 11 1 12 11 1 13 12 1 14 13 3 10 7 0 17 17
+Compliance with judiciary 3 11 8 2 13 11 1 11 10 2 12 10 3 9 6 1 14 13
+Freedom of academic and cultural expression 3 10 7 2 9 7 5 6 1 1 15 14 0 11 11 4 7 3
+CSO entry and exit 3 9 6 1 12 11 4 7 3 3 12 9 0 11 11 4 10 6
+EMB autonomy 4 9 5 8 10 2 2 7 5 6 7 1 4 9 5 5 8 3
+Compliance with high court 4 9 5 2 13 11 2 8 6 3 11 8 3 9 6 2 11 9
+Freedom of discussion for women 6 6 0 17 0 -17 9 5 -4 5 9 4 5 7 2 9 5 -4
+Media bias 5 5 0 2 9 7 7 6 -1 7 6 -1 3 9 6 8 6 -2
+Freedom of discussion for men 7 6 -1 18 0 -18 8 4 -4 5 10 5 5 4 -1 10 4 -6
+CSO repression 8 6 -2 1 10 9 10 4 -6 5 11 6 5 6 1 10 6 -4
+Media self-censorship 7 5 -2 2 9 7 4 8 4 7 7 0 4 5 1 6 8 2
+EMB capacity 8 4 -4 12 6 -6 7 5 -2 13 3 -10 5 4 -1 12 4 -8
+Print/broadcast media critical 10 4 -6 3 9 6 10 4 -6 12 5 -7 7 3 -4 10 5 -5
+CSO participatory environment 11 4 -7 12 4 -8 12 2 -10 14 0 -14 8 2 -6 11 4 -7
+Election free and fair 14 3 -11 3 5 2 8 4 -4 16 0 -16 15 0 -15 12 4 -8
+Election government intimidation 14 0 -14 12 4 -8 14 0 -14 16 0 -16 17 0 -17 14 0 -14
+Election voter registry 14 0 -14 18 0 -18 10 4 -6 19 0 -19 16 0 -16 15 0 -15
+Print/broadcast media perspectives 17 0 -17 20 0 -20 18 0 -18 18 0 -18 15 0 -15 18 0 -18
+Opposition parties autonomy 19 0 -19 19 0 -19 16 0 -16 20 0 -20 18 0 -18 18 0 -18
+Party ban 22 0 -22 22 0 -22 23 0 -23 20 0 -20 20 0 -20 23 0 -23
+Suﬀrage 23 0 -23 22 0 -22 24 0 -24 21 0 -21 22 0 -22 23 0 -23
+Elections multiparty 23 0 -23 22 0 -22 24 0 -24 21 0 -21 22 0 -22 23 0 -23
+Barriers to parties 23 0 -23 22 0 -22 23 0 -23 21 0 -21 21 0 -21 23 0 -23
+Notes: Results from pariwise domination analysis in episodes of autocratizing democracy, disaggregated by outicome type, levels of democracy stock or polarization.
+Statistics: d= number of indicators dominated; r =number of indicators dominated by; score= domination score (d-r). Results are sorted from low to high on domination
+score for episodes with democratic breakdown. Unit of analysis is country-year.
+xv
+--- PAGE 47 ---
+Table A13. Bivariate regression of domination scores with (1) democratic breakdown vs.
+survival, (2) high vs. low democracy stock, and (3) Before and After the third of
+autocratization using two-thirds threshold
+Comparison:
+(1) (2) (3)
+Outcome Dem. Stock Waves
+Coeﬃcient 0.92 ∗∗∗ 0.97∗∗∗ 0.99∗∗∗
+(0.08) (0.07) (0.07)
+Constant 0.00 -0.00 0.00
+(0.87) (0.77) (0.65)
+Observations 31 31 31
+R2 0.81 0.86 0.88
+Adjusted R2 0.80 0.85 0.88
+Residual Std. Error (df = 29) 4.87 4.27 3.64
+F Statistic (df = 1; 29) 122.95 ∗∗∗ 176.53∗∗∗ 216.74∗∗∗
+Notes: Estimated coeﬃcients and standard errors from bivariate linear regression
+models. The dependent variable (y) is the domination score for 31 indicators in
+autocratizing democracies that (1) have survive, (2) have a high democracy stock, and
+(3) occurred in the third wave of autocratization. The independent variable (x) is the
+domination score for those same 31 indicators in episodes of autocratizing democracy
+that (1) have breakdown, (2) have a low democracy stock, and (3) occurred before the
+third wave of autocratization. Domination scores calculated using collapsed states
+with a threshold of at least two-thirds for domination. ∗p<0.1; ∗∗p<0.05; ∗∗∗p<0.01
+xvi
+--- PAGE 48 ---
+Table A14. Residuals from bivariate regressions reported in Table A13
+(1) (2) (3)
+Indicator Index Outcome Dem. Stock Waves
+Freedom of discussion for men Diagonal Accountability -14.92 4.92 -3.99
+Print/broadcast media perspectives Diagonal Accountability -8.72 -2.28 -7.05
+Executive oversight Horizontal Accountability -6.81 4.25 1.14
+Opposition parties autonomy Vertical Accountability -5.95 -2.36 0.82
+Freedom of discussion for women Diagonal Accountability -4.76 3.03 -3.94
+EMB autonomy Vertical Accountability -4.68 -2.89 3.01
+Legislature investigates in practice Horizontal Accountability -4.05 -0.67 3.10
+Election other voting irregularities Vertical Accountability -2.28 -4.70 8.00
+Barriers to parties Vertical Accountability -1.51 1.42 -4.18
+Party ban Vertical Accountability -1.51 5.42 -2.18
+Lower court independence Horizontal Accountability -0.28 -1.78 3.08
+Suﬀrage Vertical Accountability 0.33 2.39 -0.24
+Elections multiparty Vertical Accountability 0.33 1.42 2.74
+Executive respects constitution Horizontal Accountability 0.64 3.19 2.09
+Government censorship eﬀort — Media Diagonal Accountability 0.64 4.19 -1.87
+Freedom of academic and cultural expression Diagonal Accountability 1.32 6.11 -3.91
+Compliance with high court Horizontal Accountability 1.40 1.14 0.08
+Compliance with judiciary Horizontal Accountability 1.48 0.17 0.09
+CSO participatory environment Diagonal Accountability 1.68 -4.08 -4.01
+High court independence Horizontal Accountability 1.72 1.22 6.05
+CSO repression Diagonal Accountability 2.24 0.06 0.01
+CSO entry and exit Diagonal Accountability 2.40 3.14 -2.90
+EMB capacity Vertical Accountability 2.92 -8.89 -5.01
+Election voter registry Vertical Accountability 3.20 -7.19 -0.13
+Harassment of journalists Diagonal Accountability 3.35 6.44 5.16
+Media bias Diagonal Accountability 4.08 1.06 -1.95
+Media self-censorship Diagonal Accountability 4.08 -2.89 3.00
+Engaged society Diagonal Accountability 4.11 1.39 -3.74
+Election government intimidation Vertical Accountability 5.28 0.75 1.86
+Print/broadcast media critical Diagonal Accountability 5.84 -4.00 1.96
+Election free and fair Vertical Accountability 8.44 -9.97 2.90
+Notes: Estimated residuals from bivariate linear regression models of Table A13.
+xvii
+--- PAGE 49 ---
+Table A15. Domination table by groups of episodes using two-third threshold
+Outcome Democracy Stock Waves
+Breakdown Survival Low High Pre-third Third
+Indicator d r score d r score d r score d r score d r score d r score
+Harassment of journalists 0 17 17 0 19 19 0 16 16 0 22 22 0 13 13 0 18 18
+Executive oversight 0 15 15 0 7 7 0 9 9 0 13 13 0 11 11 0 12 12
+Engaged society 0 14 14 0 17 17 0 14 14 0 15 15 0 21 21 0 17 17
+Legislature investigates in practice 0 12 12 0 7 7 0 12 12 0 11 11 0 8 8 0 11 11
+Election other voting irregularities 0 9 9 1 7 6 0 11 11 1 7 6 2 2 0 0 8 8
+High court independence 0 9 9 0 10 10 0 8 8 0 9 9 1 5 4 0 10 10
+Lower court independence 0 9 9 0 8 8 0 8 8 1 7 6 1 7 6 0 9 9
+Executive respects constitution 0 8 8 0 8 8 0 7 7 0 10 10 1 8 7 0 9 9
+Government censorship eﬀort — Media 0 8 8 0 8 8 0 7 7 0 11 11 0 10 10 0 8 8
+Compliance with judiciary 0 6 6 0 7 7 0 6 6 1 7 6 0 7 7 0 7 7
+CSO entry and exit 0 5 5 0 7 7 0 5 5 0 8 8 0 8 8 0 5 5
+Compliance with high court 0 5 5 0 6 6 0 5 5 1 7 6 1 7 6 0 6 6
+Freedom of academic and cultural expression 0 4 4 2 7 5 0 4 4 0 10 10 0 7 7 1 4 3
+EMB autonomy 0 4 4 1 0 -1 0 4 4 2 3 1 1 2 1 0 4 4
+Freedom of discussion for women 1 4 3 2 0 -2 3 4 1 1 5 4 0 5 5 2 3 1
+CSO repression 1 4 3 1 6 5 2 4 2 1 3 2 1 2 1 2 3 1
+Freedom of discussion for men 2 3 1 14 0 -14 4 1 -3 1 3 2 0 1 1 3 0 -3
+Media bias 3 4 1 2 7 5 2 4 2 3 6 3 1 5 4 2 4 2
+Media self-censorship 3 4 1 2 7 5 1 5 4 2 3 1 2 2 0 2 5 3
+EMB capacity 4 3 -1 2 4 2 0 4 4 5 0 -5 3 2 -1 6 0 -6
+Print/broadcast media critical 4 2 -2 2 6 4 4 4 0 4 0 -4 4 1 -3 2 1 -1
+CSO participatory environment 4 0 -4 2 0 -2 3 0 -3 7 0 -7 1 0 -1 5 0 -5
+Election free and fair 7 0 -7 2 4 2 3 4 1 9 0 -9 8 0 -8 5 0 -5
+Election government intimidation 9 0 -9 3 0 -3 9 0 -9 8 0 -8 11 0 -11 9 0 -9
+Print/broadcast media perspectives 9 0 -9 17 0 -17 10 0 -10 12 0 -12 4 0 -4 11 0 -11
+Election voter registry 10 0 -10 6 0 -6 7 0 -7 14 0 -14 10 0 -10 10 0 -10
+Opposition parties autonomy 12 0 -12 17 0 -17 13 0 -13 15 0 -15 14 0 -14 13 0 -13
+Barriers to parties 19 0 -19 19 0 -19 21 0 -21 19 0 -19 14 0 -14 18 0 -18
+Party ban 19 0 -19 19 0 -19 21 0 -21 15 0 -15 14 0 -14 16 0 -16
+Suﬀrage 21 0 -21 19 0 -19 22 0 -22 19 0 -19 19 0 -19 19 0 -19
+Elections multiparty 21 0 -21 19 0 -19 21 0 -21 19 0 -19 21 0 -21 18 0 -18
+Notes: Results from pariwise domination analysis in episodes of autocratizing democracy, disaggregated by outicome type, levels of democracy stock or polarization.
+Statistics: d= number of indicators dominated; r =number of indicators dominated by; score= domination score (d-r). Results are sorted from low to high on domination
+score for episodes with democratic breakdown. Domination calculated using a threshold of at least two-third.
+xviii

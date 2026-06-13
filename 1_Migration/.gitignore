@@ -1,0 +1,12 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Data — IPUMS USA is NOT redistributable (terms of use, see prereg/data_agreements.txt).
+# All raw + individual-level derived data is excluded. Code regenerates everything.
+data/
+logs/
+
+# Per-event (individual-level) result file — excluded; aggregates in results/ are kept.
+results/flow_taxonomy.parquet

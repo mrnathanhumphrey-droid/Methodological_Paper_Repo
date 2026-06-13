@@ -1,0 +1,33 @@
+{
+  "overall": "PASS",
+  "results": [
+    {
+      "country": "colombia",
+      "polygon_file": "historical_polygons\\colombia_la_violencia_1948_1958\\stage_a_polygon.geojson",
+      "n_admin2_in_polygon": 658,
+      "threshold": 5,
+      "verdict": "PASS"
+    },
+    {
+      "country": "sudan",
+      "polygon_file": "historical_polygons\\sudan_fur_dar_pre1994\\stage_a_polygon.geojson",
+      "n_admin2_in_polygon": 21,
+      "threshold": 5,
+      "verdict": "PASS"
+    },
+    {
+      "country": "drc",
+      "polygon_file": "historical_polygons\\drc_kasai_1959_1965\\stage_a_polygon.geojson",
+      "n_admin2_in_polygon": 59,
+      "threshold": 5,
+      "verdict": "PASS"
+    },
+    {
+      "country": "yemen",
+      "polygon_file": "historical_polygons\\yemen_six_wars_2004_2010\\stage_a_polygon.geojson",
+      "n_admin2_in_polygon": 102,
+      "threshold": 5,
+      "verdict": "PASS"
+    }
+  ]
+}

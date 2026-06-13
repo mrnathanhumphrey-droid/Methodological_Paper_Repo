@@ -1,0 +1,148 @@
+{
+  "IRQ": [
+    {
+      "phase": "2003 interstate",
+      "type": "A formal-army",
+      "predicted": "A",
+      "match": "YES",
+      "total_fat": "8021",
+      "state_share": 0.9885301084652787,
+      "strife_share": 0.008228400448821843,
+      "one_sided_share": 0.0032414910858995136,
+      "admin1_top3_share": 0.8329654157468727,
+      "top_actor_share": 0.8461538461538461,
+      "conflict_idp": 0,
+      "disp_per_fat": 0.0
+    },
+    {
+      "phase": "2004-2011 insurgency",
+      "type": "E civil-war-mass-displacement",
+      "predicted": "C or E",
+      "match": "YES",
+      "total_fat": "24681",
+      "state_share": 0.7421498318544629,
+      "strife_share": 0.011223208135812974,
+      "one_sided_share": 0.2466269600097241,
+      "admin1_top3_share": 0.6687210400827748,
+      "top_actor_share": 0.8897650731066207,
+      "conflict_idp": 8164000.0,
+      "disp_per_fat": 330.78076252988126
+    },
+    {
+      "phase": "2012-2017 ISIS war",
+      "type": "UNCLASSIFIED",
+      "predicted": "B or E",
+      "match": "NO",
+      "total_fat": "56600",
+      "state_share": 0.8070141342756184,
+      "strife_share": 0.0018197879858657244,
+      "one_sided_share": 0.1911660777385159,
+      "admin1_top3_share": 0.7083123425692696,
+      "top_actor_share": 0.9700554528650647,
+      "conflict_idp": 16417000.0,
+      "disp_per_fat": 290.0530035335689
+    },
+    {
+      "phase": "2018-2024 post-ISIS",
+      "type": "E civil-war-mass-displacement",
+      "predicted": "E",
+      "match": "YES",
+      "total_fat": "6301",
+      "state_share": 0.9035073797809872,
+      "strife_share": 0.0,
+      "one_sided_share": 0.09649262021901285,
+      "admin1_top3_share": 0.48198970840480276,
+      "top_actor_share": 0.7055921052631579,
+      "conflict_idp": 9230000.0,
+      "disp_per_fat": 1464.846849706396
+    }
+  ],
+  "AZE": [
+    {
+      "phase": "1992-1994 First Karabakh",
+      "type": "UNCLASSIFIED",
+      "predicted": "A",
+      "match": "NO",
+      "total_fat": "5539",
+      "state_share": 0.8602635854847446,
+      "strife_share": 0.0,
+      "one_sided_share": 0.13973641451525545,
+      "admin1_top3_share": 0.527033855482567,
+      "top_actor_share": 1.0,
+      "conflict_idp": 0,
+      "disp_per_fat": 0.0
+    },
+    {
+      "phase": "2020 44-day war",
+      "type": "UNCLASSIFIED",
+      "predicted": "A",
+      "match": "NO",
+      "total_fat": "7636",
+      "state_share": 1.0,
+      "strife_share": 0.0,
+      "one_sided_share": 0.0,
+      "admin1_top3_share": 0.4311111111111111,
+      "top_actor_share": 0,
+      "conflict_idp": 735000.0,
+      "disp_per_fat": 96.25458355159769
+    },
+    {
+      "phase": "2023 AZE offensive",
+      "type": "E civil-war-mass-displacement",
+      "predicted": "A",
+      "match": "NO",
+      "total_fat": "442",
+      "state_share": 1.0,
+      "strife_share": 0.0,
+      "one_sided_share": 0.0,
+      "admin1_top3_share": 1.0,
+      "top_actor_share": 0,
+      "conflict_idp": 658000.0,
+      "disp_per_fat": 1488.6877828054298
+    }
+  ],
+  "NGA": [
+    {
+      "phase": "2009-2014 BH insurgency",
+      "type": "C irregular insurgency",
+      "predicted": "C",
+      "match": "YES",
+      "total_fat": "19140",
+      "state_share": 0.36776384535005224,
+      "strife_share": 0.2747126436781609,
+      "one_sided_share": 0.3575235109717868,
+      "admin1_top3_share": 0.6878561346646453,
+      "top_actor_share": 0.9544059622972381,
+      "conflict_idp": 4375000.0,
+      "disp_per_fat": 228.5788923719958
+    },
+    {
+      "phase": "2015-2017 BH territorial",
+      "type": "E civil-war-mass-displacement",
+      "predicted": "B",
+      "match": "NO",
+      "total_fat": "17739",
+      "state_share": 0.5571339985343029,
+      "strife_share": 0.1477535374034613,
+      "one_sided_share": 0.29511246406223574,
+      "admin1_top3_share": 0.8202627502725031,
+      "top_actor_share": 0.5881566380133716,
+      "conflict_idp": 5753000.0,
+      "disp_per_fat": 324.31365916906253
+    },
+    {
+      "phase": "2018-2024 post-territorial",
+      "type": "UNCLASSIFIED",
+      "predicted": "C or E",
+      "match": "NO",
+      "total_fat": "26990",
+      "state_share": 0.5476472767691738,
+      "strife_share": 0.2898110411263431,
+      "one_sided_share": 0.16254168210448314,
+      "admin1_top3_share": 0.6859170713485244,
+      "top_actor_share": 0.5402325051287896,
+      "conflict_idp": 21129000.0,
+      "disp_per_fat": 782.8454983327158
+    }
+  ]
+}

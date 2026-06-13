@@ -1,0 +1,42 @@
+{
+  "division": {
+    "coverage": {
+      "level": "division",
+      "n_units": 9,
+      "cube_cells_full": 30780,
+      "corridor_species_total": 3073,
+      "corridor_species_ge50": 3073,
+      "OD_pairs_total": 81,
+      "OD_pairs_ge50": 81
+    },
+    "gravity": {
+      "level": "division",
+      "n_OD_between": 72,
+      "coef_const": -16.962180246634972,
+      "coef_log_mass_o": 0.979101117072928,
+      "coef_log_mass_d": 0.9790071740347654,
+      "gamma_log_dist": -0.5286675315386751,
+      "mcfadden_pseudo_r2": 0.6296830171453408
+    }
+  },
+  "state": {
+    "coverage": {
+      "level": "state",
+      "n_units": 51,
+      "cube_cells_full": 988380,
+      "corridor_species_total": 59285,
+      "corridor_species_ge50": 56075,
+      "OD_pairs_total": 2576,
+      "OD_pairs_ge50": 2572
+    },
+    "gravity": {
+      "level": "state",
+      "n_OD_between": 2526,
+      "coef_const": -12.002945711895075,
+      "coef_log_mass_o": 0.8704585992878437,
+      "coef_log_mass_d": 0.8378347086871432,
+      "gamma_log_dist": -0.6584675817135369,
+      "mcfadden_pseudo_r2": 0.7382611239400478
+    }
+  }
+}

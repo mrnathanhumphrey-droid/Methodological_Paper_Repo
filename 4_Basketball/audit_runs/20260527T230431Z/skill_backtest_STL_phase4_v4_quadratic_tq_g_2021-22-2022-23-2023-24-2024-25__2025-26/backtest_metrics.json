@@ -1,0 +1,154 @@
+{
+  "stat": "STL",
+  "test_season": "2025-26",
+  "n_players": 256,
+  "mae": 0.2337418107569541,
+  "rmse": 0.3181549296935936,
+  "bias": -0.05466696905543631,
+  "coverage_50": 0.49609375,
+  "coverage_80": 0.80078125,
+  "coverage_90": 0.86328125,
+  "z_error_mean": -0.1953048532358912,
+  "z_error_sd": 1.1369791920584134,
+  "top_25_accuracy": 0.72,
+  "top_50_accuracy": 0.7,
+  "worst_misses": [
+    {
+      "nba_api_id": 1629680,
+      "name": "Matisse Thybulle",
+      "projected": 2.550179379319129,
+      "projected_sd": 0.35453456514821113,
+      "actual": 4.490644490644491,
+      "error": -1.940465111325362,
+      "z_error": -5.47327482868747
+    },
+    {
+      "nba_api_id": 1629723,
+      "name": "John Konchar",
+      "projected": 1.6122071699156615,
+      "projected_sd": 0.2890114440485903,
+      "actual": 2.6774193548387095,
+      "error": -1.065212184923048,
+      "z_error": -3.6857093615433385
+    },
+    {
+      "nba_api_id": 1630533,
+      "name": "Ziaire Williams",
+      "projected": 1.235729917550665,
+      "projected_sd": 0.25467785834179846,
+      "actual": 2.1374999999999997,
+      "error": -0.9017700824493347,
+      "z_error": -3.5408263926857972
+    },
+    {
+      "nba_api_id": 1629750,
+      "name": "Javonte Green",
+      "projected": 1.6537421932631122,
+      "projected_sd": 0.31347922628570596,
+      "actual": 2.541176470588235,
+      "error": -0.8874342773251229,
+      "z_error": -2.8309189346930204
+    },
+    {
+      "nba_api_id": 1630549,
+      "name": "Day'Ron Sharpe",
+      "projected": 1.2170710954327497,
+      "projected_sd": 0.2794140121660211,
+      "actual": 2.0811044003451253,
+      "error": -0.8640333049123756,
+      "z_error": -3.0923048497617502
+    },
+    {
+      "nba_api_id": 1641709,
+      "name": "Ausar Thompson",
+      "projected": 1.9949383013635116,
+      "projected_sd": 0.3060666599980791,
+      "actual": 2.7663157894736843,
+      "error": -0.7713774881101727,
+      "z_error": -2.5202924360170886
+    },
+    {
+      "nba_api_id": 1630692,
+      "name": "Jordan Goodwin",
+      "projected": 1.6580257836743482,
+      "projected_sd": 0.29686313408848225,
+      "actual": 2.4213197969543145,
+      "error": -0.7632940132799664,
+      "z_error": -2.5711983929013598
+    },
+    {
+      "nba_api_id": 1641717,
+      "name": "Cason Wallace",
+      "projected": 1.8951132838295086,
+      "projected_sd": 0.2812550875154163,
+      "actual": 2.638006839276991,
+      "error": -0.7428935554474823,
+      "z_error": -2.6413515289986087
+    },
+    {
+      "nba_api_id": 1631101,
+      "name": "Shaedon Sharpe",
+      "projected": 1.0086976266966192,
+      "projected_sd": 0.2438196555992261,
+      "actual": 1.7131203263086336,
+      "error": -0.7044226996120144,
+      "z_error": -2.8891136683824037
+    },
+    {
+      "nba_api_id": 1629645,
+      "name": "Kevin Porter Jr.",
+      "projected": 1.6778754304914747,
+      "projected_sd": 0.2843595810205516,
+      "actual": 2.3695479777954005,
+      "error": -0.6916725473039258,
+      "z_error": -2.4323869968493743
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1629020,
+      "name": "Jarred Vanderbilt",
+      "projected": 1.7562330207222532,
+      "projected_sd": 0.3000134257386579,
+      "actual": 1.7553191489361701,
+      "error": 0.0009138717860830425,
+      "z_error": 0.003046102966335638
+    },
+    {
+      "nba_api_id": 1630578,
+      "name": "Alperen Sengun",
+      "projected": 1.2763442717230449,
+      "projected_sd": 0.2466844393397266,
+      "actual": 1.2744689712619741,
+      "error": 0.0018753004610707613,
+      "z_error": 0.007602021700639789
+    },
+    {
+      "nba_api_id": 1628378,
+      "name": "Donovan Mitchell",
+      "projected": 1.601472502459778,
+      "projected_sd": 0.25837739647924923,
+      "actual": 1.599316531396839,
+      "error": 0.002155971062939077,
+      "z_error": 0.008344271179743958
+    },
+    {
+      "nba_api_id": 1629731,
+      "name": "Dean Wade",
+      "projected": 1.1957752973420803,
+      "projected_sd": 0.2688160898498934,
+      "actual": 1.199091597274792,
+      "error": -0.0033162999327116527,
+      "z_error": -0.012336686894610626
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 1.243967442591556,
+      "projected_sd": 0.25589558342993773,
+      "actual": 1.2477535301668805,
+      "error": -0.003786087575324615,
+      "z_error": -0.014795439313868489
+    }
+  ]
+}

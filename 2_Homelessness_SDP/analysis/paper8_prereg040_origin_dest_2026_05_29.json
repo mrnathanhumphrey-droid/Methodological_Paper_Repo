@@ -1,0 +1,68 @@
+{
+  "grid": 0.5,
+  "rows": {
+    "COD": {
+      "n_conf": 545,
+      "n_dis": 38,
+      "rho_origin": [
+        -0.209,
+        0.1117
+      ],
+      "rho_dest": [
+        0.071,
+        0.566
+      ],
+      "n_origin_cells": 59,
+      "n_dest_cells": 68,
+      "combo_share": 0.13,
+      "gap_dest_minus_origin": 0.28
+    },
+    "NGA": {
+      "n_conf": 2318,
+      "n_dis": 167,
+      "rho_origin": [
+        -0.386,
+        0.0
+      ],
+      "rho_dest": [
+        -0.102,
+        0.3213
+      ],
+      "n_origin_cells": 141,
+      "n_dest_cells": 96,
+      "combo_share": 0.2,
+      "gap_dest_minus_origin": 0.284
+    },
+    "PHL": {
+      "n_conf": 47,
+      "n_dis": 189,
+      "rho_origin": [
+        -0.485,
+        0.0
+      ],
+      "rho_dest": null,
+      "n_origin_cells": 77,
+      "n_dest_cells": 0,
+      "combo_share": 0.0,
+      "gap_dest_minus_origin": null
+    },
+    "SOM": {
+      "n_conf": 1453,
+      "n_dis": 1638,
+      "rho_origin": [
+        -0.097,
+        0.4305
+      ],
+      "rho_dest": [
+        0.412,
+        0.0019
+      ],
+      "n_origin_cells": 68,
+      "n_dest_cells": 54,
+      "combo_share": 0.36,
+      "gap_dest_minus_origin": 0.509
+    }
+  },
+  "setA": true,
+  "setB": null
+}

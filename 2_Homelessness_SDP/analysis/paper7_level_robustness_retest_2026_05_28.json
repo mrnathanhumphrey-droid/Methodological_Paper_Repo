@@ -1,0 +1,102 @@
+{
+  "outcome": "homeless_per_10k",
+  "framing": "correlational; full ladder reported, no cherry-pick",
+  "ladder_2024": {
+    "M1_rent": {
+      "k": 1,
+      "full_n": 51,
+      "full_loo": 0.2886,
+      "full_5fold": 0.3226,
+      "dropRTS_n": 48,
+      "dropRTS_loo": 0.2159,
+      "dropRTS_5fold": 0.26
+    },
+    "M2_rent+vac": {
+      "k": 2,
+      "full_n": 51,
+      "full_loo": 0.2883,
+      "full_5fold": 0.3175,
+      "dropRTS_n": 48,
+      "dropRTS_loo": 0.2205,
+      "dropRTS_5fold": 0.2569
+    },
+    "M3_climate+rent+vac": {
+      "k": 3,
+      "full_n": 51,
+      "full_loo": 0.2076,
+      "full_5fold": 0.1907,
+      "dropRTS_n": 48,
+      "dropRTS_loo": 0.0776,
+      "dropRTS_5fold": 0.0883
+    },
+    "M4_parsimonious_policy": {
+      "k": 6,
+      "full_n": 51,
+      "full_loo": 0.2034,
+      "full_5fold": 0.2334,
+      "dropRTS_n": 48,
+      "dropRTS_loo": 0.045,
+      "dropRTS_5fold": 0.0708
+    },
+    "M5_full9block_029": {
+      "k": 10,
+      "full_n": 51,
+      "full_loo": 0.2208,
+      "full_5fold": -0.0122,
+      "dropRTS_n": 48,
+      "dropRTS_loo": -0.3363,
+      "dropRTS_5fold": -0.6037
+    }
+  },
+  "per_year_climate_rent_vac": {
+    "2015": {
+      "n": 51,
+      "loo": 0.2409
+    },
+    "2016": {
+      "n": 51,
+      "loo": 0.1867
+    },
+    "2017": {
+      "n": 51,
+      "loo": 0.2705
+    },
+    "2018": {
+      "n": 51,
+      "loo": 0.3038
+    },
+    "2019": {
+      "n": 51,
+      "loo": 0.3055
+    },
+    "2021": {
+      "n": 51,
+      "loo": 0.0757
+    },
+    "2022": {
+      "n": 51,
+      "loo": 0.2357
+    },
+    "2023": {
+      "n": 51,
+      "loo": 0.2684
+    },
+    "2024": {
+      "n": 51,
+      "loo": 0.2076
+    }
+  },
+  "pooled_panel_climate_rent_vac": {
+    "full_n": 816,
+    "full_5fold": 0.3134,
+    "dropRTS_n": 768,
+    "dropRTS_5fold": 0.3117
+  },
+  "verdict": {
+    "parsimonious_M3_dropRTS_loo": 0.0776,
+    "full9block_M5_dropRTS_loo": -0.3363,
+    "parsimony_helps_dropRTS": true,
+    "level_survives_dropRTS_parsimonious": false,
+    "reading": "LEVEL stays fragile on drop-RTS even when parsimonious \u2014 genuinely RTS/coastal-leaning"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "version": "cohort_widening_v1_2025_26",
+  "generated_at": "2026-05-12T01:26:37.041155+00:00",
+  "n_sophs_or_unfit_vets": 403,
+  "n_rookies_2025": 59,
+  "min_soph_gp": 10,
+  "soph_sd_mult": 1.2,
+  "rookie_sd_mult": 2.0,
+  "rookie_id_base": 9990000,
+  "sd_baseline_per_stat": {
+    "PTS": 2.527664180699626,
+    "REB": 0.8372177732735065,
+    "AST": 0.7725419485267944,
+    "STL": 0.2438816901172658,
+    "BLK": 0.2020946908439584,
+    "TOV": 0.3977423538823901,
+    "FGM": 0.929508811865242,
+    "FGA": 1.7374433089312928,
+    "FG3M": 0.4595969850544512,
+    "FG3A": 1.0256271995489084,
+    "FTM": 0.7218384207360861,
+    "FTA": 0.8671772434933094
+  },
+  "rookie_pick_regression_coefs": {
+    "PTS": {
+      "intercept": 18.10090669709377,
+      "slope_log_pick": -1.602765220088815,
+      "r2": 0.16636734010701604,
+      "n": 452,
+      "pop_mean": 13.410478241045263,
+      "pop_sd": 3.7011803201778957
+    },
+    "REB": {
+      "intercept": 6.848005756305337,
+      "slope_log_pick": -0.18863959318202486,
+      "r2": 0.004902538065579165,
+      "n": 452,
+      "pop_mean": 6.2959595147794865,
+      "pop_sd": 2.537620856603086
+    },
+    "AST": {
+      "intercept": 3.5361489333067118,
+      "slope_log_pick": -0.21402243689720285,
+      "r2": 0.013874036112274224,
+      "n": 452,
+      "pop_mean": 2.9098208125855383,
+      "pop_sd": 1.711442314821764
+    },
+    "STL": {
+      "intercept": 1.0929202864196448,
+      "slope_log_pick": 0.005781647662413391,
+      "r2": 0.00013321758243034498,
+      "n": 452,
+      "pop_mean": 1.1098400475791286,
+      "pop_sd": 0.47181877541466993
+    },
+    "BLK": {
+      "intercept": 0.980028945969987,
+      "slope_log_pick": -0.07032610354197132,
+      "r2": 0.008513900922934914,
+      "n": 452,
+      "pop_mean": 0.7742224104138953,
+      "pop_sd": 0.7178878959720838
+    },
+    "TOV": {
+      "intercept": 2.5690276044400258,
+      "slope_log_pick": -0.21749553323928372,
+      "r2": 0.05469169513324823,
+      "n": 452,
+      "pop_mean": 1.932535605872419,
+      "pop_sd": 0.8759796581853747
+    },
+    "FGM": {
+      "intercept": 6.911317553031701,
+      "slope_log_pick": -0.6353521198990248,
+      "r2": 0.17800809143936036,
+      "n": 452,
+      "pop_mean": 5.0519849287437895,
+      "pop_sd": 1.4184008490543898
+    },
+    "FGA": {
+      "intercept": 14.910373115015854,
+      "slope_log_pick": -1.065794097018677,
+      "r2": 0.124483530845656,
+      "n": 452,
+      "pop_mean": 11.791369222063954,
+      "pop_sd": 2.8452585208738816
+    },
+    "FG3M": {
+      "intercept": 1.4598434909489189,
+      "slope_log_pick": -0.014336512874709264,
+      "r2": 0.00020502379757880718,
+      "n": 452,
+      "pop_mean": 1.4178882581392651,
+      "pop_sd": 0.9430739819096584
+    },
+    "FG3A": {
+      "intercept": 4.157263687977553,
+      "slope_log_pick": 0.09964648333122862,
+      "r2": 0.0014009576419773406,
+      "n": 452,
+      "pop_mean": 4.4488751449169905,
+      "pop_sd": 2.5075745030368184
+    },
+    "FTM": {
+      "intercept": 2.8184281000814497,
+      "slope_log_pick": -0.3177244674160558,
+      "r2": 0.08132268021615174,
+      "n": 452,
+      "pop_mean": 1.888620125418421,
+      "pop_sd": 1.0494196446849318
+    },
+    "FTA": {
+      "intercept": 3.8633309499587574,
+      "slope_log_pick": -0.4106295258672652,
+      "r2": 0.07131191327698683,
+      "n": 452,
+      "pop_mean": 2.661640029241874,
+      "pop_sd": 1.4483499226665635
+    }
+  },
+  "soph_baseline_lever": "h2_with_full_fallback (rate stats from 24-25 second half; MPG from full season). Empirical: shrinks soph PTS bias \u22121.20 \u2192 \u22120.42, REB r 0.74\u21920.81, usage r 0.51\u21920.60.",
+  "notes": "v1 cohort widening. Sophs use 24-25 H2 per-36 with full fallback (MPG always full season). Rookies use draft-pick log regression on historical rookies (NCAA 2024-25 data not yet ingested, so per-player NCAA translation deferred). Synthetic rookie IDs in 9990000+ range."
+}

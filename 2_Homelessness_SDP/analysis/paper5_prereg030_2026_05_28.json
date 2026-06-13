@@ -1,0 +1,265 @@
+{
+  "test_A": {
+    "results": {
+      "BRA_Bolsonaro": {
+        "iso": "BRA",
+        "onset": 2019,
+        "actual": "blocked",
+        "raw": {
+          "court_independence": 1.394,
+          "civil_society": 1.497,
+          "competitive_election": 0.842
+        },
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 1,
+          "competitive_election": 1,
+          "federal_regional": 1
+        },
+        "score": 4,
+        "predicted": "blocked",
+        "correct": true
+      },
+      "ISR_overhaul": {
+        "iso": "ISR",
+        "onset": 2023,
+        "actual": "blocked",
+        "raw": {
+          "court_independence": 1.529,
+          "civil_society": 1.987,
+          "competitive_election": 0.873
+        },
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 1,
+          "competitive_election": 1,
+          "federal_regional": 0
+        },
+        "score": 3,
+        "predicted": "blocked",
+        "correct": true
+      },
+      "USA_TrumpI": {
+        "iso": "USA",
+        "onset": 2017,
+        "actual": "blocked",
+        "raw": {
+          "court_independence": 2.583,
+          "civil_society": 3.144,
+          "competitive_election": 0.869
+        },
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 1,
+          "competitive_election": 1,
+          "federal_regional": 1
+        },
+        "score": 4,
+        "predicted": "blocked",
+        "correct": true
+      },
+      "KOR_Yoon": {
+        "iso": "KOR",
+        "onset": 2022,
+        "actual": "blocked",
+        "raw": {
+          "court_independence": 1.086,
+          "civil_society": 1.407,
+          "competitive_election": 0.946
+        },
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 1,
+          "competitive_election": 1,
+          "federal_regional": 0
+        },
+        "score": 3,
+        "predicted": "blocked",
+        "correct": true
+      },
+      "PER_Castillo": {
+        "iso": "PER",
+        "onset": 2021,
+        "actual": "blocked",
+        "raw": {
+          "court_independence": 1.679,
+          "civil_society": 1.045,
+          "competitive_election": 0.903
+        },
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 0,
+          "competitive_election": 1,
+          "federal_regional": 0
+        },
+        "score": 2,
+        "predicted": "consolidated",
+        "correct": false
+      },
+      "SLV_Bukele": {
+        "iso": "SLV",
+        "onset": 2019,
+        "actual": "consolidated",
+        "raw": {
+          "court_independence": 0.713,
+          "civil_society": 1.349,
+          "competitive_election": 0.646
+        },
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 1,
+          "competitive_election": 1,
+          "federal_regional": 0
+        },
+        "score": 3,
+        "predicted": "blocked",
+        "correct": false
+      },
+      "HUN_Orban": {
+        "iso": "HUN",
+        "onset": 2010,
+        "actual": "consolidated",
+        "raw": {
+          "court_independence": 1.165,
+          "civil_society": 0.927,
+          "competitive_election": 0.927
+        },
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 0,
+          "competitive_election": 1,
+          "federal_regional": 0
+        },
+        "score": 2,
+        "predicted": "consolidated",
+        "correct": true
+      },
+      "TUR_Erdogan": {
+        "iso": "TUR",
+        "onset": 2014,
+        "actual": "consolidated",
+        "raw": {
+          "court_independence": 1.151,
+          "civil_society": 0.933,
+          "competitive_election": 0.651
+        },
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 0,
+          "competitive_election": 1,
+          "federal_regional": 0
+        },
+        "score": 2,
+        "predicted": "consolidated",
+        "correct": true
+      },
+      "VEN_Chavez": {
+        "iso": "VEN",
+        "onset": 2006,
+        "actual": "consolidated",
+        "raw": {
+          "court_independence": -2.685,
+          "civil_society": 0.297,
+          "competitive_election": 0.511
+        },
+        "levers": {
+          "court_independence": 0,
+          "civil_society": 0,
+          "competitive_election": 0,
+          "federal_regional": 1
+        },
+        "score": 1,
+        "predicted": "consolidated",
+        "correct": true
+      },
+      "POL_PiS": {
+        "iso": "POL",
+        "onset": 2015,
+        "actual": "consolidated",
+        "raw": {
+          "court_independence": 1.721,
+          "civil_society": 0.931,
+          "competitive_election": 0.96
+        },
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 0,
+          "competitive_election": 1,
+          "federal_regional": 0
+        },
+        "score": 2,
+        "predicted": "consolidated",
+        "correct": true
+      },
+      "TUN_Saied": {
+        "iso": "TUN",
+        "onset": 2021,
+        "actual": "consolidated",
+        "raw": {
+          "court_independence": 0.875,
+          "civil_society": 0.708,
+          "competitive_election": 0.448
+        },
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 0,
+          "competitive_election": 0,
+          "federal_regional": 0
+        },
+        "score": 1,
+        "predicted": "consolidated",
+        "correct": true
+      },
+      "BLR_Luka2020": {
+        "iso": "BLR",
+        "onset": 2020,
+        "actual": "consolidated",
+        "raw": {
+          "court_independence": -3.523,
+          "civil_society": 0.628,
+          "competitive_election": 0.174
+        },
+        "levers": {
+          "court_independence": 0,
+          "civil_society": 0,
+          "competitive_election": 0,
+          "federal_regional": 0
+        },
+        "score": 0,
+        "predicted": "consolidated",
+        "correct": true
+      }
+    },
+    "n_correct": 10,
+    "verdict": "SUPPORTED"
+  },
+  "test_B_usa_erosion": {
+    "by_year": {
+      "2017": {
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 1,
+          "competitive_election": 1,
+          "federal_regional": 1
+        },
+        "score": 4
+      },
+      "2025": {
+        "levers": {
+          "court_independence": 1,
+          "civil_society": 1,
+          "competitive_election": 1,
+          "federal_regional": 1
+        },
+        "score": 4
+      }
+    },
+    "h2_supported": false
+  },
+  "decision_rule": ">=3 levers -> blocked",
+  "lever_operationalization": {
+    "court_independence": "v2juhcind > global median at onset year",
+    "civil_society": "v2csprtcpt > global median at onset year",
+    "competitive_election": "v2xel_frefair > global median at onset year"
+  }
+}

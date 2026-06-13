@@ -1,0 +1,184 @@
+# NBA Projections — fetcher schedule (source of truth)
+#
+# Apply with: powershell -ExecutionPolicy Bypass -File `
+#   "D:\NBA Projections\config\apply_fetcher_schedule.ps1"
+#
+# The apply script regenerates per-task PowerShell wrappers under
+#   D:\NBA Projections\config\fetcher_runners\<TaskName>.ps1
+# and registers/updates Windows Scheduled Tasks under the prefix "NBA-".
+#
+# Stagger: tasks sharing a host (BBR/SR-shared, stats.nba.com-shared) MUST
+# run on different days/hours. Times here are local. Avoid :00 / :30.
+#
+# mode flips between "offseason" and "inseason" via the apply script flag
+# `-Mode inseason`. Each task lists its cadence under both modes.
+
+version: 1
+default_python: 'C:\Users\Nate\AppData\Local\Programs\Python\Python312\python.exe'
+default_user: Nate
+runners_dir: 'D:\NBA Projections\config\fetcher_runners'
+status_parquet: 'D:\NBA Projections\data\parquet\fetcher_status.parquet'
+
+tasks:
+
+  # ---------------- existing, externally managed ----------------
+  - name: NBA-Twitter-Fetcher-Run
+    repo: 'C:\NBA Twitter Fetcher'
+    purpose: Beat-writer signals via X API v2; cost-controlled by ledger
+    managed_externally: true
+    schedule:
+      offseason: { kind: repeat, every_hours: 6 }
+      inseason:  { kind: repeat, every_hours: 6 }
+
+  # ---------------- daily ----------------
+  - name: NBA-PST-Transactions-Run
+    repo: 'C:\NBA Pro Sports Transactions'
+    purpose: Daily injury + transaction backfill (sparse, high-impact)
+    command: |
+      python -m fetchers.pro_sports_transactions backfill --start {{yesterday}} --end {{today}} --category injuries
+      python -m fetchers.pro_sports_transactions backfill --start {{yesterday}} --end {{today}} --category movement
+      python -m fetchers.pro_sports_transactions extract
+      python -m fetchers.pro_sports_transactions resolve
+    schedule:
+      offseason: { kind: daily, at: '05:17' }
+      inseason:  { kind: daily, at: '05:17' }
+
+  # ---------------- weekly ----------------
+  - name: NBA-Coaching-Changes-Refresh
+    repo: 'C:\NBA Coaching Changes'
+    purpose: BBR coach-change scrape; weekly catches mid-season firings
+    command: |
+      python -m fetchers.coaching_changes refresh
+    schedule:
+      offseason: { kind: weekly, day: Mon, at: '06:23' }
+      inseason:  { kind: weekly, day: Mon, at: '06:23' }
+
+  - name: NBA-NCAA-Stats-Run
+    repo: 'C:\NBA NCAA Stats'
+    purpose: NCAA D1 player seasons; slow drift off-season, refresh after season
+    command: |
+      python -m fetchers.ncaa_stats backfill --start-class 2014 --end-class 2024
+      python -m fetchers.ncaa_stats resolve
+    schedule:
+      offseason: { kind: weekly, day: Sat, at: '04:33' }
+      inseason:  { kind: weekly, day: Sat, at: '04:33' }
+    notes: 'Shares BBR/SR rate-limit bucket — Sat is quiet day for SR-network.'
+
+  - name: NBA-International-Stats-Run
+    repo: 'C:\NBA International Stats'
+    purpose: G-League + SR international scrape
+    command: |
+      python -m fetchers.international_stats all --start 2014-15
+    schedule:
+      offseason: { kind: weekly, day: Sun, at: '05:49' }
+      inseason:  { kind: weekly, day: Sun, at: '05:49' }
+    notes: 'Shares BBR/SR rate-limit bucket — runs Sun, separate day from NCAA.'
+
+  - name: NBA-Wikipedia-Career-Run
+    repo: 'C:\NBA Wikipedia'
+    purpose: MediaWiki rookie pre-NBA team mapping (international + non-NCAA)
+    command: |
+      python -m fetchers.wikipedia_career
+    schedule:
+      offseason: { kind: weekly, day: Sun, at: '05:27' }
+      inseason:  { kind: weekly, day: Sun, at: '05:27' }
+    notes: 'Wikipedia API, separate host from BBR/SR. Off-bucket from NCAA/Intl.'
+
+  - name: NBA-Rookie-Prior-Unify
+    repo: 'C:\NBA Rookie Prior'
+    purpose: Unify NCAA + International + G-League + Wiki priors into one parquet
+    command: |
+      python -m fetchers.rookie_prior
+    schedule:
+      offseason: { kind: weekly, day: Sun, at: '06:11' }
+      inseason:  { kind: weekly, day: Sun, at: '06:11' }
+    notes: 'Pure local pandas join — runs after NCAA/Intl/Wiki refresh on Sat-Sun.'
+
+  - name: NBA-Depth-Charts-Run
+    repo: 'C:\NBA Depth Charts'
+    purpose: RotoWire scrape + mpg-derived depth classifier (5/30 teams partial)
+    command: |
+      python -m fetchers.depth_charts all
+    schedule:
+      offseason: { kind: weekly, day: Mon, at: '07:33' }
+      inseason:  { kind: daily,  at: '07:33' }
+    notes: 'In-season cadence ramps to daily — rotation slots shift fast.'
+
+  - name: NBA-Sportradar-Roster-Run
+    repo: 'C:\NBA Sportradar'
+    purpose: SR roster refresh; trial-tier (1000 calls/mo budget)
+    command: |
+      python -m fetchers.sportradar backfill
+    schedule:
+      offseason: { kind: weekly, day: Sun, at: '04:53' }
+      inseason:  { kind: weekly, day: Sun, at: '04:53' }
+    notes: 'Off-season weekly is well within trial budget (~30 calls × 4 wk = 120).'
+
+  # ---------------- annual / one-time ----------------
+  - name: NBA-Enhanced-Draft-Run
+    repo: 'C:\NBA Enhanced Draft Data'
+    purpose: Post-draft + combine refresh
+    command: |
+      python -m fetchers.draft_data backfill
+    schedule:
+      offseason: { kind: annual, month: 6, day: 30, at: '04:13' }
+      inseason:  { kind: annual, month: 6, day: 30, at: '04:13' }
+
+  # ---------------- new daily / weekly fetchers ----------------
+  - name: NBA-Hashtag-Projections-Run
+    repo: 'C:\NBA Hashtag Basketball'
+    purpose: Hashtag Basketball season-long projections (MPG + 9-cat); 500-row free-tier postback
+    command: |
+      python -m fetchers.hashtag_basketball fetch
+    schedule:
+      offseason: { kind: weekly, day: Tue, at: '07:43' }
+      inseason:  { kind: daily,  at: '07:43' }
+    notes: 'Server-side variability 218-489 rows. Daily snapshot with overwrite-by-date dedup.'
+
+  - name: NBA-Regular-Season-Boxes-Run
+    repo: 'C:\NBA Preseason Boxes'
+    purpose: Regular-season game log + box scores (incremental); off-season no-op
+    command: |
+      python -m fetchers.preseason_boxes regular --incremental
+    schedule:
+      offseason: { kind: weekly, day: Sat, at: '03:11' }
+      inseason:  { kind: daily,  at: '03:11' }
+    notes: 'Incremental: only fetches games newer than max(game_date) in existing parquet. Off-season is a no-op once the prior regular-season is captured.'
+
+  - name: NBA-Sportradar-Injuries-Run
+    repo: 'C:\NBA Sportradar'
+    purpose: Daily SR injury status refresh; in-season only (trial budget)
+    command: |
+      python -m fetchers.sportradar injuries
+    schedule:
+      inseason:  { kind: daily, at: '09:53' }
+    notes: 'No off-season schedule; injuries are pre-game-day signal. Uses ~1 call/day = 30/mo of trial budget.'
+
+  - name: NBA-CtG-Players-Run
+    repo: 'C:\NBA Cleaning the Glass'
+    purpose: Cleaning the Glass player leaderboard (115 advanced cols incl. shot zones, percentiles, assist quality)
+    command: |
+      python -m fetchers.cleaning_the_glass players
+    schedule:
+      offseason: { kind: weekly, day: Wed, at: '06:37' }
+      inseason:  { kind: weekly, day: Mon, at: '06:37' }
+    notes: 'Anonymous fetch — CtG inlines full player JSON for everyone. Default current-season only. Paywall is UI-only on this endpoint.'
+
+  # ---------------- watchdog ----------------
+  - name: NBA-Fetcher-Watchdog
+    repo: 'C:\NBA Watchdog'
+    purpose: Alert on stale or failed fetcher tasks; reads fetcher_status.parquet
+    command: |
+      python -m fetchers.watchdog check --mode {{mode}}
+    schedule:
+      offseason: { kind: daily, at: '08:47' }
+      inseason:  { kind: daily, at: '08:47' }
+    notes: 'Runs after morning fetchers. {{mode}} interpolated from -Mode flag at apply time.'
+
+# ---------------- not-yet-built (no scheduled task created) ----------------
+deferred:
+  - { name: NBA-DARKO-Daily,         note: 'DARKO daily projections via Playwright + Shiny WS (apanalytics.shinyapps.io/DARKO). Free, but needs ~2hr Playwright build. notoctosting/NBA-ML-with-DARKO is the reference pattern.' }
+  - { name: NBA-CtG-Teams-Lineups,   note: 'Team/lineup pages — gated via Memberful, NOT WordPress cookies. Player leaderboard is already wired anonymously. Memberful auth flow would need Playwright-driven login. Parked.' }
+  - { name: NBA-Vegas-Team-Futures,  note: 'the-odds-api $30/mo (20K credits) covers team futures w/ huge margin. User decision pending.' }
+  - { name: NBA-Vegas-Player-Props,  note: 'the-odds-api $59/mo (100K credits) needed for full prop slate. User decision pending. CLASS-B validation only — never feed to projection.' }
+  - { name: NBA-News-Scrapes,        note: 'General NBA news — needs source scoping (ESPN/Athletic/etc); deferred low priority.' }

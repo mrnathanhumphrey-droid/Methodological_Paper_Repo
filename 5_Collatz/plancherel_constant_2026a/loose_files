@@ -1,0 +1,14 @@
+{
+  "description": "DWM cross-Kraus moment matched to Syracuse exact structure",
+  "level": 3,
+  "V_MAX": 16,
+  "n_iter": 57600,
+  "elapsed_sec": 1.2743165493011475,
+  "M_3_alt_sum_entries_real": 0.10783084449188846,
+  "M_3_alt_sum_entries_imag": 7.454913210005468e-16,
+  "M_3_alt_tr_pi_real": 0.0005085294325179459,
+  "M_3_alt_tr_pi_imag": -3.94303081286267e-17,
+  "syracuse_target_sum_entries": 0.10783,
+  "syracuse_target_tr_pi": 0.0536,
+  "ratio_sum_entries": 1.000007831697009
+}

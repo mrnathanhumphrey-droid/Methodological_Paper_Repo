@@ -1,0 +1,274 @@
+{
+  "results": [
+    {
+      "cohort": "rookie_Center",
+      "stat": "PTS",
+      "n_obs": 215,
+      "n_configs_retained": 3,
+      "verdict": "insufficient_configs",
+      "k_star": null,
+      "silhouette_obs": null,
+      "p_value": null
+    },
+    {
+      "cohort": "rookie_Center",
+      "stat": "REB",
+      "n_obs": 215,
+      "n_configs_retained": 3,
+      "verdict": "insufficient_configs",
+      "k_star": null,
+      "silhouette_obs": null,
+      "p_value": null
+    },
+    {
+      "cohort": "rookie_Center",
+      "stat": "AST",
+      "n_obs": 215,
+      "n_configs_retained": 3,
+      "verdict": "insufficient_configs",
+      "k_star": null,
+      "silhouette_obs": null,
+      "p_value": null
+    },
+    {
+      "cohort": "rookie_Forward",
+      "stat": "PTS",
+      "n_obs": 772,
+      "n_configs_retained": 33,
+      "verdict": "no_structure_underpowered",
+      "k_star": 4,
+      "silhouette_obs": 0.18784488481784986,
+      "p_value": 0.32
+    },
+    {
+      "cohort": "rookie_Forward",
+      "stat": "REB",
+      "n_obs": 772,
+      "n_configs_retained": 33,
+      "verdict": "no_structure_underpowered",
+      "k_star": 2,
+      "silhouette_obs": 0.29593479164659336,
+      "p_value": 0.694
+    },
+    {
+      "cohort": "rookie_Forward",
+      "stat": "AST",
+      "n_obs": 772,
+      "n_configs_retained": 33,
+      "verdict": "no_structure_underpowered",
+      "k_star": 2,
+      "silhouette_obs": 0.3413167675595441,
+      "p_value": 0.772
+    },
+    {
+      "cohort": "rookie_Guard",
+      "stat": "PTS",
+      "n_obs": 611,
+      "n_configs_retained": 30,
+      "verdict": "ambiguous",
+      "k_star": 2,
+      "silhouette_obs": 0.3252068616646116,
+      "p_value": 0.044
+    },
+    {
+      "cohort": "rookie_Guard",
+      "stat": "REB",
+      "n_obs": 611,
+      "n_configs_retained": 30,
+      "verdict": "no_structure_underpowered",
+      "k_star": 2,
+      "silhouette_obs": 0.2906917651416589,
+      "p_value": 0.438
+    },
+    {
+      "cohort": "rookie_Guard",
+      "stat": "AST",
+      "n_obs": 611,
+      "n_configs_retained": 30,
+      "verdict": "no_structure_underpowered",
+      "k_star": 2,
+      "silhouette_obs": 0.27477313973661593,
+      "p_value": 0.454
+    },
+    {
+      "cohort": "soph_Center",
+      "stat": "PTS",
+      "n_obs": 489,
+      "n_configs_retained": 23,
+      "verdict": "no_structure_underpowered",
+      "k_star": 2,
+      "silhouette_obs": 0.2302706099452315,
+      "p_value": 0.352
+    },
+    {
+      "cohort": "soph_Center",
+      "stat": "REB",
+      "n_obs": 489,
+      "n_configs_retained": 23,
+      "verdict": "no_structure_underpowered",
+      "k_star": 2,
+      "silhouette_obs": 0.2304974891915176,
+      "p_value": 0.532
+    },
+    {
+      "cohort": "soph_Center",
+      "stat": "AST",
+      "n_obs": 489,
+      "n_configs_retained": 23,
+      "verdict": "no_structure_underpowered",
+      "k_star": 2,
+      "silhouette_obs": 0.30526204476707125,
+      "p_value": 0.27
+    },
+    {
+      "cohort": "soph_Forward",
+      "stat": "PTS",
+      "n_obs": 2207,
+      "n_configs_retained": 57,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.3873352901949131,
+      "p_value": 0.22
+    },
+    {
+      "cohort": "soph_Forward",
+      "stat": "REB",
+      "n_obs": 2207,
+      "n_configs_retained": 57,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.3586416537904324,
+      "p_value": 0.506
+    },
+    {
+      "cohort": "soph_Forward",
+      "stat": "AST",
+      "n_obs": 2207,
+      "n_configs_retained": 57,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.35061724647688414,
+      "p_value": 0.732
+    },
+    {
+      "cohort": "soph_Guard",
+      "stat": "PTS",
+      "n_obs": 2568,
+      "n_configs_retained": 58,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.3488189413208864,
+      "p_value": 0.484
+    },
+    {
+      "cohort": "soph_Guard",
+      "stat": "REB",
+      "n_obs": 2568,
+      "n_configs_retained": 58,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.34580298830122597,
+      "p_value": 0.632
+    },
+    {
+      "cohort": "soph_Guard",
+      "stat": "AST",
+      "n_obs": 2568,
+      "n_configs_retained": 58,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.35931885861566426,
+      "p_value": 0.67
+    },
+    {
+      "cohort": "vet_Center",
+      "stat": "PTS",
+      "n_obs": 1499,
+      "n_configs_retained": 52,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.506997125923649,
+      "p_value": 0.326
+    },
+    {
+      "cohort": "vet_Center",
+      "stat": "REB",
+      "n_obs": 1499,
+      "n_configs_retained": 52,
+      "verdict": "ambiguous",
+      "k_star": 2,
+      "silhouette_obs": 0.4420004165815236,
+      "p_value": 0.028
+    },
+    {
+      "cohort": "vet_Center",
+      "stat": "AST",
+      "n_obs": 1499,
+      "n_configs_retained": 52,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.37007603712558484,
+      "p_value": 0.476
+    },
+    {
+      "cohort": "vet_Forward",
+      "stat": "PTS",
+      "n_obs": 3007,
+      "n_configs_retained": 59,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.33204623576953174,
+      "p_value": 0.83
+    },
+    {
+      "cohort": "vet_Forward",
+      "stat": "REB",
+      "n_obs": 3007,
+      "n_configs_retained": 59,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.36938887321233527,
+      "p_value": 0.834
+    },
+    {
+      "cohort": "vet_Forward",
+      "stat": "AST",
+      "n_obs": 3007,
+      "n_configs_retained": 59,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.30959656118055534,
+      "p_value": 0.9
+    },
+    {
+      "cohort": "vet_Guard",
+      "stat": "PTS",
+      "n_obs": 4008,
+      "n_configs_retained": 63,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.42114123484887883,
+      "p_value": 0.304
+    },
+    {
+      "cohort": "vet_Guard",
+      "stat": "REB",
+      "n_obs": 4008,
+      "n_configs_retained": 63,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.3901188159143897,
+      "p_value": 0.686
+    },
+    {
+      "cohort": "vet_Guard",
+      "stat": "AST",
+      "n_obs": 4008,
+      "n_configs_retained": 63,
+      "verdict": "no_structure",
+      "k_star": 2,
+      "silhouette_obs": 0.34475173205280685,
+      "p_value": 0.824
+    }
+  ]
+}

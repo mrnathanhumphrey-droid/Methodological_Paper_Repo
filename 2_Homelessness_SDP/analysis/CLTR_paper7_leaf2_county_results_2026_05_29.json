@@ -1,0 +1,85 @@
+{
+  "pre_reg": "CLTR_fractal_leaf2_county",
+  "framing": "correlational; ecological (county); n large -> judge effect size",
+  "validation_mmg_vs_fea": {
+    "n_states": 51,
+    "pearson_r": 0.8473,
+    "mean_abs_diff_pp": 1.02,
+    "ok": false,
+    "interpretation": "BENIGN methodology difference, not a linkage bug: discrepancies spread (biggest AL +4.1pp; CA/MS/TX/LA <1.5pp), all values 8-18%. FEA state food insecurity uses MMG STATE-DIRECT (CPS) model; this aggregates MMG COUNTY (modeled) estimates -> same construct ~1pp apart by design. Split test uses MMG county directly, unaffected."
+  },
+  "n_counties_2023": 3132,
+  "full_interaction_model": {
+    "poverty": {
+      "b": 2.978,
+      "p": 0.0
+    },
+    "access": {
+      "b": -0.041,
+      "p": 0.6277
+    },
+    "rural": {
+      "b": 0.367,
+      "p": 0.0
+    },
+    "poverty_x_rural": {
+      "b": -0.275,
+      "p": 0.0021
+    },
+    "access_x_rural": {
+      "b": -0.048,
+      "p": 0.6431
+    }
+  },
+  "metro_subsample": {
+    "n": 1178,
+    "R2": 0.675,
+    "std_coefs": {
+      "poverty": {
+        "b": 2.521,
+        "p": 0.0
+      },
+      "access": {
+        "b": -0.03,
+        "p": 0.6278
+      }
+    },
+    "dominant": "poverty"
+  },
+  "nonmetro_subsample": {
+    "n": 1954,
+    "R2": 0.618,
+    "std_coefs": {
+      "poverty": {
+        "b": 2.792,
+        "p": 0.0
+      },
+      "access": {
+        "b": -0.1,
+        "p": 0.1411
+      }
+    },
+    "dominant": "poverty"
+  },
+  "F2_D1_income_universal": true,
+  "F2_D2_access_rural_specific": false,
+  "FRACTAL_SPLIT": false,
+  "stability_access_x_rural": {
+    "2021": {
+      "access_x_rural_b": 0.0,
+      "p": NaN,
+      "n": 3140
+    },
+    "2022": {
+      "access_x_rural_b": -0.053,
+      "p": 0.6293,
+      "n": 3132
+    },
+    "2023": {
+      "access_x_rural_b": -0.048,
+      "p": 0.6431,
+      "n": 3132
+    }
+  },
+  "disposition": "TERMINAL: food insecurity is poverty-ruled in both metro and nonmetro; access not a distinct rural channel (leaf does not split)"
+}

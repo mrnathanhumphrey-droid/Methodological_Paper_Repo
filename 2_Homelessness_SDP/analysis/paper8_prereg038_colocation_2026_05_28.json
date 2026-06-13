@@ -1,0 +1,212 @@
+{
+  "grid_deg": 1.0,
+  "rows": {
+    "BEN": {
+      "n_conflict_ev": 2,
+      "n_disaster_ev": 1,
+      "n_cells": 2,
+      "disaster_idp_share": 0.193,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": null,
+      "rho_national": -0.071
+    },
+    "BFA": {
+      "n_conflict_ev": 138,
+      "n_disaster_ev": 1,
+      "n_cells": 15,
+      "disaster_idp_share": 0.0,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.267,
+      "rho_national": 0.027
+    },
+    "COD": {
+      "n_conflict_ev": 545,
+      "n_disaster_ev": 38,
+      "n_cells": 53,
+      "disaster_idp_share": 0.028,
+      "rho_spatial": -0.025,
+      "rho_p": 0.8599,
+      "topq_jaccard": 0.273,
+      "rho_national": 0.688
+    },
+    "IRN": {
+      "n_conflict_ev": 11,
+      "n_disaster_ev": 2,
+      "n_cells": 7,
+      "disaster_idp_share": 0.0,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": null,
+      "rho_national": null
+    },
+    "KHM": {
+      "n_conflict_ev": 10,
+      "n_disaster_ev": 4,
+      "n_cells": 8,
+      "disaster_idp_share": 0.008,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.333,
+      "rho_national": null
+    },
+    "LBN": {
+      "n_conflict_ev": 67,
+      "n_disaster_ev": 0,
+      "n_cells": 3,
+      "disaster_idp_share": 0.0,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": null,
+      "rho_national": 0.39
+    },
+    "MLI": {
+      "n_conflict_ev": 142,
+      "n_disaster_ev": 0,
+      "n_cells": 27,
+      "disaster_idp_share": 0.0,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.259,
+      "rho_national": 0.328
+    },
+    "MMR": {
+      "n_conflict_ev": 228,
+      "n_disaster_ev": 26,
+      "n_cells": 24,
+      "disaster_idp_share": 0.15,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.091,
+      "rho_national": -0.206
+    },
+    "NER": {
+      "n_conflict_ev": 93,
+      "n_disaster_ev": 0,
+      "n_cells": 21,
+      "disaster_idp_share": 0.0,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.286,
+      "rho_national": 0.241
+    },
+    "NGA": {
+      "n_conflict_ev": 2318,
+      "n_disaster_ev": 167,
+      "n_cells": 65,
+      "disaster_idp_share": 0.284,
+      "rho_spatial": -0.348,
+      "rho_p": 0.0044,
+      "topq_jaccard": 0.097,
+      "rho_national": -0.201
+    },
+    "PHL": {
+      "n_conflict_ev": 47,
+      "n_disaster_ev": 189,
+      "n_cells": 42,
+      "disaster_idp_share": 0.923,
+      "rho_spatial": -0.332,
+      "rho_p": 0.0319,
+      "topq_jaccard": 0.1,
+      "rho_national": 0.108
+    },
+    "PSE": {
+      "n_conflict_ev": 322,
+      "n_disaster_ev": 1,
+      "n_cells": 4,
+      "disaster_idp_share": 0.0,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": null,
+      "rho_national": -0.161
+    },
+    "SDN": {
+      "n_conflict_ev": 196,
+      "n_disaster_ev": 27,
+      "n_cells": 30,
+      "disaster_idp_share": 0.011,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.143,
+      "rho_national": 0.054
+    },
+    "SOM": {
+      "n_conflict_ev": 1453,
+      "n_disaster_ev": 1638,
+      "n_cells": 57,
+      "disaster_idp_share": 0.57,
+      "rho_spatial": 0.3,
+      "rho_p": 0.0233,
+      "topq_jaccard": 0.154,
+      "rho_national": 0.584
+    },
+    "SYR": {
+      "n_conflict_ev": 16,
+      "n_disaster_ev": 5,
+      "n_cells": 10,
+      "disaster_idp_share": 0.011,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.0,
+      "rho_national": 0.063
+    },
+    "UGA": {
+      "n_conflict_ev": 1,
+      "n_disaster_ev": 77,
+      "n_cells": 16,
+      "disaster_idp_share": 0.912,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.25,
+      "rho_national": 0.601
+    },
+    "UKR": {
+      "n_conflict_ev": 735,
+      "n_disaster_ev": 0,
+      "n_cells": 41,
+      "disaster_idp_share": 0.0,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.268,
+      "rho_national": 0.047
+    },
+    "YEM": {
+      "n_conflict_ev": 1241,
+      "n_disaster_ev": 1,
+      "n_cells": 25,
+      "disaster_idp_share": 0.404,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.28,
+      "rho_national": 0.111
+    },
+    "ZAF": {
+      "n_conflict_ev": 0,
+      "n_disaster_ev": 33,
+      "n_cells": 22,
+      "disaster_idp_share": 1.0,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": 0.273,
+      "rho_national": 0.221
+    },
+    "ZWE": {
+      "n_conflict_ev": 0,
+      "n_disaster_ev": 2,
+      "n_cells": 2,
+      "disaster_idp_share": 1.0,
+      "rho_spatial": null,
+      "rho_p": null,
+      "topq_jaccard": null,
+      "rho_national": -0.179
+    }
+  },
+  "setA": false,
+  "setB": true,
+  "setC": null,
+  "cod": -0.025,
+  "som": 0.3,
+  "ukr": null,
+  "phl": -0.332
+}

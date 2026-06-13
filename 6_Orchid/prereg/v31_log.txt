@@ -1,0 +1,16 @@
+# RMD-SRC Gymnadenia v3.1 — Huber + Corv_monomorph dummy
+# Generated: 2026-06-02T00:07:38.180202+00:00
+# Per PRE_REG_v3.1_amendment.md
+
+step3_response_function_v31.parquet sha = 111a5e62f99c45527efd8fcf17c3638f8cb0d3fdae434c8c06f399837cbbd2a6
+step3_cell_cleanness_v31.parquet sha    = 12ac65d761475cc002427aba7691c899dff8f936c53324bf715a18cbd932ad13
+step4_leaves_v31.parquet sha            = f7cf5e2bdb27f147eb84bb69f4ffdd07c3ca2b28cf863293d4ad47d6df3424d7
+
+H_v3.1A β_m sig count (target ≥3): 6/7
+H_v3.1B Corviglia clean (target ≥4): 0/7
+H_v3.1C substrate post-decomp: 8.9% (vs v3.0 16.1%)
+
+F1 fires: False
+F2 fires: True
+F3 fires: False
+F4 fires: True

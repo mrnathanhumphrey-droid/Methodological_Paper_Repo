@@ -1,0 +1,34 @@
+{
+  "fit_label": "hierarchical_REB",
+  "checks": [
+    {
+      "name": "shrinkage_pattern",
+      "passed": true,
+      "summary": "low/high SD ratio = 1.14 (high=0.1513, low=0.1722)",
+      "details": [
+        "  high-volume players (>= 100 games or top quartile): N=12",
+        "  low-volume players (<= 20 games or bottom quartile): N=12",
+        "  expected ratio in [1.05, 6.0]; observed 1.14",
+        "  ratio > 1.0 means shrinkage acts in the right direction (low data \u2192 wider posterior)"
+      ]
+    },
+    {
+      "name": "position_ordering_REB",
+      "passed": true,
+      "summary": "REB ordering: actual=['C', 'F', 'G'] expected=['C', 'F', 'G']",
+      "details": [
+        "  position means: G=4.51, F=7.86, C=11.68"
+      ]
+    },
+    {
+      "name": "top_performers",
+      "passed": true,
+      "summary": "top-10 contains 3 of expected (need >= 3)",
+      "details": [
+        "  model top-10: ['Jonas Valan\u010di\u016bnas', 'Rudy Gobert', 'Domantas Sabonis', 'Giannis Antetokounmpo', 'Ivica Zubac', 'Kevon Looney', 'Nikola Joki\u0107', 'Jarrett Allen', 'Mason Plumlee', 'Nikola Vu\u010devi\u0107']",
+        "  expected names: ['Nikola Jokic', 'Clint Capela', 'Domantas Sabonis', 'Andre Drummond', 'Victor Wembanyama', 'Rudy Gobert']",
+        "  matches: ['Rudy Gobert', 'Domantas Sabonis']"
+      ]
+    }
+  ]
+}

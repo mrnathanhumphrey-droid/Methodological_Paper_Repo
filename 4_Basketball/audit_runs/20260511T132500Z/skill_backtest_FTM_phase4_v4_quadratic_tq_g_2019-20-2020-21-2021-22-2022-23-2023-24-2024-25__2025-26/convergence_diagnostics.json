@@ -1,0 +1,18 @@
+{
+  "passed": false,
+  "notes": [
+    "R-hat for mu_player[153]: 1.010 > 1.01",
+    "R-hat for sigma_position: 1.013 > 1.01",
+    "ESS for sigma_position: 360 < 400",
+    "R-hat for sigma_age_player: 1.016 > 1.01",
+    "ESS for sigma_age_player: 232 < 400",
+    "R-hat for age_tilt_player_z[82]: 1.016 > 1.01",
+    "R-hat for age_tilt_player_z[153]: 1.012 > 1.01",
+    "R-hat for age_tilt_player_z[173]: 1.013 > 1.01",
+    "R-hat for age_tilt_player[82]: 1.018 > 1.01",
+    "R-hat for rate_per_36_at_27[153]: 1.010 > 1.01"
+  ],
+  "max_rhat": 1.01788,
+  "min_ess": 232.038,
+  "n_params_summarized": 905
+}

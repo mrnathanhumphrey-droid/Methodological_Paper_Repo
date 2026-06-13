@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2023-24",
+  "n_players": 10,
+  "mae": 1.4571787814332164,
+  "rmse": 1.69214888922367,
+  "bias": 0.4143486413603242,
+  "coverage_50": 0.4,
+  "coverage_80": 0.9,
+  "coverage_90": 0.9,
+  "z_error_mean": 0.020619994778125265,
+  "z_error_sd": 1.006336462726683,
+  "top_25_accuracy": NaN,
+  "top_50_accuracy": NaN,
+  "worst_misses": [
+    {
+      "nba_api_id": 1627826,
+      "name": "Ivica Zubac",
+      "projected": 15.608785398595284,
+      "projected_sd": 13.20320441852626,
+      "actual": 12.561872909698996,
+      "error": 3.0469124888962877,
+      "z_error": 0.23077068204904636
+    },
+    {
+      "nba_api_id": 203999,
+      "name": "Nikola Joki\u0107",
+      "projected": 10.48162638376272,
+      "projected_sd": 3.529066840038483,
+      "actual": 12.837413226160029,
+      "error": -2.3557868423973094,
+      "z_error": -0.6675381762878768
+    },
+    {
+      "nba_api_id": 202696,
+      "name": "Nikola Vu\u010devi\u0107",
+      "projected": 13.284651767830123,
+      "projected_sd": 4.5335277441655535,
+      "actual": 11.039816232771823,
+      "error": 2.2448355350583,
+      "z_error": 0.49516307426315026
+    },
+    {
+      "nba_api_id": 1626220,
+      "name": "Royce O'Neale",
+      "projected": 5.270843575323121,
+      "projected_sd": 0.696274347581521,
+      "actual": 6.952868852459017,
+      "error": -1.682025277135896,
+      "z_error": -2.4157507496554174
+    },
+    {
+      "nba_api_id": 1627741,
+      "name": "Buddy Hield",
+      "projected": 5.945411950079206,
+      "projected_sd": 1.4937674797168061,
+      "actual": 4.485409911996294,
+      "error": 1.4600020380829122,
+      "z_error": 0.977395784757414
+    },
+    {
+      "nba_api_id": 1627777,
+      "name": "Georges Niang",
+      "projected": 4.289527066356074,
+      "projected_sd": 1.5735670221471116,
+      "actual": 5.4658656471873295,
+      "error": -1.1763385808312554,
+      "z_error": -0.7475617906799781
+    },
+    {
+      "nba_api_id": 203084,
+      "name": "Harrison Barnes",
+      "projected": 4.859771805512023,
+      "projected_sd": 1.0071641077886349,
+      "actual": 3.7679697351828496,
+      "error": 1.091802070329173,
+      "z_error": 1.0840359201504632
+    },
+    {
+      "nba_api_id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "projected": 3.791139298492259,
+      "projected_sd": 1.1917138924215807,
+      "actual": 2.740432612312812,
+      "error": 1.050706686179447,
+      "z_error": 0.8816769636245451
+    },
+    {
+      "nba_api_id": 1628969,
+      "name": "Mikal Bridges",
+      "projected": 5.003095560155822,
+      "projected_sd": 1.1295702608783467,
+      "actual": 4.690718038528897,
+      "error": 0.31237752162692534,
+      "z_error": 0.27654545489186527
+    },
+    {
+      "nba_api_id": 202685,
+      "name": "Jonas Valan\u010di\u016bnas",
+      "projected": 13.613656375454408,
+      "projected_sd": 1.6509531646418294,
+      "actual": 13.462655601659751,
+      "error": 0.1510007737946566,
+      "z_error": 0.09146278466804107
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 202685,
+      "name": "Jonas Valan\u010di\u016bnas",
+      "projected": 13.613656375454408,
+      "projected_sd": 1.6509531646418294,
+      "actual": 13.462655601659751,
+      "error": 0.1510007737946566,
+      "z_error": 0.09146278466804107
+    },
+    {
+      "nba_api_id": 1628969,
+      "name": "Mikal Bridges",
+      "projected": 5.003095560155822,
+      "projected_sd": 1.1295702608783467,
+      "actual": 4.690718038528897,
+      "error": 0.31237752162692534,
+      "z_error": 0.27654545489186527
+    },
+    {
+      "nba_api_id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "projected": 3.791139298492259,
+      "projected_sd": 1.1917138924215807,
+      "actual": 2.740432612312812,
+      "error": 1.050706686179447,
+      "z_error": 0.8816769636245451
+    },
+    {
+      "nba_api_id": 203084,
+      "name": "Harrison Barnes",
+      "projected": 4.859771805512023,
+      "projected_sd": 1.0071641077886349,
+      "actual": 3.7679697351828496,
+      "error": 1.091802070329173,
+      "z_error": 1.0840359201504632
+    },
+    {
+      "nba_api_id": 1627777,
+      "name": "Georges Niang",
+      "projected": 4.289527066356074,
+      "projected_sd": 1.5735670221471116,
+      "actual": 5.4658656471873295,
+      "error": -1.1763385808312554,
+      "z_error": -0.7475617906799781
+    }
+  ]
+}

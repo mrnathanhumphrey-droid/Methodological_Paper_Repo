@@ -1,0 +1,46 @@
+{
+  "best_variant": "decay=0.5 (3y exp)       age=Y",
+  "best_mae": 3.671258491267236,
+  "naive_mae": 4.021660767561598,
+  "consensus_mae_target": 2.627,
+  "lift_vs_naive_pct": 8.712875017223709,
+  "lift_vs_consensus_pct": -39.75098938969306,
+  "all_variants": [
+    {
+      "variant": "decay=1.0 (3y simple avg) age=N",
+      "mae": 4.21746040221549,
+      "lift_pct": -4.868626320578717,
+      "n": 371
+    },
+    {
+      "variant": "decay=0.5 (3y exp)       age=N",
+      "mae": 3.876363692974467,
+      "lift_pct": 3.61286252085421,
+      "n": 371
+    },
+    {
+      "variant": "decay=0.5 (3y exp)       age=Y",
+      "mae": 3.671258491267236,
+      "lift_pct": 8.712875017223709,
+      "n": 371
+    },
+    {
+      "variant": "decay=0.7 (3y mild exp)  age=N",
+      "mae": 4.024732344634538,
+      "lift_pct": -0.0763758370103007,
+      "n": 371
+    },
+    {
+      "variant": "decay=0.7 (3y mild exp)  age=Y",
+      "mae": 3.8089399146018144,
+      "lift_pct": 5.289378325381733,
+      "n": 371
+    },
+    {
+      "variant": "decay=0.5 (5y exp)       age=Y",
+      "mae": 3.740163100476907,
+      "lift_pct": 6.999537836588033,
+      "n": 373
+    }
+  ]
+}

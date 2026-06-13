@@ -1,0 +1,22 @@
+﻿# Data-use agreements accepted for this project.
+# Append-only. Each block hashes the verbatim agreement text at acceptance time.
+
+---
+agreement: IPUMS USA Terms of Use
+accepted_by: mr.nathanhumphrey@gmail.com
+accepted_at: 2026-05-27 22:37:31 -04:00
+source_url: https://uma.pop.umn.edu/usa/registration/new
+file: docs/IPUMS_USA_terms_of_use_accepted.md
+sha256: 68ea2a51318942a1497e3ba1475dccc9d0b908441fdd3b8d425400840bcfefd1
+---
+
+# Public-domain reference data (no agreement; provenance recorded for reproducibility).
+---
+data: 2010 Census Tract -> 2010 PUMA relationship file (v1.9 FARA arm crosswalk)
+pulled_at: 2026-05-28
+source_url: https://www2.census.gov/geo/docs/maps-data/data/rel/2010_Census_Tract_to_2010_PUMA.txt
+file: data/raw/crosswalks/2010_Census_Tract_to_2010_PUMA.txt
+rows: 74092
+sha256: 3874b04b00b38d4b31d41de6fa799a9587778e9ade1a6ab10b02bb03a7f5a5ec
+---
+

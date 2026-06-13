@@ -1,0 +1,45 @@
+{
+  "n": 47,
+  "framing": "correlational; mediation pattern; ordering locked by timescale",
+  "supply_index": "mean(z(zoning), -z(saiz_elasticity)); higher=more constrained",
+  "H1_first_stage_rent": {
+    "loo_r2": 0.772,
+    "supply_coef": 116.898,
+    "supply_p": 0.0,
+    "income_coef": 186.647,
+    "income_p": 0.0,
+    "loo_supply_only": 0.5279,
+    "loo_income_only": 0.6867
+  },
+  "H1_disposition": "SUPPORTED",
+  "H2_mediation": {
+    "indirect": 0.2186,
+    "a": 0.383,
+    "b": 0.5707,
+    "direct_cprime": -0.0225,
+    "ci95": [
+      -0.0001,
+      0.5235
+    ],
+    "excludes_zero_positive": false,
+    "n_boot": 5000
+  },
+  "H2_disposition": "FALSIFIED",
+  "H3_supply_vs_demand": {
+    "dR2_supply_given_income": 0.0853,
+    "dR2_income_given_supply": 0.2441,
+    "supply_dominates": false
+  },
+  "robust_drop_RTS_indirect": {
+    "indirect": 0.1902,
+    "a": 0.3901,
+    "b": 0.4876,
+    "direct_cprime": 0.0424,
+    "ci95": [
+      -0.0577,
+      0.4571
+    ],
+    "excludes_zero_positive": false,
+    "n_boot": 5000
+  }
+}

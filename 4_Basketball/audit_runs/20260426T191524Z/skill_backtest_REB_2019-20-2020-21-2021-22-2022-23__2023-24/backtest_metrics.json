@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2023-24",
+  "n_players": 195,
+  "mae": 0.6986451243389061,
+  "rmse": 0.9351859757275773,
+  "bias": 0.21888770546454955,
+  "coverage_50": 0.47692307692307695,
+  "coverage_80": 0.7384615384615385,
+  "coverage_90": 0.7846153846153846,
+  "z_error_mean": 0.3133346963216344,
+  "z_error_sd": 1.2790310199325667,
+  "top_25_accuracy": 0.8,
+  "top_50_accuracy": 0.94,
+  "worst_misses": [
+    {
+      "nba_api_id": 1630191,
+      "name": "Isaiah Stewart",
+      "projected": 11.269,
+      "projected_sd": 0.7356462594315462,
+      "actual": 7.710674157303371,
+      "error": 3.558325842696629,
+      "z_error": 4.837006641542967
+    },
+    {
+      "nba_api_id": 1629020,
+      "name": "Jarred Vanderbilt",
+      "projected": 11.465,
+      "projected_sd": 0.7380296781123545,
+      "actual": 8.521440823327616,
+      "error": 2.943559176672384,
+      "z_error": 3.9884021794368394
+    },
+    {
+      "nba_api_id": 1628978,
+      "name": "Donte DiVincenzo",
+      "projected": 6.85066,
+      "projected_sd": 0.7005098047212656,
+      "actual": 4.524756665256031,
+      "error": 2.3259033347439697,
+      "z_error": 3.320300899527669
+    },
+    {
+      "nba_api_id": 203076,
+      "name": "Anthony Davis",
+      "projected": 10.6442,
+      "projected_sd": 0.7216442509821759,
+      "actual": 12.808589411329137,
+      "error": -2.1643894113291378,
+      "z_error": -2.999247078298413
+    },
+    {
+      "nba_api_id": 1628975,
+      "name": "Jevon Carter",
+      "projected": 4.29962,
+      "projected_sd": 0.6938553542854776,
+      "actual": 2.155688622754491,
+      "error": 2.143931377245509,
+      "z_error": 3.0898822989602768
+    },
+    {
+      "nba_api_id": 203937,
+      "name": "Kyle Anderson",
+      "projected": 7.66198,
+      "projected_sd": 0.7041143040725886,
+      "actual": 5.524451939291737,
+      "error": 2.137528060708263,
+      "z_error": 3.0357685511355568
+    },
+    {
+      "nba_api_id": 203083,
+      "name": "Andre Drummond",
+      "projected": 16.8756,
+      "projected_sd": 0.7639441742631627,
+      "actual": 18.893995552260932,
+      "error": -2.018395552260934,
+      "z_error": -2.6420720521989853
+    },
+    {
+      "nba_api_id": 1630224,
+      "name": "Jalen Green",
+      "projected": 3.89343,
+      "projected_sd": 0.6920581751555469,
+      "actual": 5.856923076923077,
+      "error": -1.963493076923077,
+      "z_error": -2.837179224827107
+    },
+    {
+      "nba_api_id": 203926,
+      "name": "Doug McDermott",
+      "projected": 4.26853,
+      "projected_sd": 0.6935718595672878,
+      "actual": 2.349557522123894,
+      "error": 1.9189724778761064,
+      "z_error": 2.76679690994576
+    },
+    {
+      "nba_api_id": 1627749,
+      "name": "Dejounte Murray",
+      "projected": 7.29855,
+      "projected_sd": 0.6961613975642614,
+      "actual": 5.383177570093458,
+      "error": 1.915372429906542,
+      "z_error": 2.751333866841902
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1627827,
+      "name": "Dorian Finney-Smith",
+      "projected": 5.90203,
+      "projected_sd": 0.6893639807232647,
+      "actual": 5.9037765131919295,
+      "error": -0.001746513191929644,
+      "z_error": -0.002533513848659808
+    },
+    {
+      "nba_api_id": 1629640,
+      "name": "Keldon Johnson",
+      "projected": 6.6591,
+      "projected_sd": 0.7019147181699681,
+      "actual": 6.656204021579206,
+      "error": 0.00289597842079381,
+      "z_error": 0.004125826608030395
+    },
+    {
+      "nba_api_id": 1629637,
+      "name": "Jaxson Hayes",
+      "projected": 8.61851,
+      "projected_sd": 0.725806455672327,
+      "actual": 8.622020431328036,
+      "error": -0.0035104313280349686,
+      "z_error": -0.004836594247130519
+    },
+    {
+      "nba_api_id": 1628470,
+      "name": "Torrey Craig",
+      "projected": 7.43009,
+      "projected_sd": 0.7060237837747576,
+      "actual": 7.425855513307984,
+      "error": 0.004234486692015871,
+      "z_error": 0.005997654454891277
+    },
+    {
+      "nba_api_id": 1630557,
+      "name": "Corey Kispert",
+      "projected": 3.92322,
+      "projected_sd": 0.6964576837243062,
+      "actual": 3.9168278529980656,
+      "error": 0.006392147001934578,
+      "z_error": 0.00917808382521187
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "notes": [
+    "R-hat for mu_player[14]: 1.015 > 1.01",
+    "R-hat for reb_per_36_at_27[14]: 1.016 > 1.01"
+  ],
+  "max_rhat": 1.01557,
+  "min_ess": 1400.94,
+  "n_params_summarized": 186
+}

@@ -1,0 +1,187 @@
+{
+  "study": "Internal Displacement Cross-Country Study (substrate 9)",
+  "phase": "Phase 0 \u2014 pre-reg lock + data fetch + pre-cond scaffold",
+  "last_updated": "2026-05-18 05:28:36",
+  "lock_commit": "set on initial git commit",
+  "files": [
+    {
+      "path": "data/dtm/schema_rulebook.json",
+      "sha256": "bf4c42c8b5f4253b57d7a9e0ccafb2675cc782ffa7d6a09ba06aa748410572ce",
+      "size_bytes": 4713,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/gadm/gadm41_colombia.gpkg",
+      "sha256": "1e2287e85494c2766ad1be8e605cfde62c7d56b80ece6725321f6291a49934d7",
+      "size_bytes": 64114688,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/gadm/gadm41_drc.gpkg",
+      "sha256": "56ce52eb23a973ff9b1b360d81188bfd6f6dca9478a0ea0fe18d22b7d2565fa9",
+      "size_bytes": 4784128,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/gadm/gadm41_sudan.gpkg",
+      "sha256": "5ce27f11f0ec541f8a35dc657a8b5954e4aa9852241193bb8538ddd048cc48fe",
+      "size_bytes": 3964928,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/gadm/gadm41_yemen.gpkg",
+      "sha256": "6cc3de25e7520542c3bed027eaa92487c8a64df8605d2a2577da4c3599b2c7ac",
+      "size_bytes": 5410816,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/gdelt/gdelt-colombia.csv",
+      "sha256": "bf4b3f76e7e9b88c2188c99e17e707679a21e96e622db9cc4bf03a66541dd380",
+      "size_bytes": 1653026,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/gdelt/gdelt-drc.csv",
+      "sha256": "f1c86561c02b36fcb661ddcbbe0a4b56e66d4879ca5259242e077f2a9fe3216c",
+      "size_bytes": 612534,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/gdelt/gdelt-sudan.csv",
+      "sha256": "3edd08ff88e55aa7f4b1c5ecb064db21d522c5359b10213f9209fa56056e6803",
+      "size_bytes": 3195570,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/gdelt/gdelt-yemen.csv",
+      "sha256": "54acc3bd0f1e80e9c61c591c07d52c262200f88f8186620bb88354b1036f50a8",
+      "size_bytes": 2356484,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/ucdp/GEDEvent_v25_1.csv",
+      "sha256": "3f286de84cc0cb9152403f53e6aea2ac604d623f156e61079338596e09e8b550",
+      "size_bytes": 250393383,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/ucdp/ucdp-ged-colombia.csv",
+      "sha256": "edcd12c4190ef558f0634306fb8a160bbb0a433fe534afebb7c5150740fa8f43",
+      "size_bytes": 7779067,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/ucdp/ucdp-ged-drc.csv",
+      "sha256": "6f8d6d53eb65982efb26dbed9b27fb99d866ad669454b8dc36d1b8052a5e3776",
+      "size_bytes": 6552721,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/ucdp/ucdp-ged-latest.zip",
+      "sha256": "e256f1fb20a579d8b2f910e5bae212f486d3002adaa2e4359ace740c737da05d",
+      "size_bytes": 29307888,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/ucdp/ucdp-ged-south_sudan.csv",
+      "sha256": "c66fda2afdf04095e96e51eeecc4c06d7f138634a25a277907ea5d8813071ef7",
+      "size_bytes": 734081,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/ucdp/ucdp-ged-sudan.csv",
+      "sha256": "7ee75456cac355121cc902e013413dceb0185e32ed74c1699b7ed813981dd6ab",
+      "size_bytes": 3008152,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "path": "data/ucdp/ucdp-ged-yemen.csv",
+      "sha256": "b3a5ac370dffde8faeb19467ceec2e6f24fdb15792cece5043b2e25a73e77620",
+      "size_bytes": 3952333,
+      "kind": "raw_data_file (gitignored)"
+    },
+    {
+      "source": "HDX HAPI v2 IDP admin2 fetch (SDN)",
+      "filename": "data\\dtm\\sudan\\hdx_idps_admin2_sudan.csv",
+      "sha256": "2b90933238e97ce47a05c13c4c479483ce5d850fb8578e8b0465ee43ccb3d168",
+      "size_bytes": 2685816,
+      "row_count": 16452,
+      "fetched_at": "2026-05-17 22:21:52",
+      "iso3": "SDN"
+    },
+    {
+      "source": "HDX HAPI v2 IDP admin2 fetch (COD)",
+      "filename": "data\\dtm\\drc\\hdx_idps_admin2_drc.csv",
+      "sha256": "bd79e2ff80399c9e75ad9842d2dd30fc63b969d8fc131c2441a160cb5fc00518",
+      "size_bytes": 237823,
+      "row_count": 1366,
+      "fetched_at": "2026-05-17 22:21:53",
+      "iso3": "COD"
+    },
+    {
+      "source": "HDX HAPI v2 IDP admin2 fetch (YEM)",
+      "filename": "data\\dtm\\yemen\\hdx_idps_admin2_yemen.csv",
+      "sha256": "7ab8e0763c048034c0685feff85c2ea9e70072faacbf65aefe559e448829f43a",
+      "size_bytes": 674649,
+      "row_count": 4641,
+      "fetched_at": "2026-05-17 22:21:56",
+      "iso3": "YEM"
+    },
+    {
+      "source": "DRC Kasai 1959-1965 atrocity-count first-pass (admin-2 0/1/2 coding from documented territoire list)",
+      "filename": "data\\atrocity_drc_kasai_1959_1965_first_pass.csv",
+      "sha256": "126941e5f75e91dfb85d31974033d1ae7877deb022330a69c18f627215847081",
+      "size_bytes": 16703,
+      "row_count": 240,
+      "fetched_at": "2026-05-17 22:33:26"
+    },
+    {
+      "source": "Combined admin-2 \u00d7 year IDP panel from HDX HAPI v2 (Phase 1 first-pass; Colombia gap)",
+      "filename": "data\\panels\\idp_admin2_annual.csv",
+      "sha256": "8b13c31cac91563e5e7db36f03dada4471c706f0d6697fd0478ed7e08e5a48c9",
+      "size_bytes": 260980,
+      "row_count": 3160,
+      "fetched_at": "2026-05-17 22:35:35"
+    },
+    {
+      "source": "GDELT 1.0 filtered: Colombia (Phase 1 full panel 20140101..20241231)",
+      "filename": "data\\gdelt\\gdelt-colombia-2014_2024.csv",
+      "sha256": "cea0689eedfc480e3cdace3ca44677aaba77b1b99b8c480c453d7d94988913b4",
+      "size_bytes": 348767529,
+      "row_count": 936326,
+      "fetched_at": "2026-05-18 05:28:34",
+      "fips_country_code": "CO",
+      "note": "Header repaired 2026-05-18 (61-col -> 58-col GDELT 1.0)"
+    },
+    {
+      "source": "GDELT 1.0 filtered: Sudan (Phase 1 full panel 20140101..20241231)",
+      "filename": "data\\gdelt\\gdelt-sudan-2014_2024.csv",
+      "sha256": "d29cadd6ecd61783ccc450ab2328becc2fe52529ddcc9889643d79a21e783f5a",
+      "size_bytes": 644722198,
+      "row_count": 1778121,
+      "fetched_at": "2026-05-18 05:28:35",
+      "fips_country_code": "SU",
+      "note": "Header repaired 2026-05-18 (61-col -> 58-col GDELT 1.0)"
+    },
+    {
+      "source": "GDELT 1.0 filtered: DRC (Phase 1 full panel 20140101..20241231)",
+      "filename": "data\\gdelt\\gdelt-drc-2014_2024.csv",
+      "sha256": "3c59a8868de5f5d520ba05bed349453eab280f78b3c72c8b5ae2459997a82a96",
+      "size_bytes": 97109600,
+      "row_count": 208187,
+      "fetched_at": "2026-05-18 05:28:35",
+      "fips_country_code": "CG",
+      "note": "Header repaired 2026-05-18 (61-col -> 58-col GDELT 1.0)"
+    },
+    {
+      "source": "GDELT 1.0 filtered: Yemen (Phase 1 full panel 20140101..20241231)",
+      "filename": "data\\gdelt\\gdelt-yemen-2014_2024.csv",
+      "sha256": "da7b2079d84ae917863d40d17fea93cc8899b571dfd810f751a4d18887f33f64",
+      "size_bytes": 554289119,
+      "row_count": 1531632,
+      "fetched_at": "2026-05-18 05:28:36",
+      "fips_country_code": "YM",
+      "note": "Header repaired 2026-05-18 (61-col -> 58-col GDELT 1.0)"
+    }
+  ]
+}

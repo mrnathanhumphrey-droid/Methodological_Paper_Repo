@@ -1,0 +1,11 @@
+# RMD-SRC Gymnadenia v3.2 — subcell cleanness via locked joint-7D GMM
+# Generated: 2026-06-02T00:13:47.225459+00:00
+step4_leaves_v32.parquet sha = 15b883c7d15e4431cbe1a387e70e397638d1834b1d71b47f2cd217945f61808d
+
+original cells:        56
+pre-decomp clean:      7 (12.5%)
+post-decomp clean:     11 (19.6%)
+vs v3.0 (16.1%):       IMPROVED
+
+F1 fires: False
+F2 fires: True

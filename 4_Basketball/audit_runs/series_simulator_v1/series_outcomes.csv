@@ -1,0 +1,6 @@
+team_a,team_b,team_a_strength_points,team_b_strength_points,p_team_a_wins_series,expected_series_length,p_sweep_a,p_series_length,n_sims,already_played,label
+OKC,DEN,15.411621602964553,7.944577592484588,0.9208,5.23104,0.28422,"{4: 0.2889, 5: 0.34254, 6: 0.21718, 7: 0.15138}",50000,[],Western Conf Final hypothetical
+OKC,SAS,15.411621602964553,12.856224205468553,0.69534,5.72958,0.11304,"{4: 0.14294, 5: 0.27384, 6: 0.29392, 7: 0.2893}",50000,[],Western Conf Final hypothetical
+BOS,DET,10.541762993199267,12.062041322892933,0.40684,5.79796,0.03858,"{4: 0.12842, 5: 0.25034, 6: 0.3161, 7: 0.30514}",50000,[],Eastern Conf Final hypothetical
+BOS,NYK,10.541762993199267,7.037517304594719,0.7508,5.66434,0.13892,"{4: 0.1605, 5: 0.28546, 6: 0.28324, 7: 0.2708}",50000,[],Eastern Conf Final hypothetical
+OKC,BOS,15.411621602964553,10.541762993199267,0.8223,5.53364,0.18178,"{4: 0.19482, 5: 0.30906, 6: 0.26378, 7: 0.23234}",50000,[],NBA Finals hypothetical (top seeds)

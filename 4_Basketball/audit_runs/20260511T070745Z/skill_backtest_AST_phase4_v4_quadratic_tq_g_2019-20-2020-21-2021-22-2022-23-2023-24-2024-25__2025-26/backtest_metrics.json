@@ -1,0 +1,154 @@
+{
+  "stat": "AST",
+  "test_season": "2025-26",
+  "n_players": 105,
+  "mae": 0.6177533777938117,
+  "rmse": 0.8719006442094508,
+  "bias": 0.06280717350909694,
+  "coverage_50": 0.5904761904761905,
+  "coverage_80": 0.8380952380952381,
+  "coverage_90": 0.8857142857142857,
+  "z_error_mean": 0.05641028785093621,
+  "z_error_sd": 1.062651840880443,
+  "top_25_accuracy": 0.72,
+  "top_50_accuracy": 0.84,
+  "worst_misses": [
+    {
+      "nba_api_id": 203114,
+      "name": "Khris Middleton",
+      "projected": 7.188256141230919,
+      "projected_sd": 0.9278595746657591,
+      "actual": 4.4061196105702365,
+      "error": 2.782136530660683,
+      "z_error": 2.9984456771520476
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 5.0240482442150265,
+      "projected_sd": 0.8248026652654314,
+      "actual": 7.4403080872914,
+      "error": -2.4162598430763733,
+      "z_error": -2.929500527618678
+    },
+    {
+      "nba_api_id": 203903,
+      "name": "Jordan Clarkson",
+      "projected": 5.088730353688003,
+      "projected_sd": 0.8361300317799243,
+      "actual": 2.6978922716627634,
+      "error": 2.39083808202524,
+      "z_error": 2.859409411399454
+    },
+    {
+      "nba_api_id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "projected": 2.319998814228657,
+      "projected_sd": 0.7139016870723528,
+      "actual": 4.616236162361624,
+      "error": -2.2962373481329674,
+      "z_error": -3.216461579674412
+    },
+    {
+      "nba_api_id": 1627742,
+      "name": "Brandon Ingram",
+      "projected": 6.146448402646883,
+      "projected_sd": 0.9127484376443024,
+      "actual": 3.9292851652574945,
+      "error": 2.217163237389389,
+      "z_error": 2.42910658177803
+    },
+    {
+      "nba_api_id": 1627734,
+      "name": "Domantas Sabonis",
+      "projected": 7.124878200963945,
+      "projected_sd": 0.8031853867864255,
+      "actual": 4.969911504424779,
+      "error": 2.154966696539166,
+      "z_error": 2.683025279084406
+    },
+    {
+      "nba_api_id": 1628370,
+      "name": "Malik Monk",
+      "projected": 6.8755446919802985,
+      "projected_sd": 0.8779962106698354,
+      "actual": 4.886280264123258,
+      "error": 1.9892644278570408,
+      "z_error": 2.2656868032942916
+    },
+    {
+      "nba_api_id": 203994,
+      "name": "Jusuf Nurki\u0107",
+      "projected": 4.575311300735889,
+      "projected_sd": 0.8096808936208251,
+      "actual": 6.509225092250922,
+      "error": -1.9339137915150335,
+      "z_error": -2.388488856229191
+    },
+    {
+      "nba_api_id": 203935,
+      "name": "Marcus Smart",
+      "projected": 5.674728586912306,
+      "projected_sd": 0.8983784745015743,
+      "actual": 3.7648388920293954,
+      "error": 1.909889694882911,
+      "z_error": 2.1259299383175105
+    },
+    {
+      "nba_api_id": 1626145,
+      "name": "Tyus Jones",
+      "projected": 7.3129086654441835,
+      "projected_sd": 0.8607730541896851,
+      "actual": 5.834862385321101,
+      "error": 1.478046280123083,
+      "z_error": 1.7171149502518834
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 203944,
+      "name": "Julius Randle",
+      "projected": 5.4637306390560845,
+      "projected_sd": 0.8211364428708933,
+      "actual": 5.4854517611026035,
+      "error": -0.021721122046518992,
+      "z_error": -0.026452512533211476
+    },
+    {
+      "nba_api_id": 1627783,
+      "name": "Pascal Siakam",
+      "projected": 4.153888069859043,
+      "projected_sd": 0.7141624063710968,
+      "actual": 4.128279883381924,
+      "error": 0.025608186477119155,
+      "z_error": 0.03585765121303864
+    },
+    {
+      "nba_api_id": 203507,
+      "name": "Giannis Antetokounmpo",
+      "projected": 6.761362677560749,
+      "projected_sd": 0.7949207415165161,
+      "actual": 6.791145332050048,
+      "error": -0.029782654489299176,
+      "z_error": -0.03746619371445899
+    },
+    {
+      "nba_api_id": 1628384,
+      "name": "OG Anunoby",
+      "projected": 2.3029512051653613,
+      "projected_sd": 0.7047834111869495,
+      "actual": 2.3450134770889486,
+      "error": -0.04206227192358725,
+      "z_error": -0.059681132183217474
+    },
+    {
+      "nba_api_id": 203110,
+      "name": "Draymond Green",
+      "projected": 7.281617386320013,
+      "projected_sd": 0.859534084995092,
+      "actual": 7.238502673796792,
+      "error": 0.043114712523220966,
+      "z_error": 0.050160561722770024
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "note": "sentinel-clean: FEA pct cols filtered to [0,100] before aggregation",
+  "sentinels": {
+    "food_out_of_range_counties": 8,
+    "pov_negative_counties": 11
+  },
+  "n": 51,
+  "homeless_year": 2024,
+  "poverty_range": [
+    8.5,
+    22.3
+  ],
+  "food_range": [
+    7.4,
+    18.9
+  ],
+  "corr": {
+    "poverty~food_insec": {
+      "r": 0.66,
+      "p": 0.0,
+      "n": 51
+    },
+    "food_insec~homeless": {
+      "r": -0.329,
+      "p": 0.0185,
+      "n": 51
+    },
+    "rent_floor~homeless": {
+      "r": 0.656,
+      "p": 0.0,
+      "n": 51
+    },
+    "poverty~homeless": {
+      "r": -0.16,
+      "p": 0.2612,
+      "n": 51
+    },
+    "behind_on_rent~food_insec": {
+      "r": 0.318,
+      "p": 0.0229,
+      "n": 51
+    },
+    "behind_on_rent~homeless": {
+      "r": -0.014,
+      "p": 0.925,
+      "n": 51
+    },
+    "eviction_risk~homeless": {
+      "r": -0.386,
+      "p": 0.0052,
+      "n": 51
+    },
+    "food_insec~outmig_oos_per1k": {
+      "r": -0.369,
+      "p": 0.0077,
+      "n": 51
+    },
+    "poverty~outmig_oos_per1k": {
+      "r": -0.073,
+      "p": 0.6129,
+      "n": 51
+    },
+    "rent_floor~outmig_oos_per1k": {
+      "r": 0.249,
+      "p": 0.0786,
+      "n": 51
+    }
+  },
+  "reg_homeless": {
+    "rent_floor": {
+      "b": 0.0468,
+      "p": 0.0
+    },
+    "poverty": {
+      "b": 0.2391,
+      "p": 0.6898
+    },
+    "r2": 0.432
+  },
+  "reg_food": {
+    "poverty": {
+      "b": 0.4007,
+      "p": 0.0
+    },
+    "rent_floor": {
+      "b": -0.0019,
+      "p": 0.0413
+    },
+    "r2": 0.486
+  },
+  "decomp_street_sheltered": {
+    "n_coc": 357,
+    "unsheltered": {
+      "rent_b": 0.00234,
+      "rent_p": 0.0,
+      "r2": 0.317
+    },
+    "sheltered": {
+      "rent_b": 0.00061,
+      "rent_p": 0.0001,
+      "r2": 0.052
+    }
+  }
+}

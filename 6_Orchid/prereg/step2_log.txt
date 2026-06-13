@@ -1,0 +1,10 @@
+
+# RMD-SRC Gymnadenia Step 2 -- regime classification
+# Generated: 2026-06-01T18:14:37.311269+00:00
+# Per PRE_REG_v1.0 §3.3 T=2 rules, K=12 partition, v1.1 observables
+
+step2_regimes.parquet sha256        = 090d4db19ea0d969cacaba868e457ce2701a5c78e5491bfe8e3d951a7d910120
+step2_env_PC1.parquet sha256        = 653f6e0f189767dee98bc05b6ccf97863bfff614c6a39629bbef18f69283b75c
+rows                                 = 56
+trajectory-classifiable rows         = 35
+Insufficient_T rows                  = 21
