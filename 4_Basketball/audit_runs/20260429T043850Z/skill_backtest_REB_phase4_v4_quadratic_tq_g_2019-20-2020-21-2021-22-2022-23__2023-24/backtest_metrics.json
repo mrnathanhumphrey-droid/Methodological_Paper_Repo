@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2023-24",
+  "n_players": 10,
+  "mae": 0.9566163150717323,
+  "rmse": 1.2577155780865525,
+  "bias": 0.002629276320114604,
+  "coverage_50": 0.4,
+  "coverage_80": 0.6,
+  "coverage_90": 0.7,
+  "z_error_mean": -0.05625095639990694,
+  "z_error_sd": 1.0296644974424454,
+  "top_25_accuracy": NaN,
+  "top_50_accuracy": NaN,
+  "worst_misses": [
+    {
+      "nba_api_id": 1627826,
+      "name": "Ivica Zubac",
+      "projected": 15.100100827333392,
+      "projected_sd": 1.7549549780353508,
+      "actual": 12.561872909698996,
+      "error": 2.538227917634396,
+      "z_error": 1.4463208170023307
+    },
+    {
+      "nba_api_id": 203999,
+      "name": "Nikola Joki\u0107",
+      "projected": 10.806453193241541,
+      "projected_sd": 1.294089390523197,
+      "actual": 12.837413226160029,
+      "error": -2.030960032918488,
+      "z_error": -1.5694124747420857
+    },
+    {
+      "nba_api_id": 1627777,
+      "name": "Georges Niang",
+      "projected": 4.006638469799848,
+      "projected_sd": 0.9316607853469951,
+      "actual": 5.4658656471873295,
+      "error": -1.4592271773874819,
+      "z_error": -1.5662644605611427
+    },
+    {
+      "nba_api_id": 1626220,
+      "name": "Royce O'Neale",
+      "projected": 5.731475288529438,
+      "projected_sd": 0.94769020715167,
+      "actual": 6.952868852459017,
+      "error": -1.2213935639295785,
+      "z_error": -1.2888110003801112
+    },
+    {
+      "nba_api_id": 1627741,
+      "name": "Buddy Hield",
+      "projected": 5.514997289840265,
+      "projected_sd": 0.9326600227218322,
+      "actual": 4.485409911996294,
+      "error": 1.0295873778439706,
+      "z_error": 1.1039257100773656
+    },
+    {
+      "nba_api_id": 203084,
+      "name": "Harrison Barnes",
+      "projected": 4.422868308451757,
+      "projected_sd": 0.8570177994323795,
+      "actual": 3.7679697351828496,
+      "error": 0.6548985732689072,
+      "z_error": 0.7641598269051821
+    },
+    {
+      "nba_api_id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "projected": 3.0244117299413547,
+      "projected_sd": 0.9044076504410046,
+      "actual": 2.740432612312812,
+      "error": 0.28397911762854244,
+      "z_error": 0.3139945991059114
+    },
+    {
+      "nba_api_id": 202685,
+      "name": "Jonas Valan\u010di\u016bnas",
+      "projected": 13.694117972044605,
+      "projected_sd": 0.9692588182520124,
+      "actual": 13.462655601659751,
+      "error": 0.23146237038485395,
+      "z_error": 0.23880347129807852
+    },
+    {
+      "nba_api_id": 1628969,
+      "name": "Mikal Bridges",
+      "projected": 4.632363619006357,
+      "projected_sd": 0.9868846374267325,
+      "actual": 4.690718038528897,
+      "error": -0.058354419522539835,
+      "z_error": -0.05912992999333434
+    },
+    {
+      "nba_api_id": 202696,
+      "name": "Nikola Vu\u010devi\u0107",
+      "projected": 11.097888832970387,
+      "projected_sd": 1.0773362347850848,
+      "actual": 11.039816232771823,
+      "error": 0.05807260019856386,
+      "z_error": 0.05390387728873579
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 202696,
+      "name": "Nikola Vu\u010devi\u0107",
+      "projected": 11.097888832970387,
+      "projected_sd": 1.0773362347850848,
+      "actual": 11.039816232771823,
+      "error": 0.05807260019856386,
+      "z_error": 0.05390387728873579
+    },
+    {
+      "nba_api_id": 1628969,
+      "name": "Mikal Bridges",
+      "projected": 4.632363619006357,
+      "projected_sd": 0.9868846374267325,
+      "actual": 4.690718038528897,
+      "error": -0.058354419522539835,
+      "z_error": -0.05912992999333434
+    },
+    {
+      "nba_api_id": 202685,
+      "name": "Jonas Valan\u010di\u016bnas",
+      "projected": 13.694117972044605,
+      "projected_sd": 0.9692588182520124,
+      "actual": 13.462655601659751,
+      "error": 0.23146237038485395,
+      "z_error": 0.23880347129807852
+    },
+    {
+      "nba_api_id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "projected": 3.0244117299413547,
+      "projected_sd": 0.9044076504410046,
+      "actual": 2.740432612312812,
+      "error": 0.28397911762854244,
+      "z_error": 0.3139945991059114
+    },
+    {
+      "nba_api_id": 203084,
+      "name": "Harrison Barnes",
+      "projected": 4.422868308451757,
+      "projected_sd": 0.8570177994323795,
+      "actual": 3.7679697351828496,
+      "error": 0.6548985732689072,
+      "z_error": 0.7641598269051821
+    }
+  ]
+}

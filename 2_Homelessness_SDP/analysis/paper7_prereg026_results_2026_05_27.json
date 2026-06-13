@@ -1,0 +1,214 @@
+{
+  "locked_thresholds": {
+    "H1_pred_A": ">=60% single-channel dominance; F1<40%",
+    "H2_pred_B": ">=6 of 9 named states match; F2<4",
+    "H3_pred_C": "3-5 residue clusters; F3 silhouette<0.3 all k"
+  },
+  "honesty_note": "cause-channels proxied by HUD demographic/shelter buckets; not measured by cause",
+  "H1": {
+    "n_state_years": 918,
+    "single_channel_dominance_rate": 0.6187,
+    "single_channel_dominance_rate_excl_2021": 0.6182,
+    "disposition": "SUPPORTED",
+    "dominant_channel_distribution": {
+      "C_other": 704,
+      "C_family": 207,
+      "C_chronic": 7
+    }
+  },
+  "H1b_pca": {
+    "note": "NOT in original pre-reg; RMD-SRC orthogonality reading",
+    "explained_variance_ratio": [
+      0.4899,
+      0.2718,
+      0.1409,
+      0.0973,
+      0.0001
+    ],
+    "pc1_share": 0.4899,
+    "n_pcs_for_90pct": 3,
+    "reading": "multi-dimensional (orthogonal-ish) channel structure"
+  },
+  "H2": {
+    "n_named_states": 10,
+    "matches": 8,
+    "disposition": "SUPPORTED",
+    "rows": [
+      {
+        "state": "CA",
+        "predicted": "unaffordability",
+        "observed_proxy": "unaffordability",
+        "unsheltered_share": 0.663,
+        "family_share": 0.137,
+        "chronic_share": 0.356,
+        "match": true
+      },
+      {
+        "state": "NY",
+        "predicted": "eviction",
+        "observed_proxy": "eviction",
+        "unsheltered_share": 0.036,
+        "family_share": 0.604,
+        "chronic_share": 0.032,
+        "match": true
+      },
+      {
+        "state": "MS",
+        "predicted": "institutional",
+        "observed_proxy": "unaffordability",
+        "unsheltered_share": 0.467,
+        "family_share": 0.16,
+        "chronic_share": 0.081,
+        "match": false
+      },
+      {
+        "state": "TX",
+        "predicted": "disaster_unaff",
+        "observed_proxy": "unaffordability",
+        "unsheltered_share": 0.441,
+        "family_share": 0.226,
+        "chronic_share": 0.18,
+        "match": true
+      },
+      {
+        "state": "FL",
+        "predicted": "disaster_unaff",
+        "observed_proxy": "unaffordability",
+        "unsheltered_share": 0.538,
+        "family_share": 0.241,
+        "chronic_share": 0.195,
+        "match": true
+      },
+      {
+        "state": "LA",
+        "predicted": "disaster_inst",
+        "observed_proxy": "unaffordability",
+        "unsheltered_share": 0.449,
+        "family_share": 0.175,
+        "chronic_share": 0.129,
+        "match": true
+      },
+      {
+        "state": "MA",
+        "predicted": "unaffordability",
+        "observed_proxy": "eviction",
+        "unsheltered_share": 0.056,
+        "family_share": 0.763,
+        "chronic_share": 0.068,
+        "match": false
+      },
+      {
+        "state": "MI",
+        "predicted": "eviction_inst",
+        "observed_proxy": "eviction",
+        "unsheltered_share": 0.167,
+        "family_share": 0.396,
+        "chronic_share": 0.1,
+        "match": true
+      },
+      {
+        "state": "WA",
+        "predicted": "unaffordability",
+        "observed_proxy": "unaffordability",
+        "unsheltered_share": 0.514,
+        "family_share": 0.229,
+        "chronic_share": 0.38,
+        "match": true
+      },
+      {
+        "state": "OR",
+        "predicted": "unaffordability",
+        "observed_proxy": "unaffordability",
+        "unsheltered_share": 0.62,
+        "family_share": 0.173,
+        "chronic_share": 0.337,
+        "match": true
+      }
+    ]
+  },
+  "H3": {
+    "silhouette_by_k": {
+      "2": 0.3424,
+      "3": 0.3203,
+      "4": 0.3274,
+      "5": 0.3161,
+      "6": 0.3063
+    },
+    "best_k": 2,
+    "best_silhouette": 0.3424,
+    "disposition": "MIXED",
+    "cluster_members": {
+      "0": [
+        "AL",
+        "AR",
+        "AZ",
+        "CA",
+        "FL",
+        "GA",
+        "ID",
+        "KS",
+        "KY",
+        "LA",
+        "MO",
+        "MS",
+        "NC",
+        "NM",
+        "NV",
+        "OK",
+        "OR",
+        "SC",
+        "TN",
+        "TX",
+        "WA",
+        "WV"
+      ],
+      "1": [
+        "AK",
+        "CO",
+        "CT",
+        "DC",
+        "DE",
+        "HI",
+        "IA",
+        "IL",
+        "IN",
+        "MA",
+        "MD",
+        "ME",
+        "MI",
+        "MN",
+        "MT",
+        "ND",
+        "NE",
+        "NH",
+        "NJ",
+        "NY",
+        "OH",
+        "PA",
+        "RI",
+        "SD",
+        "UT",
+        "VA",
+        "VT",
+        "WI",
+        "WY"
+      ]
+    },
+    "cluster_profile": {
+      "0": {
+        "unsheltered_share": 0.472,
+        "chronic_share": 0.225,
+        "family_share": 0.218,
+        "es_share": 0.411,
+        "th_share": 0.113
+      },
+      "1": {
+        "unsheltered_share": 0.178,
+        "chronic_share": 0.157,
+        "family_share": 0.357,
+        "es_share": 0.674,
+        "th_share": 0.146
+      }
+    }
+  }
+}

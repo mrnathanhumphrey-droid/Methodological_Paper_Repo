@@ -1,0 +1,19 @@
+{
+  "passed": false,
+  "notes": [
+    "R-hat for mu_league: 1.024 > 1.01",
+    "ESS for mu_league: 274 < 400",
+    "R-hat for sigma_position: 1.044 > 1.01",
+    "ESS for sigma_position: 165 < 400",
+    "ESS for peak_age_pos[1]: 394 < 400",
+    "ESS for peak_age_pos[2]: 386 < 400",
+    "ESS for beta_age_pos[2]: 394 < 400",
+    "R-hat for age_tilt_player_z[121]: 1.011 > 1.01",
+    "R-hat for rate_per_36_league_at_27: 1.024 > 1.01",
+    "ESS for rate_per_36_league_at_27: 274 < 400",
+    "R-hat for age_curve_position[1,7]: 1.010 > 1.01"
+  ],
+  "max_rhat": 1.04361,
+  "min_ess": 165.14,
+  "n_params_summarized": 905
+}

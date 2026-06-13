@@ -1,0 +1,43 @@
+{
+  "n": 371,
+  "framing": "EXPLORATORY; predictions pre-stated; correlational; no person-linkage",
+  "note": "out-migration=annual flow, homelessness=PIT stock -> tested resource-bifurcation, not additive mass-balance",
+  "P1_both_rent_driven": {
+    "rent_to_outmig": {
+      "coef": 0.406,
+      "p": 0.0
+    },
+    "rent_to_homeless": {
+      "coef": 0.746,
+      "p": 0.0
+    },
+    "pass": true
+  },
+  "P2a_income_to_homeless_neg": {
+    "coef": -0.496,
+    "p": 0.0,
+    "pass": true
+  },
+  "P2b_income_to_outmig_pos": {
+    "coef": -0.127,
+    "p": 0.1694,
+    "pass": false
+  },
+  "P3_mix_tilts_away_from_homeless_with_income": {
+    "coef": -0.459,
+    "p": 0.0,
+    "r2": 0.111,
+    "pass": true
+  },
+  "VERDICT": {
+    "bifurcation_holds": false,
+    "both_rent_driven": true,
+    "reading": "NOT one resource-sorted object at this resolution: income does not route the split (bifurcation fails)"
+  },
+  "context": {
+    "median_out_migration_per_10k": 453.6,
+    "median_homeless_per_10k": 14.2,
+    "corr_rent_outmig": 0.299,
+    "corr_rent_homeless": 0.327
+  }
+}

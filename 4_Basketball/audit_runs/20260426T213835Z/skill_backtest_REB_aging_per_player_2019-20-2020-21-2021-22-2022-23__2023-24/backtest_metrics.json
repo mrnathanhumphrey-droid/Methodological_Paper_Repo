@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2023-24",
+  "n_players": 195,
+  "mae": 0.6848742272277842,
+  "rmse": 0.9050066554461762,
+  "bias": 0.05394858432920905,
+  "coverage_50": 0.49230769230769234,
+  "coverage_80": 0.7948717948717948,
+  "coverage_90": 0.8769230769230769,
+  "z_error_mean": 0.05330378891108515,
+  "z_error_sd": 1.113313085047243,
+  "top_25_accuracy": 0.84,
+  "top_50_accuracy": 0.9,
+  "worst_misses": [
+    {
+      "nba_api_id": 1628381,
+      "name": "John Collins",
+      "projected": 7.292082197634663,
+      "projected_sd": 0.7665728724504958,
+      "actual": 10.90047393364929,
+      "error": -3.6083917360146263,
+      "z_error": -4.707173793509959
+    },
+    {
+      "nba_api_id": 1626171,
+      "name": "Bobby Portis",
+      "projected": 14.294637740194911,
+      "projected_sd": 0.9654516396501934,
+      "actual": 10.860834990059642,
+      "error": 3.4338027501352695,
+      "z_error": 3.5566802200257484
+    },
+    {
+      "nba_api_id": 1630191,
+      "name": "Isaiah Stewart",
+      "projected": 10.368031166043849,
+      "projected_sd": 0.9270641080062016,
+      "actual": 7.710674157303371,
+      "error": 2.657357008740478,
+      "z_error": 2.866422058400627
+    },
+    {
+      "nba_api_id": 1628991,
+      "name": "Jaren Jackson Jr.",
+      "projected": 8.765489888851084,
+      "projected_sd": 0.8289475412183023,
+      "actual": 6.186440677966101,
+      "error": 2.5790492108849827,
+      "z_error": 3.11123332013816
+    },
+    {
+      "nba_api_id": 1629020,
+      "name": "Jarred Vanderbilt",
+      "projected": 10.849789312456897,
+      "projected_sd": 0.9004470217044336,
+      "actual": 8.521440823327616,
+      "error": 2.328348489129281,
+      "z_error": 2.5857695489091728
+    },
+    {
+      "nba_api_id": 1626172,
+      "name": "Kevon Looney",
+      "projected": 14.893841811933193,
+      "projected_sd": 1.0431090107434993,
+      "actual": 12.633165829145728,
+      "error": 2.2606759827874647,
+      "z_error": 2.167248062765863
+    },
+    {
+      "nba_api_id": 1630224,
+      "name": "Jalen Green",
+      "projected": 3.920072293029234,
+      "projected_sd": 0.6914730646424626,
+      "actual": 5.856923076923077,
+      "error": -1.936850783893843,
+      "z_error": -2.801050225861398
+    },
+    {
+      "nba_api_id": 1629675,
+      "name": "Naz Reid",
+      "projected": 9.656123049524034,
+      "projected_sd": 0.9025117250085964,
+      "actual": 7.753564154786151,
+      "error": 1.9025588947378829,
+      "z_error": 2.108071110898599
+    },
+    {
+      "nba_api_id": 1628975,
+      "name": "Jevon Carter",
+      "projected": 4.005308397368069,
+      "projected_sd": 0.7526007537626653,
+      "actual": 2.155688622754491,
+      "error": 1.8496197746135783,
+      "z_error": 2.457637419795703
+    },
+    {
+      "nba_api_id": 201572,
+      "name": "Brook Lopez",
+      "projected": 7.790042590557749,
+      "projected_sd": 0.8139309554908463,
+      "actual": 6.104477611940299,
+      "error": 1.6855649786174505,
+      "z_error": 2.0708943028232163
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1630557,
+      "name": "Corey Kispert",
+      "projected": 3.9087490881181464,
+      "projected_sd": 0.7196254579458703,
+      "actual": 3.9168278529980656,
+      "error": -0.008078764879919209,
+      "z_error": -0.011226346692874903
+    },
+    {
+      "nba_api_id": 201569,
+      "name": "Eric Gordon",
+      "projected": 2.3338304192673274,
+      "projected_sd": 0.6965463889528376,
+      "actual": 2.3213530655391117,
+      "error": 0.012477353728215679,
+      "z_error": 0.017913169784676764
+    },
+    {
+      "nba_api_id": 1627752,
+      "name": "Taurean Prince",
+      "projected": 3.9442469948241485,
+      "projected_sd": 0.7601759030124036,
+      "actual": 3.9278937381404178,
+      "error": 0.016353256683730777,
+      "z_error": 0.021512463916478482
+    },
+    {
+      "nba_api_id": 203501,
+      "name": "Tim Hardaway Jr.",
+      "projected": 4.3320258194934596,
+      "projected_sd": 0.7349002285578065,
+      "actual": 4.309142318567389,
+      "error": 0.02288350092607061,
+      "z_error": 0.031138241678027482
+    },
+    {
+      "nba_api_id": 203507,
+      "name": "Giannis Antetokounmpo",
+      "projected": 11.740875317435838,
+      "projected_sd": 0.8718926342228671,
+      "actual": 11.766809172172561,
+      "error": -0.025933854736722495,
+      "z_error": -0.02974432139782645
+    }
+  ]
+}

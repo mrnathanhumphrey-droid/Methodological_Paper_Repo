@@ -1,0 +1,322 @@
+{
+  "prereg": "v2.0",
+  "locked_commit": "2d7f321",
+  "division": {
+    "arm_a_full": {
+      "n_corridors": 72,
+      "r_mu_dot": -0.19689292811337128,
+      "p_mu_dot": 0.09737339684111741,
+      "r_var_dot": -0.10187985012595349,
+      "p_var_dot": 0.39445370203663144,
+      "pass_mu": false,
+      "pass_var": false,
+      "pass_both": false
+    },
+    "arm_d_a_precovid": {
+      "n_corridors": 72,
+      "r_mu_dot": -0.21074260283297142,
+      "p_mu_dot": 0.07557998641026199,
+      "r_var_dot": -0.07612211648518974,
+      "p_var_dot": 0.5250787630642837,
+      "pass_mu": false,
+      "pass_var": false,
+      "pass_both": false
+    },
+    "arm_b_full": {
+      "per_factor": [
+        {
+          "factor_k": 0,
+          "n_train": 6,
+          "n_hold": 4,
+          "r_mu_train": -0.001218910034778691,
+          "se_mu_train": 0.0032218058002834605,
+          "r_var_train": -0.010949570850377427,
+          "se_var_train": 0.006621198606092495,
+          "r_mu_hold": -0.004439562765610653,
+          "se_mu_hold": 0.003857259151370118,
+          "r_var_hold": 0.00818025503679258,
+          "se_var_hold": 0.018581082063457183,
+          "cell_train": [
+            0,
+            -1
+          ],
+          "cell_hold": [
+            0,
+            0
+          ],
+          "same_or_adj": true
+        },
+        {
+          "factor_k": 1,
+          "n_train": 6,
+          "n_hold": 4,
+          "r_mu_train": 0.0005948616784461555,
+          "se_mu_train": 0.006705215452865228,
+          "r_var_train": -0.00043958617680377177,
+          "se_var_train": 0.005271781594196912,
+          "r_mu_hold": 0.008519287630796346,
+          "se_mu_hold": 0.003231295161914173,
+          "r_var_hold": 0.0272668645097755,
+          "se_var_hold": 0.021450456448401125,
+          "cell_train": [
+            0,
+            0
+          ],
+          "cell_hold": [
+            1,
+            0
+          ],
+          "same_or_adj": true
+        },
+        {
+          "factor_k": 2,
+          "n_train": 6,
+          "n_hold": 4,
+          "r_mu_train": -0.0033184879876832427,
+          "se_mu_train": 0.0027944084971789317,
+          "r_var_train": -0.008244004333577734,
+          "se_var_train": 0.005912594861258163,
+          "r_mu_hold": -0.00687363249958238,
+          "se_mu_hold": 0.004301648481913849,
+          "r_var_hold": 0.011821896941173485,
+          "se_var_hold": 0.016210095295372918,
+          "cell_train": [
+            0,
+            0
+          ],
+          "cell_hold": [
+            -1,
+            0
+          ],
+          "same_or_adj": true
+        }
+      ],
+      "pass_count": 3,
+      "pass_all_3": true
+    },
+    "arm_d_b_precovid": {
+      "per_factor": [
+        {
+          "factor_k": 0,
+          "n_train": 6,
+          "n_hold": 2,
+          "r_mu_train": -0.001218910034778691,
+          "se_mu_train": 0.0032218058002834605,
+          "r_var_train": -0.010949570850377427,
+          "se_var_train": 0.006621198606092495,
+          "r_mu_hold": -0.006149121379580873,
+          "se_mu_hold": Infinity,
+          "r_var_hold": -0.01051752397803245,
+          "se_var_hold": Infinity,
+          "cell_train": [
+            0,
+            -1
+          ],
+          "cell_hold": [
+            0,
+            0
+          ],
+          "same_or_adj": true
+        },
+        {
+          "factor_k": 1,
+          "n_train": 6,
+          "n_hold": 2,
+          "r_mu_train": 0.0005948616784461555,
+          "se_mu_train": 0.006705215452865228,
+          "r_var_train": -0.00043958617680377177,
+          "se_var_train": 0.005271781594196912,
+          "r_mu_hold": 0.0022740272176331997,
+          "se_mu_hold": Infinity,
+          "r_var_hold": 0.045380298487724624,
+          "se_var_hold": Infinity,
+          "cell_train": [
+            0,
+            0
+          ],
+          "cell_hold": [
+            0,
+            0
+          ],
+          "same_or_adj": true
+        },
+        {
+          "factor_k": 2,
+          "n_train": 6,
+          "n_hold": 2,
+          "r_mu_train": -0.0033184879876832427,
+          "se_mu_train": 0.0027944084971789317,
+          "r_var_train": -0.008244004333577734,
+          "se_var_train": 0.005912594861258163,
+          "r_mu_hold": -0.007916856866946806,
+          "se_mu_hold": Infinity,
+          "r_var_hold": 0.012461342469827254,
+          "se_var_hold": Infinity,
+          "cell_train": [
+            0,
+            0
+          ],
+          "cell_hold": [
+            0,
+            0
+          ],
+          "same_or_adj": true
+        }
+      ],
+      "pass_count": 3,
+      "pass_all_3": true
+    },
+    "arm_c_full": {
+      "n_corridors": 15,
+      "kappa": -0.034482758620689724,
+      "pass_kappa_ge_0p40": false,
+      "label_dist_train": {
+        "Stationary": 8,
+        "Fragmenting": 7
+      },
+      "label_dist_hold": {
+        "Fragmenting": 11,
+        "Stationary": 4
+      }
+    },
+    "arm_d_c_precovid": {
+      "n_corridors": 15,
+      "kappa": 0.21052631578947367,
+      "pass_kappa_ge_0p40": false,
+      "label_dist_train": {
+        "Stationary": 8,
+        "Fragmenting": 7
+      },
+      "label_dist_hold": {
+        "Fragmenting": 7,
+        "Stationary": 3,
+        "Concentrating": 3,
+        "Diffusing": 2
+      }
+    },
+    "arm_e_bootstrap": {
+      "kappa_observed": 0.07540983606557394,
+      "kappa_mean_bootstrap": 0.07365975479299626,
+      "kappa_ci_95": [
+        -0.06550469847542943,
+        0.21094103079798374
+      ],
+      "frac_kappa_ge_0p40": 0.0,
+      "n_corridors": 72,
+      "n_boot": 1000
+    },
+    "arm_f_threshold": {
+      "per_scale": [
+        {
+          "threshold_scale": 0.5,
+          "th_mu": 0.01,
+          "th_var": 0.025,
+          "kappa": -0.0637636080870918
+        },
+        {
+          "threshold_scale": 1.0,
+          "th_mu": 0.02,
+          "th_var": 0.05,
+          "kappa": 0.07540983606557394
+        },
+        {
+          "threshold_scale": 2.0,
+          "th_mu": 0.04,
+          "th_var": 0.1,
+          "kappa": 0.014020215194000762
+        }
+      ],
+      "n_corridors": 72
+    }
+  },
+  "state": {
+    "arm_a_full": {
+      "n_corridors": 513,
+      "r_mu_dot": -0.013019606609557867,
+      "p_mu_dot": 0.7686197908496337,
+      "r_var_dot": -0.0009599840873044189,
+      "p_var_dot": 0.9826951387660867,
+      "pass_mu": false,
+      "pass_var": false,
+      "pass_both": false
+    },
+    "arm_d_a_precovid": {
+      "n_corridors": 610,
+      "r_mu_dot": -0.029767598179605805,
+      "p_mu_dot": 0.46303401672881644,
+      "r_var_dot": -0.07209701848974147,
+      "p_var_dot": 0.07518588608845676,
+      "pass_mu": false,
+      "pass_var": false,
+      "pass_both": false
+    },
+    "arm_c_full": {
+      "n_corridors": 100,
+      "kappa": 0.03974393171512414,
+      "pass_kappa_ge_0p40": false,
+      "label_dist_train": {
+        "Fragmenting": 45,
+        "Stationary": 29,
+        "Concentrating": 19,
+        "Diffusing": 7
+      },
+      "label_dist_hold": {
+        "Fragmenting": 30,
+        "Diffusing": 29,
+        "Concentrating": 24,
+        "Stationary": 17
+      }
+    },
+    "arm_d_c_precovid": {
+      "n_corridors": 100,
+      "kappa": 0.05434522384486462,
+      "pass_kappa_ge_0p40": false,
+      "label_dist_train": {
+        "Fragmenting": 45,
+        "Stationary": 29,
+        "Concentrating": 19,
+        "Diffusing": 7
+      },
+      "label_dist_hold": {
+        "Diffusing": 51,
+        "Concentrating": 34,
+        "Fragmenting": 13,
+        "Stationary": 2
+      }
+    },
+    "arm_e_bootstrap": {
+      "kappa_observed": -0.002050981541166008,
+      "kappa_mean_bootstrap": -0.002556579627233921,
+      "kappa_ci_95": [
+        -0.051571682365784015,
+        0.045296254294057633
+      ],
+      "frac_kappa_ge_0p40": 0.0,
+      "n_corridors": 513,
+      "n_boot": 1000
+    },
+    "arm_f_threshold": {
+      "per_scale": [
+        {
+          "threshold_scale": 0.5,
+          "th_mu": 0.01,
+          "th_var": 0.025,
+          "kappa": -0.020593149773950437
+        },
+        {
+          "threshold_scale": 1.0,
+          "th_mu": 0.02,
+          "th_var": 0.05,
+          "kappa": -0.002050981541166008
+        },
+        {
+          "threshold_scale": 2.0,
+          "th_mu": 0.04,
+          "th_var": 0.1,
+          "kappa": -0.008891548086678247
+        }
+      ],
+      "n_corridors": 513
+    }
+  }
+}

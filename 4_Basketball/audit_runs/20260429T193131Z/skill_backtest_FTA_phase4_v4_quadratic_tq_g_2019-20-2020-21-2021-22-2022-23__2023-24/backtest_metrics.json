@@ -1,0 +1,154 @@
+{
+  "stat": "FTA",
+  "test_season": "2023-24",
+  "n_players": 195,
+  "mae": 0.7257374541402578,
+  "rmse": 0.9300606736528492,
+  "bias": 0.37917749115673005,
+  "coverage_50": 0.48717948717948717,
+  "coverage_80": 0.8153846153846154,
+  "coverage_90": 0.8717948717948718,
+  "z_error_mean": 0.41771976516281045,
+  "z_error_sd": 0.948867262748211,
+  "top_25_accuracy": 0.72,
+  "top_50_accuracy": 0.8,
+  "worst_misses": [
+    {
+      "nba_api_id": 1629673,
+      "name": "Jordan Poole",
+      "projected": 6.35967840357982,
+      "projected_sd": 1.0202217490222103,
+      "actual": 3.360613810741688,
+      "error": 2.999064592838132,
+      "z_error": 2.9396203283378957
+    },
+    {
+      "nba_api_id": 1626181,
+      "name": "Norman Powell",
+      "projected": 6.045911945985929,
+      "projected_sd": 1.1222742200146905,
+      "actual": 3.1115577889447232,
+      "error": 2.9343541570412057,
+      "z_error": 2.6146498820963697
+    },
+    {
+      "nba_api_id": 1630256,
+      "name": "Jae'Sean Tate",
+      "projected": 3.7549220408637387,
+      "projected_sd": 0.8881394451941399,
+      "actual": 1.3591481122942883,
+      "error": 2.3957739285694504,
+      "z_error": 2.697520013927266
+    },
+    {
+      "nba_api_id": 203084,
+      "name": "Harrison Barnes",
+      "projected": 5.23926203032676,
+      "projected_sd": 0.9215958357037397,
+      "actual": 2.9659520807061788,
+      "error": 2.273309949620581,
+      "z_error": 2.4667103100402565
+    },
+    {
+      "nba_api_id": 1629029,
+      "name": "Luka Don\u010di\u0107",
+      "projected": 10.595088826087752,
+      "projected_sd": 1.3585208177465988,
+      "actual": 8.341463414634147,
+      "error": 2.253625411453605,
+      "z_error": 1.658881764647325
+    },
+    {
+      "nba_api_id": 203078,
+      "name": "Bradley Beal",
+      "projected": 4.767756018846147,
+      "projected_sd": 0.9806228928068484,
+      "actual": 2.7269643866591298,
+      "error": 2.0407916321870174,
+      "z_error": 2.081117672406806
+    },
+    {
+      "nba_api_id": 1626168,
+      "name": "Trey Lyles",
+      "projected": 4.182874436316334,
+      "projected_sd": 0.8818836143700349,
+      "actual": 2.1761658031088085,
+      "error": 2.0067086332075257,
+      "z_error": 2.275480120629068
+    },
+    {
+      "nba_api_id": 203507,
+      "name": "Giannis Antetokounmpo",
+      "projected": 12.932461711102032,
+      "projected_sd": 1.6191741879629837,
+      "actual": 10.94131364166343,
+      "error": 1.9911480694386032,
+      "z_error": 1.2297306146805518
+    },
+    {
+      "nba_api_id": 1628973,
+      "name": "Jalen Brunson",
+      "projected": 4.599807510547345,
+      "projected_sd": 0.9313033617076771,
+      "actual": 6.556247709783804,
+      "error": -1.956440199236459,
+      "z_error": -2.1007550060262297
+    },
+    {
+      "nba_api_id": 1629028,
+      "name": "Deandre Ayton",
+      "projected": 3.5301452038337313,
+      "projected_sd": 0.8367074349688072,
+      "actual": 1.5950644980370163,
+      "error": 1.935080705796715,
+      "z_error": 2.3127327724401727
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1630171,
+      "name": "Isaac Okoro",
+      "projected": 2.617021551982908,
+      "projected_sd": 0.765345256800898,
+      "actual": 2.6081438392384984,
+      "error": 0.008877712744409738,
+      "z_error": 0.011599618166470515
+    },
+    {
+      "nba_api_id": 1628978,
+      "name": "Donte DiVincenzo",
+      "projected": 1.7504687555512468,
+      "projected_sd": 0.7438939764602798,
+      "actual": 1.7367752856538299,
+      "error": 0.013693469897416932,
+      "z_error": 0.018407824677618013
+    },
+    {
+      "nba_api_id": 1629684,
+      "name": "Grant Williams",
+      "projected": 2.3850129748634705,
+      "projected_sd": 0.7580726134800152,
+      "actual": 2.370649106302916,
+      "error": 0.014363868560554494,
+      "z_error": 0.01894787953704802
+    },
+    {
+      "nba_api_id": 1628381,
+      "name": "John Collins",
+      "projected": 3.5225402369072185,
+      "projected_sd": 0.8299391867256318,
+      "actual": 3.5071090047393363,
+      "error": 0.015431232167882225,
+      "z_error": 0.01859320829127642
+    },
+    {
+      "nba_api_id": 1628960,
+      "name": "Grayson Allen",
+      "projected": 2.1307958084285272,
+      "projected_sd": 0.7707978648087137,
+      "actual": 2.1058495821727017,
+      "error": 0.024946226255825543,
+      "z_error": 0.0323641610787497
+    }
+  ]
+}

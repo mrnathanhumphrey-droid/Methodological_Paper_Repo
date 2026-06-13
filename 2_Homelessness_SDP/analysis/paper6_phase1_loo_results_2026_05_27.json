@@ -1,0 +1,46 @@
+{
+  "baseline_elpd_loo": -2855.226590327511,
+  "baseline_se": 29.34964596227284,
+  "residue_class_elpd_loo": -2841.5689640216337,
+  "residue_class_se": 30.218573837352057,
+  "delta_loo": 13.65762630587733,
+  "n_obs": 1239,
+  "n_countries": 52,
+  "n_classes": 14,
+  "h1_threshold": 5,
+  "h1_supported": true,
+  "compare_table": {
+    "rank": {
+      "residue_class": 0,
+      "baseline": 1
+    },
+    "elpd": {
+      "residue_class": -2840.0,
+      "baseline": -2860.0
+    },
+    "p": {
+      "residue_class": 62.7,
+      "baseline": 58.3
+    },
+    "elpd_diff": {
+      "residue_class": 0.0,
+      "baseline": -10.0
+    },
+    "weight": {
+      "residue_class": 1.0,
+      "baseline": 0.0
+    },
+    "se": {
+      "residue_class": 30.0,
+      "baseline": 29.0
+    },
+    "dse": {
+      "residue_class": 0.0,
+      "baseline": 5.0
+    },
+    "warning": {
+      "residue_class": false,
+      "baseline": false
+    }
+  }
+}

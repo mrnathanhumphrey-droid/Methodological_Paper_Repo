@@ -1,0 +1,29 @@
+{
+  "fit_label": "backtest_PTS_phase4_regime_b_2023-24",
+  "checks": [
+    {
+      "name": "coverage_80_in_band",
+      "passed": true,
+      "summary": "80% CI coverage = 75.4% (target 70-90%)",
+      "details": []
+    },
+    {
+      "name": "bias_near_zero",
+      "passed": false,
+      "summary": "bias = +1.095 (target |b| < 1.0 PTS/36)",
+      "details": []
+    },
+    {
+      "name": "z_error_well_calibrated",
+      "passed": false,
+      "summary": "z-error mean=+0.45, sd=1.13",
+      "details": []
+    },
+    {
+      "name": "top_25_tier_accuracy",
+      "passed": true,
+      "summary": "top-25 overlap = 80.0% (target \u2265 50%)",
+      "details": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# Regenerable MCMC posterior-sample arrays (reproduce from the phase scripts)
+*.npy
+# caches / envs
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+*.log
+
+# manuscripts / third-party literature
+*.tex
+paper_draft/
+pdfs/
+
+
+# removed 2026-10-15 (Fellows cleanup): manuscripts, third-party text, binaries, betting layer
+5_Collatz/**/*.zip
+*.exe
+*_extracted.txt
+4_Basketball/PAPER_STATE.md
+4_Basketball/RMD_SRC_PIPELINE/PAPER_SECTION_*.md
+4_Basketball/scripts/*bet_simulator*.py
+4_Basketball/scripts/backtest_player_props_*.py
+4_Basketball/docs/fetcher_brief_vegas_markets.md

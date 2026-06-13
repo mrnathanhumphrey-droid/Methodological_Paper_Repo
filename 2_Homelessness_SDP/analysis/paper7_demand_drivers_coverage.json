@@ -1,0 +1,67 @@
+{
+  "sources": {
+    "crosswalk": {
+      "status": "ok",
+      "rows": 3198,
+      "n_coc": 394,
+      "n_county": 3132
+    },
+    "qcew_2012": {
+      "status": "ok",
+      "n_county": 3273
+    },
+    "qcew_2023": {
+      "status": "ok",
+      "n_county": 3274
+    },
+    "irs_inflow_2223": {
+      "status": "ok",
+      "file": "countyinflow2223.csv",
+      "n_dest_county": 3096,
+      "note": "n2 = in-migrant exemptions (persons), Total Migration US+Foreign row"
+    },
+    "acs_2012": {
+      "status": "ok",
+      "n_county": 3221
+    },
+    "acs_2024": {
+      "status": "ok",
+      "n_county": 3222
+    }
+  },
+  "drivers_n_cocs": {
+    "employment_growth_12_23": 394,
+    "avg_weekly_wage_2023": 394,
+    "avg_weekly_wage_2012": 394,
+    "in_migration_rate": 393,
+    "population_growth_12_24": 392
+  },
+  "notes": [
+    "BLS LAUS direct download blocked (HTTP 403, Akamai bot protection) on all paths/UAs; employment growth sourced from BLS QCEW annual_avg_emplvl (County Total Covered) instead.",
+    "Wage metric = QCEW annual_avg_wkly_wage (County Total Covered), employment-weighted to CoC. High-wage-industry share NOT built (supersector rows absent at own_code 0; disclosure-suppressed at private level).",
+    "Employment growth window is 2012->2023 (latest QCEW annual available), not 2024.",
+    "Population growth window is ACS5 2012->2024.",
+    "In-migration from IRS SOI countyinflow2223 (tax year 2022->2023), single latest year.",
+    "County counts allocated to CoCs by pct_cnty_pop_coc; wage allocated as employment-weighted mean."
+  ],
+  "data_corrections": {
+    "connecticut_pop_2024_nulled": {
+      "n_coc": 2,
+      "reason": "ACS5 2024 reports CT as 9 planning-region FIPS (09110-09190) vs 8 county FIPS (09001-09015) in 2012 and in the crosswalk; 2024 population join incomparable. pop_2024 and population_growth_12_24 set to NaN for CT CoCs."
+    }
+  },
+  "total_cocs_in_output": 401,
+  "columns": [
+    "coc_number",
+    "emp_2012",
+    "emp_2023",
+    "employment_growth_12_23",
+    "avg_weekly_wage_2012",
+    "avg_weekly_wage_2023",
+    "inmig_persons",
+    "in_migration_rate",
+    "pop_2012",
+    "pop_2024",
+    "population_growth_12_24"
+  ]
+}

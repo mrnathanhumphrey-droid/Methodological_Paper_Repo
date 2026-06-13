@@ -1,0 +1,139 @@
+{
+  "probe": "paper7 zoning (WRLURI2018) on the LEVEL",
+  "framing": "correlational only; never causal",
+  "wrluri_provenance": "HAND-CODED state averages; flagged. No state-level WRLURI table in published NBER w26573 / JUE papers (community+CBSA only); no clean state CSV web-obtainable. See wharton_zoning/.",
+  "merge_coverage": {
+    "states_with_zoning_2024": 50,
+    "states_total_2024": 54
+  },
+  "full_sample_n51": {
+    "loo_r2": {
+      "climate": -0.1341,
+      "climate+rent": 0.2239,
+      "climate+rent+zoning": 0.2695,
+      "climate+zoning_norent": 0.3474,
+      "climate+rent+vac": 0.2076
+    },
+    "n_used_full_model": 50,
+    "dR2_zoning_over_rent": 0.0619,
+    "dR2_zoning_alone_over_climate": 0.4815,
+    "dR2_rent_alone_over_climate": 0.358,
+    "ols_level_standardized": {
+      "coefs": {
+        "const": {
+          "coef": 19.514,
+          "p": 0.0
+        },
+        "zoning": {
+          "coef": 10.768,
+          "p": 0.003
+        },
+        "median_gross_rent": {
+          "coef": 1.515,
+          "p": 0.6158
+        },
+        "rental_vacancy_rate": {
+          "coef": -0.634,
+          "p": 0.8194
+        },
+        "jan_temp": {
+          "coef": -0.643,
+          "p": 0.8064
+        }
+      },
+      "model_r2": 0.4916,
+      "n": 50
+    },
+    "zoning_coef": 10.768,
+    "zoning_p": 0.003,
+    "rent_coef": 1.515,
+    "rent_p": 0.6158
+  },
+  "drop_RTS_n48": {
+    "loo_r2": {
+      "climate": -0.1979,
+      "climate+rent": 0.0941,
+      "climate+rent+zoning": 0.0691,
+      "climate+zoning_norent": 0.2408,
+      "climate+rent+vac": 0.0776
+    },
+    "n_used_full_model": 48,
+    "dR2_zoning_over_rent": -0.0085,
+    "dR2_zoning_alone_over_climate": 0.4387,
+    "dR2_rent_alone_over_climate": 0.292,
+    "ols_level_standardized": {
+      "coefs": {
+        "const": {
+          "coef": 17.813,
+          "p": 0.0
+        },
+        "zoning": {
+          "coef": 8.66,
+          "p": 0.0053
+        },
+        "median_gross_rent": {
+          "coef": 1.629,
+          "p": 0.5351
+        },
+        "rental_vacancy_rate": {
+          "coef": -0.661,
+          "p": 0.7855
+        },
+        "jan_temp": {
+          "coef": 0.274,
+          "p": 0.9077
+        }
+      },
+      "model_r2": 0.4733,
+      "n": 48
+    },
+    "zoning_coef": 8.66,
+    "zoning_p": 0.0053,
+    "rent_coef": 1.629,
+    "rent_p": 0.5351
+  },
+  "secondary_zoning_vs_FORM": {
+    "pearson_r_zoning_unsheltered": -0.1727,
+    "ols_unsheltered": {
+      "coefs": {
+        "const": {
+          "coef": 0.308,
+          "p": 0.0
+        },
+        "zoning": {
+          "coef": -0.101,
+          "p": 0.0011
+        },
+        "median_gross_rent": {
+          "coef": 0.058,
+          "p": 0.027
+        },
+        "rental_vacancy_rate": {
+          "coef": 0.003,
+          "p": 0.9067
+        },
+        "jan_temp": {
+          "coef": 0.116,
+          "p": 0.0
+        }
+      },
+      "model_r2": 0.6158,
+      "n": 50
+    }
+  },
+  "zoning_rent_correlation": 0.7649,
+  "dispositions": {
+    "full_sample": {
+      "zoning_positive": true,
+      "zoning_p<0.10": true,
+      "zoning_adds_dR2_over_rent": true
+    },
+    "drop_RTS": {
+      "zoning_positive": true,
+      "zoning_p<0.10": true,
+      "zoning_adds_dR2_over_rent": false
+    },
+    "ZONING_SURVIVES_DROP_RTS": true,
+    "criterion_survives": "zoning coef>0 AND p<0.10 AND dR2_zoning_alone_over_climate>0.05 in n=48"
+  }
+}

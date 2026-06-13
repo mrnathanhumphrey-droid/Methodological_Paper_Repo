@@ -1,0 +1,16 @@
+{
+  "passed": false,
+  "notes": [
+    "R-hat for mu_player[118]: 1.010 > 1.01",
+    "ESS for peak_age_pos[1]: 301 < 400",
+    "R-hat for peak_age_pos[3]: 1.011 > 1.01",
+    "ESS for beta_age_pos[1]: 325 < 400",
+    "R-hat for sigma_age_player: 1.019 > 1.01",
+    "ESS for sigma_age_player: 194 < 400",
+    "R-hat for age_tilt_player_z[46]: 1.017 > 1.01",
+    "R-hat for age_tilt_player_z[57]: 1.011 > 1.01"
+  ],
+  "max_rhat": 1.01928,
+  "min_ess": 193.638,
+  "n_params_summarized": 905
+}

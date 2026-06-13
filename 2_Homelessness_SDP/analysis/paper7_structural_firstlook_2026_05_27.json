@@ -1,0 +1,49 @@
+{
+  "n_states": 51,
+  "framing": "EXPLORATORY first-look; not a locked pre-reg",
+  "sdp_logic": "structure predicts FORM+LEVEL of displacement => SDP legit",
+  "form_unsheltered_share": {
+    "loo_r2_full_structure": 0.3557,
+    "loo_r2_climate_only": 0.356,
+    "loo_r2_rts_only": 0.0555,
+    "loo_r2_climate_plus_rts": 0.4168,
+    "std_coefficients": {
+      "rts": -0.0522,
+      "medicaid_exp": -0.0175,
+      "rent_control": 0.0238,
+      "jan_temp": 0.1124,
+      "cb_share": -0.0174
+    }
+  },
+  "level_homeless_per_10k": {
+    "loo_r2_full_structure": 0.3009,
+    "loo_r2_costburden_only": -0.0228,
+    "std_coefficients": {
+      "rts": 9.7668,
+      "medicaid_exp": 5.0305,
+      "rent_control": 4.4156,
+      "jan_temp": 4.8151,
+      "cb_share": -0.0071
+    }
+  },
+  "noise_residual_after_climate": {
+    "note": "residual unsheltered_share after climate-only model, predicted by POLICY vars",
+    "loo_r2_policy_on_residual": -0.0176,
+    "std_coefficients": {
+      "rts": -0.0525,
+      "medicaid_exp": -0.0183,
+      "rent_control": 0.0235,
+      "cb_share": -0.0152
+    }
+  },
+  "rts_natural_experiment": {
+    "rts_states": [
+      "DC",
+      "MA",
+      "NY"
+    ],
+    "mean_unsheltered_share_RTS": 0.0839,
+    "mean_unsheltered_share_nonRTS": 0.3186,
+    "ratio": 3.8
+  }
+}

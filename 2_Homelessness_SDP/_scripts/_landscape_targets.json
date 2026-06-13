@@ -1,0 +1,272 @@
+[
+  {
+    "source": "idmc_gidd_hdx_landing",
+    "tier": 1,
+    "url": "https://data.humdata.org/api/3/action/package_show?id=idmc-internal-displacement-global-database",
+    "filename": "data/idmc_gidd/package_show.json",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "CKAN API; use to discover current resource CSV URL"
+  },
+  {
+    "source": "unhcr_rdf_population",
+    "tier": 1,
+    "url": "https://api.unhcr.org/population/v1/population/?yearFrom=1990&yearTo=2024&coo_all=true&coa_all=true&download=true",
+    "filename": "data/unhcr_rdf/population_1990_2024.csv",
+    "auth": "none",
+    "throttle_sec": 1.5,
+    "notes": "CSV via download=true; large; consider per-decade chunking"
+  },
+  {
+    "source": "hdx_hapi_baseline_population",
+    "tier": 1,
+    "url": "https://hapi.humdata.org/api/v2/geography-infrastructure/baseline-population?output_format=json&limit=1000",
+    "filename": "data/hdx_hapi/baseline_population/page_0.json",
+    "auth": "app_id_base64",
+    "throttle_sec": 1.5,
+    "notes": "Loop offset until empty; base64 app_id required in header"
+  },
+  {
+    "source": "hdx_hapi_food_security",
+    "tier": 1,
+    "url": "https://hapi.humdata.org/api/v2/food-security-nutrition-poverty/food-security?output_format=json&limit=1000",
+    "filename": "data/hdx_hapi/food_security/page_0.json",
+    "auth": "app_id_base64",
+    "throttle_sec": 1.5,
+    "notes": "IPC harmonized via HAPI"
+  },
+  {
+    "source": "hdx_hapi_humanitarian_needs",
+    "tier": 1,
+    "url": "https://hapi.humdata.org/api/v2/coordination-context/humanitarian-needs?output_format=json&limit=1000",
+    "filename": "data/hdx_hapi/humanitarian_needs/page_0.json",
+    "auth": "app_id_base64",
+    "throttle_sec": 1.5,
+    "notes": "HNO PIN figures"
+  },
+  {
+    "source": "hdx_hapi_refugees",
+    "tier": 1,
+    "url": "https://hapi.humdata.org/api/v2/affected-people/refugees-persons-of-concern?output_format=json&limit=1000",
+    "filename": "data/hdx_hapi/refugees/page_0.json",
+    "auth": "app_id_base64",
+    "throttle_sec": 1.5,
+    "notes": "Sub-national refugee returns + persons of concern"
+  },
+  {
+    "source": "reliefweb_disasters",
+    "tier": 1,
+    "url": "https://api.reliefweb.int/v2/disasters?appname=IDP-Research&limit=1000&offset=0",
+    "filename": "data/reliefweb/disasters_page_0.json",
+    "auth": "appname_param",
+    "throttle_sec": 1.5,
+    "notes": "Paginate via offset; HAL-style next links"
+  },
+  {
+    "source": "reliefweb_reports",
+    "tier": 1,
+    "url": "https://api.reliefweb.int/v2/reports?appname=IDP-Research&limit=1000&offset=0",
+    "filename": "data/reliefweb/reports_page_0.json",
+    "auth": "appname_param",
+    "throttle_sec": 1.5,
+    "notes": "Very large; filter by country + theme upstream"
+  },
+  {
+    "source": "fts_flows_2023",
+    "tier": 1,
+    "url": "https://api.hpc.tools/v2/public/fts/flow?year=2023",
+    "filename": "data/fts/flows_2023.json",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "Loop years; large per-year"
+  },
+  {
+    "source": "eonet_events_all",
+    "tier": 2,
+    "url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=all&limit=10000",
+    "filename": "data/eonet/events_all.json",
+    "auth": "none",
+    "throttle_sec": 1.5,
+    "notes": "All-status events; closed + open"
+  },
+  {
+    "source": "spei_01",
+    "tier": 2,
+    "url": "https://digital.csic.es/bitstream/10261/332007/1/spei01.nc",
+    "filename": "data/spei/spei01.nc",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "UNVERIFIED direct path; confirm via https://spei.csic.es/database.html"
+  },
+  {
+    "source": "spei_06",
+    "tier": 2,
+    "url": "https://digital.csic.es/bitstream/10261/332007/1/spei06.nc",
+    "filename": "data/spei/spei06.nc",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "UNVERIFIED; pattern guess from SPEIbase repo"
+  },
+  {
+    "source": "spei_12",
+    "tier": 2,
+    "url": "https://digital.csic.es/bitstream/10261/332007/1/spei12.nc",
+    "filename": "data/spei/spei12.nc",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "UNVERIFIED"
+  },
+  {
+    "source": "chirps_v3_monthly_global",
+    "tier": 2,
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-3.0/global_monthly/netcdf/chirps-v3.0.monthly.nc",
+    "filename": "data/chirps/chirps-v3.0.monthly.nc",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "UNVERIFIED final filename; CHC site index may show actual"
+  },
+  {
+    "source": "ucdp_ged_v251",
+    "tier": 3,
+    "url": "https://ucdp.uu.se/downloads/ged/ged251-csv.zip",
+    "filename": "data/ucdp/ged251-csv.zip",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "Verified working via existing fetch_ucdp.py"
+  },
+  {
+    "source": "gdelt2_master_filelist",
+    "tier": 3,
+    "url": "http://data.gdeltproject.org/gdeltv2/masterfilelist.txt",
+    "filename": "data/gdelt/gdelt2_masterfilelist.txt",
+    "auth": "none",
+    "throttle_sec": 1.0,
+    "notes": "Master index; iterate *.export.CSV.zip entries only (events, not GKG)"
+  },
+  {
+    "source": "icews_historic_dataverse",
+    "tier": 3,
+    "url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/28075",
+    "filename": "data/icews/dataset_metadata.json",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "Use metadata to enumerate TSV file IDs, then fetch each via /api/access/datafile/{id}"
+  },
+  {
+    "source": "polecat_dataverse",
+    "tier": 3,
+    "url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/AJGVIT",
+    "filename": "data/polecat/dataset_metadata.json",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "ICEWS successor post-2023"
+  },
+  {
+    "source": "vdem_v15_full",
+    "tier": 3,
+    "url": "https://www.v-dem.net/media/datasets/V-Dem-CY-FullOthers_csv_v15.zip",
+    "filename": "data/vdem/vdem_v15_full.zip",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "UNVERIFIED filename"
+  },
+  {
+    "source": "polity5_xls",
+    "tier": 3,
+    "url": "https://www.systemicpeace.org/inscr/p5v2018.xls",
+    "filename": "data/polity5/p5v2018.xls",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "UNVERIFIED filename"
+  },
+  {
+    "source": "cow_nmc_v6_landing",
+    "tier": 3,
+    "url": "https://correlatesofwar.org/data-sets/national-material-capabilities/",
+    "filename": "data/cow/nmc_v6_landing.html",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "Landing page; resolve ZIP from HTML"
+  },
+  {
+    "source": "cow_mid_v5_landing",
+    "tier": 3,
+    "url": "https://correlatesofwar.org/data-sets/mids/",
+    "filename": "data/cow/mid_v5_landing.html",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "Landing only; resolve ZIP link from page"
+  },
+  {
+    "source": "dhs_indicator_api",
+    "tier": 4,
+    "url": "https://api.dhsprogram.com/rest/dhs/data?breakdown=national&perpage=5000&f=json",
+    "filename": "data/dhs/indicators_page_0.json",
+    "auth": "none",
+    "throttle_sec": 1.5,
+    "notes": "Page through; microdata requires Chrome handoff project request"
+  },
+  {
+    "source": "who_gho_indicator_list",
+    "tier": 4,
+    "url": "https://ghoapi.azureedge.net/api/Indicator",
+    "filename": "data/who_gho/indicator_list.json",
+    "auth": "none",
+    "throttle_sec": 1.0,
+    "notes": "List indicators; OData API deprecates end of 2025"
+  },
+  {
+    "source": "wb_wdi_bulk",
+    "tier": 5,
+    "url": "https://databank.worldbank.org/data/download/WDI_CSV.zip",
+    "filename": "data/wb_wdi/WDI_CSV.zip",
+    "auth": "none",
+    "throttle_sec": 1.0,
+    "notes": "~250 MB ZIP; cleanest bulk pull"
+  },
+  {
+    "source": "imf_ifs_dataflow_list",
+    "tier": 5,
+    "url": "http://dataservices.imf.org/REST/SDMX_JSON.svc/Dataflow",
+    "filename": "data/imf_ifs/dataflow_list.json",
+    "auth": "none",
+    "throttle_sec": 1.5,
+    "notes": "Use to discover IFS structure before pulling CompactData"
+  },
+  {
+    "source": "undp_hdr_annex_2023_24",
+    "tier": 5,
+    "url": "https://hdr.undp.org/sites/default/files/2023-24_HDR/HDR23-24_Statistical_Annex_HDI_Table.xlsx",
+    "filename": "data/undp_hdr/HDR23-24_Annex_HDI.xlsx",
+    "auth": "none",
+    "throttle_sec": 1.5,
+    "notes": "Annex XLSX; update URL slug per latest HDR cycle"
+  },
+  {
+    "source": "natural_earth_admin0_10m",
+    "tier": 6,
+    "url": "https://www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip",
+    "filename": "data/natural_earth/ne_10m_admin_0_countries.zip",
+    "auth": "none",
+    "throttle_sec": 1.0,
+    "notes": "Verified URL pattern"
+  },
+  {
+    "source": "natural_earth_admin1_10m",
+    "tier": 6,
+    "url": "https://www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces.zip",
+    "filename": "data/natural_earth/ne_10m_admin_1_states_provinces.zip",
+    "auth": "none",
+    "throttle_sec": 1.0,
+    "notes": "Verified URL pattern"
+  },
+  {
+    "source": "worldpop_rest_index",
+    "tier": 6,
+    "url": "https://www.worldpop.org/rest/data",
+    "filename": "data/worldpop/rest_index.json",
+    "auth": "none",
+    "throttle_sec": 2.0,
+    "notes": "Use to discover per-country GeoTIFF URLs; 100m global is >50 GB per year"
+  }
+]

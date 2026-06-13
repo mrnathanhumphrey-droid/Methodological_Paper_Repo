@@ -1,0 +1,68 @@
+{
+  "pre_reg": "PRE_REG_039",
+  "framing": "correlational; cross-sectional; state resolution; no person-linkage",
+  "n_merged": 50,
+  "precarity_primary": "behind_on_rent_share (Pulse state mean)",
+  "CLOSE_D1_precarity_to_foodinsec": {
+    "behind_corr": 0.3344,
+    "p": 0.0176,
+    "n": 50,
+    "evrisk_corr": 0.4347,
+    "evrisk_p": 0.0016,
+    "predict": ">0 sig",
+    "pass": true
+  },
+  "CLOSE_D2_precarity_NOT_homeless": {
+    "behind_corr": -0.0006,
+    "p": 0.9968,
+    "n": 50,
+    "evrisk_corr": -0.3982,
+    "evrisk_p": 0.0042,
+    "predict": "NOT sig positive",
+    "pass": true
+  },
+  "CLOSE_D3_axes_dissociate": {
+    "foodinsec_homeless_corr": -0.3383,
+    "p": 0.0163,
+    "n": 50,
+    "predict": "<=0 / not sig positive",
+    "pass": true
+  },
+  "CLOSE_D4_rent_floor_is_switch": {
+    "homeless_model": {
+      "rent_floor": {
+        "coef": 0.05,
+        "p": 0.0
+      },
+      "poverty": {
+        "coef": 1.1731,
+        "p": 0.1938
+      }
+    },
+    "food_insec_model": {
+      "poverty": {
+        "coef": 0.5627,
+        "p": 0.0
+      },
+      "food_floor": {
+        "coef": 4.5631,
+        "p": 0.3392
+      },
+      "rent_floor": {
+        "coef": -0.0012,
+        "p": 0.1998
+      }
+    },
+    "rent_drives_homeless": true,
+    "food_by_poverty_or_floor": true,
+    "rent_NOT_in_food": true,
+    "pass": true
+  },
+  "SEAM_CLOSED": true,
+  "disposition": "SEAM CLOSED \u2014 one system, rent-floor switch, two dissociated discharge axes",
+  "context": {
+    "corr_rent_homeless": 0.663,
+    "median_food_insec": 11.45,
+    "median_homeless_per_10k": 14.02
+  }
+}

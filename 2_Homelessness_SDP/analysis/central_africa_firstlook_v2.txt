@@ -1,0 +1,45 @@
+[21:59:55] === Building central_africa panel for ['COD', 'CAF', 'CMR'] ===
+[1] GIDD displacement
+  GIDD: 49 country-year rows
+[2] GIDD Disasters hazard
+  Disasters: 44 rows x 7 hazard cols
+[3] UCDP-GED
+  UCDP-GED events for cluster: 13069
+[4] HAPI food security
+[5] V-Dem + WDI
+
+[22:00:04] panel saved: D:\IDP\analysis\central_africa_stratified_panel_2026_05_21.parquet
+  shape: (81, 31)
+
+=== central_africa period x country x cause ===
+              period iso3  conflict_disp  disaster_disp  war_fatal  strife_fatal  one_sided_fatal
+     acute_2020_2024  CAF        1403000         205000       2128           320              612
+     acute_2020_2024  CMR         650000         447700       2070            76             1199
+     acute_2020_2024  COD       18030000        2473000       5957          2764            14322
+     early_2014_2019  CAF        1574000         123740        432          3219             4281
+     early_2014_2019  CMR         839000          38500       3709            74             1309
+     early_2014_2019  COD        8224000         605000       7470          4128             4608
+pre_crisis_1998_2013  CAF        1102000          61000       1055           357             3473
+pre_crisis_1998_2013  CMR              0          44000          1            51                3
+pre_crisis_1998_2013  COD        3568000         142020      15436          8195            23828
+
+=== central_africa V-Dem libdem trajectory ===
+  COD 2018: 0.117
+  CAF 2018: 0.249
+  CMR 2018: 0.120
+  COD 2020: 0.152
+  CAF 2020: 0.201
+  CMR 2020: 0.123
+  COD 2024: 0.123
+  CAF 2024: 0.097
+  CMR 2024: 0.126
+
+=== central_africa disaster hazard types (acute 2020-2024) ===
+iso3                           CAF     CMR      COD
+disaster_erosion                 0       0       27
+disaster_flood              199114  444269  1715289
+disaster_mass_movement           0     200    20050
+disaster_storm                6150    2790   139486
+disaster_volcanic_activity       0       0   599000
+
+[22:00:04] complete

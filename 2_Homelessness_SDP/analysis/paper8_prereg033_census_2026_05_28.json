@@ -1,0 +1,1260 @@
+{
+  "n_total": 101,
+  "coupling": [
+    "BGD",
+    "BRA",
+    "COD",
+    "ETH",
+    "MEX",
+    "SOM",
+    "TUR",
+    "UKR"
+  ],
+  "triple": [
+    "ETH"
+  ],
+  "pct_coupling": 7.920792079207921,
+  "predicted_set_hits": [
+    "SOM",
+    "BRA",
+    "ETH"
+  ],
+  "verdict_A": "SUPPORTED",
+  "verdict_C": "SUPPORTED",
+  "coupling_mean_libdem": 0.25834558823529413,
+  "orthogonal_mean_libdem": 0.3773451251468328,
+  "coupling_mean_shock_overlap": 2.5,
+  "orthogonal_mean_shock_overlap": 1.5913978494623655,
+  "rows": {
+    "AFG": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.032,
+        "CD": 0.062,
+        "FD": 0.301
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "AGO": {
+      "n_years": 15,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "ARG": {
+      "n_years": 14,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "AUS": {
+      "n_years": 16,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "BDI": {
+      "n_years": 13,
+      "cor": {
+        "CF": -0.011,
+        "CD": 0.358,
+        "FD": 0.192
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "BEN": {
+      "n_years": 14,
+      "cor": {
+        "CF": -0.224,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "BFA": {
+      "n_years": 14,
+      "cor": {
+        "CF": -0.275,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "BGD": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.571,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [
+        "CF"
+      ],
+      "is_coupling": true,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "BGR": {
+      "n_years": 10,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "BOL": {
+      "n_years": 16,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "BRA": {
+      "n_years": 16,
+      "cor": {
+        "CF": 0.396,
+        "CD": 0.69,
+        "FD": 0.344
+      },
+      "coupled_pairs": [
+        "CD"
+      ],
+      "is_coupling": true,
+      "is_triple": false,
+      "shock_overlap": 3
+    },
+    "CAF": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.117,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "CAN": {
+      "n_years": 12,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "CHL": {
+      "n_years": 12,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "CHN": {
+      "n_years": 17,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "CIV": {
+      "n_years": 14,
+      "cor": {
+        "CF": -0.392,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "CMR": {
+      "n_years": 15,
+      "cor": {
+        "CF": -0.13,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "COD": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.644,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [
+        "CF"
+      ],
+      "is_coupling": true,
+      "is_triple": false,
+      "shock_overlap": 3
+    },
+    "COL": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.292,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 3
+    },
+    "CRI": {
+      "n_years": 14,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "CUB": {
+      "n_years": 12,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "DEU": {
+      "n_years": 10,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "DOM": {
+      "n_years": 15,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "DZA": {
+      "n_years": 11,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "ECU": {
+      "n_years": 14,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "ESP": {
+      "n_years": 13,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "ETH": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.691,
+        "CD": 0.83,
+        "FD": 0.582
+      },
+      "coupled_pairs": [
+        "CF",
+        "CD",
+        "FD"
+      ],
+      "is_coupling": true,
+      "is_triple": true,
+      "shock_overlap": 3
+    },
+    "FJI": {
+      "n_years": 13,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "FRA": {
+      "n_years": 13,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "GBR": {
+      "n_years": 13,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "GHA": {
+      "n_years": 14,
+      "cor": {
+        "CF": 0.468,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 3
+    },
+    "GIN": {
+      "n_years": 12,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "GMB": {
+      "n_years": 12,
+      "cor": {
+        "CF": -0.079,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "GTM": {
+      "n_years": 14,
+      "cor": {
+        "CF": -0.078,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "HND": {
+      "n_years": 13,
+      "cor": {
+        "CF": 0.06,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "HTI": {
+      "n_years": 17,
+      "cor": {
+        "CF": -0.276,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "IDN": {
+      "n_years": 17,
+      "cor": {
+        "CF": -0.299,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "IND": {
+      "n_years": 17,
+      "cor": {
+        "CF": -0.237,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "IRN": {
+      "n_years": 11,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "IRQ": {
+      "n_years": 14,
+      "cor": {
+        "CF": -0.115,
+        "CD": -0.233,
+        "FD": -0.029
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "ISR": {
+      "n_years": 11,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "ITA": {
+      "n_years": 14,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "JPN": {
+      "n_years": 15,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "KAZ": {
+      "n_years": 13,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 3
+    },
+    "KEN": {
+      "n_years": 17,
+      "cor": {
+        "CF": -0.072,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "KHM": {
+      "n_years": 15,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "KOR": {
+      "n_years": 11,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "LAO": {
+      "n_years": 15,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "LBR": {
+      "n_years": 10,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "LBY": {
+      "n_years": 13,
+      "cor": {
+        "CF": -0.433,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "LKA": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.12,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "MDG": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.289,
+        "CD": 0.282,
+        "FD": 0.205
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "MEX": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.52,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [
+        "CF"
+      ],
+      "is_coupling": true,
+      "is_triple": false,
+      "shock_overlap": 3
+    },
+    "MLI": {
+      "n_years": 16,
+      "cor": {
+        "CF": 0.23,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "MMR": {
+      "n_years": 17,
+      "cor": {
+        "CF": -0.12,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "MOZ": {
+      "n_years": 17,
+      "cor": {
+        "CF": -0.298,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "MWI": {
+      "n_years": 14,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 3
+    },
+    "MYS": {
+      "n_years": 15,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "NAM": {
+      "n_years": 14,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "NER": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.241,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "NGA": {
+      "n_years": 16,
+      "cor": {
+        "CF": -0.447,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "NIC": {
+      "n_years": 14,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "NPL": {
+      "n_years": 14,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "NZL": {
+      "n_years": 12,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "PAK": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.241,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "PAN": {
+      "n_years": 12,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "PER": {
+      "n_years": 16,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "PHL": {
+      "n_years": 17,
+      "cor": {
+        "CF": -0.091,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "PNG": {
+      "n_years": 12,
+      "cor": {
+        "CF": 0.004,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "PRK": {
+      "n_years": 12,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "PRT": {
+      "n_years": 10,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "PRY": {
+      "n_years": 11,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "PSE": {
+      "n_years": 16,
+      "cor": {
+        "CF": -0.045,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "ROU": {
+      "n_years": 11,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "RUS": {
+      "n_years": 14,
+      "cor": {
+        "CF": 0.138,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 3
+    },
+    "RWA": {
+      "n_years": 13,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "SDN": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.054,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "SEN": {
+      "n_years": 12,
+      "cor": {
+        "CF": 0.432,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "SLB": {
+      "n_years": 11,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "SLV": {
+      "n_years": 15,
+      "cor": {
+        "CF": 0.169,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "SOM": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.26,
+        "CD": 0.786,
+        "FD": 0.413
+      },
+      "coupled_pairs": [
+        "CD"
+      ],
+      "is_coupling": true,
+      "is_triple": false,
+      "shock_overlap": 3
+    },
+    "SRB": {
+      "n_years": 12,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "SSD": {
+      "n_years": 14,
+      "cor": {
+        "CF": -0.117,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "SYR": {
+      "n_years": 14,
+      "cor": {
+        "CF": -0.268,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "TCD": {
+      "n_years": 16,
+      "cor": {
+        "CF": 0.231,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "THA": {
+      "n_years": 17,
+      "cor": {
+        "CF": 0.12,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "TJK": {
+      "n_years": 11,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "TUR": {
+      "n_years": 11,
+      "cor": {
+        "CF": -0.613,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [
+        "CF"
+      ],
+      "is_coupling": true,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "TWN": {
+      "n_years": 14,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "TZA": {
+      "n_years": 15,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "UGA": {
+      "n_years": 15,
+      "cor": {
+        "CF": 0.471,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "UKR": {
+      "n_years": 13,
+      "cor": {
+        "CF": -0.616,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [
+        "CF"
+      ],
+      "is_coupling": true,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "URY": {
+      "n_years": 12,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "USA": {
+      "n_years": 16,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "VEN": {
+      "n_years": 13,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "VNM": {
+      "n_years": 17,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "VUT": {
+      "n_years": 10,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    },
+    "YEM": {
+      "n_years": 17,
+      "cor": {
+        "CF": -0.128,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "ZAF": {
+      "n_years": 16,
+      "cor": {
+        "CF": 0.095,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 2
+    },
+    "ZMB": {
+      "n_years": 13,
+      "cor": {
+        "CF": null,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 3
+    },
+    "ZWE": {
+      "n_years": 14,
+      "cor": {
+        "CF": -0.479,
+        "CD": null,
+        "FD": null
+      },
+      "coupled_pairs": [],
+      "is_coupling": false,
+      "is_triple": false,
+      "shock_overlap": 1
+    }
+  }
+}

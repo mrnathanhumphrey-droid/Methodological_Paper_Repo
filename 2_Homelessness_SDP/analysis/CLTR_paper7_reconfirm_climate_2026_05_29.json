@@ -1,0 +1,94 @@
+{
+  "source": "NOAA NCEI climdiv tmpcst v1.0.0 (1991-2020 Jan mean, statewide)",
+  "n_states_authentic": 49,
+  "missing_from_climdiv": [
+    "DC",
+    "HI"
+  ],
+  "validation_approx_vs_authentic": {
+    "n": 49,
+    "pearson_r": 0.9857,
+    "mean_abs_diff_F": 1.74,
+    "biggest_diffs": [
+      [
+        "WA",
+        8.1
+      ],
+      [
+        "OR",
+        7.5
+      ],
+      [
+        "AZ",
+        4.8
+      ],
+      [
+        "NY",
+        4.4
+      ],
+      [
+        "MI",
+        3.8
+      ],
+      [
+        "PA",
+        3.4
+      ]
+    ]
+  },
+  "LEVEL2_authentic": {
+    "n": 51,
+    "street_dominant_jan": {
+      "b": 1.822,
+      "p": 0.01
+    },
+    "street_R2": 0.371,
+    "sheltered_dominant_rts": {
+      "b": 9.983,
+      "p": 0.0
+    },
+    "sheltered_R2": 0.662,
+    "street_climate_holds": true,
+    "sheltered_rts_holds": true
+  },
+  "LEVEL3_authentic": {
+    "n_all": 302,
+    "R2": 0.214,
+    "coefs_all": {
+      "jan_auth": {
+        "b": 2.615,
+        "p": 0.0
+      },
+      "supply_tight": {
+        "b": 0.325,
+        "p": 0.4978
+      },
+      "rent_coc": {
+        "b": 3.022,
+        "p": 0.0003
+      },
+      "rts": {
+        "b": -0.524,
+        "p": 0.0573
+      },
+      "janXtight": {
+        "b": 1.007,
+        "p": 0.0071
+      }
+    },
+    "interaction_all": {
+      "b": 1.007,
+      "p": 0.0071
+    },
+    "R2_dropWestCoast": 0.131,
+    "interaction_dropWestCoast": {
+      "b": 0.162,
+      "p": 0.2937
+    },
+    "n_dropWestCoast": 262,
+    "climate_gate_holds": true,
+    "interaction_holds_full": true,
+    "interaction_westcoast_dependent": true
+  },
+  "VERDICT": "CONFIRMED with authentic climate: street<-climate (L2) + climate-gate x supply (L3, full) replicate; West-Coast-dependence of the interaction also replicates"
+}

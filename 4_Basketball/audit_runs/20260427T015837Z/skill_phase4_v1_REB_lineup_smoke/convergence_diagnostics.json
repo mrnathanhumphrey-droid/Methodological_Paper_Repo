@@ -1,0 +1,18 @@
+{
+  "passed": false,
+  "notes": [
+    "ESS for mu_league: 393 < 400",
+    "R-hat for mu_player[42]: 1.011 > 1.01",
+    "R-hat for mu_player[75]: 1.012 > 1.01",
+    "ESS for beta_lineup_skill_interaction: 377 < 400",
+    "R-hat for age_slope_player[75]: 1.015 > 1.01",
+    "R-hat for reb_per_36_at_27[42]: 1.011 > 1.01",
+    "R-hat for reb_per_36_at_27[75]: 1.012 > 1.01",
+    "ESS for reb_per_36_league_at_27: 393 < 400",
+    "ESS for lineup_lift_specialist_strong: 377 < 400",
+    "ESS for lineup_lift_roleplayer_strong: 377 < 400"
+  ],
+  "max_rhat": 1.01535,
+  "min_ess": 377.473,
+  "n_params_summarized": 410
+}

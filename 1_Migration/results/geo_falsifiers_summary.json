@@ -1,0 +1,48 @@
+{
+  "GEO_F1": {
+    "division": {
+      "pseudo_r2": 0.6296830171453408,
+      "fires": false
+    },
+    "state": {
+      "pseudo_r2": 0.7382611239400478,
+      "fires": false
+    }
+  },
+  "GEO_F2": {
+    "division_congruence": 0.9499650740817186,
+    "fires": false
+  },
+  "GEO_F3": {
+    "division": {
+      "level": "division",
+      "units_comparable": 3,
+      "contradictions": 1,
+      "contra_rate": 0.3333333333333333,
+      "fires": true
+    },
+    "state": {
+      "level": "state",
+      "units_comparable": 22,
+      "contradictions": 5,
+      "contra_rate": 0.22727272727272727,
+      "fires": false
+    }
+  },
+  "GEO_F4": {
+    "division": {
+      "level": "division",
+      "n_corridors": 72,
+      "kappa": -0.056050288108957735,
+      "accuracy": 0.2222222222222222,
+      "fires": true
+    },
+    "state": {
+      "level": "state",
+      "n_corridors": 442,
+      "kappa": 0.014655755152526484,
+      "accuracy": 0.2986425339366516,
+      "fires": true
+    }
+  }
+}

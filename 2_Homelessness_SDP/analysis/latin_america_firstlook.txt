@@ -1,0 +1,50 @@
+[21:12:34] === Building latin_america panel for ['COL', 'HTI', 'SLV'] ===
+[1] GIDD displacement
+  GIDD: 50 country-year rows
+[2] GIDD Disasters hazard
+  Disasters: 50 rows x 10 hazard cols
+[3] UCDP-GED
+  UCDP-GED events for cluster: 15172
+[4] HAPI food security
+[5] V-Dem + WDI
+
+[21:12:46] panel saved: D:\IDP\analysis\latin_america_stratified_panel_2026_05_21.parquet
+  shape: (81, 34)
+
+=== latin_america period x country x cause ===
+              period iso3  conflict_disp  disaster_disp  war_fatal  strife_fatal  one_sided_fatal
+     acute_2020_2024  COL        1348000         819000        628           448              969
+     acute_2020_2024  HTI        1267900         262600        193           422             1675
+     acute_2020_2024  SLV         467000          32950          0             0               97
+     early_2014_2019  COL         955000         183600        596            22              347
+     early_2014_2019  HTI           2100         389000          0             0               80
+     early_2014_2019  SLV        1577000           9492          0             0                3
+pre_crisis_1998_2013  COL        1056000        3303100      17143          3288            13618
+pre_crisis_1998_2013  HTI              0        1809500        207             0               75
+pre_crisis_1998_2013  SLV              0          93395          0            34                7
+
+=== latin_america V-Dem libdem trajectory ===
+  COL 2018: 0.533
+  HTI 2018: 0.257
+  SLV 2018: 0.428
+  COL 2020: 0.496
+  HTI 2020: 0.237
+  SLV 2020: 0.316
+  COL 2024: 0.554
+  HTI 2024: 0.101
+  SLV 2024: 0.090
+
+=== latin_america disaster hazard types (acute 2020-2024) ===
+iso3                             COL     HTI    SLV
+disaster_drought                7864       0      0
+disaster_earthquake              892  223760   3905
+disaster_erosion                1350       0      0
+disaster_extreme_temperature      95       0      0
+disaster_flood                620587   11827   5369
+disaster_mass_movement         23592       0     95
+disaster_mixed_disasters           0    4803      0
+disaster_storm                117086   22560  22970
+disaster_volcanic_activity       100       0      0
+disaster_wildfire              46430       0    110
+
+[21:12:46] complete

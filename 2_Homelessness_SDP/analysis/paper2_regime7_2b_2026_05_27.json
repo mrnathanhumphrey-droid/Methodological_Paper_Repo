@@ -1,0 +1,182 @@
+{
+  "thread1_regime7": {
+    "mediterranean": {
+      "GRC": {
+        "total_idp": 290731.0,
+        "wildfire_share": 82.13812768504218,
+        "top_channel": "Wildfire",
+        "top_share": 82.13812768504218,
+        "all_shares": {
+          "Wildfire": 82.13812768504218,
+          "Storm": 10.011316302699058,
+          "Earthquake": 6.06952818928838,
+          "Flood": 1.7755244538766077,
+          "Mass Movement": 0.005503369093767091
+        }
+      },
+      "ESP": {
+        "total_idp": 199358.0,
+        "wildfire_share": 71.20155699796346,
+        "top_channel": "Wildfire",
+        "top_share": 71.20155699796346,
+        "all_shares": {
+          "Wildfire": 71.20155699796346,
+          "Flood": 16.44930226025542,
+          "Earthquake": 7.52415252962008,
+          "Volcanic activity": 3.5112711804893713,
+          "Storm": 1.2244304216535078,
+          "Mass Movement": 0.08928661001815828
+        }
+      },
+      "PRT": {
+        "total_idp": 15968.0,
+        "wildfire_share": 80.26052104208416,
+        "top_channel": "Wildfire",
+        "top_share": 80.26052104208416,
+        "all_shares": {
+          "Wildfire": 80.26052104208416,
+          "Earthquake": 12.5250501002004,
+          "Storm": 5.435871743486974,
+          "Flood": 1.653306613226453,
+          "Mass Movement": 0.125250501002004
+        }
+      },
+      "CYP": {
+        "total_idp": 1710.0,
+        "wildfire_share": 99.23976608187135,
+        "top_channel": "Wildfire",
+        "top_share": 99.23976608187135,
+        "all_shares": {
+          "Wildfire": 99.23976608187135,
+          "Storm": 0.7602339181286549
+        }
+      },
+      "ITA": {
+        "total_idp": 198802.0,
+        "wildfire_share": 5.204676009295682,
+        "top_channel": "Earthquake",
+        "top_share": 59.969215601452696,
+        "all_shares": {
+          "Earthquake": 59.969215601452696,
+          "Storm": 21.87201336002656,
+          "Flood": 12.011448576976088,
+          "Wildfire": 5.204676009295682,
+          "Mass Movement": 0.7967726682830153,
+          "Volcanic activity": 0.14587378396595607
+        }
+      },
+      "TUR": {
+        "total_idp": 4468840.0,
+        "wildfire_share": 2.1030065967902187,
+        "top_channel": "Earthquake",
+        "top_share": 97.1123602545627,
+        "all_shares": {
+          "Earthquake": 97.1123602545627,
+          "Wildfire": 2.1030065967902187,
+          "Flood": 0.6895077917311875,
+          "Mass Movement": 0.07308384278694247,
+          "Storm": 0.01958002524144968,
+          "Mixed disasters": 0.0024614888874965315
+        }
+      },
+      "FRA": {
+        "total_idp": 126413.0,
+        "wildfire_share": 61.11238559325386,
+        "top_channel": "Wildfire",
+        "top_share": 61.11238559325386,
+        "all_shares": {
+          "Wildfire": 61.11238559325386,
+          "Flood": 22.92327529605341,
+          "Storm": 13.3910278215057,
+          "Earthquake": 2.0464667399713634,
+          "Mass Movement": 0.5268445492156661
+        }
+      },
+      "HRV": {
+        "total_idp": 61175.0,
+        "wildfire_share": 0.7029015120555783,
+        "top_channel": "Earthquake",
+        "top_share": 68.0016346546792,
+        "all_shares": {
+          "Earthquake": 68.0016346546792,
+          "Flood": 31.117286473232532,
+          "Wildfire": 0.7029015120555783,
+          "Storm": 0.14058030241111566,
+          "Mass Movement": 0.03759705762157744
+        }
+      }
+    },
+    "grc_wildfire_share": 82.13812768504218,
+    "grc_confirmed_dominant": true,
+    "co_validators_30pct": [
+      "ESP",
+      "PRT",
+      "CYP",
+      "FRA"
+    ],
+    "regime7_real": true
+  },
+  "thread2_regime2b": {
+    "flood_candidates": {
+      "ARG": {
+        "total_idp": 175642.0,
+        "flood_share": 85.42660639254848,
+        "storm_share": 11.11009895127589,
+        "flood_max_median": 4.980425055928412,
+        "in_transitional_gap": true
+      },
+      "KHM": {
+        "total_idp": 912686.0,
+        "flood_share": 75.74971019605866,
+        "storm_share": 23.750665617748055,
+        "flood_max_median": 10.612184175944062,
+        "in_transitional_gap": true
+      },
+      "COL": {
+        "total_idp": 4305753.0,
+        "flood_share": 92.8785743167339,
+        "storm_share": 2.8628906488597927,
+        "flood_max_median": 82.82145075574574,
+        "in_transitional_gap": false
+      },
+      "IRQ": {
+        "total_idp": 281480.0,
+        "flood_share": 44.76339349154469,
+        "storm_share": 0.3481597271564587,
+        "flood_max_median": 5.878706199460916,
+        "in_transitional_gap": false
+      },
+      "VNM": {
+        "total_idp": 5795926.0,
+        "flood_share": 10.794582263472654,
+        "storm_share": 89.01556024007208,
+        "flood_max_median": 15.867540531217662,
+        "in_transitional_gap": false
+      },
+      "BGD": {
+        "total_idp": 21235992.0,
+        "flood_share": 36.110571147323846,
+        "storm_share": 63.4895181727324,
+        "flood_max_median": 4.813,
+        "in_transitional_gap": false
+      },
+      "THA": {
+        "total_idp": 3255870.0,
+        "flood_share": 94.25794027402814,
+        "storm_share": 5.716690162690771,
+        "flood_max_median": 129.99589659417316,
+        "in_transitional_gap": false
+      },
+      "PAK": {
+        "total_idp": 25654613.0,
+        "flood_share": 95.0194766142058,
+        "storm_share": 0.5734758111533391,
+        "flood_max_median": 65.06411773056357,
+        "in_transitional_gap": false
+      }
+    },
+    "anchor_arg_khm_qualify": true,
+    "additional_in_gap": [],
+    "regime2b_real": false
+  }
+}

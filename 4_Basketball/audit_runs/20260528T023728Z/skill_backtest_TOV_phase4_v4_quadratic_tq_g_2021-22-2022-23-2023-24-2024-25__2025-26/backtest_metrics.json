@@ -1,0 +1,154 @@
+{
+  "stat": "TOV",
+  "test_season": "2025-26",
+  "n_players": 256,
+  "mae": 0.3631825408659158,
+  "rmse": 0.47533513863864385,
+  "bias": -0.09176078179614433,
+  "coverage_50": 0.46875,
+  "coverage_80": 0.76171875,
+  "coverage_90": 0.8125,
+  "z_error_mean": -0.26134438163360785,
+  "z_error_sd": 1.2297282586415434,
+  "top_25_accuracy": 0.52,
+  "top_50_accuracy": 0.68,
+  "worst_misses": [
+    {
+      "nba_api_id": 1630175,
+      "name": "Cole Anthony",
+      "projected": 2.3630747369020724,
+      "projected_sd": 0.3717759999605201,
+      "actual": 4.44022770398482,
+      "error": -2.0771529670827475,
+      "z_error": -5.58710881633921
+    },
+    {
+      "nba_api_id": 1629632,
+      "name": "Coby White",
+      "projected": 2.322553291051061,
+      "projected_sd": 0.36994182650992025,
+      "actual": 3.6893514811849477,
+      "error": -1.3667981901338866,
+      "z_error": -3.6946300531314344
+    },
+    {
+      "nba_api_id": 1630166,
+      "name": "Deni Avdija",
+      "projected": 2.7926929743352944,
+      "projected_sd": 0.3769792210425367,
+      "actual": 4.138119036801454,
+      "error": -1.3454260624661596,
+      "z_error": -3.5689661057322506
+    },
+    {
+      "nba_api_id": 1627759,
+      "name": "Jaylen Brown",
+      "projected": 2.4809270132108088,
+      "projected_sd": 0.36652294012645187,
+      "actual": 3.8181818181818183,
+      "error": -1.3372548049710096,
+      "z_error": -3.6484886989874394
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 2.0772280860814396,
+      "projected_sd": 0.37927359781618314,
+      "actual": 3.373555840821566,
+      "error": -1.2963277547401262,
+      "z_error": -3.417922476555824
+    },
+    {
+      "nba_api_id": 1631101,
+      "name": "Shaedon Sharpe",
+      "projected": 2.403974187140611,
+      "projected_sd": 0.3789035484963404,
+      "actual": 3.5975526852481305,
+      "error": -1.1935784981075197,
+      "z_error": -3.150085299660496
+    },
+    {
+      "nba_api_id": 1630208,
+      "name": "Nick Richards",
+      "projected": 1.8650118820510944,
+      "projected_sd": 0.3731666714908751,
+      "actual": 3.0213371266002844,
+      "error": -1.15632524454919,
+      "z_error": -3.098683062797223
+    },
+    {
+      "nba_api_id": 1629001,
+      "name": "De'Anthony Melton",
+      "projected": 1.8078521617561314,
+      "projected_sd": 0.3947658750854499,
+      "actual": 2.906832298136646,
+      "error": -1.0989801363805147,
+      "z_error": -2.7838782573155103
+    },
+    {
+      "nba_api_id": 1630552,
+      "name": "Jalen Johnson",
+      "projected": 2.3667849834714416,
+      "projected_sd": 0.39478949586106654,
+      "actual": 3.4650887573964497,
+      "error": -1.098303773925008,
+      "z_error": -2.781998471184048
+    },
+    {
+      "nba_api_id": 1629008,
+      "name": "Michael Porter Jr.",
+      "projected": 1.5125647418158397,
+      "projected_sd": 0.3524564393543414,
+      "actual": 2.5988165680473374,
+      "error": -1.0862518262314977,
+      "z_error": -3.0819463200087447
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1630182,
+      "name": "Josh Green",
+      "projected": 1.3881136146989959,
+      "projected_sd": 0.3533666689070026,
+      "actual": 1.3891951488423373,
+      "error": -0.001081534143341445,
+      "z_error": -0.003060656928076253
+    },
+    {
+      "nba_api_id": 1629011,
+      "name": "Mitchell Robinson",
+      "projected": 1.250801839379458,
+      "projected_sd": 0.3867099551621473,
+      "actual": 1.2551020408163265,
+      "error": -0.004300201436868489,
+      "z_error": -0.011119965699009266
+    },
+    {
+      "nba_api_id": 1628983,
+      "name": "Shai Gilgeous-Alexander",
+      "projected": 2.399118123831902,
+      "projected_sd": 0.3521610603095497,
+      "actual": 2.4042459088898718,
+      "error": -0.005127785057969625,
+      "z_error": -0.014560908731539769
+    },
+    {
+      "nba_api_id": 203076,
+      "name": "Anthony Davis",
+      "projected": 2.3501462453967514,
+      "projected_sd": 0.37011803208059063,
+      "actual": 2.3616,
+      "error": -0.011453754603248711,
+      "z_error": -0.030946221503616814
+    },
+    {
+      "nba_api_id": 203497,
+      "name": "Rudy Gobert",
+      "projected": 1.6166502786560744,
+      "projected_sd": 0.3430479501316344,
+      "actual": 1.6047098402018503,
+      "error": 0.0119404384542241,
+      "z_error": 0.03480690804198747
+    }
+  ]
+}

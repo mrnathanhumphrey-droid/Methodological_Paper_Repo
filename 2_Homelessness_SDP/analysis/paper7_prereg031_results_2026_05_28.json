@@ -1,0 +1,130 @@
+{
+  "pre_reg": "PRE_REG_031",
+  "framing": "correlational; parallel mediation; ordering locked by timescale",
+  "panel": "CoC 2024; ACS5yr county->CoC; Saiz MSA->CoC (88.8% match); WRLURI county->CoC",
+  "H1_first_stage_rent": {
+    "n": 315,
+    "loo5_r2": 0.7627,
+    "supply_coef": 97.315,
+    "supply_p": 0.0,
+    "income_coef": 317.518,
+    "income_p": 0.0
+  },
+  "H1_disposition": "SUPPORTED",
+  "H2_H2b_mediation_saiz_supply": {
+    "n": 302,
+    "supply_indirect": {
+      "indirect": 0.1806,
+      "a": 0.2377,
+      "b": 0.7596,
+      "direct": 0.0472,
+      "ci95": [
+        0.1054,
+        0.2862
+      ],
+      "excludes_zero": true,
+      "n_boot": 5000
+    },
+    "demand_indirect": {
+      "indirect": 0.5622,
+      "a": 0.7401,
+      "b": 0.7596,
+      "direct": -0.5029,
+      "ci95": [
+        0.3739,
+        0.78
+      ],
+      "excludes_zero": true,
+      "n_boot": 5000
+    }
+  },
+  "H2_supply_disposition": "SUPPORTED",
+  "H2b_demand_disposition": "SUPPORTED",
+  "robust_composite_supply": {
+    "n": 359,
+    "supply_indirect": {
+      "indirect": 0.1879,
+      "a": 0.2581,
+      "b": 0.7281,
+      "direct": 0.0433,
+      "ci95": [
+        0.1134,
+        0.2856
+      ],
+      "excludes_zero": true,
+      "n_boot": 5000
+    },
+    "demand_indirect": {
+      "indirect": 0.5204,
+      "a": 0.7147,
+      "b": 0.7281,
+      "direct": -0.5071,
+      "ci95": [
+        0.349,
+        0.7121
+      ],
+      "excludes_zero": true,
+      "n_boot": 5000
+    }
+  },
+  "robust_drop_NYC_LA": {
+    "n": 300,
+    "supply_indirect": {
+      "indirect": 0.1633,
+      "a": 0.2292,
+      "b": 0.7122,
+      "direct": 0.0405,
+      "ci95": [
+        0.099,
+        0.2543
+      ],
+      "excludes_zero": true,
+      "n_boot": 5000
+    },
+    "demand_indirect": {
+      "indirect": 0.5325,
+      "a": 0.7478,
+      "b": 0.7122,
+      "direct": -0.4465,
+      "ci95": [
+        0.3606,
+        0.7111
+      ],
+      "excludes_zero": true,
+      "n_boot": 5000
+    }
+  },
+  "robust_unsheltered_outcome": {
+    "n": 302,
+    "supply_indirect": {
+      "indirect": 0.2271,
+      "a": 0.2377,
+      "b": 0.9553,
+      "direct": -0.044,
+      "ci95": [
+        0.1442,
+        0.3462
+      ],
+      "excludes_zero": true,
+      "n_boot": 5000
+    },
+    "demand_indirect": {
+      "indirect": 0.707,
+      "a": 0.7401,
+      "b": 0.9553,
+      "direct": -0.6482,
+      "ci95": [
+        0.511,
+        0.9352
+      ],
+      "excludes_zero": true,
+      "n_boot": 5000
+    }
+  },
+  "H3_dominance": {
+    "supply_indirect": 0.1806,
+    "demand_indirect": 0.5622,
+    "dominant": "demand",
+    "both_significant": true
+  }
+}

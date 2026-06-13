@@ -1,0 +1,138 @@
+{
+  "n_movers_raw": 122031,
+  "framing": "ASECWT-weighted; push=cheaper-housing+eviction",
+  "INTERCITY_moves": {
+    "n": 45967,
+    "below": {
+      "push": 0.0842,
+      "pull_housing": 0.1477,
+      "job": 0.209,
+      "fam": 0.326,
+      "n": 7266
+    },
+    "above": {
+      "push": 0.0631,
+      "pull_housing": 0.1787,
+      "job": 0.3247,
+      "fam": 0.2687,
+      "n": 38589
+    },
+    "push_ratio_below_over_above": 1.334
+  },
+  "INTERSTATE_moves": {
+    "n": 21160,
+    "below": {
+      "push": 0.08,
+      "pull_housing": 0.0921,
+      "job": 0.2716,
+      "fam": 0.3376,
+      "n": 3156
+    },
+    "above": {
+      "push": 0.0476,
+      "pull_housing": 0.0915,
+      "job": 0.4508,
+      "fam": 0.2427,
+      "n": 17958
+    },
+    "push_ratio_below_over_above": 1.681
+  },
+  "LOCAL_moves": {
+    "n": 71458,
+    "below": {
+      "push": 0.1358,
+      "pull_housing": 0.253,
+      "job": 0.09,
+      "fam": 0.3089,
+      "n": 13664
+    },
+    "above": {
+      "push": 0.096,
+      "pull_housing": 0.3641,
+      "job": 0.109,
+      "fam": 0.2805,
+      "n": 57556
+    },
+    "push_ratio_below_over_above": 1.415
+  },
+  "ALL_movers": {
+    "n": 122031,
+    "below": {
+      "push": 0.1106,
+      "pull_housing": 0.2061,
+      "job": 0.1388,
+      "fam": 0.3072,
+      "n": 22505
+    },
+    "above": {
+      "push": 0.0808,
+      "pull_housing": 0.2823,
+      "job": 0.202,
+      "fam": 0.2759,
+      "n": 99163
+    },
+    "push_ratio_below_over_above": 1.369
+  },
+  "intercity_push_by_year": {
+    "2016": {
+      "push_below": 0.0942,
+      "push_above": 0.0535,
+      "ratio": 1.76,
+      "n": 6178
+    },
+    "2017": {
+      "push_below": 0.0805,
+      "push_above": 0.068,
+      "ratio": 1.185,
+      "n": 6241
+    },
+    "2018": {
+      "push_below": 0.1117,
+      "push_above": 0.0639,
+      "ratio": 1.747,
+      "n": 5549
+    },
+    "2019": {
+      "push_below": 0.0603,
+      "push_above": 0.044,
+      "ratio": 1.371,
+      "n": 5609
+    },
+    "2020": {
+      "push_below": 0.0922,
+      "push_above": 0.0615,
+      "ratio": 1.498,
+      "n": 4944
+    },
+    "2021": {
+      "push_below": 0.0752,
+      "push_above": 0.0807,
+      "ratio": 0.932,
+      "n": 4663
+    },
+    "2022": {
+      "push_below": 0.0888,
+      "push_above": 0.0566,
+      "ratio": 1.569,
+      "n": 4837
+    },
+    "2023": {
+      "push_below": 0.0934,
+      "push_above": 0.0698,
+      "ratio": 1.338,
+      "n": 4022
+    },
+    "2024": {
+      "push_below": 0.0564,
+      "push_above": 0.0729,
+      "ratio": 0.774,
+      "n": 3924
+    }
+  },
+  "disposition": {
+    "intercity_push_below": 0.0842,
+    "intercity_push_above": 0.0631,
+    "ratio": 1.334,
+    "reading": "affordability-push IS poverty-concentrated among intercity movers (ratio>1.3)"
+  }
+}

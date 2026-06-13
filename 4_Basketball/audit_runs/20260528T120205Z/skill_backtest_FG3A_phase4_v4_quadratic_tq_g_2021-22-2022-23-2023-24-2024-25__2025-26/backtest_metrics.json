@@ -1,0 +1,154 @@
+{
+  "stat": "FG3A",
+  "test_season": "2025-26",
+  "n_players": 256,
+  "mae": 0.9877674865395876,
+  "rmse": 1.2803401595612822,
+  "bias": 0.04412592364230195,
+  "coverage_50": 0.4765625,
+  "coverage_80": 0.7734375,
+  "coverage_90": 0.84375,
+  "z_error_mean": -0.0004563355423308907,
+  "z_error_sd": 1.1712115058591677,
+  "top_25_accuracy": 0.48,
+  "top_50_accuracy": 0.7,
+  "worst_misses": [
+    {
+      "nba_api_id": 1629008,
+      "name": "Michael Porter Jr.",
+      "projected": 6.608327635421478,
+      "projected_sd": 1.0451404126725543,
+      "actual": 10.331360946745562,
+      "error": -3.723033311324084,
+      "z_error": -3.562232659058531
+    },
+    {
+      "nba_api_id": 1631323,
+      "name": "Simone Fontecchio",
+      "projected": 6.515716597682627,
+      "projected_sd": 1.1724342364896287,
+      "actual": 10.040816326530612,
+      "error": -3.5250997288479846,
+      "z_error": -3.0066502829211497
+    },
+    {
+      "nba_api_id": 1631114,
+      "name": "Jalen Williams",
+      "projected": 6.224890801859231,
+      "projected_sd": 1.085809687555964,
+      "actual": 2.95837780149413,
+      "error": 3.2665130003651006,
+      "z_error": 3.0083660495953537
+    },
+    {
+      "nba_api_id": 1628960,
+      "name": "Grayson Allen",
+      "projected": 7.892149963775487,
+      "projected_sd": 1.102852263581084,
+      "actual": 11.150442477876105,
+      "error": -3.258292514100618,
+      "z_error": -2.95442338171441
+    },
+    {
+      "nba_api_id": 1630544,
+      "name": "Tre Mann",
+      "projected": 5.160050825616622,
+      "projected_sd": 1.201867976486894,
+      "actual": 8.315946348733235,
+      "error": -3.1558955231166124,
+      "z_error": -2.6258254524273252
+    },
+    {
+      "nba_api_id": 1630178,
+      "name": "Tyrese Maxey",
+      "projected": 11.111485585122196,
+      "projected_sd": 1.226137367118138,
+      "actual": 8.097634247089749,
+      "error": 3.013851338032447,
+      "z_error": 2.4580046403088405
+    },
+    {
+      "nba_api_id": 1629004,
+      "name": "Svi Mykhailiuk",
+      "projected": 10.326179268816782,
+      "projected_sd": 1.4550958361894382,
+      "actual": 7.487001733102253,
+      "error": 2.839177535714529,
+      "z_error": 1.9511962477672145
+    },
+    {
+      "nba_api_id": 1630168,
+      "name": "Onyeka Okongwu",
+      "projected": 3.1949762560399826,
+      "projected_sd": 0.9368048929792292,
+      "actual": 5.994782608695652,
+      "error": -2.7998063526556694,
+      "z_error": -2.988676055855898
+    },
+    {
+      "nba_api_id": 1629111,
+      "name": "Jock Landale",
+      "projected": 1.8149835625116464,
+      "projected_sd": 0.9007221758099059,
+      "actual": 4.604373757455268,
+      "error": -2.7893901949436217,
+      "z_error": -3.0968374820298776
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 5.584080031539636,
+      "projected_sd": 1.0186960617829983,
+      "actual": 8.364569961489089,
+      "error": -2.7804899299494528,
+      "z_error": -2.7294597812450854
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 203939,
+      "name": "Dwight Powell",
+      "projected": 0.28054656734105654,
+      "projected_sd": 0.849888941162784,
+      "actual": 0.27814569536423844,
+      "error": 0.0024008719768180975,
+      "z_error": 0.0028249243642743727
+    },
+    {
+      "nba_api_id": 1631165,
+      "name": "Keon Ellis",
+      "projected": 6.130183697381917,
+      "projected_sd": 1.1466843745198978,
+      "actual": 6.121951219512195,
+      "error": 0.008232477869722032,
+      "z_error": 0.00717937564394637
+    },
+    {
+      "nba_api_id": 203497,
+      "name": "Rudy Gobert",
+      "projected": 0.06461416837494315,
+      "projected_sd": 0.8325103303031572,
+      "actual": 0.07569386038687972,
+      "error": -0.011079692011936579,
+      "z_error": -0.013308774208125354
+    },
+    {
+      "nba_api_id": 203991,
+      "name": "Clint Capela",
+      "projected": 0.09211081177415427,
+      "projected_sd": 0.8432492274653961,
+      "actual": 0.07783783783783783,
+      "error": 0.014272973936316435,
+      "z_error": 0.016926163074252144
+    },
+    {
+      "nba_api_id": 1630172,
+      "name": "Patrick Williams",
+      "projected": 6.699101652644732,
+      "projected_sd": 1.1515192370057863,
+      "actual": 6.682926829268293,
+      "error": 0.016174823376438496,
+      "z_error": 0.014046507306727017
+    }
+  ]
+}

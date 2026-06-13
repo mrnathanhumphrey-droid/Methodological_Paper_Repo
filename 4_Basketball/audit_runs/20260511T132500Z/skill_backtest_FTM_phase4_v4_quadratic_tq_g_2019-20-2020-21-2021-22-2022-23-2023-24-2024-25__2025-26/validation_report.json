@@ -1,0 +1,29 @@
+{
+  "fit_label": "backtest_FTM_phase4_v2_2025-26",
+  "checks": [
+    {
+      "name": "coverage_80_in_band",
+      "passed": true,
+      "summary": "80% CI coverage = 71.4%",
+      "details": []
+    },
+    {
+      "name": "bias_near_zero",
+      "passed": true,
+      "summary": "bias = -0.427",
+      "details": []
+    },
+    {
+      "name": "z_error_well_calibrated",
+      "passed": false,
+      "summary": "z-error mean=-0.56, sd=1.29",
+      "details": []
+    },
+    {
+      "name": "top_25_tier_accuracy",
+      "passed": true,
+      "summary": "top-25 overlap = 84.0%",
+      "details": []
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "stat": "PTS",
+  "test_season": "2025-26",
+  "n_players": 256,
+  "mae": 2.0547174933177117,
+  "rmse": 2.7494481263601944,
+  "bias": -0.5378666759434525,
+  "coverage_50": 0.50390625,
+  "coverage_80": 0.765625,
+  "coverage_90": 0.82421875,
+  "z_error_mean": -0.24674214028176153,
+  "z_error_sd": 1.2014568612861138,
+  "top_25_accuracy": 0.6,
+  "top_50_accuracy": 0.78,
+  "worst_misses": [
+    {
+      "nba_api_id": 1628415,
+      "name": "Dillon Brooks",
+      "projected": 15.027243574086006,
+      "projected_sd": 2.2069827323314266,
+      "actual": 23.92244418331375,
+      "error": -8.895200609227745,
+      "z_error": -4.030480383428726
+    },
+    {
+      "nba_api_id": 202695,
+      "name": "Kawhi Leonard",
+      "projected": 22.66470156808498,
+      "projected_sd": 2.429390940666474,
+      "actual": 31.27359846669861,
+      "error": -8.60889689861363,
+      "z_error": -3.543644110343098
+    },
+    {
+      "nba_api_id": 1629638,
+      "name": "Nickeil Alexander-Walker",
+      "projected": 13.890309213214834,
+      "projected_sd": 2.0636366926092578,
+      "actual": 22.46023818670764,
+      "error": -8.569928973492807,
+      "z_error": -4.1528283559723915
+    },
+    {
+      "nba_api_id": 1631105,
+      "name": "Jalen Duren",
+      "projected": 16.531315079905593,
+      "projected_sd": 2.1216937610655755,
+      "actual": 24.843276036400404,
+      "error": -8.311960956494811,
+      "z_error": -3.9176063525399187
+    },
+    {
+      "nba_api_id": 1627759,
+      "name": "Jaylen Brown",
+      "projected": 22.620311375517122,
+      "projected_sd": 2.2907438517653196,
+      "actual": 30.044226044226043,
+      "error": -7.423914668708921,
+      "z_error": -3.2408314281790247
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 13.228977689706955,
+      "projected_sd": 2.1128057260658526,
+      "actual": 19.987163029525032,
+      "error": -6.758185339818077,
+      "z_error": -3.198678068902316
+    },
+    {
+      "nba_api_id": 1629008,
+      "name": "Michael Porter Jr.",
+      "projected": 20.07791290459987,
+      "projected_sd": 2.2369510667435564,
+      "actual": 26.818934911242607,
+      "error": -6.741022006642737,
+      "z_error": -3.013486574141287
+    },
+    {
+      "nba_api_id": 201939,
+      "name": "Stephen Curry",
+      "projected": 24.4332760141746,
+      "projected_sd": 2.5132946743174633,
+      "actual": 30.888054094665666,
+      "error": -6.454778080491067,
+      "z_error": -2.568253594156839
+    },
+    {
+      "nba_api_id": 1630166,
+      "name": "Deni Avdija",
+      "projected": 19.938527169800405,
+      "projected_sd": 2.13434549472835,
+      "actual": 26.13721035892776,
+      "error": -6.198683189127355,
+      "z_error": -2.904254819305295
+    },
+    {
+      "nba_api_id": 1626145,
+      "name": "Tyus Jones",
+      "projected": 13.482670595055941,
+      "projected_sd": 2.2220981250403757,
+      "actual": 7.302752293577981,
+      "error": 6.17991830147796,
+      "z_error": 2.7811185437032266
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1629628,
+      "name": "RJ Barrett",
+      "projected": 22.934871466918377,
+      "projected_sd": 2.4694272114805815,
+      "actual": 22.928074245939676,
+      "error": 0.006797220978700835,
+      "z_error": 0.0027525496386773276
+    },
+    {
+      "nba_api_id": 1627734,
+      "name": "Domantas Sabonis",
+      "projected": 19.16685759391233,
+      "projected_sd": 2.2383263173695576,
+      "actual": 19.178761061946904,
+      "error": -0.011903468034574871,
+      "z_error": -0.0053180217478582936
+    },
+    {
+      "nba_api_id": 201942,
+      "name": "DeMar DeRozan",
+      "projected": 21.209871601704144,
+      "projected_sd": 2.3201921282642224,
+      "actual": 21.187888842803815,
+      "error": 0.021982758900328747,
+      "z_error": 0.009474542488330243
+    },
+    {
+      "nba_api_id": 1626156,
+      "name": "D'Angelo Russell",
+      "projected": 19.20881164610947,
+      "projected_sd": 2.2439494132149562,
+      "actual": 19.238866396761136,
+      "error": -0.030054750651665074,
+      "z_error": -0.01339368457892505
+    },
+    {
+      "nba_api_id": 1626204,
+      "name": "Larry Nance Jr.",
+      "projected": 10.472268350099753,
+      "projected_sd": 2.2430899536385374,
+      "actual": 10.503340757238307,
+      "error": -0.03107240713855397,
+      "z_error": -0.013852501585213346
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[project]
+name = "nba-projections"
+version = "0.0.1"
+description = "Pure-Bayesian per-game NBA stat projection engine. Standalone product; one source in Wonka Resolve's auction-valuation ensemble."
+requires-python = ">=3.11"
+dependencies = [
+  "nba_api>=1.4",
+  "pandas>=2.1",
+  "pyarrow>=15",
+  "pydantic>=2.5",
+  "numpy>=1.26",
+  "beautifulsoup4>=4.12",
+  "lxml>=5.0",
+]
+
+[project.optional-dependencies]
+bayes   = ["cmdstanpy>=1.2"]
+ml      = ["xgboost>=2.0", "scikit-learn>=1.4"]
+dev     = ["pytest>=7", "ruff>=0.3"]
+# Heavy: ~150MB Chromium binary; install via:
+#   pip install -e .[scrape] && playwright install chromium
+scrape  = ["playwright>=1.40"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

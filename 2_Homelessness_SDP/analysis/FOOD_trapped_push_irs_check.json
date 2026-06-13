@@ -1,0 +1,20 @@
+{
+  "n": 51,
+  "irs_suppressed_cells_filtered": 76291,
+  "irs_oos_rate_range": [
+    3.8,
+    60.8
+  ],
+  "food_insec~irs_outmig": {
+    "r": -0.336,
+    "p": 0.0158
+  },
+  "poverty~irs_outmig": {
+    "r": -0.081,
+    "p": 0.5717
+  },
+  "ACS_comparison": {
+    "food_insec~acs_outmig": -0.369,
+    "poverty~acs_outmig": -0.073
+  }
+}

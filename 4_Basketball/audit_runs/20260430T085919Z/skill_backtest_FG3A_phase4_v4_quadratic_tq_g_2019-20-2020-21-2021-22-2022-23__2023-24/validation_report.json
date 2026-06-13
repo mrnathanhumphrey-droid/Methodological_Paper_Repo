@@ -1,0 +1,29 @@
+{
+  "fit_label": "backtest_FG3A_phase4_v2_2023-24",
+  "checks": [
+    {
+      "name": "coverage_80_in_band",
+      "passed": true,
+      "summary": "80% CI coverage = 75.4%",
+      "details": []
+    },
+    {
+      "name": "bias_near_zero",
+      "passed": true,
+      "summary": "bias = +0.114",
+      "details": []
+    },
+    {
+      "name": "z_error_well_calibrated",
+      "passed": true,
+      "summary": "z-error mean=+0.05, sd=1.19",
+      "details": []
+    },
+    {
+      "name": "top_25_tier_accuracy",
+      "passed": false,
+      "summary": "top-25 overlap = 40.0%",
+      "details": []
+    }
+  ]
+}

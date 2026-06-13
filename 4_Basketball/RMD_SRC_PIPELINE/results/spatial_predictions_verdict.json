@@ -1,0 +1,55 @@
+{
+  "P1_court_region_transfers": {
+    "prediction": "off_feast F4 kappa>=0.40 on >=1 obs (position failed ~0)",
+    "calibration": 0.6,
+    "off_feast_F4_per_obs": {
+      "PTS_per36": -0.11428571428571432,
+      "REB_per36": -0.010362694300518172,
+      "AST_per36": -0.015624999999999778,
+      "BLK_per36": -0.17647058823529416
+    },
+    "position_usg_F4_mean": 0.015236452365451125,
+    "HIT": false
+  },
+  "P2_BLK_relocates_to_rim": {
+    "prediction": "BLK x RimProtector tightens (Concentrating/Contracting) + transfers",
+    "calibration": 0.55,
+    "rim_blk_regimes": [
+      {
+        "cell_id": "RimProtector|Mid|Low_usage",
+        "regime": "Edge"
+      },
+      {
+        "cell_id": "RimProtector|Mid|Mid_usage",
+        "regime": "Contracting"
+      },
+      {
+        "cell_id": "RimProtector|Rookie|Low_usage",
+        "regime": "Diffusing"
+      },
+      {
+        "cell_id": "RimProtector|Rookie|Mid_usage",
+        "regime": "Edge"
+      },
+      {
+        "cell_id": "RimProtector|Soph_Early|Low_usage",
+        "regime": "Diffusing"
+      },
+      {
+        "cell_id": "RimProtector|Soph_Early|Mid_usage",
+        "regime": "Diffusing"
+      }
+    ],
+    "def_BLK_F4_kappa": 0.0782122905027931,
+    "HIT_tightening": true
+  },
+  "P3_offense_clean_defense_coupled": {
+    "prediction": "off_feast beats def_feast on F2-clean AND mean-F4-kappa",
+    "calibration": 0.65,
+    "off_F2": 0.5652173913043478,
+    "def_F2": 0.3584905660377358,
+    "off_F4_mean": -0.07918599920538161,
+    "def_F4_mean": -0.0032813332355103586,
+    "HIT": false
+  }
+}

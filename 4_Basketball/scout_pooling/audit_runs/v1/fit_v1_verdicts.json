@@ -1,0 +1,105 @@
+{
+  "fit_data": {
+    "N_cells_used": 31,
+    "n_scouts": 6,
+    "n_cells": 6,
+    "min_cell_n_threshold_used": 5,
+    "weighting": "inverse-variance (1/Fisher_SE^2)"
+  },
+  "tau_components": {
+    "tau_scout": {
+      "point": 0.2629318989751604,
+      "p2.5": 0.16903493271239967,
+      "p97.5": 0.4542966453274625
+    },
+    "tau_cell": {
+      "point": 0.20702117640251663,
+      "p2.5": 0.13662807373441196,
+      "p97.5": 0.45267196246855995
+    },
+    "tau_interaction": {
+      "point": 0.3022173037115985,
+      "p2.5": 0.1626171805796294,
+      "p97.5": 0.3311776175857121
+    }
+  },
+  "triggers": {
+    "F1": {
+      "trigger": "F1 \u2014 flat-cell (\u03c4_interaction + cell-magnitude vs permutation null)",
+      "(a)_tau_interaction_point": 0.3022173037115985,
+      "(a)_tau_interaction_95CI": [
+        0.1626171805796294,
+        0.3311776175857121
+      ],
+      "(a)_threshold": 0.05,
+      "(a)_fires": false,
+      "(b)_permutation_95th_pct_abs_gamma": 0.7165972845103055,
+      "(b)_n_cells_above": 2,
+      "(b)_n_cells_total": 31,
+      "(b)_pct_above": 0.06451612903225806,
+      "(b)_threshold_pct": 0.05,
+      "(b)_fires": false,
+      "fires_reject_H_specialist": false
+    },
+    "F2": {
+      "trigger": "F2 \u2014 archetype-disagreement variance",
+      "spec_var": 24.391900576922446,
+      "spec_n": 109,
+      "genrl_var": 23.471931029794906,
+      "genrl_n": 46,
+      "obs_diff": 0.9199695471275398,
+      "permutation_p_value": 0.492,
+      "fires_reject_H_specialist": true
+    },
+    "F3": {
+      "trigger": "F3 \u2014 consensus rank vs named specialists on shared cells",
+      "per_scout_consensus_win_pct": [
+        {
+          "scout": "givony_espn",
+          "consensus_wins_pct": 0.5,
+          "n_cells_compared": 4
+        },
+        {
+          "scout": "hollinger_athletic",
+          "consensus_wins_pct": 0.25,
+          "n_cells_compared": 4
+        },
+        {
+          "scout": "oconnor_ringer",
+          "consensus_wins_pct": 0.6,
+          "n_cells_compared": 5
+        },
+        {
+          "scout": "vecenie_athletic",
+          "consensus_wins_pct": 0.8,
+          "n_cells_compared": 5
+        }
+      ],
+      "threshold_consensus_wins_pct": 0.7,
+      "consensus_dominates_all": false,
+      "fires_reject_H_specialist": false
+    },
+    "F4": {
+      "trigger": "F4 \u2014 Tankathon vs named-specialist |\u03b3| (bootstrap CI)",
+      "tankathon_mean_abs_gamma": 0.23943691040933066,
+      "named_mean_abs_gamma": 0.35349036812500745,
+      "delta_named_minus_tank": 0.11405345771567679,
+      "delta_95CI": [
+        -0.07455004391138963,
+        0.2927680706863524
+      ],
+      "P_named_gamma_greater_than_tankathon": 0.8778,
+      "fires_reject_H_specialist": true
+    }
+  },
+  "fired": [
+    "F2 \u2014 archetype-disagreement variance",
+    "F4 \u2014 Tankathon vs named-specialist |\u03b3| (bootstrap CI)"
+  ],
+  "overall_verdict": "H_specialist REJECTED",
+  "deviations_from_prereg": [
+    "F1 fit moved to test cohort (effectively 2021-only); train cohort 2010-17 had 0 multi-scout coverage in reachable corpus.",
+    "n>=5 cell threshold vs pre-reg n>=15 (only 2 cells survived at strict threshold).",
+    "F2 expanded to 2018-2025 multi-scout (any scout type) to power the disagreement-variance test beyond 2021-only-named-scout subset."
+  ]
+}

@@ -1,0 +1,13 @@
+# RMD-SRC Gymnadenia v3.4 — Pop random-intercept LMM
+# Generated: 2026-06-02T00:28:41.502210+00:00
+step3_response_function_v34.parquet sha = ceb7fa7b68d7ea8ae672038a05f95881c368329052e0f1b8b376b3bd1ada1ff7
+step3_cell_cleanness_v34.parquet sha    = 01dd9294ec0e2d1cb9066f29a8bf30fb87ba22e125495b1c7a3b84fbb470e2dd
+step4_leaves_v34.parquet sha            = 6cae9f578cc9397d53e389cd004c732aa984fe54bb252b93a29f198c917f6d3a
+step_random_intercepts_v34.parquet sha  = 3a5d0e467512a7e83df49637239f7902e32691815321fb6bfe23b78de8ad0577
+
+H_v3.4A σ_pop ≥ 0.30 on  2/7 (target ≥ 4)
+H_v3.4B post-decomp ≥ 25%: 106.2%
+H_v3.4D β_g identifiable: 0/7 (target ≥ 4)
+
+F1 fires: True
+F2 fires: False

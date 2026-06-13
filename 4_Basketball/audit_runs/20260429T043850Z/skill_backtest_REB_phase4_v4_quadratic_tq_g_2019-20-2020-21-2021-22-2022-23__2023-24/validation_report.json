@@ -1,0 +1,29 @@
+{
+  "fit_label": "backtest_REB_phase4_v2_2023-24",
+  "checks": [
+    {
+      "name": "coverage_80_in_band",
+      "passed": false,
+      "summary": "80% CI coverage = 60.0%",
+      "details": []
+    },
+    {
+      "name": "bias_near_zero",
+      "passed": true,
+      "summary": "bias = +0.003",
+      "details": []
+    },
+    {
+      "name": "z_error_well_calibrated",
+      "passed": true,
+      "summary": "z-error mean=-0.06, sd=1.03",
+      "details": []
+    },
+    {
+      "name": "top_25_tier_accuracy",
+      "passed": false,
+      "summary": "top-25 overlap = nan%",
+      "details": []
+    }
+  ]
+}

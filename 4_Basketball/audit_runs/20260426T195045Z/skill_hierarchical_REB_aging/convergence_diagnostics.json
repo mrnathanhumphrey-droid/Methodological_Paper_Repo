@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "notes": [
+    "R-hat for age_slope[1]: 1.010 > 1.01"
+  ],
+  "max_rhat": 1.01035,
+  "min_ess": 527.077,
+  "n_params_summarized": 186
+}

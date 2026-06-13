@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "country": "colombia",
+      "n_gdelt_qc4": 142205,
+      "n_ucdp": 1902,
+      "spearman_annual": -0.31401901015824357,
+      "n_cells_annual": 3464,
+      "spearman_monthly": -0.45129549546550185,
+      "n_cells_monthly": 9853,
+      "spearman_admin2_only": 0.05385030258148861,
+      "n_cells_admin2_only": 730,
+      "spearman_country_year": -0.6272727272727273,
+      "n_cells_country_year": 11
+    },
+    {
+      "country": "sudan",
+      "n_gdelt_qc4": 311148,
+      "n_ucdp": 2368,
+      "spearman_annual": 0.3594550313358556,
+      "n_cells_annual": 740,
+      "spearman_monthly": 0.06823460280091105,
+      "n_cells_monthly": 4825,
+      "spearman_admin2_only": 0.5219389451900178,
+      "n_cells_admin2_only": 79,
+      "spearman_country_year": 0.5363636363636364,
+      "n_cells_country_year": 11
+    },
+    {
+      "country": "drc",
+      "n_gdelt_qc4": 42703,
+      "n_ucdp": 6320,
+      "spearman_annual": 0.04559782172029867,
+      "n_cells_annual": 1210,
+      "spearman_monthly": -0.4100467103314156,
+      "n_cells_monthly": 4665,
+      "spearman_admin2_only": 0.2858469206307863,
+      "n_cells_admin2_only": 200,
+      "spearman_country_year": -0.46363636363636374,
+      "n_cells_country_year": 11
+    },
+    {
+      "country": "yemen",
+      "n_gdelt_qc4": 415651,
+      "n_ucdp": 4700,
+      "spearman_annual": 0.013488693825465338,
+      "n_cells_annual": 2389,
+      "spearman_monthly": -0.3015838676426655,
+      "n_cells_monthly": 10417,
+      "spearman_admin2_only": 0.3340306572464897,
+      "n_cells_admin2_only": 319,
+      "spearman_country_year": -0.11818181818181818,
+      "n_cells_country_year": 11
+    }
+  ],
+  "ran_at": "2026-05-18 06:03:19",
+  "note": "GDELT filtered to QuadClass=4 (Material Conflict) as the closest GDELT subset to UCDP-GED's fatal-armed-event definition"
+}

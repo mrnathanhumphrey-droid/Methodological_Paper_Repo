@@ -1,0 +1,79 @@
+{
+  "version": "v6.1",
+  "delta_vs_v6": "Added forward-validated class offsets (currently only Center\u00d7PTS).",
+  "source_ship": "audit_runs\\unified_ship_v6\\per_player_projections_2023-24.csv",
+  "validated_offsets": {
+    "PTS | position": {
+      "Center": -0.587
+    }
+  },
+  "provenance": {
+    "PTS|position|Center": {
+      "validated_seasons": [
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "season_22_23_residual": -0.722,
+      "season_23_24_residual": -0.684,
+      "season_24_25_residual": -0.292,
+      "n_per_season": [
+        25,
+        23,
+        19
+      ],
+      "scaling": "ADDITIVE",
+      "magnitude_2season": -0.7,
+      "magnitude_3season": -0.587,
+      "discovered_via": "Collatz residual-class noise-floor protocol; refit on 3-season cohort 2026-05-02",
+      "notes": "Centers over-projected on PTS. 24-25 magnitude (-0.292) ~half of prior years; signal fading as base model improves. 3-season combined alpha = -0.587. SSE for additive vs mult nearly identical (382 vs 385) \u2014 keeping additive form per original mechanism."
+    },
+    "PTS|mid_season_change|True": {
+      "validated_seasons": [
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "scaling": "MULTIPLICATIVE",
+      "multiplier_2season": 0.916,
+      "multiplier_3season": 0.9382,
+      "season_22_23_residual": -1.896,
+      "season_23_24_residual": -1.207,
+      "season_24_25_residual": -0.301,
+      "n_per_season": [
+        9,
+        16,
+        16
+      ],
+      "regression_slope_t_3season": -2.39,
+      "regression_slope_p_3season": 0.022,
+      "discovered_via": "Worst-miss decomposition + cross-season validation + add-vs-mult regression refit at 3-season",
+      "notes": "Players on teams with mid-season HC change over-projected on PTS. Multiplicative form (residual scales with proj_PTS) confirmed at 3-season. Magnitude faded -1.896 -> -1.207 -> -0.301 across years. 3-season c = -6.18% (was -8.4% at 2-season)."
+    },
+    "AST|years_pro_bucket|13+": {
+      "validated_seasons": [
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "scaling": "MULTIPLICATIVE",
+      "multiplier_2season": 0.909,
+      "multiplier_3season_initial": 0.9292,
+      "multiplier_3season_refreshed": 0.9278,
+      "season_22_23_residual": -0.146,
+      "season_23_24_residual": -0.562,
+      "season_24_25_residual": -0.12,
+      "n_per_season": [
+        18,
+        18,
+        26
+      ],
+      "regression_slope_t_3season": -3.72,
+      "regression_slope_p_3season": 0.0,
+      "discovered_via": "Cross-season full validation + add-vs-mult regression refit at 3-season; refreshed post class-feature cleanup",
+      "notes": "Veterans (13+ years pro) over-projected on AST. Mult form strong at 3-season (slope p<0.001). 24-25 magnitude refreshed from -0.088 to -0.120 after class cleanup (pre-2014 vets that were leaking into 'undrafted' bucket returned to 13+ where they belong). 3-season c = -7.22% (was -9.1% at 2-season)."
+    }
+  },
+  "validation_protocol": "Collatz residual-class noise-floor protocol (per feedback_collatz_protocol_for_projections.md). SNR>=1.5 gate, LOO honesty, top-1 class per stat, then forward across-season validation required before ship.",
+  "next_validation_date": "When 26-27 ship CSV available \u2014 re-derive offsets from 25-26 backtest residuals and verify against 26-27 cohort."
+}

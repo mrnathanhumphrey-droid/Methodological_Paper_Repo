@@ -1,0 +1,154 @@
+{
+  "stat": "PTS",
+  "test_season": "2024-25",
+  "n_players": 131,
+  "mae": 1.886715817487536,
+  "rmse": 2.3504073265535417,
+  "bias": -0.12216143660661188,
+  "coverage_50": 0.5648854961832062,
+  "coverage_80": 0.8854961832061069,
+  "coverage_90": 0.9389312977099237,
+  "z_error_mean": -0.060082262257568915,
+  "z_error_sd": 0.9031196032972217,
+  "top_25_accuracy": 0.88,
+  "top_50_accuracy": 0.84,
+  "worst_misses": [
+    {
+      "nba_api_id": 201935,
+      "name": "James Harden",
+      "projected": 15.933350059531595,
+      "projected_sd": 2.469756903298139,
+      "actual": 23.25161290322581,
+      "error": -7.318262843694214,
+      "z_error": -2.9631510833804455
+    },
+    {
+      "nba_api_id": 1627736,
+      "name": "Malik Beasley",
+      "projected": 14.899922867020855,
+      "projected_sd": 2.4450176043652525,
+      "actual": 21.048577680525163,
+      "error": -6.148654813504308,
+      "z_error": -2.514769138073569
+    },
+    {
+      "nba_api_id": 203901,
+      "name": "Elfrid Payton",
+      "projected": 11.930112064422131,
+      "projected_sd": 2.938919274466329,
+      "actual": 6.0,
+      "error": 5.930112064422131,
+      "z_error": 2.0177866455685365
+    },
+    {
+      "nba_api_id": 1626204,
+      "name": "Larry Nance Jr.",
+      "projected": 10.225159607796083,
+      "projected_sd": 2.429379370024573,
+      "actual": 15.78401727861771,
+      "error": -5.558857670821627,
+      "z_error": -2.288180158031637
+    },
+    {
+      "nba_api_id": 1626181,
+      "name": "Norman Powell",
+      "projected": 18.637292183418083,
+      "projected_sd": 2.6483423508833823,
+      "actual": 24.0,
+      "error": -5.362707816581917,
+      "z_error": -2.0249299773472
+    },
+    {
+      "nba_api_id": 203924,
+      "name": "Jerami Grant",
+      "projected": 21.248677103903333,
+      "projected_sd": 2.6615521272023166,
+      "actual": 15.981639344262295,
+      "error": 5.267037759641038,
+      "z_error": 1.9789346621504915
+    },
+    {
+      "nba_api_id": 203954,
+      "name": "Joel Embiid",
+      "projected": 33.54644542160232,
+      "projected_sd": 3.276991325187614,
+      "actual": 28.34843205574913,
+      "error": 5.198013365853193,
+      "z_error": 1.5862151742362627
+    },
+    {
+      "nba_api_id": 1626179,
+      "name": "Terry Rozier",
+      "projected": 19.635192260282775,
+      "projected_sd": 2.5873744782148984,
+      "actual": 14.769788519637462,
+      "error": 4.865403740645313,
+      "z_error": 1.8804404934851526
+    },
+    {
+      "nba_api_id": 1628983,
+      "name": "Shai Gilgeous-Alexander",
+      "projected": 29.774856225905086,
+      "projected_sd": 2.9254103914386054,
+      "actual": 34.44684129429892,
+      "error": -4.671985068393834,
+      "z_error": -1.5970357807118918
+    },
+    {
+      "nba_api_id": 1629006,
+      "name": "Josh Okogie",
+      "projected": 11.723394786264102,
+      "projected_sd": 2.560699909039328,
+      "actual": 16.248803827751196,
+      "error": -4.525409041487094,
+      "z_error": -1.7672547359072805
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "projected": 10.64904698759769,
+      "projected_sd": 2.4100618844607,
+      "actual": 10.635645302897279,
+      "error": 0.013401684700410144,
+      "z_error": 0.005560722231582465
+    },
+    {
+      "nba_api_id": 203482,
+      "name": "Kelly Olynyk",
+      "projected": 15.357256222965201,
+      "projected_sd": 2.5016798028168603,
+      "actual": 15.48040313549832,
+      "error": -0.12314691253311771,
+      "z_error": -0.04922568923267311
+    },
+    {
+      "nba_api_id": 1628973,
+      "name": "Jalen Brunson",
+      "projected": 26.619303070410815,
+      "projected_sd": 2.7518747175962965,
+      "actual": 26.440677966101696,
+      "error": 0.17862510430911982,
+      "z_error": 0.06491033300569185
+    },
+    {
+      "nba_api_id": 1626172,
+      "name": "Kevon Looney",
+      "projected": 11.008876967953665,
+      "projected_sd": 2.4707288739552657,
+      "actual": 10.815720524017468,
+      "error": 0.19315644393619635,
+      "z_error": 0.07817791987308664
+    },
+    {
+      "nba_api_id": 1629029,
+      "name": "Luka Don\u010di\u0107",
+      "projected": 28.91299978995671,
+      "projected_sd": 2.876794289158718,
+      "actual": 28.70215175537939,
+      "error": 0.21084803457732093,
+      "z_error": 0.07329270479015751
+    }
+  ]
+}

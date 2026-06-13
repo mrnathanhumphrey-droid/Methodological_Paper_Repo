@@ -1,0 +1,3 @@
+A net rent+income: coef=6.322 p=0.0000
+B net +saiz: coef=6.277 p=0.0000
+attenuation=1%

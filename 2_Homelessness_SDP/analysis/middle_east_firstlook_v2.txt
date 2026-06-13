@@ -1,0 +1,53 @@
+[21:19:33] === Building middle_east panel for ['SYR', 'YEM', 'IRQ', 'LBN'] ===
+[1] GIDD displacement
+  GIDD: 66 country-year rows
+[2] GIDD Disasters hazard
+  Disasters: 40 rows x 7 hazard cols
+[3] UCDP-GED
+  UCDP-GED events for cluster: 105129
+[4] HAPI food security
+[5] V-Dem + WDI
+
+[21:19:42] panel saved: D:\IDP\analysis\middle_east_stratified_panel_2026_05_21.parquet
+  shape: (108, 31)
+
+=== middle_east period x country x cause ===
+              period iso3  conflict_disp  disaster_disp  war_fatal  strife_fatal  one_sided_fatal
+     acute_2020_2024  IRQ         200000         143600       3632             0              261
+     acute_2020_2024  LBN        1195061           3455       4482             0                0
+     acute_2020_2024  SYR        3391000         836000      11782          2833              497
+     acute_2020_2024  YEM         912000        1210000      34348           882              128
+     early_2014_2019  IRQ        5583000         126900      45218            90             8283
+     early_2014_2019  LBN           3310           5710        312           469                5
+     early_2014_2019  SYR       10955000          48600     207948         48531             7165
+     early_2014_2019  YEM        3563000         181013      22996          3067               28
+pre_crisis_1998_2013  IRQ          20000          10500      29202           596             9085
+pre_crisis_1998_2013  LBN              0              0       1325           311               58
+pre_crisis_1998_2013  SYR        6056000              0     123706          1367             9482
+pre_crisis_1998_2013  YEM         653000          33000       4398           265              178
+
+=== middle_east V-Dem libdem trajectory ===
+  SYR 2018: 0.025
+  YEM 2018: 0.034
+  IRQ 2018: 0.238
+  LBN 2018: 0.282
+  SYR 2020: 0.031
+  YEM 2020: 0.033
+  IRQ 2020: 0.212
+  LBN 2020: 0.274
+  SYR 2024: 0.054
+  YEM 2024: 0.047
+  IRQ 2024: 0.210
+  LBN 2024: 0.226
+
+=== middle_east disaster hazard types (acute 2020-2024) ===
+iso3                             IRQ   LBN     SYR      YEM
+disaster_drought              129200     0       0       30
+disaster_earthquake                0     0  678005        7
+disaster_extreme_temperature       0   150       0        0
+disaster_flood                 12880   212   94785  1144972
+disaster_mass_movement             0     0       0        7
+disaster_storm                   980  2968   29715    65000
+disaster_wildfire               1400    56   32510     1200
+
+[21:19:42] complete

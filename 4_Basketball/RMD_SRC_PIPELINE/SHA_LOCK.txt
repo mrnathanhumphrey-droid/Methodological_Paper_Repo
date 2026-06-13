@@ -1,0 +1,377 @@
+RMD-SRC NBA FULL-PIPELINE PRE-REGISTRATION LOCK
+================================================
+
+Pre-registration file: RMD_SRC_PIPELINE/PRE_REG_NBA_RMD_SRC_FULL_LOCKED.md
+Commit SHA:            db0ed9a899c28691183cd5b640f460c10f3c2a75
+Short SHA:             db0ed9a
+Locked at:             2026-06-01
+Locked on branch:      main
+Repo:                  https://github.com/mrnathanhumphrey-droid/NBAProjections
+Filed by:              Claude Code (claude-opus-4-7[1m])
+Signed off by:         mr.nathanhumphrey@gmail.com
+
+Discipline gate: no compute on the full RMD-SRC pipeline against NBA
+2019-20 through 2025-26 box-score data may begin before this SHA exists.
+No cell-level (mu, sigma^2) statistic, regime label, F1-F4 firing value,
+or comparative-arm metric on the pre-reg's data scope has been inspected
+between draft v0.1 and this lock commit.
+
+Verification:
+    git -C "D:/NBA Projections" show db0ed9a -- \
+        RMD_SRC_PIPELINE/PRE_REG_NBA_RMD_SRC_FULL_LOCKED.md
+
+
+## v1.1 amendment
+
+Amendment file:        RMD_SRC_PIPELINE/AMENDMENT_v1.1_MPG_TIER_PARALLEL_ARM_LOCKED.md
+Commit SHA:            4d0602df832d5a45402a212acf48b19a4dfee070
+Short SHA:             4d0602d
+Locked at:             2026-06-01
+Signed off by:         mr.nathanhumphrey@gmail.com
+Scope:                 Additive parallel arm. MPG-tier role-cohort
+                       (Starter >=28 / Rotation 18-28 / Bench 10-18,
+                       same-season MPG), plus cross-arm comparison
+                       (regime kappa, PASS/TIE/LOSE differential,
+                       F1-F4 firing matrix).
+Discipline:            v1.0 (db0ed9a) is NOT amended or retracted by
+                       this amendment. Both arms produce equally-
+                       prominent reports. No falsifier rescue.
+
+Verification:
+    git -C "D:/NBA Projections" show 4d0602d -- \
+        RMD_SRC_PIPELINE/AMENDMENT_v1.1_MPG_TIER_PARALLEL_ARM_LOCKED.md
+
+
+## v1.2 amendment
+
+Amendment file:        RMD_SRC_PIPELINE/AMENDMENT_v1.2_POSITION_ADJUDICATION_LOCKED.md
+Commit SHA:            1bfdb4c0dfa2b3754f67e9c2f91b2ab26fa01866
+Short SHA:             1bfdb4c
+Locked at:             2026-06-01
+Signed off by:         mr.nathanhumphrey@gmail.com
+Scope:                 230-player position-bucket adjudication via
+                       independent subagent fleet. no_fit verdicts
+                       route to new 4th Positionless bucket. Adds
+                       usg_adj + mpg_adj arms (third and fourth).
+                       Cross-arm comparison expands to 4-way kappa
+                       matrix and 4-column PASS/TIE/LOSE differential.
+Discipline:            v1.0 (db0ed9a) and v1.1 (4d0602d) are NOT
+                       amended or retracted. Agent fleet runs once;
+                       no re-run, no rationale-text replay, no
+                       retroactive prompt edits. Agent failures
+                       route to v1.0 metadata bucket (not Positionless).
+
+Verification:
+    git -C "D:/NBA Projections" show 1bfdb4c -- \
+        RMD_SRC_PIPELINE/AMENDMENT_v1.2_POSITION_ADJUDICATION_LOCKED.md
+
+
+## v1.3 amendment
+
+Amendment file:        RMD_SRC_PIPELINE/AMENDMENT_v1.3_DIP_ON_RESIDUALS_LOCKED.md
+Commit SHA:            f3ede6ccebc29009b666146542465693f6fa721c
+Short SHA:             f3ede6c
+Locked at:             2026-06-01
+Signed off by:         mr.nathanhumphrey@gmail.com
+Scope:                 Diagnostic extension. Adds Check D (Hartigan
+                       dip on within-cell residuals r_pg = y_pg - mu_cell)
+                       parallel to v1.0 Check A. Produces a separate
+                       residual_clean disposition with its own
+                       F2/Step4/comparative pipeline (Path B). Three
+                       pre-committed dispositions on Frac(D PASS):
+                       >=0.50 localized, [0.20, 0.50) partial, <0.20
+                       substrate-level multimodality.
+Discipline:            Path A reports stand untouched. v1.0 / v1.1 /
+                       v1.2 SHAs preserved. Check A continues firing
+                       as documented. v1.3 thresholds locked at this
+                       SHA; no rescue, no retroactive de-firing.
+
+Verification:
+    git -C "D:/NBA Projections" show f3ede6c -- \
+        RMD_SRC_PIPELINE/AMENDMENT_v1.3_DIP_ON_RESIDUALS_LOCKED.md
+
+
+## Sloan adjudicated Test 1 re-validation
+
+Pre-registration file: RMD_SRC_PIPELINE/SLOAN_PRE_REG_TEST_1_ADJUDICATED_v1.0_LOCKED.md
+Commit SHA:            e52505fb71bc26325851ee0c33814a40cfe5b16c
+Short SHA:             e52505f
+Locked at:             2026-06-01
+Signed off by:         mr.nathanhumphrey@gmail.com
+Cross-paper:           This pre-reg is the Sloan paper (paper_draft/)
+                       extension to RMD-SRC's v1.2 adjudication
+                       artifact. The artifact SHA256 anchor is
+                       eb615269f09159e0d0ceaf071812b84750578d81a9a53b01dff5a1ac2ac9dcbd
+                       (frozen under RMD-SRC SHA 1bfdb4c). Sloan
+                       paper section 5.4 will integrate the
+                       adjudicated arm alongside the existing
+                       metadata-bucketed arm.
+Scope:                 NBA Test 1 re-validation under v1.2 adjudicated
+                       position bucketing. Three Tier-1 hypotheses
+                       (BLK x Center / PTS x Center / REB x Center
+                       walk-back) across 3 seasons (23-24, 24-25,
+                       25-26) x 2 buckets (metadata, adjudicated) =
+                       18 per-cell variance ratios. Per-cell
+                       disposition cascade locked at 5 dispositions
+                       each. Aggregate verdict framework: 4
+                       illustrative paper-revision narratives
+                       pre-committed.
+Discipline:            No threshold adjustment after firing. No
+                       classifier redefinition. No statistical-test
+                       substitution. Walk-back rescue explicitly
+                       forbidden (if H3 falsifies, cross-league
+                       section 5.4.1 retraction must be honestly
+                       reopened, not methodology-footnoted away).
+                       Single batch, no re-runs, no re-fits of v6.1.
+
+Verification:
+    git -C "D:/NBA Projections" show e52505f -- \
+        RMD_SRC_PIPELINE/SLOAN_PRE_REG_TEST_1_ADJUDICATED_v1.0_LOCKED.md
+
+
+## Sloan cross-league adjudicated Test 1 (WNBA + NCAA M + NCAA W)
+
+Pre-registration files: RMD_SRC_PIPELINE/SLOAN_PRE_REG_TEST_1_WNBA_ADJUDICATED_v1.0_LOCKED.md
+                        RMD_SRC_PIPELINE/SLOAN_PRE_REG_TEST_1_NCAA_M_ADJUDICATED_v1.0_LOCKED.md
+                        RMD_SRC_PIPELINE/SLOAN_PRE_REG_TEST_1_NCAA_W_ADJUDICATED_v1.0_LOCKED.md
+Commit SHA:            28e3dc7
+Locked at:             2026-06-01
+Signed off by:         mr.nathanhumphrey@gmail.com
+Cross-paper:           Extends the NBA Sloan adjudicated Test 1 (e52505f)
+                       to WNBA + NCAA D1 Men's + NCAA D1 Women's. Tests
+                       the cross-league paper's 11/11 BLK x Center claim
+                       and the REB x Center Stan walk-back retraction's
+                       robustness to inclusivity correction across all
+                       four leagues.
+Scope per league:
+  WNBA: 112 adjudication candidates (80 hyphenated + 31 tall
+        metadata-Forward + 1 short metadata-Center). 3 seasons
+        (2023/2024/2025) x 3 obs (BLK/PTS/REB) x 2 arms
+        (surgical/Stan) = 18 cells per bucket x 2 buckets = 36 stats.
+        Power gate 1.20.
+  NCAA M: 2,135 adjudication candidates (1,714 metadata-F with
+          height>=80 + 417 metadata-C + 4 hyphenated). 2 seasons
+          (2024/2025) x 3 obs x 2 arms = 12 cells per bucket x 2 =
+          24 stats. Power gate 1.10.
+  NCAA W: 1,149 adjudication candidates (453 metadata-F with
+          height>=75 + 398 metadata-C + 298 hyphenated). 2 seasons
+          (2024/2025) x 3 obs x 2 arms = 12 cells per bucket x 2 =
+          24 stats. Power gate 1.10.
+Total per-cell statistics across the three leagues: 84.
+Total adjudication subagents (independent Sonnet fleets): 3,396.
+Discipline:            Mirrors NBA Sloan adjudicated discipline (e52505f).
+                       No threshold adjustment after firing. No classifier
+                       redefinition. No statistical-test substitution.
+                       No Stan re-fits. Walk-back rescue forbidden across
+                       all three leagues. Single batch per league, no
+                       re-runs, no re-judging of any verdict.
+
+Verification:
+    git -C "D:/NBA Projections" show 28e3dc7 -- \
+        RMD_SRC_PIPELINE/SLOAN_PRE_REG_TEST_1_WNBA_ADJUDICATED_v1.0_LOCKED.md \
+        RMD_SRC_PIPELINE/SLOAN_PRE_REG_TEST_1_NCAA_M_ADJUDICATED_v1.0_LOCKED.md \
+        RMD_SRC_PIPELINE/SLOAN_PRE_REG_TEST_1_NCAA_W_ADJUDICATED_v1.0_LOCKED.md
+
+
+## Sloan cross-league adjudicated Test 1 — per-league adjudication artifacts
+
+Recorded per pre-reg 28e3dc7 discipline guard #2 (artifacts read-only after
+write). All three artifacts live in their per-league working directories
+(non-git source-of-truth dirs); SHA256 hashes below are the cross-paper
+audit anchors.
+
+WNBA adjudication artifact:
+    Path:    C:/WNBA Projections/audit_runs/test_1_replication/sloan_adjudicated/wnba_position_adjudication_v10.json
+    SHA256:  17891b7e686c683db0a8df213ed92dd62f04b6022275e80be669063b98aaa0f6
+    n verdicts: 112 / 112 success
+
+NCAA M adjudication artifact:
+    Path:    C:/NCAA D1 Mens/audit_runs/test_1_replication/sloan_adjudicated/ncaa_m_position_adjudication_v10.json
+    SHA256:  bdad6245b510c7d8db37946f18d40a8ef3d6debbf551f3be2763e9f7f072b482
+    n verdicts: 2135 (1533 success, 602 agent_failure routed to metadata bucket)
+
+NCAA W adjudication artifact:
+    Path:    C:/NCAA D1 Womens/audit_runs/test_1_replication/sloan_adjudicated/ncaa_w_position_adjudication_v10.json
+    SHA256:  0763bfcf284ce3c836701f9c9999850932a5ffc7f689644f65d69f11a9609c4f
+    n verdicts: 1149 (1047 success, 102 agent_failure routed to metadata bucket)
+
+Analysis commit (per-cell variance ratios + aggregate verdict):
+    Commit SHA:            4a4a595
+    Aggregate doc:         RMD_SRC_PIPELINE/results/CROSS_LEAGUE_SLOAN_ADJUDICATED_AGGREGATE.md
+    Headline:              10/10 cells WALK-BACK FALSIFIED across all 4 leagues.
+
+Verification of artifact SHA256:
+    Linux/Git Bash:  sha256sum "<path>/<league>_position_adjudication_v10.json"
+    Windows PS:      Get-FileHash "<path>/<league>_position_adjudication_v10.json" -Algorithm SHA256
+
+
+## Sloan MAE delta Test 2 v1.0
+
+Pre-registration file: RMD_SRC_PIPELINE/SLOAN_PRE_REG_TEST_2_MAE_DELTA_v1.0_LOCKED.md
+Commit SHA:            49fd54b
+Locked at:             2026-06-02
+Signed off by:         mr.nathanhumphrey@gmail.com
+Cross-paper:           Extends Sloan adjudicated Test 1 (e52505f) from
+                       a residual-variance test to a point-prediction
+                       MAE test, under v6.1 LOCKED re-scoring with
+                       adjudicated position bucketing. NOT a re-fit:
+                       Stan posterior chains + VALIDATED_OFFSETS dict
+                       + VARIANCE_MULTIPLIERS dict all read-only at
+                       2026-05-05 lock snapshot. Only the categorical
+                       position INPUT changes for the 46 F->C flip
+                       players, selecting which locked posterior
+                       column / which locked offset row applies.
+Scope:                 Three cohorts x two seasons (24-25 + 25-26) x
+                       four observables (PTS / REB / AST / BLK) = 24
+                       reportable cells:
+                         - Cohort A: 46 F->C flip players (load-bearing).
+                         - Cohort B: full 230 v1.2 adjudicated players.
+                         - Cohort C: 184 non-flip adjudicated players
+                           (zero-delta pipeline integrity check).
+                       Bootstrap 95% CI on Delta_MAE (B=1000, cluster
+                       on player, seed 20260602). Paired Wilcoxon
+                       signed-rank p per cell. Pre-committed magnitude
+                       thresholds 0.05 / 0.15 REB/game.
+Discipline:            No v6.1 re-fit. No Stan re-sample. No offset
+                       re-validation. No threshold tuning after
+                       compute. Selective reporting forbidden across
+                       all 24 cells. Pipeline integrity gate (Cohort C
+                       delta = 0 by construction) must pass before
+                       Cohort A / B dispositions are reported. Sub-
+                       pre-reg does NOT modify or retract e52505f.
+Companion figure:      paper_draft/figures/forward_misbucket_scatter.png
+                       (committed same SHA 49fd54b). Talk-abstract
+                       visual: 325 metadata-Forward players in
+                       2019-26 NBA window, 46 F->C flip cohort
+                       highlighted in red.
+
+Verification:
+    git -C "D:/NBA Projections" show 49fd54b -- \
+        RMD_SRC_PIPELINE/SLOAN_PRE_REG_TEST_2_MAE_DELTA_v1.0_LOCKED.md
+
+
+## Sloan MAE delta Test 2 v1.1 amendment (bug correction)
+
+Amendment file:        RMD_SRC_PIPELINE/AMENDMENT_v1.1_BUG_CORRECTION_LOCKED.md
+Commit SHA:            d59f12b
+Locked at:             2026-06-02
+Signed off by:         mr.nathanhumphrey@gmail.com
+Scope:                 Bug correction. v1.0 fired at commit 189b61c
+                       contained three errors in the Stan position-
+                       conditional aging-curve delta formula: wrong
+                       sign on gamma, phantom linear beta_age_pos
+                       term, wrong age reference. The fired headline
+                       (REB +0.175/+5.5% on 46-flip cohort, p=0.008)
+                       was a bug artifact, not a real finding.
+                       Corrected formula per Stan model + production
+                       projection: factor = exp(-gamma_C*(age-peak_C)^2
+                       + gamma_F*(age-peak_F)^2). Only position-
+                       conditional gamma+peak enter the delta because
+                       mu_player and age_tilt_player are fixed per-
+                       player posterior samples at predict time.
+v1.0 retraction:       The following v1.0 published claims are
+                       RETRACTED per amendment §5 guard #4:
+                         - "REB MAE 3.165 -> 2.990 (+5.5%) headline"
+                         - "Anthony Davis REB MAE -28%, Giannis -43%,
+                            Porzingis -10%"
+                         - "PTS MAE -1.018 (-20.5%) REGRESSES"
+                         - "PTS Center additive mis-calibrated for the
+                            46 adjudicated-Center stretch-bigs"
+v1.0 preservation:     v1.0 commit 189b61c NOT amended in git history.
+                       Files at results/sloan_mae_delta/ stay at
+                       commit-189b61c content as record of buggy fire.
+                       v1.1 results land in results/sloan_mae_delta/
+                       v1_1_corrected/ subfolder.
+v1.1 aggregate verdict: 0/2 MAE-PERSISTS, 2/2 NULL. The point-
+                       prediction MAE delta is essentially zero across
+                       all cohorts under the corrected formula. The
+                       cross-league §5.4 walk-back falsification stands
+                       — that result is a VARIANCE-ratio finding, not
+                       a mean-prediction finding. The two findings are
+                       consistent and methodologically interesting.
+Open follow-up:        Variance-band miscalibration. v6.1 LOCKED's
+                       AST × Forward × 0.819 multiplier tightens
+                       confidence intervals on the 46 flip players
+                       (who get the Forward multiplier under metadata
+                       but on-court are Center). Requires new sub-
+                       pre-reg with z-score residual sd or interval
+                       coverage as test statistic.
+Discipline:            Pre-reg discipline preserved. Both v1.0 (buggy)
+                       and v1.1 (corrected) results published. No
+                       retroactive narrative reshaping. No git history
+                       rewrite. Amendment filed BEFORE re-fire.
+
+Verification:
+    git -C "D:/NBA Projections" show d59f12b -- \
+        RMD_SRC_PIPELINE/AMENDMENT_v1.1_BUG_CORRECTION_LOCKED.md
+
+
+## spatial re-axis
+
+Pre-registration file: RMD_SRC_PIPELINE/PRE_REG_NBA_RMD_SRC_SPATIAL_LOCKED.md
+Commit SHA:            cd40b46295ea5ee9fdf58d2e337b3e7750b4a2a3
+Short SHA:             cd40b46
+Locked at:             2026-06-10
+Locked on branch:      main
+Repo:                  https://github.com/mrnathanhumphrey-droid/NBAProjections
+Filed by:              Claude Code (claude-opus-4-8[1m])
+Signed off by:         mr.nathanhumphrey@gmail.com
+Scope:                 Additive spatial re-axis. Swaps the RMD-SRC
+                       PRIMARY partition axis from position to court-
+                       region-of-feast, holding observables (PTS/REB/
+                       AST/BLK per36), thresholds (eps_mu 0.02 /
+                       eps_sig2 0.05, F1 0.90, F2 0.50, F3 0.30,
+                       F4 kappa 0.40, Step5 r 0.80, comp r 0.50),
+                       Steps 2-6, and the 2019-20..2023-24 train /
+                       2024-25 + 2025-26 holdout split IDENTICAL to
+                       v1.0 (db0ed9a) for a clean axis-swap contrast.
+                       Two parallel arms:
+                         off_feast: Rim / Paint / Perimeter by shot-
+                           location plurality (Interior = Rim u Paint
+                           is the "split the court" headline binary).
+                         def_feast: RimProtector / Hybrid / Perimeter
+                           by within-season rim-defense-share tercile
+                           (d_fga lt6 / d_fga overall).
+                       Each crossed with v1.0 years-pro x usage-tier
+                       secondaries = 36 candidate cells per arm, same
+                       collapse rule. Profile-stability floors locked
+                       (>=50 zone FGA offense / >=3 contests-per-game
+                       defense; sub-floor -> Profile-Sparse residual).
+                       Traded players summed across team rows before
+                       shares (dedup). Second comparative arm added:
+                       spatial vs the locked POSITION arms (delta F2 /
+                       delta F4 kappa / delta dip-pass) answering "is
+                       court-region a better residue class than
+                       position." Three timestamped prospective
+                       predictions: P1 off_feast F4 kappa >= 0.40 on
+                       >=1 obs (court-region transfers where position
+                       failed at kappa~0) @60%; P2 BLK x RimProtector
+                       relocates the BLK x Center coupling @55%;
+                       P3 offense clean / defense coupled @65%.
+Data note:             cli/pull_2025_26_spatial.py (same commit)
+                       idempotently appended 2025-26 Regular Season
+                       to shot_locations_{player,team} and the six
+                       player_def_zone_* parquets (582 / ~580 player
+                       rows), giving full 7-season partition-side
+                       coverage to match the box-score outcome side.
+                       The pre-reg's partition-side smoke test
+                       (2026-06-10) inspected ONLY shot-location and
+                       defensive-contest distributions; ZERO outcome
+                       (PTS/REB/AST/BLK) moment-flow statistic was
+                       inspected before this lock. Pre-reg wall intact.
+Discipline:            v1.0 (db0ed9a) through v1.3 (f3ede6c) and all
+                       Sloan pre-regs are NOT amended or retracted.
+                       The position arms stand as the canonical
+                       position application; this re-axis is additive
+                       and TESTS A RELOCATION HYPOTHESIS about the
+                       BLK/REB/PTS x Center findings, it does not
+                       retract them. Thresholds / region-count /
+                       partition rules / observables / window locked;
+                       any post-compute change is a violation. Both
+                       arms, all 4 observables, all K cells contribute
+                       to every headline (no arm cherry-picking). No
+                       outcome peeking before this SHA.
+
+Verification:
+    git -C "D:/NBA Projections" show cd40b46 -- \
+        RMD_SRC_PIPELINE/PRE_REG_NBA_RMD_SRC_SPATIAL_LOCKED.md

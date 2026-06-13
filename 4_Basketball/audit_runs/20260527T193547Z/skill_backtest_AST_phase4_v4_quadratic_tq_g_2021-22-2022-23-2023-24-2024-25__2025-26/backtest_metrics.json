@@ -1,0 +1,154 @@
+{
+  "stat": "AST",
+  "test_season": "2025-26",
+  "n_players": 256,
+  "mae": 0.6593387277862939,
+  "rmse": 0.8993633652881622,
+  "bias": 0.005386994225763622,
+  "coverage_50": 0.50390625,
+  "coverage_80": 0.7890625,
+  "coverage_90": 0.83984375,
+  "z_error_mean": -0.003936324750633876,
+  "z_error_sd": 1.1931210448118001,
+  "top_25_accuracy": 0.64,
+  "top_50_accuracy": 0.78,
+  "worst_misses": [
+    {
+      "nba_api_id": 1630175,
+      "name": "Cole Anthony",
+      "projected": 5.0236630153766235,
+      "projected_sd": 0.7472405221987365,
+      "actual": 8.265654648956357,
+      "error": -3.241991633579733,
+      "z_error": -4.338618607085513
+    },
+    {
+      "nba_api_id": 1630552,
+      "name": "Jalen Johnson",
+      "projected": 5.0489882944430295,
+      "projected_sd": 0.7588878057349965,
+      "actual": 8.037869822485208,
+      "error": -2.988881528042178,
+      "z_error": -3.938502510456592
+    },
+    {
+      "nba_api_id": 203114,
+      "name": "Khris Middleton",
+      "projected": 7.19087534863788,
+      "projected_sd": 0.9555959226291963,
+      "actual": 4.4061196105702365,
+      "error": 2.784755738067643,
+      "z_error": 2.9141561533726037
+    },
+    {
+      "nba_api_id": 1629627,
+      "name": "Zion Williamson",
+      "projected": 6.63263798076703,
+      "projected_sd": 0.8466433058855346,
+      "actual": 3.893478260869565,
+      "error": 2.739159719897465,
+      "z_error": 3.235317282798899
+    },
+    {
+      "nba_api_id": 1630591,
+      "name": "Jalen Suggs",
+      "projected": 4.454733469393966,
+      "projected_sd": 0.7561965636202097,
+      "actual": 7.154140127388535,
+      "error": -2.699406657994569,
+      "z_error": -3.569715584360037
+    },
+    {
+      "nba_api_id": 1629614,
+      "name": "Andrew Nembhard",
+      "projected": 6.521908391448999,
+      "projected_sd": 0.7815888778132579,
+      "actual": 8.808510638297872,
+      "error": -2.2866022468488723,
+      "z_error": -2.925581865041843
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 5.173141185514785,
+      "projected_sd": 0.746078332145169,
+      "actual": 7.4403080872914,
+      "error": -2.2671669017766147,
+      "z_error": -3.038778643065428
+    },
+    {
+      "nba_api_id": 1627742,
+      "name": "Brandon Ingram",
+      "projected": 6.178175267000058,
+      "projected_sd": 0.8829454727738901,
+      "actual": 3.9292851652574945,
+      "error": 2.2488901017425635,
+      "z_error": 2.547031692316602
+    },
+    {
+      "nba_api_id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "projected": 2.423063821163188,
+      "projected_sd": 0.6424340180318081,
+      "actual": 4.616236162361624,
+      "error": -2.1931723411984363,
+      "z_error": -3.413848394762072
+    },
+    {
+      "nba_api_id": 1630166,
+      "name": "Deni Avdija",
+      "projected": 5.0476985608762135,
+      "projected_sd": 0.6888099106236707,
+      "actual": 7.229441163107679,
+      "error": -2.1817426022314654,
+      "z_error": -3.1674088432555294
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1629001,
+      "name": "De'Anthony Melton",
+      "projected": 3.9906842320856186,
+      "projected_sd": 0.8298759796689406,
+      "actual": 3.9929015084294583,
+      "error": -0.0022172763438397247,
+      "z_error": -0.0026718165101299292
+    },
+    {
+      "nba_api_id": 1629675,
+      "name": "Naz Reid",
+      "projected": 3.040946825128998,
+      "projected_sd": 0.6671251618493573,
+      "actual": 3.0462916874066703,
+      "error": -0.005344862277672391,
+      "z_error": -0.00801178337038846
+    },
+    {
+      "nba_api_id": 1630583,
+      "name": "Santi Aldama",
+      "projected": 3.783435455189343,
+      "projected_sd": 0.680322492312544,
+      "actual": 3.789473684210526,
+      "error": -0.006038229021183117,
+      "z_error": -0.008875539305863666
+    },
+    {
+      "nba_api_id": 1630192,
+      "name": "Zeke Nnaji",
+      "projected": 1.6568662223146702,
+      "projected_sd": 0.6706104313381575,
+      "actual": 1.6650717703349283,
+      "error": -0.00820554802025808,
+      "z_error": -0.012235938537198813
+    },
+    {
+      "nba_api_id": 1628371,
+      "name": "Jonathan Isaac",
+      "projected": 1.5327296567547648,
+      "projected_sd": 0.6599137134483621,
+      "actual": 1.5230769230769232,
+      "error": 0.009652733677841585,
+      "z_error": 0.01462726638517856
+    }
+  ]
+}

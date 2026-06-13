@@ -1,0 +1,77 @@
+{
+  "pre_reg": "PRE_REG_033",
+  "framing": "correlational; PI prior=culture push does NOT exist",
+  "religiosity": "NOT obtained (ARDA JS-gated) - culture block = politics+family+social-capital",
+  "H1_cross_section": {
+    "n": 370,
+    "loo_econ_only": 0.1621,
+    "loo_econ_plus_culture": 0.2023,
+    "dR2_culture_over_econ": 0.0402,
+    "culture_coefs_net_of_rent": {
+      "dem_share_2020": {
+        "coef": 6.784,
+        "p": 0.0052
+      },
+      "single_person_hh_share_2024": {
+        "coef": -2.689,
+        "p": 0.1241
+      },
+      "never_married_share_2024": {
+        "coef": 0.701,
+        "p": 0.714
+      },
+      "social_capital_index": {
+        "coef": 3.412,
+        "p": 0.012
+      }
+    },
+    "raw_dem_corr": 0.395
+  },
+  "H1_disposition": "FALSIFIED (no cultural push net of rent)",
+  "H2_dynamic": {
+    "n": 365,
+    "model_r2": 0.028,
+    "coefs": {
+      "d_rent": {
+        "coef": 0.039,
+        "p": 0.9864
+      },
+      "d_income": {
+        "coef": 4.293,
+        "p": 0.047
+      },
+      "d_dem_share": {
+        "coef": -1.064,
+        "p": 0.3959
+      },
+      "d_single_person": {
+        "coef": 1.213,
+        "p": 0.3634
+      }
+    },
+    "changing_culture_pushes": false
+  },
+  "H2_disposition": "FALSIFIED (changing culture does not push)",
+  "robust_drop_big3": {
+    "n": 367,
+    "dR2_culture": 0.0532
+  },
+  "robust_politics_net_of_rent": {
+    "dem_coef": {
+      "coef": 6.567,
+      "p": 0.0
+    },
+    "dR2_politics_over_econ": 0.0446
+  },
+  "decisive_confound_dem_net_of_supply": {
+    "dem_net_rent_income": [
+      6.32,
+      0.0
+    ],
+    "dem_net_rent_income_saiz": [
+      6.28,
+      0.0
+    ],
+    "n": 302
+  }
+}

@@ -1,0 +1,7 @@
+# RMD-SRC Gymnadenia v3.3 — 26 raw compounds, Huber + AD + joint GMM
+# Generated: 2026-06-02T00:18:19.012909+00:00
+AD pass: 1/26
+pre-decomp clean:  0/207 = 0.0%
+post-decomp clean: 0/207 = 0.0%
+F1 fires: False
+F2 fires: True

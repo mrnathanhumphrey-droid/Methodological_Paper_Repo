@@ -1,0 +1,35 @@
+{
+  "version": "v6.1_LOCKED_2025-26",
+  "source_ship": "audit_runs/unified_ship_v6_2025_26/per_player_projections_2025-26.csv",
+  "target_season": "2025-26",
+  "target_year": 2025,
+  "applied_offsets": {
+    "PTS_Center_additive": {
+      "offset": -0.587,
+      "n_carriers": 77
+    },
+    "AST_13+_mult": {
+      "mult": 0.9278,
+      "n_carriers": 42
+    },
+    "REB_Guard_var_mult": {
+      "mult": 0.723,
+      "n_carriers": 262
+    },
+    "AST_Forward_var_mult": {
+      "mult": 0.819,
+      "n_carriers": 228
+    },
+    "BLK_Guard_var_mult": {
+      "mult": 0.662,
+      "n_carriers": 262
+    }
+  },
+  "inert_offsets": {
+    "PTS_mid_season_change_mult": {
+      "reason": "no 25-26 coaching data; would be forward-info leakage at draft time anyway",
+      "spec_value": 0.9382
+    }
+  },
+  "note": "v6.1 LOCKED spec from audit_runs/unified_ship_v6_1/metadata.json (dated 2026-05-02). Forward-projected 25-26 ship \u2014 'as if 25-26 did not occur' for tuning Wonka draft greedies."
+}

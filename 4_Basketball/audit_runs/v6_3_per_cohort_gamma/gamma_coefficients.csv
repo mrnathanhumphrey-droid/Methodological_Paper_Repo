@@ -1,0 +1,10 @@
+cohort,stat,n,alpha,gamma,r2,resid_sd,fit_status
+vet,PTS,284,0.6097950383732602,0.9544951503742509,0.840626475578622,2.3597600877111735,ok
+vet,REB,284,-0.029635870915668328,1.0057474921652771,0.9287201977864042,0.8752026233229265,ok
+vet,AST,284,0.4507743217039142,0.8909702608101308,0.8192857660932671,0.9281397807845541,ok
+soph,PTS,0,,,,,insufficient_n
+soph,REB,0,,,,,insufficient_n
+soph,AST,0,,,,,insufficient_n
+rookie,PTS,0,,,,,insufficient_n
+rookie,REB,0,,,,,insufficient_n
+rookie,AST,0,,,,,insufficient_n

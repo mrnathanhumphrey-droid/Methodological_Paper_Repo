@@ -1,0 +1,154 @@
+{
+  "stat": "FG3A",
+  "test_season": "2025-26",
+  "n_players": 105,
+  "mae": 0.914651542084314,
+  "rmse": 1.160958409518135,
+  "bias": -0.14144154621795096,
+  "coverage_50": 0.45714285714285713,
+  "coverage_80": 0.780952380952381,
+  "coverage_90": 0.8476190476190476,
+  "z_error_mean": -0.16562476583905456,
+  "z_error_sd": 1.104306366188286,
+  "top_25_accuracy": 0.88,
+  "top_50_accuracy": 0.8,
+  "worst_misses": [
+    {
+      "nba_api_id": 1627752,
+      "name": "Taurean Prince",
+      "projected": 5.285876885048467,
+      "projected_sd": 0.9958898080479933,
+      "actual": 8.221859706362153,
+      "error": -2.9359828213136856,
+      "z_error": -2.9481000785301705
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 5.592674217223496,
+      "projected_sd": 1.030936283508601,
+      "actual": 8.364569961489089,
+      "error": -2.771895744265593,
+      "z_error": -2.6887168378941504
+    },
+    {
+      "nba_api_id": 202695,
+      "name": "Kawhi Leonard",
+      "projected": 5.073386382558099,
+      "projected_sd": 1.0242385227035251,
+      "actual": 7.676090081456636,
+      "error": -2.6027036988985373,
+      "z_error": -2.541110924073213
+    },
+    {
+      "nba_api_id": 201566,
+      "name": "Russell Westbrook",
+      "projected": 4.773373597513082,
+      "projected_sd": 0.9891271625883734,
+      "actual": 7.363194819212088,
+      "error": -2.5898212216990064,
+      "z_error": -2.6182894572644186
+    },
+    {
+      "nba_api_id": 1628389,
+      "name": "Bam Adebayo",
+      "projected": 3.5132322967480674,
+      "projected_sd": 0.9937754179634105,
+      "actual": 6.093948370715193,
+      "error": -2.5807160739671255,
+      "z_error": -2.5968805701150317
+    },
+    {
+      "nba_api_id": 1628978,
+      "name": "Donte DiVincenzo",
+      "projected": 11.64802124098243,
+      "projected_sd": 1.2272200455579663,
+      "actual": 9.284741690028035,
+      "error": 2.3632795509543953,
+      "z_error": 1.9257178527261667
+    },
+    {
+      "nba_api_id": 203932,
+      "name": "Aaron Gordon",
+      "projected": 3.2817248803914527,
+      "projected_sd": 1.0037180884353107,
+      "actual": 5.635094715852443,
+      "error": -2.35336983546099,
+      "z_error": -2.34465221118974
+    },
+    {
+      "nba_api_id": 202691,
+      "name": "Klay Thompson",
+      "projected": 10.5129778757135,
+      "projected_sd": 1.1871795318126126,
+      "actual": 12.698795180722891,
+      "error": -2.185817305009392,
+      "z_error": -1.8411851337025973
+    },
+    {
+      "nba_api_id": 203083,
+      "name": "Andre Drummond",
+      "projected": 0.48680080965105804,
+      "projected_sd": 0.8989811903007809,
+      "actual": 2.623481781376518,
+      "error": -2.1366809717254602,
+      "z_error": -2.3767805097352146
+    },
+    {
+      "nba_api_id": 203914,
+      "name": "Gary Harris",
+      "projected": 5.804030245099143,
+      "projected_sd": 1.1105453932060705,
+      "actual": 3.686746987951807,
+      "error": 2.117283257147336,
+      "z_error": 1.9065256315501704
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 203991,
+      "name": "Clint Capela",
+      "projected": 0.07926653651892845,
+      "projected_sd": 0.8666374375882239,
+      "actual": 0.07783783783783783,
+      "error": 0.0014286986810906205,
+      "z_error": 0.0016485540770850655
+    },
+    {
+      "nba_api_id": 203497,
+      "name": "Rudy Gobert",
+      "projected": 0.0797784062569713,
+      "projected_sd": 0.8860117852787334,
+      "actual": 0.07569386038687972,
+      "error": 0.004084545870091577,
+      "z_error": 0.004610035597671656
+    },
+    {
+      "nba_api_id": 203992,
+      "name": "Bogdan Bogdanovi\u0107",
+      "projected": 7.557138679007266,
+      "projected_sd": 1.0818058836191775,
+      "actual": 7.566371681415929,
+      "error": -0.009233002408663538,
+      "z_error": -0.008534805133222759
+    },
+    {
+      "nba_api_id": 1626157,
+      "name": "Karl-Anthony Towns",
+      "projected": 4.778617167830086,
+      "projected_sd": 0.9347450316946557,
+      "actual": 4.761740629039207,
+      "error": 0.01687653879087936,
+      "z_error": 0.018054697504283988
+    },
+    {
+      "nba_api_id": 203939,
+      "name": "Dwight Powell",
+      "projected": 0.3013005811314277,
+      "projected_sd": 0.8883792088598352,
+      "actual": 0.27814569536423844,
+      "error": 0.02315488576718927,
+      "z_error": 0.026064191435667145
+    }
+  ]
+}

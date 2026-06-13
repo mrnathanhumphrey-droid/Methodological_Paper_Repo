@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2023-24",
+  "n_players": 195,
+  "mae": 0.6860642787262125,
+  "rmse": 0.9076743238089786,
+  "bias": 0.02600913392054314,
+  "coverage_50": 0.4461538461538462,
+  "coverage_80": 0.7692307692307693,
+  "coverage_90": 0.8358974358974359,
+  "z_error_mean": 0.03908263009149448,
+  "z_error_sd": 1.2739372877566038,
+  "top_25_accuracy": 0.8,
+  "top_50_accuracy": 0.94,
+  "worst_misses": [
+    {
+      "nba_api_id": 1630191,
+      "name": "Isaiah Stewart",
+      "projected": 10.93023028203742,
+      "projected_sd": 0.7387954746181334,
+      "actual": 7.710674157303371,
+      "error": 3.2195561247340496,
+      "z_error": 4.357844945379727
+    },
+    {
+      "nba_api_id": 1629020,
+      "name": "Jarred Vanderbilt",
+      "projected": 11.147861426111515,
+      "projected_sd": 0.7325767196902107,
+      "actual": 8.521440823327616,
+      "error": 2.6264206027838988,
+      "z_error": 3.5851816365315976
+    },
+    {
+      "nba_api_id": 203076,
+      "name": "Anthony Davis",
+      "projected": 10.223402894612562,
+      "projected_sd": 0.7181194871328201,
+      "actual": 12.808589411329137,
+      "error": -2.5851865167165755,
+      "z_error": -3.599939234399903
+    },
+    {
+      "nba_api_id": 201567,
+      "name": "Kevin Love",
+      "projected": 10.817534322908177,
+      "projected_sd": 0.7294741091119018,
+      "actual": 13.140388768898488,
+      "error": -2.322854445990311,
+      "z_error": -3.1842863468016294
+    },
+    {
+      "nba_api_id": 203083,
+      "name": "Andre Drummond",
+      "projected": 16.634517441883332,
+      "projected_sd": 0.7802668259621897,
+      "actual": 18.893995552260932,
+      "error": -2.2594781103776,
+      "z_error": -2.895776207826488
+    },
+    {
+      "nba_api_id": 1628381,
+      "name": "John Collins",
+      "projected": 8.729332915492162,
+      "projected_sd": 0.7091706164901929,
+      "actual": 10.90047393364929,
+      "error": -2.171141018157128,
+      "z_error": -3.0615213993248585
+    },
+    {
+      "nba_api_id": 1628978,
+      "name": "Donte DiVincenzo",
+      "projected": 6.625485704384068,
+      "projected_sd": 0.7002735012253803,
+      "actual": 4.524756665256031,
+      "error": 2.100729039128037,
+      "z_error": 2.999869387392292
+    },
+    {
+      "nba_api_id": 1630224,
+      "name": "Jalen Green",
+      "projected": 3.820064702390747,
+      "projected_sd": 0.6922907576057894,
+      "actual": 5.856923076923077,
+      "error": -2.03685837453233,
+      "z_error": -2.942200733080098
+    },
+    {
+      "nba_api_id": 1628975,
+      "name": "Jevon Carter",
+      "projected": 4.1660328108514895,
+      "projected_sd": 0.695506454435149,
+      "actual": 2.155688622754491,
+      "error": 2.0103441880969983,
+      "z_error": 2.8904752432954575
+    },
+    {
+      "nba_api_id": 1629655,
+      "name": "Daniel Gafford",
+      "projected": 9.169392749503542,
+      "projected_sd": 0.7245354809909759,
+      "actual": 11.165562913907284,
+      "error": -1.9961701644037415,
+      "z_error": -2.755103396280194
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1630193,
+      "name": "Immanuel Quickley",
+      "projected": 4.696282207597821,
+      "projected_sd": 0.6928580190276508,
+      "actual": 4.692501258178158,
+      "error": 0.0037809494196627824,
+      "z_error": 0.005457033498679751
+    },
+    {
+      "nba_api_id": 204060,
+      "name": "Joe Ingles",
+      "projected": 4.388491329887262,
+      "projected_sd": 0.690186669773191,
+      "actual": 4.384219554030874,
+      "error": 0.004271775856387272,
+      "z_error": 0.006189305072772649
+    },
+    {
+      "nba_api_id": 1628997,
+      "name": "Caleb Martin",
+      "projected": 5.766434506190406,
+      "projected_sd": 0.7043355876678037,
+      "actual": 5.7542662116040955,
+      "error": 0.012168294586310857,
+      "z_error": 0.017276273979854574
+    },
+    {
+      "nba_api_id": 1626179,
+      "name": "Terry Rozier",
+      "projected": 4.339750596625441,
+      "projected_sd": 0.6847897354403293,
+      "actual": 4.356687898089172,
+      "error": -0.016937301463730847,
+      "z_error": -0.024733579648123564
+    },
+    {
+      "nba_api_id": 1629652,
+      "name": "Luguentz Dort",
+      "projected": 4.570968741037856,
+      "projected_sd": 0.6882281249277415,
+      "actual": 4.552092609082814,
+      "error": 0.01887613195504123,
+      "z_error": 0.027427144098511047
+    }
+  ]
+}

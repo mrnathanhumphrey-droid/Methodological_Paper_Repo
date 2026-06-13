@@ -1,0 +1,11 @@
+# RMD-SRC Gymnadenia Step 5 / §3.7 F4 holdout
+# Generated: 2026-06-01T19:10:43.309475+00:00
+# Per PRE_REG v1.0 §3.7 T=2 fallback
+
+step5_F4_holdout.parquet sha = 535ad06e99dffe725eabb1c75ab9d8617d86f3d17ef4fbad8bea04aae7a4fc88
+step5_F4_pairs.parquet sha   = 2c9f74cb58f70e9456c0441b4f5b0413d5bc50c67f788d3e2d6d3f1df41cd35b
+
+n pairs        = 4
+avg kappa      = 0.2158
+threshold      = >= 0.4
+F4 fires       = True

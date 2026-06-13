@@ -1,0 +1,12 @@
+# RMD-SRC Gymnadenia Step 0 ℙ₀ freeze
+# Locked per PRE_REG_v1.0_RMD_SRC_gymnadenia.md §2.4 + §3.1
+# Generated: 2026-06-01T17:50:51.110080+00:00
+
+P0_partition.parquet sha256       = bc7c6f682d3300a75a60ce8e7060ee7e2c4862814a037e13fb8003b062de5473
+P0_partition rows                  = 1028
+P0_partition K cells               = 12
+P0_partition MIN_CELL_N            = 50
+P0_partition merges_executed       = 1
+
+source SelectionAnalysis.xlsx sha = 48073ac7f9d92d247e6b4cc993602694fe92f9aa8d131bfe59fb1f3202110490
+source gymnadenia_pop_env_v2.csv  = 493ef7b43304e35a621708dc56f8102979dc1fc414781b65dea1b7f42c3dce2d

@@ -1,0 +1,140 @@
+{
+  "source_monthly": "D:\\IDP\\data\\paper7\\eviction_lab\\allstates_monthly_2020_2021.csv",
+  "n_rows_monthly": 855316,
+  "per_state": [
+    {
+      "state": "Minnesota",
+      "filings_2020_sum": 118096,
+      "baseline_sum": 101143.25,
+      "months": 77,
+      "ratio_2020_vs_baseline": 1.167611283995719
+    },
+    {
+      "state": "Missouri",
+      "filings_2020_sum": 253976,
+      "baseline_sum": 254015.0,
+      "months": 77,
+      "ratio_2020_vs_baseline": 0.9998464657598961
+    },
+    {
+      "state": "Indiana",
+      "filings_2020_sum": 403487,
+      "baseline_sum": 437231.0,
+      "months": 77,
+      "ratio_2020_vs_baseline": 0.9228234045618906
+    },
+    {
+      "state": "Wisconsin",
+      "filings_2020_sum": 151212,
+      "baseline_sum": 166343.118,
+      "months": 77,
+      "ratio_2020_vs_baseline": 0.9090367056844516
+    },
+    {
+      "state": "Pennsylvania",
+      "filings_2020_sum": 602907,
+      "baseline_sum": 684611.0,
+      "months": 77,
+      "ratio_2020_vs_baseline": 0.8806563143157209
+    },
+    {
+      "state": "Connecticut",
+      "filings_2020_sum": 102429,
+      "baseline_sum": 118106.268,
+      "months": 77,
+      "ratio_2020_vs_baseline": 0.8672613378995262
+    },
+    {
+      "state": "Rhode_Island",
+      "filings_2020_sum": 41226,
+      "baseline_sum": 49780.0,
+      "months": 77,
+      "ratio_2020_vs_baseline": 0.8281639212535155
+    },
+    {
+      "state": "Newmexico",
+      "filings_2020_sum": 78449,
+      "baseline_sum": 101623.026,
+      "months": 77,
+      "ratio_2020_vs_baseline": 0.7719608743002792
+    },
+    {
+      "state": "Virginia",
+      "filings_2020_sum": 676610,
+      "baseline_sum": 975682.5,
+      "months": 77,
+      "ratio_2020_vs_baseline": 0.6934735428789591
+    },
+    {
+      "state": "Delaware",
+      "filings_2020_sum": 65821,
+      "baseline_sum": 105324.0,
+      "months": 77,
+      "ratio_2020_vs_baseline": 0.6249382856708823
+    }
+  ],
+  "top_quartile_threshold": 0.9193767298425308,
+  "channel_predictions": {
+    "California": {
+      "predicted_channel": "Unaffordability",
+      "ratio_2020_vs_baseline": null,
+      "observed_eviction_top_quartile": null,
+      "consistent_with_eviction_channel": null
+    },
+    "New York": {
+      "predicted_channel": "Eviction",
+      "ratio_2020_vs_baseline": null,
+      "observed_eviction_top_quartile": null,
+      "consistent_with_eviction_channel": null
+    },
+    "Mississippi": {
+      "predicted_channel": "Institutional/DV",
+      "ratio_2020_vs_baseline": null,
+      "observed_eviction_top_quartile": null,
+      "consistent_with_eviction_channel": null
+    },
+    "Texas": {
+      "predicted_channel": "Disaster+Unaffordability",
+      "ratio_2020_vs_baseline": null,
+      "observed_eviction_top_quartile": null,
+      "consistent_with_eviction_channel": null
+    },
+    "Florida": {
+      "predicted_channel": "Disaster+Unaffordability",
+      "ratio_2020_vs_baseline": null,
+      "observed_eviction_top_quartile": null,
+      "consistent_with_eviction_channel": null
+    },
+    "Louisiana": {
+      "predicted_channel": "Disaster+Institutional",
+      "ratio_2020_vs_baseline": null,
+      "observed_eviction_top_quartile": null,
+      "consistent_with_eviction_channel": null
+    },
+    "Massachusetts": {
+      "predicted_channel": "Unaffordability",
+      "ratio_2020_vs_baseline": null,
+      "observed_eviction_top_quartile": null,
+      "consistent_with_eviction_channel": null
+    },
+    "Michigan": {
+      "predicted_channel": "Eviction+Institutional",
+      "ratio_2020_vs_baseline": null,
+      "observed_eviction_top_quartile": null,
+      "consistent_with_eviction_channel": null
+    }
+  },
+  "states_consistent_n": 0,
+  "weekly_columns": [
+    "state",
+    "type",
+    "GEOID",
+    "week",
+    "week_date",
+    "filings_2020",
+    "filings_avg",
+    "filings_avg_prepandemic_baseline",
+    "last_updated"
+  ],
+  "note": "Eviction Lab 2020-2021 covers pandemic + early-recovery window; filings depressed by COVID moratoria, so the absolute ratio below-baseline is expected. This fit tests RELATIVE state ordering (which states had highest ratio_2020_vs_baseline) against PRE_REG_026 Prediction set B."
+}

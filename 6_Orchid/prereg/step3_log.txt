@@ -1,0 +1,19 @@
+# RMD-SRC Gymnadenia Step 3 -- response function + cleanness
+# Generated: 2026-06-01T18:44:19.383485+00:00
+# Per PRE_REG_v1.2_amendment.md §3.4
+
+step3_response_function.parquet sha256 = 3100b0d9cdcc83dcc318ea18a9c6d750f7461929ccaf22345e3f550714afc9a0
+step3_cell_cleanness.parquet sha256    = 2ac7bf05afb3b39ef3b6817565ef1d2b422744b38277f24380a52787ffeb2c46
+observables (regressions)              = 7
+cells classified                        = 84
+clean cells                             = 5 (5.95%)
+F1 fires (>= 80%)                       = False
+
+# RMD-SRC Gymnadenia Step 3 v1.3 -- Option B (drop ρ_s, ρ_x)
+# Generated: 2026-06-01T18:52:29.142890+00:00
+# Per PRE_REG_v1.3 §2.7
+
+step3_response_function.parquet (v1.3) sha = ec151652bd87a0ef2a07b372def3c2832de4c91c3b6f9609bfb9d282a4f043c1
+step3_cell_cleanness.parquet (v1.3) sha    = 15878a005aef3ae28eb9b78a7371a6a33246ffc1243ea04e6b8e4670ef296980
+clean / total                                = 5/84 (5.95%)
+F1 fires                                      = False

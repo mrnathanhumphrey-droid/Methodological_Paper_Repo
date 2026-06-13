@@ -1,0 +1,25 @@
+{
+  "label": "backtest_REB_aging_per_player_2019-20-2020-21-2021-22-2022-23__2023-24",
+  "model_path": "D:\\NBA Projections\\models\\skill\\stan\\hierarchical_aging_per_player.stan",
+  "n_observations": 47136,
+  "n_chains": 4,
+  "n_iter_warmup": 400,
+  "n_iter_sampling": 400,
+  "fit_started_at": "2026-04-26T21:02:55.081388+00:00",
+  "fit_ended_at": "2026-04-26T21:38:33.067878+00:00",
+  "elapsed_seconds": 2137.98649,
+  "stat": "REB",
+  "train_seasons": [
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23"
+  ],
+  "test_season": "2023-24",
+  "n_train_obs": 47185,
+  "n_test_obs": 13040,
+  "min_games": 20,
+  "max_players": 200,
+  "min_test_minutes": 400.0,
+  "oos_sd_added": 0.6697947463026458
+}

@@ -1,0 +1,24 @@
+{
+  "passed": false,
+  "notes": [
+    "R-hat for mu_player[20]: 1.010 > 1.01",
+    "R-hat for mu_player[21]: 1.011 > 1.01",
+    "R-hat for mu_player[44]: 1.011 > 1.01",
+    "R-hat for mu_player[96]: 1.011 > 1.01",
+    "R-hat for mu_player[108]: 1.010 > 1.01",
+    "R-hat for mu_player[133]: 1.012 > 1.01",
+    "R-hat for mu_player[165]: 1.014 > 1.01",
+    "R-hat for mu_player[168]: 1.012 > 1.01",
+    "R-hat for mu_player[190]: 1.010 > 1.01",
+    "R-hat for reb_per_36[21]: 1.011 > 1.01",
+    "R-hat for reb_per_36[44]: 1.011 > 1.01",
+    "R-hat for reb_per_36[96]: 1.011 > 1.01",
+    "R-hat for reb_per_36[133]: 1.012 > 1.01",
+    "R-hat for reb_per_36[165]: 1.014 > 1.01",
+    "R-hat for reb_per_36[168]: 1.013 > 1.01",
+    "R-hat for reb_per_36[190]: 1.010 > 1.01"
+  ],
+  "max_rhat": 1.01394,
+  "min_ess": 2476.61,
+  "n_params_summarized": 411
+}

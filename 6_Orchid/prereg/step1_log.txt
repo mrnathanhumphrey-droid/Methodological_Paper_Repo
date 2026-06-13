@@ -1,0 +1,22 @@
+# RMD-SRC Gymnadenia Step 1 -- moment trajectories
+# Generated: 2026-06-01T17:53:45.475983+00:00
+# Per PRE_REG_v1.0 §3.2 + §2.5 (d=7 published PCs)
+
+moment_trajectories.parquet sha256 = 354ed14f34a7f56a4368e5618fbb51ff84a376256fd1ad7d9436218c23414e71
+rows                                = 84
+cells                               = 12
+observables                         = 7
+plant-observable pairs              = 7196
+P0_partition.parquet sha256 (input) = bc7c6f682d3300a75a60ce8e7060ee7e2c4862814a037e13fb8003b062de5473
+
+# RMD-SRC Gymnadenia Step 1 v1.1 -- re-derived observables
+# Generated: 2026-06-01T18:06:51.424809+00:00
+# Per PRE_REG_v1.1_amendment.md §2.5
+
+moment_trajectories.parquet sha256 (v1.1)   = aed8c540456ec7c56a5941c120f3c6acd80886deddec4f53e1c21db2d9da67f7
+observable_rotation_W_v11.parquet sha256    = 553e06b0840294e8dc5dd394f56556b94d5bddf6179b693dd64a10a6a76338a1
+observable_scores_v11.parquet sha256        = 29a4a965a85ad4f88f8c4f10c7b8fd50c748ab227319336875cbda2fdddcb86e
+raw trait dim                                = 26
+rotation fit n                               = 563
+d (PCs retained)                             = 7
+cumulative variance explained by 7 PCs     = 80.38%

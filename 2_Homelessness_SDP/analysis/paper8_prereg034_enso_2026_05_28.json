@@ -1,0 +1,60 @@
+{
+  "setA": {
+    "ETH": {
+      "mega_years": [
+        2017,
+        2018,
+        2019,
+        2022
+      ],
+      "phases": {
+        "2017": "LaNina",
+        "2018": "ElNino",
+        "2019": "ElNino",
+        "2022": "LaNina"
+      },
+      "n_lanina": 2,
+      "n_total": 4,
+      "pct_lanina": 50.0
+    },
+    "SOM": {
+      "mega_years": [
+        2017,
+        2018,
+        2022,
+        2023
+      ],
+      "phases": {
+        "2017": "LaNina",
+        "2018": "ElNino",
+        "2022": "LaNina",
+        "2023": "ElNino"
+      },
+      "n_lanina": 2,
+      "n_total": 4,
+      "pct_lanina": 50.0
+    }
+  },
+  "horn_lanina_pct": 50.0,
+  "baseline_lanina_pct": 47.1,
+  "setA_supported": false,
+  "setB": {
+    "ETH": {
+      "lag_corr": {
+        "0": 0.83,
+        "1": 0.762,
+        "2": 0.597
+      },
+      "best_lag": 0
+    },
+    "SOM": {
+      "lag_corr": {
+        "0": 0.786,
+        "1": 0.661,
+        "2": 0.459
+      },
+      "best_lag": 0
+    }
+  },
+  "setC_bra_lanina_pct": 0.0
+}

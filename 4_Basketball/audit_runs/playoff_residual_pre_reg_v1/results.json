@@ -1,0 +1,81 @@
+{
+  "version": "v1",
+  "deviation": "Baseline A (v6.1 re-scoring) deferred; Baseline B only. Per pre-reg \u00a72.5 a finding is robust only if both baselines agree; v1 dispositions are PRELIMINARY pending v2.",
+  "n_eligible_players": 493,
+  "n_eligible_player_games": 10519,
+  "h1_h5": {
+    "H1_BLK_x_Center": {
+      "label_a": "Center",
+      "label_b": "non-Center",
+      "n_a": 1337,
+      "n_b": 7827,
+      "sigma_a": 0.053847428339282084,
+      "sigma_b": 0.04171596155213123,
+      "variance_ratio_a_over_b": 1.2908111508346873,
+      "bootstrap_95ci": [
+        0.933890413972366,
+        1.7411223131878757
+      ],
+      "levene_stat": 272.62960711750264,
+      "levene_p": 2.248417922671319e-60,
+      "permutation_p_two_sided": 0.169,
+      "disposition": "PERSISTS"
+    },
+    "H2_AST_deep_vet": {
+      "label_a": "deep_vet_13+",
+      "label_b": "non-deep-vet",
+      "n_a": 3413,
+      "n_b": 5838,
+      "sigma_a": 0.09031184775282515,
+      "sigma_b": 0.08366506473344086,
+      "variance_ratio_a_over_b": 1.079445142850975,
+      "bootstrap_95ci": [
+        1.0229646723388863,
+        1.1476769417891692
+      ],
+      "levene_stat": 15.864491637893387,
+      "levene_p": 6.856492357944307e-05,
+      "permutation_p_two_sided": 0.009,
+      "fallback_10plus_used": false,
+      "disposition": "REGIME-SHIFT or FALSIFIED"
+    },
+    "H3_PTS_x_Center": {
+      "label_a": "Center",
+      "label_b": "non-Center",
+      "n_a": 1337,
+      "n_b": 7827,
+      "sigma_a": 0.2589854484586626,
+      "sigma_b": 0.27929387503492403,
+      "variance_ratio_a_over_b": 0.927286530813746,
+      "bootstrap_95ci": [
+        0.857048778101812,
+        1.001797859985139
+      ],
+      "levene_stat": 6.8486340588930545,
+      "levene_p": 0.008885477420816069,
+      "permutation_p_two_sided": 0.178,
+      "disposition": "PERSISTS (directional, ratio < 1.0 even if CI overlaps 1.0)"
+    },
+    "H4_REB_x_Center_surgical": {
+      "label_a": "Center",
+      "label_b": "non-Center",
+      "n_a": 1337,
+      "n_b": 7827,
+      "sigma_a": 0.15227431736692987,
+      "sigma_b": 0.11530440388829594,
+      "variance_ratio_a_over_b": 1.3206288071568322,
+      "bootstrap_95ci": [
+        1.2204654442187197,
+        1.4241475065590878
+      ],
+      "levene_stat": 128.28912803214456,
+      "levene_p": 1.5245278065043273e-29,
+      "permutation_p_two_sided": 0.0,
+      "disposition": "BASELINE B (surgical) couples \u2014 walk-back claim requires Baseline A to dissolve it; deferred"
+    },
+    "H5_PBP_clutch_garbage": {
+      "status": "DEFERRED",
+      "reason": "PBP clutch/garbage tagging deferred to v2"
+    }
+  }
+}

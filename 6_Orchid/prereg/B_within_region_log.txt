@@ -1,0 +1,7 @@
+# POST-HOC EXPLORATORY -- within-region stratified RMD-SRC v2.0
+# Generated: 2026-06-01T19:32:50.889269+00:00
+# NOT pre-registered. Slices substrate after v2.0 full run.
+
+  region  n_plants  var_expl_env_pc1  n_orig  n_orig_clean  n_leaves  n_clean_leaves    F1   F2    F3   F4  avg_kappa  n_disagree
+ lowland       565          0.477891      28             1        28               1 False True False True   0.162692           2
+mountain       463          0.580098      28             3        28               3 False True False True  -0.037037           0

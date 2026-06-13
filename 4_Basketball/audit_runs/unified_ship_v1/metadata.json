@@ -1,0 +1,38 @@
+{
+  "test_season": "2023-24",
+  "train_seasons": [
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23"
+  ],
+  "model_per_stat": {
+    "PTS": "v4-lite",
+    "REB": "v4-lite",
+    "AST": "v4-lite",
+    "STL": "v4-lite",
+    "BLK": "v4-lite",
+    "TOV": "v4-lite",
+    "FGM": "shot-zone v5 Stage 1+2 composition",
+    "FGA": "shot-zone v5 Stage 1",
+    "FG3M": "shot-zone v5 Stage 1+2 composition (lc3+rc3+ab3 zones)",
+    "FG3A": "shot-zone v5 Stage 1 (lc3+rc3+ab3 zones)",
+    "FTA": "v6 v2 (direct NB2 + drives+paint+postup tracking covariates)",
+    "FTM": "v6 v2 FTA \u00d7 Laplace-smoothed train FT% (50-attempt prior at league mean 0.78)"
+  },
+  "mpg_model": "naive (predict next = prior season mpg)",
+  "coverage": {
+    "PTS": 195,
+    "REB": 195,
+    "AST": 195,
+    "STL": 195,
+    "BLK": 195,
+    "TOV": 195,
+    "FGM": 195,
+    "FGA": 195,
+    "FG3M": 195,
+    "FG3A": 195,
+    "FTA": 195,
+    "FTM": 195
+  }
+}

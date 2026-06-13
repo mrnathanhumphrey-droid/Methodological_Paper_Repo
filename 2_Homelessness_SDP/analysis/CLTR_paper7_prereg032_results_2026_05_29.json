@@ -1,0 +1,102 @@
+{
+  "pre_reg": "PRE_REG_032",
+  "framing": "correlational; ordering by timescale; panel SE clustered by CoC",
+  "H1_dynamic_within_place": {
+    "n_coc_years": 4301,
+    "n_coc": 362,
+    "twoway_FE_clustered": {
+      "rent_coc_w": {
+        "coef": 0.0026,
+        "p": 0.4903
+      },
+      "income_coc_w": {
+        "coef": 0.0001,
+        "p": 0.1307
+      }
+    },
+    "long_difference_HC1": {
+      "d_rent": {
+        "coef": -0.0034,
+        "p": 0.7298
+      },
+      "d_income": {
+        "coef": 0.0004,
+        "p": 0.0443
+      }
+    },
+    "within_significant": false,
+    "longdiff_concurs": true,
+    "disposition": "F1 FIRES \u2014 within-CoC null; cross-section was between-place"
+  },
+  "H2_demand_drivers": {
+    "n": 392,
+    "rent_LEVEL_2024_model": {
+      "r2": 0.6231,
+      "drivers": {
+        "employment_growth_12_23": {
+          "coef": 761.91522,
+          "p": 0.0008,
+          "std_beta": 0.2335
+        },
+        "avg_weekly_wage_2023": {
+          "coef": 0.85918,
+          "p": 0.0,
+          "std_beta": 0.659
+        },
+        "in_migration_rate": {
+          "coef": -1767.31902,
+          "p": 0.1485,
+          "std_beta": -0.0723
+        },
+        "population_growth_12_24": {
+          "coef": 750.64198,
+          "p": 0.0305,
+          "std_beta": 0.1657
+        }
+      }
+    },
+    "rent_CHANGE_model": {
+      "r2": 0.7154,
+      "drivers": {
+        "employment_growth_12_23": {
+          "coef": 665.4332,
+          "p": 0.0,
+          "std_beta": 0.4047
+        },
+        "avg_weekly_wage_2023": {
+          "coef": 0.4065,
+          "p": 0.0,
+          "std_beta": 0.6187
+        },
+        "in_migration_rate": {
+          "coef": -1559.27191,
+          "p": 0.0041,
+          "std_beta": -0.1266
+        },
+        "population_growth_12_24": {
+          "coef": 377.98656,
+          "p": 0.0202,
+          "std_beta": 0.1655
+        }
+      }
+    },
+    "level_R2>=0.30": true,
+    "level_sig_positive_drivers": [
+      "employment_growth_12_23",
+      "avg_weekly_wage_2023",
+      "population_growth_12_24"
+    ],
+    "disposition": "H2 SUPPORTED \u2014 demand block predicts rent, >=1 driver sig"
+  },
+  "H3_rent_outpaces_income": {
+    "n": 366,
+    "n_outpace": 218,
+    "mean_d_homeless_outpace": 1.039,
+    "mean_d_homeless_keep": 0.212,
+    "welch_t": 0.374,
+    "welch_p": 0.7084,
+    "gap_coef": 16.3076,
+    "gap_p": 0.1897,
+    "disposition": "H3 n.s. \u2014 no rent-outpaces-income signature"
+  }
+}

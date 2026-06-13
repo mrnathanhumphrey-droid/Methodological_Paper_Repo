@@ -1,0 +1,19 @@
+{
+  "alpha": 0.05,
+  "thresh_mult": 1.0,
+  "direction": "over_projection_only",
+  "metrics": {
+    "mae": 1.9787237834630023,
+    "rmse": 2.621822432152854,
+    "bias": 0.11595567745268312,
+    "coverage_80": 0.7537688442211056
+  },
+  "selected_from": "D:\\NBA Projections\\audit_runs\\20260427T161055Z\\skill_backtest_PTS_phase4_v2_meta_2019-20-2020-21-2021-22__2022-23\\alpha_calibration_sweep.csv",
+  "stat": "PTS",
+  "calibration_train": [
+    "2019-20",
+    "2020-21",
+    "2021-22"
+  ],
+  "calibration_test": "2022-23"
+}

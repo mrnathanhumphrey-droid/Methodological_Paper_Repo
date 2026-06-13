@@ -1,0 +1,15 @@
+{
+  "version": "v8",
+  "delta_vs_v6": "(1) 3PT% projection now uses career_3pct + career_ft_pct joint regression; (2) TOV projection now uses career_tov + career_ast joint regression",
+  "model_3pt": {
+    "intercept": 0.12325581310767775,
+    "career_3pct": 0.3423729052464939,
+    "career_ft": 0.1498326833163958
+  },
+  "model_tov": {
+    "intercept": 0.2924443484205534,
+    "career_tov": 0.8305834170380637,
+    "career_ast": -0.013705294837187203
+  },
+  "n_players": 195
+}

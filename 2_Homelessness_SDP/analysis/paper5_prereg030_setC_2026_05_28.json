@@ -1,0 +1,218 @@
+{
+  "score_year": 2024,
+  "global_medians": {
+    "v2juhcind": 0.521,
+    "v2csprtcpt": 1.027,
+    "v2xel_frefair": 0.543
+  },
+  "results": {
+    "IND": {
+      "note": "Modi/BJP \u2014 widely flagged backsliding",
+      "raw": {
+        "court_independence": 0.796,
+        "civil_society": 0.674,
+        "competitive_election": 0.499
+      },
+      "levers": {
+        "court_independence": 1,
+        "civil_society": 0,
+        "competitive_election": 0,
+        "federal_regional": 1
+      },
+      "score": 2,
+      "classification": "at-risk"
+    },
+    "MEX": {
+      "note": "Morena 2024 supermajority + judicial reform",
+      "raw": {
+        "court_independence": 0.521,
+        "civil_society": 0.076,
+        "competitive_election": 0.592
+      },
+      "levers": {
+        "court_independence": 0,
+        "civil_society": 0,
+        "competitive_election": 1,
+        "federal_regional": 1
+      },
+      "score": 2,
+      "classification": "at-risk"
+    },
+    "GEO": {
+      "note": "Georgian Dream \u2014 foreign-agent law, EU accession frozen",
+      "raw": {
+        "court_independence": -1.278,
+        "civil_society": 1.112,
+        "competitive_election": 0.474
+      },
+      "levers": {
+        "court_independence": 0,
+        "civil_society": 1,
+        "competitive_election": 0,
+        "federal_regional": 0
+      },
+      "score": 1,
+      "classification": "at-risk"
+    },
+    "IDN": {
+      "note": "Prabowo 2024",
+      "raw": {
+        "court_independence": 0.751,
+        "civil_society": 1.705,
+        "competitive_election": 0.528
+      },
+      "levers": {
+        "court_independence": 1,
+        "civil_society": 1,
+        "competitive_election": 0,
+        "federal_regional": 0
+      },
+      "score": 2,
+      "classification": "at-risk"
+    },
+    "PHL": {
+      "note": "Marcos/Duterte",
+      "raw": {
+        "court_independence": 0.388,
+        "civil_society": 1.362,
+        "competitive_election": 0.336
+      },
+      "levers": {
+        "court_independence": 0,
+        "civil_society": 1,
+        "competitive_election": 0,
+        "federal_regional": 0
+      },
+      "score": 1,
+      "classification": "at-risk"
+    },
+    "ZAF": {
+      "note": "ANC decline, GNU 2024",
+      "raw": {
+        "court_independence": 1.869,
+        "civil_society": 1.313,
+        "competitive_election": 0.812
+      },
+      "levers": {
+        "court_independence": 1,
+        "civil_society": 1,
+        "competitive_election": 1,
+        "federal_regional": 0
+      },
+      "score": 3,
+      "classification": "protected"
+    },
+    "ITA": {
+      "note": "Meloni",
+      "raw": {
+        "court_independence": 0.923,
+        "civil_society": 2.384,
+        "competitive_election": 0.945
+      },
+      "levers": {
+        "court_independence": 1,
+        "civil_society": 1,
+        "competitive_election": 1,
+        "federal_regional": 0
+      },
+      "score": 3,
+      "classification": "protected"
+    },
+    "ARG": {
+      "note": "Milei",
+      "raw": {
+        "court_independence": 0.457,
+        "civil_society": 2.48,
+        "competitive_election": 0.879
+      },
+      "levers": {
+        "court_independence": 0,
+        "civil_society": 1,
+        "competitive_election": 1,
+        "federal_regional": 1
+      },
+      "score": 3,
+      "classification": "protected"
+    },
+    "DEU": {
+      "note": "control (stable)",
+      "raw": {
+        "court_independence": 2.344,
+        "civil_society": 2.988,
+        "competitive_election": 0.945
+      },
+      "levers": {
+        "court_independence": 1,
+        "civil_society": 1,
+        "competitive_election": 1,
+        "federal_regional": 1
+      },
+      "score": 4,
+      "classification": "protected"
+    },
+    "FRA": {
+      "note": "control (semi-presidential)",
+      "raw": {
+        "court_independence": 1.789,
+        "civil_society": 1.894,
+        "competitive_election": 0.945
+      },
+      "levers": {
+        "court_independence": 1,
+        "civil_society": 1,
+        "competitive_election": 1,
+        "federal_regional": 0
+      },
+      "score": 3,
+      "classification": "protected"
+    },
+    "GRC": {
+      "note": "control",
+      "raw": {
+        "court_independence": 0.906,
+        "civil_society": 2.13,
+        "competitive_election": 0.944
+      },
+      "levers": {
+        "court_independence": 1,
+        "civil_society": 1,
+        "competitive_election": 1,
+        "federal_regional": 0
+      },
+      "score": 3,
+      "classification": "protected"
+    },
+    "ESP": {
+      "note": "control",
+      "raw": {
+        "court_independence": 1.336,
+        "civil_society": 1.289,
+        "competitive_election": 0.956
+      },
+      "levers": {
+        "court_independence": 1,
+        "civil_society": 1,
+        "competitive_election": 1,
+        "federal_regional": 0
+      },
+      "score": 3,
+      "classification": "protected"
+    }
+  },
+  "at_risk": [
+    "IND",
+    "MEX",
+    "GEO",
+    "IDN",
+    "PHL"
+  ],
+  "protected": [
+    "ZAF",
+    "ITA",
+    "ARG",
+    "DEU",
+    "FRA",
+    "GRC",
+    "ESP"
+  ]
+}

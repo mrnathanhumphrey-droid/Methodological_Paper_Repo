@@ -1,0 +1,154 @@
+{
+  "stat": "TOV",
+  "test_season": "2023-24",
+  "n_players": 195,
+  "mae": 0.32418376170277446,
+  "rmse": 0.4154505791886076,
+  "bias": 0.12458453525218137,
+  "coverage_50": 0.4461538461538462,
+  "coverage_80": 0.8,
+  "coverage_90": 0.8717948717948718,
+  "z_error_mean": 0.32023041099385147,
+  "z_error_sd": 1.0624973825741,
+  "top_25_accuracy": 0.68,
+  "top_50_accuracy": 0.82,
+  "worst_misses": [
+    {
+      "nba_api_id": 203935,
+      "name": "Marcus Smart",
+      "projected": 2.355326374571711,
+      "projected_sd": 0.3634867834301163,
+      "actual": 3.701492537313433,
+      "error": -1.346166162741722,
+      "z_error": -3.703480357768042
+    },
+    {
+      "nba_api_id": 201950,
+      "name": "Jrue Holiday",
+      "projected": 3.1958855894661053,
+      "projected_sd": 0.3967219983264978,
+      "actual": 1.970860927152318,
+      "error": 1.2250246623137873,
+      "z_error": 3.0878667366098655
+    },
+    {
+      "nba_api_id": 1626166,
+      "name": "Cameron Payne",
+      "projected": 2.977603327928698,
+      "projected_sd": 0.425385885363878,
+      "actual": 1.822085889570552,
+      "error": 1.1555174383581461,
+      "z_error": 2.7163981648561486
+    },
+    {
+      "nba_api_id": 202331,
+      "name": "Paul George",
+      "projected": 3.3320501451608537,
+      "projected_sd": 0.43243461484713835,
+      "actual": 2.204081632653061,
+      "error": 1.1279685125077927,
+      "z_error": 2.608414020941684
+    },
+    {
+      "nba_api_id": 1626181,
+      "name": "Norman Powell",
+      "projected": 2.2929048481289,
+      "projected_sd": 0.37862249199398057,
+      "actual": 1.1939698492462312,
+      "error": 1.0989349988826689,
+      "z_error": 2.902455670541992
+    },
+    {
+      "nba_api_id": 203507,
+      "name": "Giannis Antetokounmpo",
+      "projected": 4.569925915322092,
+      "projected_sd": 0.467624271820767,
+      "actual": 3.4978624174115818,
+      "error": 1.0720634979105106,
+      "z_error": 2.292574535826095
+    },
+    {
+      "nba_api_id": 1629659,
+      "name": "Talen Horton-Tucker",
+      "projected": 3.335373611911549,
+      "projected_sd": 0.4224138020356429,
+      "actual": 2.326043737574553,
+      "error": 1.0093298743369963,
+      "z_error": 2.389433937700336
+    },
+    {
+      "nba_api_id": 1630256,
+      "name": "Jae'Sean Tate",
+      "projected": 2.1821287139575998,
+      "projected_sd": 0.38077579128782446,
+      "actual": 1.2894482090997097,
+      "error": 0.8926805048578901,
+      "z_error": 2.3443730543865438
+    },
+    {
+      "nba_api_id": 1628420,
+      "name": "Monte Morris",
+      "projected": 1.2759212619679627,
+      "projected_sd": 0.33831212459755344,
+      "actual": 0.5305263157894736,
+      "error": 0.7453949461784891,
+      "z_error": 2.2032758863289037
+    },
+    {
+      "nba_api_id": 1630166,
+      "name": "Deni Avdija",
+      "projected": 1.805373032229458,
+      "projected_sd": 0.34807871923750117,
+      "actual": 2.549800796812749,
+      "error": -0.7444277645832909,
+      "z_error": -2.1386764643757283
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1628398,
+      "name": "Kyle Kuzma",
+      "projected": 3.029721672205392,
+      "projected_sd": 0.39007231426316435,
+      "actual": 3.031578947368421,
+      "error": -0.0018572751630290263,
+      "z_error": -0.004761361150527606
+    },
+    {
+      "nba_api_id": 202696,
+      "name": "Nikola Vu\u010devi\u0107",
+      "projected": 1.6561739298540852,
+      "projected_sd": 0.34524312699366516,
+      "actual": 1.653905053598775,
+      "error": 0.002268876255310248,
+      "z_error": 0.006571821646580903
+    },
+    {
+      "nba_api_id": 203471,
+      "name": "Dennis Schr\u00f6der",
+      "projected": 2.217172647845392,
+      "projected_sd": 0.3802755293781398,
+      "actual": 2.2129369224588187,
+      "error": 0.004235725386573463,
+      "z_error": 0.011138569430171056
+    },
+    {
+      "nba_api_id": 1629020,
+      "name": "Jarred Vanderbilt",
+      "projected": 1.724689704776176,
+      "projected_sd": 0.3688480710606332,
+      "actual": 1.7289879931389365,
+      "error": -0.004298288362760472,
+      "z_error": -0.011653275969156135
+    },
+    {
+      "nba_api_id": 1629003,
+      "name": "Shake Milton",
+      "projected": 1.9130324547392215,
+      "projected_sd": 0.3601684401796366,
+      "actual": 1.9175257731958761,
+      "error": -0.0044933184566546824,
+      "z_error": -0.012475602955144008
+    }
+  ]
+}

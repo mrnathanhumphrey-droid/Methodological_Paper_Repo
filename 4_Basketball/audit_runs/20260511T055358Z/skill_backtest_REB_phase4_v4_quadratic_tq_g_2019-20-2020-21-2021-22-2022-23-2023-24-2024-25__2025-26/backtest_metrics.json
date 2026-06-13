@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2025-26",
+  "n_players": 105,
+  "mae": 0.657307063356566,
+  "rmse": 0.8519505591514718,
+  "bias": 0.08346920407607974,
+  "coverage_50": 0.5523809523809524,
+  "coverage_80": 0.8761904761904762,
+  "coverage_90": 0.9047619047619048,
+  "z_error_mean": 0.08243901525955923,
+  "z_error_sd": 0.9502179775227293,
+  "top_25_accuracy": 0.88,
+  "top_50_accuracy": 0.96,
+  "worst_misses": [
+    {
+      "nba_api_id": 1628369,
+      "name": "Jayson Tatum",
+      "projected": 8.087190467031816,
+      "projected_sd": 0.8647339554040924,
+      "actual": 11.034482758620689,
+      "error": -2.947292291588873,
+      "z_error": -3.4083226097113255
+    },
+    {
+      "nba_api_id": 203939,
+      "name": "Dwight Powell",
+      "projected": 7.908904639045982,
+      "projected_sd": 0.9606879038404547,
+      "actual": 10.211920529801326,
+      "error": -2.3030158907553435,
+      "z_error": -2.3972570920782768
+    },
+    {
+      "nba_api_id": 1628381,
+      "name": "John Collins",
+      "projected": 9.309526505430274,
+      "projected_sd": 0.9105991366734425,
+      "actual": 7.069020866773675,
+      "error": 2.2405056386565985,
+      "z_error": 2.4604741520418165
+    },
+    {
+      "nba_api_id": 203954,
+      "name": "Joel Embiid",
+      "projected": 10.871836583265022,
+      "projected_sd": 1.0796969309538411,
+      "actual": 8.81203007518797,
+      "error": 2.0598065080770525,
+      "z_error": 1.9077636038636778
+    },
+    {
+      "nba_api_id": 1626171,
+      "name": "Bobby Portis",
+      "projected": 11.58526287991047,
+      "projected_sd": 0.9770303625168447,
+      "actual": 9.528756957328387,
+      "error": 2.056505922582083,
+      "z_error": 2.1048536478277846
+    },
+    {
+      "nba_api_id": 1626157,
+      "name": "Karl-Anthony Towns",
+      "projected": 11.939820082772794,
+      "projected_sd": 0.9626265606224984,
+      "actual": 13.78888410168031,
+      "error": -1.8490640189075158,
+      "z_error": -1.920852898253491
+    },
+    {
+      "nba_api_id": 203083,
+      "name": "Andre Drummond",
+      "projected": 17.180363302793197,
+      "projected_sd": 1.2538834543339525,
+      "actual": 15.50769230769231,
+      "error": 1.6726709951008871,
+      "z_error": 1.3339923972355066
+    },
+    {
+      "nba_api_id": 1627751,
+      "name": "Jakob Poeltl",
+      "projected": 11.77756464252779,
+      "projected_sd": 0.9803033785106859,
+      "actual": 10.111304347826087,
+      "error": 1.6662602947017024,
+      "z_error": 1.6997394186615455
+    },
+    {
+      "nba_api_id": 1627759,
+      "name": "Jaylen Brown",
+      "projected": 5.81909843822778,
+      "projected_sd": 0.8434495113838743,
+      "actual": 7.253071253071253,
+      "error": -1.4339728148434734,
+      "z_error": -1.7001288109002624
+    },
+    {
+      "nba_api_id": 1629018,
+      "name": "Gary Trent Jr.",
+      "projected": 3.1711509768996367,
+      "projected_sd": 0.7615778924610781,
+      "actual": 1.7529069767441863,
+      "error": 1.4182440001554504,
+      "z_error": 1.862244183024171
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 203507,
+      "name": "Giannis Antetokounmpo",
+      "projected": 12.20578823785625,
+      "projected_sd": 0.9303501949911143,
+      "actual": 12.196342637151107,
+      "error": 0.009445600705143775,
+      "z_error": 0.010152736846832164
+    },
+    {
+      "nba_api_id": 201566,
+      "name": "Russell Westbrook",
+      "projected": 6.750473402212391,
+      "projected_sd": 0.8397208252063935,
+      "actual": 6.76092822450081,
+      "error": -0.010454822288418875,
+      "z_error": -0.012450354897235285
+    },
+    {
+      "nba_api_id": 1629012,
+      "name": "Collin Sexton",
+      "projected": 3.4371826629791453,
+      "projected_sd": 0.7979204614789148,
+      "actual": 3.459392436453813,
+      "error": -0.02220977347466757,
+      "z_error": -0.027834570670744064
+    },
+    {
+      "nba_api_id": 203935,
+      "name": "Marcus Smart",
+      "projected": 3.544187710771488,
+      "projected_sd": 0.7996850426540707,
+      "actual": 3.5002826455624643,
+      "error": 0.0439050652090236,
+      "z_error": 0.05490294661921811
+    },
+    {
+      "nba_api_id": 203501,
+      "name": "Tim Hardaway Jr.",
+      "projected": 3.536295631662421,
+      "projected_sd": 0.8065752646952457,
+      "actual": 3.483325504931893,
+      "error": 0.05297012673052803,
+      "z_error": 0.06567288763875263
+    }
+  ]
+}

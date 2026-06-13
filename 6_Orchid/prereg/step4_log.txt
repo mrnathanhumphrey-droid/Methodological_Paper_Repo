@@ -1,0 +1,17 @@
+# RMD-SRC Gymnadenia Step 4 -- decomposition + F1/F2/F3 falsifiers
+# Generated: 2026-06-01T19:06:52.522537+00:00
+# Per PRE_REG v1.0 §1.4 + §3.5 + v1.3 cleanness gates
+
+decomp_tree.parquet sha            = 17841b1cb595e2bbb2ad4343e29f508179bfc7c96641e1405bb723971364ee20
+step4_leaves.parquet sha           = 1336a6869a1d156e32acf3691b90bed4932cd1877df3bf6eccbb3fff42a9dbcb
+step4_falsifier_report.parquet sha = 9162086803d93be07742bb0b92cefeef704372de05f5d9ff0d26ca1b2c0f036d
+
+decomp attempts logged              = 237
+final leaves                        = 84
+clean leaves                        = 5
+original cells                      = 84
+post-decomp clean / original        = 5/84 (5.95%)
+
+F1 fires (>= 80% original clean): False
+F2 fires (< 50% original clean post-decomp): True
+F3 fires (>= 30% leaves disagree): False

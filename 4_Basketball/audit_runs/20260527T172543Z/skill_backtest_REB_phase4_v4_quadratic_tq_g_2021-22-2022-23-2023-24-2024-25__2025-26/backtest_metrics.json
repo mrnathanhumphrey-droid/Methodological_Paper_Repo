@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2025-26",
+  "n_players": 256,
+  "mae": 0.6977559413934514,
+  "rmse": 0.9096954803113685,
+  "bias": 0.12495261645970535,
+  "coverage_50": 0.47265625,
+  "coverage_80": 0.8359375,
+  "coverage_90": 0.8828125,
+  "z_error_mean": 0.13901322772244246,
+  "z_error_sd": 1.034207420362722,
+  "top_25_accuracy": 0.84,
+  "top_50_accuracy": 0.88,
+  "worst_misses": [
+    {
+      "nba_api_id": 1628396,
+      "name": "Tony Bradley",
+      "projected": 12.631618193841597,
+      "projected_sd": 1.7829364452308503,
+      "actual": 9.218543046357615,
+      "error": 3.4130751474839816,
+      "z_error": 1.9142999497338027
+    },
+    {
+      "nba_api_id": 1629011,
+      "name": "Mitchell Robinson",
+      "projected": 12.689758202337636,
+      "projected_sd": 1.111950373797789,
+      "actual": 16.071428571428573,
+      "error": -3.381670369090937,
+      "z_error": -3.0412061983855248
+    },
+    {
+      "nba_api_id": 1628369,
+      "name": "Jayson Tatum",
+      "projected": 8.281628543705358,
+      "projected_sd": 0.7889209887393415,
+      "actual": 11.034482758620689,
+      "error": -2.752854214915331,
+      "z_error": -3.489391528693212
+    },
+    {
+      "nba_api_id": 1630533,
+      "name": "Ziaire Williams",
+      "projected": 6.331200637538425,
+      "projected_sd": 0.8041764834218309,
+      "actual": 3.7687500000000003,
+      "error": 2.5624506375384244,
+      "z_error": 3.186428216148532
+    },
+    {
+      "nba_api_id": 1628381,
+      "name": "John Collins",
+      "projected": 9.587060705635274,
+      "projected_sd": 0.9204729718738393,
+      "actual": 7.069020866773675,
+      "error": 2.5180398388615988,
+      "z_error": 2.7355934566286466
+    },
+    {
+      "nba_api_id": 1629057,
+      "name": "Robert Williams III",
+      "projected": 12.459664327277387,
+      "projected_sd": 1.232412215759967,
+      "actual": 14.821428571428571,
+      "error": -2.3617642441511837,
+      "z_error": -1.9163752305837067
+    },
+    {
+      "nba_api_id": 1630168,
+      "name": "Onyeka Okongwu",
+      "projected": 11.030581341330047,
+      "projected_sd": 0.8582262842179796,
+      "actual": 8.796521739130435,
+      "error": 2.2340596021996113,
+      "z_error": 2.6031125395271464
+    },
+    {
+      "nba_api_id": 203939,
+      "name": "Dwight Powell",
+      "projected": 8.022044472825682,
+      "projected_sd": 0.9371680426297585,
+      "actual": 10.211920529801326,
+      "error": -2.1898760569756437,
+      "z_error": -2.3366951895101966
+    },
+    {
+      "nba_api_id": 1630578,
+      "name": "Alperen Sengun",
+      "projected": 11.744124881545488,
+      "projected_sd": 0.8831975671056068,
+      "actual": 9.596001665972512,
+      "error": 2.1481232155729764,
+      "z_error": 2.4322114276341957
+    },
+    {
+      "nba_api_id": 1629234,
+      "name": "Drew Eubanks",
+      "projected": 10.321462559537604,
+      "projected_sd": 0.9663229463293787,
+      "actual": 8.252707581227437,
+      "error": 2.0687549783101673,
+      "z_error": 2.140852585741057
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1629012,
+      "name": "Collin Sexton",
+      "projected": 3.4504827912523126,
+      "projected_sd": 0.7320616726569444,
+      "actual": 3.459392436453813,
+      "error": -0.008909645201500282,
+      "z_error": -0.012170621047764485
+    },
+    {
+      "nba_api_id": 1630173,
+      "name": "Precious Achiuwa",
+      "projected": 10.11057025562795,
+      "projected_sd": 0.9045282866094603,
+      "actual": 10.126929674099486,
+      "error": -0.016359418471536102,
+      "z_error": -0.018086132533077382
+    },
+    {
+      "nba_api_id": 202699,
+      "name": "Tobias Harris",
+      "projected": 6.6036726702426,
+      "projected_sd": 0.7566725236495822,
+      "actual": 6.648370497427101,
+      "error": -0.04469782718450155,
+      "z_error": -0.05907156106173254
+    },
+    {
+      "nba_api_id": 203114,
+      "name": "Khris Middleton",
+      "projected": 5.736550162076948,
+      "projected_sd": 0.8002850610350303,
+      "actual": 5.783031988873435,
+      "error": -0.04648182679648727,
+      "z_error": -0.058081587498798326
+    },
+    {
+      "nba_api_id": 1630541,
+      "name": "Moses Moody",
+      "projected": 4.62442496174582,
+      "projected_sd": 0.7465432416974691,
+      "actual": 4.672290720311486,
+      "error": -0.047865758565666106,
+      "z_error": -0.06411652519528578
+    }
+  ]
+}

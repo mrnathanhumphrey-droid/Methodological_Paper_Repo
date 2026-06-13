@@ -1,0 +1,40 @@
+{
+  "test_season": "2025-26",
+  "train_seasons": [
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25"
+  ],
+  "model_per_stat": {
+    "PTS": "v4-lite (25-26 forward)",
+    "REB": "v4-lite (25-26 forward)",
+    "AST": "v4-lite (25-26 forward)",
+    "STL": "v4-lite (25-26 forward)",
+    "BLK": "v4-lite (25-26 forward)",
+    "TOV": "v4-lite (25-26 forward)",
+    "FGM": "v4-lite (25-26 forward)",
+    "FGA": "v4-lite (25-26 forward)",
+    "FG3M": "v4-lite (25-26 forward)",
+    "FG3A": "v4-lite (25-26 forward)",
+    "FTA": "v4-lite (25-26 forward)",
+    "FTM": "v4-lite (25-26 forward)"
+  },
+  "mpg_model": "naive (predict next = prior season mpg)",
+  "coverage": {
+    "PTS": 567,
+    "REB": 567,
+    "AST": 567,
+    "STL": 567,
+    "BLK": 567,
+    "TOV": 567,
+    "FGM": 567,
+    "FGA": 567,
+    "FG3M": 567,
+    "FG3A": 567,
+    "FTA": 567,
+    "FTM": 567
+  }
+}

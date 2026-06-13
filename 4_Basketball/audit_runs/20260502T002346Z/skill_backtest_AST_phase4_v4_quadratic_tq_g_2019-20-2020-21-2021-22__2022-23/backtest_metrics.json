@@ -1,0 +1,154 @@
+{
+  "stat": "AST",
+  "test_season": "2022-23",
+  "n_players": 199,
+  "mae": 0.6766287585534541,
+  "rmse": 0.876812016916239,
+  "bias": 0.05323966558467735,
+  "coverage_50": 0.4271356783919598,
+  "coverage_80": 0.8040201005025126,
+  "coverage_90": 0.8492462311557789,
+  "z_error_mean": 0.06332793058436749,
+  "z_error_sd": 1.1460689289272976,
+  "top_25_accuracy": 0.84,
+  "top_50_accuracy": 0.82,
+  "worst_misses": [
+    {
+      "nba_api_id": 1630169,
+      "name": "Tyrese Haliburton",
+      "projected": 8.304402816884709,
+      "projected_sd": 0.8647310689770508,
+      "actual": 11.21405750798722,
+      "error": -2.909654691102512,
+      "z_error": -3.3648087775365125
+    },
+    {
+      "nba_api_id": 1627749,
+      "name": "Dejounte Murray",
+      "projected": 8.846803361848794,
+      "projected_sd": 0.9510182703939914,
+      "actual": 5.984415584415585,
+      "error": 2.8623877774332094,
+      "z_error": 3.0098136561008113
+    },
+    {
+      "nba_api_id": 1628392,
+      "name": "Isaiah Hartenstein",
+      "projected": 4.649731244117092,
+      "projected_sd": 0.7750971086130637,
+      "actual": 2.251379521765788,
+      "error": 2.398351722351304,
+      "z_error": 3.0942596684986285
+    },
+    {
+      "nba_api_id": 200768,
+      "name": "Kyle Lowry",
+      "projected": 8.191622640650705,
+      "projected_sd": 0.914874182332565,
+      "actual": 5.891671520093186,
+      "error": 2.2999511205575187,
+      "z_error": 2.513953464828966
+    },
+    {
+      "nba_api_id": 1629659,
+      "name": "Talen Horton-Tucker",
+      "projected": 4.514567750852219,
+      "projected_sd": 0.7232020996747769,
+      "actual": 6.744859101294745,
+      "error": -2.230291350442526,
+      "z_error": -3.0839116084500935
+    },
+    {
+      "nba_api_id": 203944,
+      "name": "Julius Randle",
+      "projected": 6.296641538844588,
+      "projected_sd": 0.8094989240059911,
+      "actual": 4.151824817518248,
+      "error": 2.1448167213263396,
+      "z_error": 2.6495609292625395
+    },
+    {
+      "nba_api_id": 1629630,
+      "name": "Ja Morant",
+      "projected": 7.022846718023774,
+      "projected_sd": 0.8059666826592147,
+      "actual": 9.106208311954848,
+      "error": -2.083361593931074,
+      "z_error": -2.584922725412432
+    },
+    {
+      "nba_api_id": 1628370,
+      "name": "Malik Monk",
+      "projected": 4.310672588582604,
+      "projected_sd": 0.7507903570300773,
+      "actual": 6.2299651567944245,
+      "error": -1.9192925682118203,
+      "z_error": -2.55636283849465
+    },
+    {
+      "nba_api_id": 1628378,
+      "name": "Donovan Mitchell",
+      "projected": 6.341027666175193,
+      "projected_sd": 0.8147087801228401,
+      "actual": 4.448275862068965,
+      "error": 1.8927518041062275,
+      "z_error": 2.323224998042665
+    },
+    {
+      "nba_api_id": 203937,
+      "name": "Kyle Anderson",
+      "projected": 4.434686763973069,
+      "projected_sd": 0.7810477557291522,
+      "actual": 6.168797953964194,
+      "error": -1.7341111899911255,
+      "z_error": -2.220237081882701
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1629234,
+      "name": "Drew Eubanks",
+      "projected": 2.352638600707145,
+      "projected_sd": 0.6404700445503578,
+      "actual": 2.3438685208596715,
+      "error": 0.008770079847473689,
+      "z_error": 0.013693192869981493
+    },
+    {
+      "nba_api_id": 1626181,
+      "name": "Norman Powell",
+      "projected": 2.513440539095252,
+      "projected_sd": 0.6884327033476857,
+      "actual": 2.5041480536056158,
+      "error": 0.009292485489636348,
+      "z_error": 0.013498030300491516
+    },
+    {
+      "nba_api_id": 1629130,
+      "name": "Duncan Robinson",
+      "projected": 2.373286685272435,
+      "projected_sd": 0.6538199174503417,
+      "actual": 2.38273381294964,
+      "error": -0.009447127677205014,
+      "z_error": -0.014449128001553322
+    },
+    {
+      "nba_api_id": 201587,
+      "name": "Nicolas Batum",
+      "projected": 2.5644856571973706,
+      "projected_sd": 0.6958007452460014,
+      "actual": 2.5488589818607372,
+      "error": 0.015626675336633422,
+      "z_error": 0.02245854929504076
+    },
+    {
+      "nba_api_id": 1630230,
+      "name": "Naji Marshall",
+      "projected": 3.7845753823819916,
+      "projected_sd": 0.7907026340207101,
+      "actual": 3.8011173184357543,
+      "error": -0.01654193605376264,
+      "z_error": -0.02092055260983154
+    }
+  ]
+}

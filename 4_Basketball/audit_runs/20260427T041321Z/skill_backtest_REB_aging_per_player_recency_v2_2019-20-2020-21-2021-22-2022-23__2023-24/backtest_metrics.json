@@ -1,0 +1,154 @@
+{
+  "stat": "REB",
+  "test_season": "2023-24",
+  "n_players": 195,
+  "mae": 0.6310119426032393,
+  "rmse": 0.8161351056480564,
+  "bias": 0.05193843466609532,
+  "coverage_50": 0.5230769230769231,
+  "coverage_80": 0.8307692307692308,
+  "coverage_90": 0.9076923076923077,
+  "z_error_mean": 0.062266731799984286,
+  "z_error_sd": 0.9833872565782221,
+  "top_25_accuracy": 0.84,
+  "top_50_accuracy": 0.92,
+  "worst_misses": [
+    {
+      "nba_api_id": 1628381,
+      "name": "John Collins",
+      "projected": 7.875926467665781,
+      "projected_sd": 0.8444740134683983,
+      "actual": 10.90047393364929,
+      "error": -3.024547465983508,
+      "z_error": -3.5815755342916678
+    },
+    {
+      "nba_api_id": 1630191,
+      "name": "Isaiah Stewart",
+      "projected": 10.36679781729089,
+      "projected_sd": 0.9180208122684826,
+      "actual": 7.710674157303371,
+      "error": 2.656123659987518,
+      "z_error": 2.893315297965939
+    },
+    {
+      "nba_api_id": 1629020,
+      "name": "Jarred Vanderbilt",
+      "projected": 10.7677509958517,
+      "projected_sd": 0.9191209710858355,
+      "actual": 8.521440823327616,
+      "error": 2.2463101725240833,
+      "z_error": 2.4439766289635703
+    },
+    {
+      "nba_api_id": 1630224,
+      "name": "Jalen Green",
+      "projected": 3.9169609857096157,
+      "projected_sd": 0.7178703697431839,
+      "actual": 5.856923076923077,
+      "error": -1.9399620912134612,
+      "z_error": -2.702384961100257
+    },
+    {
+      "nba_api_id": 1628975,
+      "name": "Jevon Carter",
+      "projected": 4.090099830478951,
+      "projected_sd": 0.7581705203861787,
+      "actual": 2.155688622754491,
+      "error": 1.9344112077244597,
+      "z_error": 2.551419707982257
+    },
+    {
+      "nba_api_id": 1628991,
+      "name": "Jaren Jackson Jr.",
+      "projected": 8.073772917288691,
+      "projected_sd": 0.8482618889066817,
+      "actual": 6.186440677966101,
+      "error": 1.88733223932259,
+      "z_error": 2.224940509534335
+    },
+    {
+      "nba_api_id": 1626171,
+      "name": "Bobby Portis",
+      "projected": 12.692415342492149,
+      "projected_sd": 1.026157758247891,
+      "actual": 10.860834990059642,
+      "error": 1.831580352432507,
+      "z_error": 1.7848915897296647
+    },
+    {
+      "nba_api_id": 1629675,
+      "name": "Naz Reid",
+      "projected": 9.498722304687623,
+      "projected_sd": 0.9227016306336052,
+      "actual": 7.753564154786151,
+      "error": 1.7451581499014726,
+      "z_error": 1.891356958698663
+    },
+    {
+      "nba_api_id": 1629655,
+      "name": "Daniel Gafford",
+      "projected": 9.493876918124847,
+      "projected_sd": 0.8946548763134389,
+      "actual": 11.165562913907284,
+      "error": -1.6716859957824362,
+      "z_error": -1.8685261099462978
+    },
+    {
+      "nba_api_id": 1628978,
+      "name": "Donte DiVincenzo",
+      "projected": 6.177883822642478,
+      "projected_sd": 0.7832068490481535,
+      "actual": 4.524756665256031,
+      "error": 1.6531271573864474,
+      "z_error": 2.110715910356919
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1629026,
+      "name": "Kenrich Williams",
+      "projected": 7.308928265546338,
+      "projected_sd": 0.8852165048911749,
+      "actual": 7.311953352769679,
+      "error": -0.003025087223341494,
+      "z_error": -0.003417341640860375
+    },
+    {
+      "nba_api_id": 1630175,
+      "name": "Cole Anthony",
+      "projected": 6.180454134897507,
+      "projected_sd": 0.8009283974245005,
+      "actual": 6.158415841584159,
+      "error": 0.022038293313348056,
+      "z_error": 0.027515934488295497
+    },
+    {
+      "nba_api_id": 203081,
+      "name": "Damian Lillard",
+      "projected": 4.437294683051679,
+      "projected_sd": 0.7721967681195749,
+      "actual": 4.466847615354789,
+      "error": -0.02955293230311007,
+      "z_error": -0.03827124577984997
+    },
+    {
+      "nba_api_id": 1626179,
+      "name": "Terry Rozier",
+      "projected": 4.324717354775647,
+      "projected_sd": 0.7320797234879008,
+      "actual": 4.356687898089172,
+      "error": -0.03197054331352511,
+      "z_error": -0.04367084934575912
+    },
+    {
+      "nba_api_id": 1630167,
+      "name": "Obi Toppin",
+      "projected": 6.699966212852164,
+      "projected_sd": 0.8350703273111418,
+      "actual": 6.658959537572254,
+      "error": 0.04100667527991053,
+      "z_error": 0.049105654863763
+    }
+  ]
+}

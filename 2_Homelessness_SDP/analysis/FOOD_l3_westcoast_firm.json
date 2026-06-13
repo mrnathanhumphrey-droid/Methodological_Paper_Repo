@@ -1,0 +1,95 @@
+{
+  "n": 302,
+  "n_wc": 40,
+  "T1_condition_region": {
+    "n_warm_and_tight": 69,
+    "frac_warm_tight_that_are_WC": 0.478,
+    "corr_supply_tight_with_WC": 0.276,
+    "non_WC_warm_tight_CoCs": 36,
+    "non_WC_warm_tight_examples": [
+      {
+        "coc_number": "NV-500",
+        "state": "NV",
+        "unsheltered_per_10k": 20.3,
+        "supply_tight": -1.39
+      },
+      {
+        "coc_number": "DC-500",
+        "state": "DC",
+        "unsheltered_per_10k": 13.66,
+        "supply_tight": -1.61
+      },
+      {
+        "coc_number": "AZ-501",
+        "state": "AZ",
+        "unsheltered_per_10k": 12.77,
+        "supply_tight": -1.42
+      },
+      {
+        "coc_number": "FL-512",
+        "state": "FL",
+        "unsheltered_per_10k": 12.23,
+        "supply_tight": -1.06
+      },
+      {
+        "coc_number": "FL-606",
+        "state": "FL",
+        "unsheltered_per_10k": 11.66,
+        "supply_tight": -1.21
+      },
+      {
+        "coc_number": "FL-511",
+        "state": "FL",
+        "unsheltered_per_10k": 11.49,
+        "supply_tight": -1.48
+      },
+      {
+        "coc_number": "FL-605",
+        "state": "FL",
+        "unsheltered_per_10k": 11.3,
+        "supply_tight": -0.6
+      },
+      {
+        "coc_number": "NV-502",
+        "state": "NV",
+        "unsheltered_per_10k": 10.6,
+        "supply_tight": -1.39
+      }
+    ]
+  },
+  "T2_supply_slope_among_warm": {
+    "warm_WC": {
+      "n": 40,
+      "supply_tight_b": -5.637,
+      "p": 0.5442,
+      "R2": 0.016
+    },
+    "warm_nonWC": {
+      "n": 103,
+      "supply_tight_b": 1.05,
+      "p": 0.0028,
+      "R2": 0.045
+    }
+  },
+  "T3_interaction_power": {
+    "full": {
+      "n": 302,
+      "janXtight_b": 1.239,
+      "p": 0.0011,
+      "ci95": [
+        0.497,
+        1.98
+      ]
+    },
+    "drop_WC": {
+      "n": 262,
+      "janXtight_b": 0.191,
+      "p": 0.1896,
+      "ci95": [
+        -0.094,
+        0.476
+      ]
+    }
+  },
+  "T3_read": "GENUINE: drop-WC CI excludes the full estimate -> effect really is WC-concentrated, not just power"
+}

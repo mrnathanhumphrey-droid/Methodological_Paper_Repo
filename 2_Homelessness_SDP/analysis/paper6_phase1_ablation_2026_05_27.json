@@ -1,0 +1,79 @@
+{
+  "loo_results": {
+    "baseline": {
+      "elpd": -2855.253841303695,
+      "se": 29.27261602088426
+    },
+    "disaster_only": {
+      "elpd": -2843.973188903182,
+      "se": 30.19733331049594
+    },
+    "conflict_only": {
+      "elpd": -2856.7789199333447,
+      "se": 29.45737015086918
+    },
+    "both": {
+      "elpd": -2841.034532841044,
+      "se": 30.16839146829797
+    }
+  },
+  "delta_loo_vs_baseline": {
+    "disaster_only": 11.28065240051319,
+    "conflict_only": -1.52507862964967,
+    "both": 14.219308462651043
+  },
+  "n_obs": 1239,
+  "n_class_disaster_only": 10,
+  "n_class_conflict_only": 6,
+  "n_class_combined": 14,
+  "compare_table": {
+    "rank": {
+      "both": 0,
+      "disaster_only": 1,
+      "baseline": 2,
+      "conflict_only": 3
+    },
+    "elpd": {
+      "both": -2840.0,
+      "disaster_only": -2840.0,
+      "baseline": -2860.0,
+      "conflict_only": -2860.0
+    },
+    "p": {
+      "both": 62.3,
+      "disaster_only": 62.5,
+      "baseline": 57.9,
+      "conflict_only": 59.6
+    },
+    "elpd_diff": {
+      "both": 0.0,
+      "disaster_only": -3.0,
+      "baseline": -14.0,
+      "conflict_only": -16.0
+    },
+    "weight": {
+      "both": 1.0,
+      "disaster_only": 0.0,
+      "baseline": 0.0,
+      "conflict_only": 0.0
+    },
+    "se": {
+      "both": 30.0,
+      "disaster_only": 30.0,
+      "baseline": 29.0,
+      "conflict_only": 29.0
+    },
+    "dse": {
+      "both": 0.0,
+      "disaster_only": 1.7,
+      "baseline": 4.9,
+      "conflict_only": 4.8
+    },
+    "warning": {
+      "both": false,
+      "disaster_only": false,
+      "baseline": false,
+      "conflict_only": false
+    }
+  }
+}

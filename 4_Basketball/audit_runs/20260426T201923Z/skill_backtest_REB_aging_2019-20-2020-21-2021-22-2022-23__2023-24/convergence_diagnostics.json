@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "notes": [
+    "ESS for age_slope[1]: 350 < 400",
+    "ESS for age_slope[2]: 391 < 400"
+  ],
+  "max_rhat": 1.00833,
+  "min_ess": 349.9,
+  "n_params_summarized": 486
+}

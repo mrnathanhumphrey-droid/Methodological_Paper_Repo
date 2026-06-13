@@ -1,0 +1,131 @@
+{
+  "probe": "P7-O AUTHENTIC WRLURI2018",
+  "framing": "correlational only",
+  "data": "Gyourko Dropbox .dta; weight_full-weighted state mean; HI+DC absent from survey",
+  "top5_states": [
+    {
+      "state": "NJ",
+      "zoning": 1.008179783821106,
+      "n_communities": 33
+    },
+    {
+      "state": "MD",
+      "zoning": 1.0055153369903564,
+      "n_communities": 15
+    },
+    {
+      "state": "RI",
+      "zoning": 0.8652458786964417,
+      "n_communities": 10
+    },
+    {
+      "state": "CA",
+      "zoning": 0.6457521915435791,
+      "n_communities": 162
+    },
+    {
+      "state": "NV",
+      "zoning": 0.6227817535400391,
+      "n_communities": 3
+    }
+  ],
+  "bottom5_states": [
+    {
+      "state": "AK",
+      "zoning": -0.9736472368240356,
+      "n_communities": 7
+    },
+    {
+      "state": "SD",
+      "zoning": -0.6211227178573608,
+      "n_communities": 4
+    },
+    {
+      "state": "AL",
+      "zoning": -0.576455295085907,
+      "n_communities": 25
+    },
+    {
+      "state": "IA",
+      "zoning": -0.5632010698318481,
+      "n_communities": 43
+    },
+    {
+      "state": "ME",
+      "zoning": -0.5574594736099243,
+      "n_communities": 40
+    }
+  ],
+  "full": {
+    "n": 49,
+    "loo_climate": -0.0604,
+    "loo_climate+rent": 0.2425,
+    "loo_climate+zoning": -0.0519,
+    "loo_climate+zoning+rent": 0.2261,
+    "ols": {
+      "const": {
+        "coef": 18.27,
+        "p": 0.0
+      },
+      "zoning": {
+        "coef": -2.691,
+        "p": 0.2354
+      },
+      "rent": {
+        "coef": 8.928,
+        "p": 0.0001
+      },
+      "vacancy": {
+        "coef": -4.272,
+        "p": 0.0767
+      },
+      "jan_temp": {
+        "coef": -0.759,
+        "p": 0.7597
+      }
+    },
+    "ols_r2": 0.3786
+  },
+  "drop_RTS": {
+    "n": 47,
+    "loo_climate": -0.0904,
+    "loo_climate+rent": 0.2037,
+    "loo_climate+zoning": -0.0941,
+    "loo_climate+zoning+rent": 0.1766,
+    "ols": {
+      "const": {
+        "coef": 16.48,
+        "p": 0.0
+      },
+      "zoning": {
+        "coef": -1.648,
+        "p": 0.3783
+      },
+      "rent": {
+        "coef": 6.968,
+        "p": 0.0003
+      },
+      "vacancy": {
+        "coef": -2.873,
+        "p": 0.1442
+      },
+      "jan_temp": {
+        "coef": -0.862,
+        "p": 0.6739
+      }
+    },
+    "ols_r2": 0.3452
+  },
+  "disposition": {
+    "zoning_full": {
+      "coef": -2.691,
+      "p": 0.2354
+    },
+    "zoning_drop_RTS": {
+      "coef": -1.648,
+      "p": 0.3783
+    },
+    "survives_drop_RTS": false,
+    "verdict": "AUTHENTIC zoning does NOT robustly survive drop-RTS \u2014 level stays fragile"
+  }
+}

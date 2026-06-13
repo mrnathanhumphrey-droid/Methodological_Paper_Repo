@@ -1,0 +1,77 @@
+{
+  "USA": {
+    "pop_2000": 282162411.0,
+    "pop_2015": 321815121.0,
+    "pre2008": {
+      "n_years": 28,
+      "mega_abs_count": 2,
+      "mega_abs_freq": 0.07142857142857142,
+      "mega_pct_count": 0,
+      "mega_pct_freq": 0.0,
+      "max_affected": 5079710.0,
+      "total_affected": 10353266.0,
+      "max_homeless": 250000.0
+    },
+    "post2008": {
+      "n_years": 17,
+      "mega_abs_count": 3,
+      "mega_abs_freq": 0.17647058823529413,
+      "mega_pct_count": 1,
+      "mega_pct_freq": 0.058823529411764705,
+      "max_idp": 10244633.0,
+      "total_idp": 17901906.0
+    },
+    "delta_abs_freq": 0.1050420168067227,
+    "delta_pct_freq": 0.058823529411764705
+  },
+  "CUB": {
+    "pop_2000": 11109109.0,
+    "pop_2015": 11275065.0,
+    "pre2008": {
+      "n_years": 28,
+      "mega_abs_count": 2,
+      "mega_abs_freq": 0.07142857142857142,
+      "mega_pct_count": 4,
+      "mega_pct_freq": 0.14285714285714285,
+      "max_affected": 5900012.0,
+      "total_affected": 11003541.0,
+      "max_homeless": 75000.0
+    },
+    "post2008": {
+      "n_years": 17,
+      "mega_abs_count": 3,
+      "mega_abs_freq": 0.17647058823529413,
+      "mega_pct_count": 6,
+      "mega_pct_freq": 0.35294117647058826,
+      "max_idp": 2710000.0,
+      "total_idp": 7347253.0
+    },
+    "delta_abs_freq": 0.1050420168067227,
+    "delta_pct_freq": 0.2100840336134454
+  },
+  "PRI": {
+    "pop_2000": 3810605.0,
+    "pop_2015": 3535167.0,
+    "pre2008": {
+      "n_years": 28,
+      "mega_abs_count": 0,
+      "mega_abs_freq": 0.0,
+      "mega_pct_count": 0,
+      "mega_pct_freq": 0.0,
+      "max_affected": 98000.0,
+      "total_affected": 160915.0,
+      "max_homeless": 100.0
+    },
+    "post2008": {
+      "n_years": 17,
+      "mega_abs_count": 0,
+      "mega_abs_freq": 0.0,
+      "mega_pct_count": 0,
+      "mega_pct_freq": 0.0,
+      "max_idp": 88190.0,
+      "total_idp": 138589.0
+    },
+    "delta_abs_freq": 0.0,
+    "delta_pct_freq": 0.0
+  }
+}

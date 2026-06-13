@@ -1,0 +1,137 @@
+{
+  "panel_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "panel_acs_dataset": "acs/acs1 (median rent B25064, median HH income B19013, pop B01003); counties >=65k pop only",
+  "longdiff_acs_dataset": "acs/acs5 endpoints 2012 (2008-2012) & 2024 (2020-2024); full county coverage",
+  "note_2020": "2020 dropped from long panel (ACS 1-yr not released by Census).",
+  "n_coc_per_year_total": {
+    "2012": 404,
+    "2013": 403,
+    "2014": 403,
+    "2015": 403,
+    "2016": 403,
+    "2017": 403,
+    "2018": 403,
+    "2019": 405,
+    "2021": 407,
+    "2022": 407,
+    "2023": 407,
+    "2024": 408
+  },
+  "n_coc_per_year_full_rent_income_homeless": {
+    "2012": 357,
+    "2013": 359,
+    "2014": 359,
+    "2015": 360,
+    "2016": 359,
+    "2017": 360,
+    "2018": 360,
+    "2019": 358,
+    "2021": 358,
+    "2022": 357,
+    "2023": 357,
+    "2024": 357
+  },
+  "n_coc_with_ge6_years_full": 360,
+  "longdiff_n_coc": 410,
+  "longdiff_n_coc_full_d_rent_income_homeless": 366,
+  "acs1_county_coverage_by_year": {
+    "2012": {
+      "counties_returned": 825,
+      "rent_nonnull": 825,
+      "income_nonnull": 825,
+      "pop_nonnull": 825
+    },
+    "2013": {
+      "counties_returned": 828,
+      "rent_nonnull": 828,
+      "income_nonnull": 828,
+      "pop_nonnull": 828
+    },
+    "2014": {
+      "counties_returned": 828,
+      "rent_nonnull": 828,
+      "income_nonnull": 828,
+      "pop_nonnull": 828
+    },
+    "2015": {
+      "counties_returned": 830,
+      "rent_nonnull": 830,
+      "income_nonnull": 830,
+      "pop_nonnull": 830
+    },
+    "2016": {
+      "counties_returned": 831,
+      "rent_nonnull": 831,
+      "income_nonnull": 831,
+      "pop_nonnull": 831
+    },
+    "2017": {
+      "counties_returned": 837,
+      "rent_nonnull": 837,
+      "income_nonnull": 837,
+      "pop_nonnull": 837
+    },
+    "2018": {
+      "counties_returned": 838,
+      "rent_nonnull": 838,
+      "income_nonnull": 838,
+      "pop_nonnull": 838
+    },
+    "2019": {
+      "counties_returned": 840,
+      "rent_nonnull": 840,
+      "income_nonnull": 840,
+      "pop_nonnull": 840
+    },
+    "2021": {
+      "counties_returned": 841,
+      "rent_nonnull": 841,
+      "income_nonnull": 841,
+      "pop_nonnull": 841
+    },
+    "2022": {
+      "counties_returned": 848,
+      "rent_nonnull": 848,
+      "income_nonnull": 848,
+      "pop_nonnull": 848
+    },
+    "2023": {
+      "counties_returned": 854,
+      "rent_nonnull": 854,
+      "income_nonnull": 854,
+      "pop_nonnull": 854
+    },
+    "2024": {
+      "counties_returned": 861,
+      "rent_nonnull": 861,
+      "income_nonnull": 861,
+      "pop_nonnull": 861
+    }
+  },
+  "acs5_endpoint_coverage": {
+    "2012": {
+      "counties_returned": 3221,
+      "rent_nonnull": 3221,
+      "income_nonnull": 3221
+    },
+    "2024": {
+      "counties_returned": 3222,
+      "rent_nonnull": 3215,
+      "income_nonnull": 3221
+    }
+  },
+  "failed_sources": []
+}

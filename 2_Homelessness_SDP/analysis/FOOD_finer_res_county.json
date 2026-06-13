@@ -1,0 +1,39 @@
+{
+  "n_counties": 3037,
+  "irs_suppressed_filtered": 76291,
+  "outmig_per1k_median": 22.9,
+  "raw_no_FE": {
+    "poverty": {
+      "b": -0.024,
+      "p": 0.0
+    },
+    "food_floor": {
+      "b": -0.0411,
+      "p": 0.4448
+    },
+    "metro": {
+      "b": -0.0,
+      "p": 0.0009
+    },
+    "r2": 0.071
+  },
+  "within_state_FE": {
+    "poverty": {
+      "b": -0.023,
+      "p": 0.0
+    },
+    "food_floor": {
+      "b": -0.0248,
+      "p": 0.7378
+    },
+    "metro": {
+      "b": 0.4862,
+      "p": 0.0
+    },
+    "r2": 0.448
+  },
+  "within_state_partial_corr_poverty_outmig": {
+    "r": -0.39,
+    "p": 0.0
+  }
+}

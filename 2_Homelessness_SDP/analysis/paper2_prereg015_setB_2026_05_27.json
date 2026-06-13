@@ -1,0 +1,45 @@
+{
+  "window_1980_2003": {
+    "n": 24,
+    "affected": {
+      "pearson_r": 0.23820276346106786,
+      "pearson_p": 0.2623373731936938,
+      "log_pearson_r": 0.2892626621467633,
+      "log_pearson_p": 0.17038696786350188,
+      "spearman_r": 0.3239834823273001,
+      "spearman_p": 0.12247741487209657
+    },
+    "homeless": {
+      "pearson_r": -0.10332494314583396,
+      "pearson_p": 0.6309045494831896,
+      "log_pearson_r": 0.05695529654038273,
+      "log_pearson_p": 0.7915164641843447,
+      "spearman_r": 0.06954258922118338,
+      "spearman_p": 0.7467772480675703
+    }
+  },
+  "window_2008_2024": {
+    "n": 15,
+    "idp": {
+      "pearson_r": 0.5177252656863556,
+      "pearson_p": 0.04807094209879371,
+      "log_pearson_r": 0.23210782811177727,
+      "log_pearson_p": 0.40517163522716926,
+      "spearman_r": 0.15,
+      "spearman_p": 0.5936302027425882
+    }
+  },
+  "pooled_1980_2024": {
+    "n": 39,
+    "method": "log + within-segment z-score (bridges EM-DAT affected <-> GIDD IDP metric change)",
+    "pearson_r": 0.2047663506682445,
+    "pearson_p": 0.21113134711589474,
+    "spearman_r": 0.22501138750411945,
+    "spearman_p": 0.16844663183691067
+  },
+  "verdict": {
+    "window_1980_2003": "INCONCLUSIVE",
+    "window_2008_2024_primary": "SUPPORTED",
+    "pooled_1980_2024": "INCONCLUSIVE"
+  }
+}

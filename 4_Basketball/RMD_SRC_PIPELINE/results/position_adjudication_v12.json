@@ -1,0 +1,2313 @@
+{
+  "locked_at_sha_v12": "1bfdb4c0dfa2b3754f67e9c2f91b2ab26fa01866",
+  "n_total": 230,
+  "n_success": 230,
+  "n_failed": 0,
+  "bucket_counts": {
+    "Forward": 110,
+    "Center": 60,
+    "Guard": 60
+  },
+  "verdicts": [
+    {
+      "nba_api_id": 201142,
+      "name": "Kevin Durant",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Durant at 6'11\" is physically tall but his 2019-26 archetype is a stretch forward, not a center. His per-36 profile - AST 5.08, FG3M 2.32, REB 6.41, BLK 1.16 - reflects a perimeter-capable wing who operates away from the paint. High assist and 3PM rates confirm offensive usage as a forward/wing creator. BLK is moderate and REB is not dominant-big territory. Yahoo primary PF supports Forward bucket. This is the canonical modern stretch-4/wing forward archetype.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 201143,
+      "name": "Al Horford",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Al Horford at 6'8\" (80 inches) is a stretch big who plays the 5/PF role. In the 2019-26 window he has been consistently deployed as a center or power forward anchor defensively, protecting the rim and guarding opposing bigs. His per-36 profile shows 8.41 REB and 1.34 BLK with only 3.83 AST — the REB/BLK profile firmly points to the big-man archetype rather than Forward or Guard. The 2.25 FG3M/36 reflects the modern stretch center role but does not override the defensive and rebounding footprint. Yahoo primary position is C, and metadata bucket is Center. All signals align on Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 201567,
+      "name": "Kevin Love",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'10\" with a REB/36 of 11.7 and Yahoo primary position of C, Love fits the Center bucket in the 2019-26 window. His role in Cleveland and Miami was as a stretch-5 / stretch-4 playing center-adjacent minutes: high rebounding volume, minimal shot-blocking (0.37 BLK/36 — non-rim-protector), and high three-point rate (3.22 FG3M/36) all describe the modern stretch center archetype. AST of 3.6/36 is moderate but secondary to his rebounding identity. Yahoo primary C is the tiebreaker over Forward given the borderline height.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 201569,
+      "name": "Eric Gordon",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Eric Gordon is 6'3\" (75 inches), a career shooting guard and off-ball scorer. In the 2019-26 window he functions as a high-volume three-point shooting guard. His per-36 profile (REB 2.41, AST 2.89, BLK 0.47, FG3M 2.7) is a textbook shooting guard pattern — low boards, modest assists, high 3PM. Yahoo SF eligibility is a roster-flexibility artifact; his on-court archetype is unambiguously Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 201587,
+      "name": "Nicolas Batum",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Batum is 6'7\" and played exclusively as a wing/3-and-D forward during the 2019-26 window, primarily with the Clippers. Yahoo lists him PF/SF with PF primary. His per-36 profile (REB 6.04, AST 2.55, BLK 0.82, FG3M 2.17) fits a stretch forward archetype — moderate rebounding, low shot-blocking, meaningful three-point output. No Guard indicators (AST too low, no G Yahoo eligibility). The metadata_position of Guard appears to be a mismatch with his actual on-court role.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 201942,
+      "name": "DeMar DeRozan",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "In the 2019-26 window DeRozan played as a scoring forward — elbow/mid-range hub at SF/PF for San Antonio, Chicago, and Sacramento. Yahoo primary position is PF. Height (6'6\") is borderline but his role was clearly forward, not guard. Stat profile (REB 4.45, AST 5.27, BLK 0.4, FG3M 0.64/36) fits a non-shooting, playmaking forward: moderate rebounds and assists with near-zero shot-blocking and almost no 3-point volume. The Guard metadata reflects his pre-window Toronto role; the 2019-26 archetype is unambiguously Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 201959,
+      "name": "Taj Gibson",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Gibson is 6'9\" with a classic interior big-man stat profile: 8.61 REB/36, only 1.7 AST/36, 1.16 BLK/36, and virtually no three-point production (0.3 FG3M/36). In the 2019-26 window he has functioned as a backup center/interior anchor — physical defender, screener, rebounder — not a versatile stretch forward. Yahoo primary position is C, confirming the on-court role. The combination of height at the borderline, the high-REB/low-AST/moderate-BLK profile, near-zero perimeter shooting, and Yahoo C designation all point unambiguously to the Center bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 202331,
+      "name": "Paul George",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Paul George is a textbook wing forward at 6'8\". In the 2019-26 window he operates as a perimeter scoring forward — high 3PM (3.3/36), balanced REB (6.4) and AST (4.82), minimal BLK (0.49). This is not a guard profile (AST too low relative to a true playmaker) and not a center profile (no rim-protection, not a rebounder-first). Yahoo primary PF and eligible SF/SG confirm the forward bucket. His archetype throughout this window is a versatile 3-and-D/scoring wing forward — no ambiguity between buckets.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 202691,
+      "name": "Klay Thompson",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Thompson is 6'5\" (77 inches), clearly below the Forward threshold. His career archetype across 2019-26 is a perimeter off-ball shooter and wing defender operating primarily at shooting guard. His stat profile — high 3PM (4.37/36), low AST (2.69/36), low BLK (0.53/36) — is the textbook shooting guard fingerprint. Yahoo lists him as SG-eligible with SF as primary, but the SF designation reflects his size/versatility rather than a true forward role. Height, role, and counting-stat profile all converge on Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 202692,
+      "name": "Alec Burks",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'5\" Burks is below the Forward threshold and has played as a scoring guard/wing throughout the 2019-26 window — a slasher and spot-up shooter off the bench. His 3.27 AST/36 and 2.84 3PM/36 fit a guard scoring profile, and his 0.33 BLK/36 is not Forward-level. Yahoo SF eligibility reflects size versatility, but his metadata, height, and on-court role all point to Guard. Metadata_bucket_v1 and metadata_position both confirm Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 202693,
+      "name": "Markieff Morris",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'9\" Markieff Morris occupies the PF/C borderline, but his 2019-26 on-court archetype is forward-dominant. His stretch role is confirmed by 2.32 3PM per 36 — atypical for a true center. Low BLK (0.45) rules out a shot-blocking center profile. Elevated AST (2.57) and moderate REB (6.86) fit a power forward who facilitates rather than anchors. Yahoo C designation reflects positional eligibility in small-ball lineups, not primary archetype. Metadata and v1 bucket both tag Forward, aligning with the counting-stat profile.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 202710,
+      "name": "Jimmy Butler III",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Butler (6'6\") is a two-way wing in the 2019-26 window: ball-dominant isolation/PnR initiator on offense, versatile 1-through-4 defender. Per-36 REB (6.43) and AST (6.1) nearly equal — classic Forward balance. BLK (0.39) too low for Center; height below Center threshold. Low 3PM (0.67) rules out perimeter Guard. Yahoo primary PF and metadata both confirm Forward. Clean wing-forward archetype with no genuine straddling.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203076,
+      "name": "Anthony Davis",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Davis at 6'10\" (82 in) with REB/36=11.54 and BLK/36=2.24 fits the Center archetype cleanly. In the 2019-26 window he has served as the Lakers' primary rim anchor and shot-blocker, defending in the paint and scoring via post/mid-range rather than perimeter play (3PM/36=0.62). AST/36=3.35 is moderate but not guard-like. Yahoo primary position is C. The metadata_position of Forward appears to reflect his versatility earlier in his career, but his dominant role in the target window is that of an interior big/center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203078,
+      "name": "Bradley Beal",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Beal is 6'4\" and operates as a shooting guard / combo guard archetype throughout the 2019-26 window. His per-36 profile (AST 5.3, REB 4.35, BLK 0.48, 3PM 2.16) is textbook guard: elevated assists, low blocks, perimeter shooting. He was Washington's primary backcourt scorer and ball-handler, not a wing defender or forward. The Yahoo SF listing reflects fantasy eligibility stretching, not his actual on-court role. All five decision criteria converge on Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203110,
+      "name": "Draymond Green",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Per-36 REB 8.25 and AST 7.99 are nearly equal — textbook Forward archetype, not Center (high REB/BLK, low AST) nor Guard (high AST, low REB). BLK 1.03 is moderate. At 6'6\" he is below the 6'7\" Center-lean threshold. Yahoo primary C reflects small-ball 5 usage but the stat fingerprint and height both point Forward. metadata_position and metadata_bucket_v1 both confirm Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203482,
+      "name": "Kelly Olynyk",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 7'0\" and with Yahoo primary position of C, Olynyk's 2019-26 archetype is a stretch center. His 1.72 3PM/36 and 4.84 AST/36 reflect a face-up, passing big rather than a traditional post anchor, but the height and primary C designation anchor him here. The elevated AST is a positional quirk (mobile stretch-5 skill set), not evidence of a Guard or pure Forward role. REB 8.22 and BLK 0.63 are consistent with a mobile center who does not protect the rim but rebounds adequately. Forward is plausible given the high AST and stretch profile, but 7'0\" plus Yahoo primary C tips the balance to Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "KCP is a 6'5\" 3-and-D perimeter player whose 2019-26 role has been as a shooting guard/wing off the bench or in the starting lineup. His per-36 profile (REB 3.28, AST 2.67, BLK 0.45, 3PM 1.98) matches a guard/wing who spaces the floor and defends opposing guards and wings. His height (6'5\") and primary archetype point clearly to the Guard bucket. Yahoo SF eligibility reflects positional versatility on the wing, but his core on-court identity is a shooting guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203486,
+      "name": "Mason Plumlee",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Plumlee is 7'0\" (84 inches), Yahoo-listed as C at primary position, and his counting stats confirm a Center archetype: 12.1 REB/36, zero three-point attempts, 1.03 BLK/36. The elevated 4.29 AST/36 reflects his well-known pass-first center style (short-roll facilitator), not a Guard or Forward role. He played through 2024-25 in the 5-man spot on multiple rosters. All five decision criteria converge on Center with no ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203501,
+      "name": "Tim Hardaway Jr.",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'5\" (77 inches), Hardaway Jr. is well below the Forward threshold. His career per-36 profile — low AST (2.26), low REB (3.91), near-zero BLK (0.15), and high 3PM (3.38) — is a textbook perimeter shooting guard archetype. He functions as a spot-up/off-ball wing scorer, not a playmaking or rebounding forward. metadata_position and metadata_bucket_v1 both read Guard. Yahoo SF listing reflects eligibility flexibility, but his on-court role across the 2019-26 window is unmistakably a shooting guard who happens to play on the wing.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203507,
+      "name": "Giannis Antetokounmpo",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'11\" with Yahoo primary position C and REB 13.02/36, Giannis operates in the 2019-26 window as a paint-dominant, rim-running big who defends center/PF archetypes. His minimal 3-point shooting (0.89/36) and elite rebounding rate place him squarely in the Center bucket. Elevated AST (6.7/36) reflects Bucks ball-handler role, not a wing identity. Medium confidence because his unique playmaking and mobility genuinely straddle the Forward/Center line, but Yahoo primary C + height + REB profile tips the verdict to Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203897,
+      "name": "Zach LaVine",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "LaVine is a 6'5\" (77 inches) shooting guard / combo guard archetype. His career stats show high AST (4.28 per 36) relative to REB (4.58) and near-zero BLK (0.33), fitting the Guard profile cleanly. He shoots 3.0 threes per 36, consistent with a modern scoring guard. Yahoo primary position is PG, eligible at PG/SG/SF. His on-court role throughout the 2019-26 window has been as the primary ball-handler and perimeter scorer for Chicago — a quintessential Guard archetype. Height at 77 inches is well below the 80-inch Forward/Center threshold. All five criteria converge on Guard with no ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203914,
+      "name": "Gary Harris",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Gary Harris is 6'4\" and has played as an off-ball shooting guard and perimeter defender throughout the 2019-26 window (Denver, Orlando, Philadelphia). His stat profile — low REB (2.94), low AST (2.28), near-zero BLK (0.35), and moderate 3PM (1.94) — is a classic off-ball guard who shoots and defends on the perimeter. Yahoo's SF primary listing reflects positional flexibility in their system, not his true on-court archetype. Height and role both point squarely to Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203932,
+      "name": "Aaron Gordon",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Gordon is 6'8\" and plays as a physical, versatile power forward in the 2019-26 window. His per-36 profile (REB 7.35, AST 3.7, BLK 0.68, FG3M 1.3) fits the Forward archetype: meaningful rebounding, non-trivial playmaking, modest shot-blocking, and perimeter shooting. The AST rate is too high for a true Center archetype, and BLK is too low. Yahoo's C primary designation reflects Nuggets roster usage but his on-court role as a switchable, physically assertive PF/SF hybrid anchors him firmly in the Forward bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203937,
+      "name": "Kyle Anderson",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Kyle Anderson (6'8\") is a 3-4 connector forward. AST/36 of 5.19 reflects his playmaking forward role, not a center. BLK/36 of 1.03 confirms he is not a rim-protection anchor. REB/36 of 7.08 is solid but not dominant-center level. Yahoo lists him C due to lineup flexibility, but his on-court archetype in the 2019-26 window is a Forward: defends wings/forwards, initiates offense as passer at the 4. Metadata position and v1 bucket both confirm Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203939,
+      "name": "Dwight Powell",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Powell is 6'10\" and functions as a rim-running center in Dallas's offense during the 2019-26 window — a screen-and-roll dive man with negligible 3-point shooting (0.13 per 36). His REB/AST ratio (~3.4:1) and near-zero 3PM confirm an interior archetype. Yahoo primary position is C. All signals converge on Center with no meaningful ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203944,
+      "name": "Julius Randle",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Randle at 6'9\" operates as a stretch power forward / ball-handling 4 throughout the 2019-26 window. His AST (4.92/36) is high for a big and reflects his role as an offense initiator; his BLK (0.31/36) is far too low for a true center archetype, and his 3PM (1.84/36) confirms perimeter usage. High REB (9.32) fits PF, not necessarily C. Yahoo's C eligibility is a roster-spot artifact — his on-court role with the Knicks and Timberwolves is unambiguously a face-up, playmaking power forward. metadata_position and metadata_bucket_v1 both confirm Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203952,
+      "name": "Andrew Wiggins",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Wiggins is a classic wing forward in the 2019-26 window. At 6'6\" he plays SF/SG minutes for Golden State as a perimeter two-way wing. His stat profile (REB 5.47, AST 2.83, BLK 0.95, 3PM 2.24) is consistent with a wing/forward archetype — moderate rebounding, low BLK rules out Center, low AST rules out Guard primary. Yahoo eligible at PF/SF/SG with primary PF confirms forward classification. No genuine ambiguity here.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203967,
+      "name": "Dario Saric",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Saric is 6'10\" (82 in), at the Center/Forward boundary. His BLK per36 (0.27) is very low — inconsistent with a rim protector. His AST per36 (3.25) is elevated for a big, reflecting a face-up playmaking role. FG3M per36 (1.79) confirms stretch usage. REB per36 (8.44) is solid but not dominant-Center level. Yahoo lists him C-primary, but the on-court archetype — perimeter-oriented, non-shot-blocking, playmaking stretch big — reads Forward throughout the 2019-26 window. Low BLK is the decisive signal against Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 203992,
+      "name": "Bogdan Bogdanović",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'5\" Bogdanović is firmly in the guard/wing range. His 2019-26 archetype is perimeter scorer and combo guard — high three-point volume (3.29 3PM/36), balanced but low-to-moderate REB (4.28) and AST (3.88), and near-zero BLK (0.32). The stat profile (no rim/paint presence, high shooting) matches a Guard. Yahoo SF primary is a mild positional inflation common for 6'5\" combo guards; SG eligibility reflects his true archetype. Height is the decisive criterion here: below 6'7\" defaults to Guard absent a clear forward-role indicator, which is absent.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 204001,
+      "name": "Kristaps Porziņģis",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "At 86 inches (7'2\"), Porzingis is well above the Center threshold. His Yahoo primary position is C. His per-36 profile — REB 9.4, BLK 1.97, AST 2.6 — is a canonical Center archetype: high boards, high blocks, low assists. In the 2019-26 window across Dallas, Washington, and Boston he served as the primary rim-protecting center while stretching the floor. The 2.51 3PM/36 reflects his stretch dimension but does not shift the positional archetype; he is a stretch-center, not a forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1626157,
+      "name": "Karl-Anthony Towns",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Karl-Anthony Towns is a prototypical modern stretch-center. At 84 inches (7'0\"), he clears the height threshold for Center unambiguously. His per-36 profile — 11.51 REB and 0.91 BLK with only 3.91 AST — fits the high-REB/low-AST Center archetype. The 3-point volume (2.26 FG3M/36) marks him as a stretch-5 but does not change his positional bucket; he operates from the 5 spot offensively and defensively. Yahoo primary position is C. All five criteria converge on Center with no ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1626158,
+      "name": "Richaun Holmes",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Holmes is 6'9\" with a rim-anchored game throughout the 2019-26 window. Career per-36 stats show ~10 REB, ~1.5 BLK, only 1.7 AST, and virtually no three-point shooting (0.14 FG3M) — a textbook interior Center profile. Yahoo lists him exclusively at C. Despite the metadata_position label of Forward, every on-court signal (shot-blocking, rebounding, zero perimeter shooting, Yahoo C-only eligibility) points to Center as the correct bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1626168,
+      "name": "Trey Lyles",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Trey Lyles at 6'9\" (81\") sits in the Forward/Center overlap zone. His career stat profile — REB/36 of 8.84 with low AST (2.03) and low BLK (0.63) — fits a stretch power forward archetype. His FG3M/36 of 1.95 confirms a stretch-big role rather than a traditional center. Yahoo primary position is C, suggesting occasional center deployment in small-ball lineups, but his overall on-court role across the 2019-26 window is that of a frontcourt big who spaces the floor from the PF spot. Metadata position and v1 bucket both designate Forward, which aligns with the archetype.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1626171,
+      "name": "Bobby Portis",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'9\" with career REB/36 of 11.12 and AST/36 of only 2.1, Portis profiles as a big man. Yahoo primary position is C. In the 2019-26 window (primarily Milwaukee), he functions as a stretch-5/backup center — defending the paint, crashing boards, and spacing the floor with three-point shooting. The counting-stat profile (high REB, low AST, modest BLK) plus Yahoo C designation tips the bucket to Center over Forward despite the stretch element.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1626172,
+      "name": "Kevon Looney",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Looney's 2019-26 archetype is unambiguously Center. At 6'9\" with a career per-36 REB of 12.66 and essentially zero 3-point shooting (0.05 FG3M/36), he profiles as a traditional rebounding/screening/rolling center. His role on Golden State is as an offensive hub on short-roll passes and defensive anchor/rebounder — not a forward who spaces the floor or initiates offense from the perimeter. Yahoo primary position is C. The metadata bucket of Forward is inconsistent with both his Yahoo designation and his stat signature.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1626181,
+      "name": "Norman Powell",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Norman Powell is 6'3\" (75 inches), firmly in guard range. In the 2019-26 window he has functioned as a scoring off-ball guard/wing — high 3PM (2.87/36), low AST (2.21), modest REB (3.82), and minimal BLK (0.37). This counting-stat profile is classic shooting guard. While Yahoo lists SF as primary (he can defend wings), his height and offensive role anchor him as a Guard. Both metadata_position and metadata_bucket_v1 agree on Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1626192,
+      "name": "Pat Connaughton",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "At 6'5\" (77 inches) Connaughton falls below the Forward height floor. In the 2019-26 window with Milwaukee he played as a 3-and-D off-ball guard: spot-up shooter, transition finisher, energetic defender. Per-36 BLK 0.48 and AST 2.63 fit a guard archetype. Yahoo lists SF primary but also SG-eligible; metadata tags Guard. Height and on-court role both point Guard over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1626204,
+      "name": "Larry Nance Jr.",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Nance Jr. at 6'6\" sits below the Forward/Center height threshold. His per-36 profile (REB 8.86, AST 3.05, BLK 0.66) matches the Forward archetype criteria exactly: balanced REB/AST with moderate BLK, not the high-REB/high-BLK/low-AST signature of a true Center. While Yahoo primary position is C (reflecting small-ball 5 usage), the stat signature and height both point to Forward. The Yahoo C designation is a contextual role tag, not an archetype override, and the metadata position and v1 bucket both confirm Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627732,
+      "name": "Ben Simmons",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Simmons at 6'10\" with 8.35 REB/36 and near-zero three-point shooting (0.02 FG3M/36) profiles as a big-man forward despite his 8.3 AST/36. His defensive assignments and rebounding are Center/Forward archetype; his playmaking is a \"passing big\" skill, not a guard deployment. Yahoo primary C is noted but his balanced REB/AST split and lack of true center finishing lean Forward over Center. The zero perimeter shooting eliminates Guard. Forward captures his physical deployment and role better than any other single bucket, though this is a genuinely atypical profile.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627734,
+      "name": "Domantas Sabonis",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Sabonis's 2019-26 archetype is a high-usage paint hub. His 13.18 REB/36 is elite center territory, and his 6'10\" frame operating primarily in the post and at the elbow matches the Center bucket. The elevated AST (6.65/36) reflects his unique passing skill as a big, not a guard/forward role — he facilitates from short-roll and high-post, not from the perimeter. Minimal 3PM (0.58) and low BLK reinforce a non-wing, non-stretch profile. Yahoo primary position is C. The Sacramento center role (2022-26) cements this.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627736,
+      "name": "Malik Beasley",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Beasley is 6'4\" (76 inches), firmly in the guard height range. His 2019-26 archetype is a shooting specialist: 3.97 FG3M per 36 is a guard-level volume shooter profile. AST of 2.18 and BLK of 0.17 per 36 rule out Forward and Center archetypes. Yahoo SF eligibility reflects positional flexibility listings, not true archetype — his on-court role is off-ball shooting guard. Metadata position and bucket_v1 both confirm Guard, consistent with all criteria.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627741,
+      "name": "Buddy Hield",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Buddy Hield is a 6'4\" elite shooting specialist whose entire career archetype in the 2019-26 window is that of an off-ball shooting guard. His 3.85 3PM per 36 is among the highest in the league, his AST (3.29) and REB (5.21) per 36 are guard-range, and his BLK (0.43) is negligible. Despite Yahoo listing him as SF-primary, his on-court role is unmistakably that of a shooting guard — he is used as a spot-up shooter and off-ball threat, not as a forward who initiates or defends bigger players. Height at 6'4\" firmly supports Guard over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627742,
+      "name": "Brandon Ingram",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Ingram is 6'8\" and operates as a wing forward in the 2019-26 window. His per-36 profile shows balanced REB (5.88) and AST (5.21) with very low BLK (0.64), which is the hallmark Forward archetype — not a center (who would show higher REB/BLK) and not a guard (who would show higher AST relative to REB). Yahoo primary PF confirms the forward bucket. He is a high-usage, versatile offensive forward who creates off the dribble and operates on the wing/mid-post, solidly in the Forward bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627746,
+      "name": "Skal Labissiere",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'10\" with Yahoo primary position C, Labissiere's 2019-26 profile fits Center: REB 10.25/36 and BLK 1.64/36 are high, AST 2.46/36 is low, and FG3M 0.6/36 shows minimal perimeter usage. Though he entered the league projected as a stretch-4, the counting-stat fingerprint in this window is a rim-anchored/rebounding big, not a forward who spaces the floor. Yahoo primary C and height at the 6'10\" threshold confirm the Center bucket over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627747,
+      "name": "Caris LeVert",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "LeVert is 6'7\" and functions primarily as a ball-handler and shot creator — his AST/36 (5.27) exceeds his REB/36 (4.62) with a low BLK rate (0.64), matching the Guard archetype profile. Throughout the 2019-26 window he has been deployed as a secondary playmaker and scorer, more guard-style than forward-style despite his size. Yahoo lists SF as primary (tie-breaker toward Forward), but his on-court role and counting-stat profile (AST-forward, low BLK) align more closely with Guard. Height at exactly 6'7\" is ambiguous but does not override the role and stat signals.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627759,
+      "name": "Jaylen Brown",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'6\" (78 in), Brown sits at the Guard-Forward boundary. Yahoo primary is SF, eligible SF/SG. Per-36: REB 6.56, AST 3.93, BLK 0.41 — balanced wing profile, not AST-dominant (guard) nor REB/BLK-dominant (center). In the 2019-26 window he is Boston's primary wing scorer defending opposing 2s and 3s. SF primary position and the balanced REB/AST split tips the verdict to Forward despite the metadata_position listing Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627783,
+      "name": "Pascal Siakam",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Siakam at 6'8\" with AST 4.47/36 and BLK 0.56/36 is a textbook modern power forward, not a center. His playmaking rate (4.47 AST) and low shot-blocking (0.56 BLK) disqualify a Center read despite Yahoo's C primary listing. The Yahoo C tag is a DFS roster-eligibility artifact. His 3-point shooting (1.5 FG3M/36) and balanced REB/AST profile place him squarely in the stretch-4 forward archetype across the entire 2019-26 window. Metadata position, bucket_v1, and stat profile all converge on Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627814,
+      "name": "Damion Lee",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "At 6'6\", Lee sits just below the 6'7\" forward threshold. His 2019-26 archetype is a 3-and-D shooting wing: low AST (2.49/36), near-zero BLK (0.17/36), moderate REB (5.88/36), solid 3PM (2.24/36). He is an off-ball perimeter shooter used in a guard/shooting-wing role. Both metadata_position and metadata_bucket_v1 are Guard. Yahoo primary SF is borderline given his size, but height and role profile point to Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627824,
+      "name": "Guerschon Yabusele",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'7\" (79 inches) with 2.17 3PM/36 and only 0.52 BLK/36, Yabusele profiles as a stretch power forward rather than a true center. His 8.11 REB/36 shows big-man rebounding, but the near-absence of shot-blocking and meaningful three-point volume place him in the Forward bucket. Yahoo lists C as primary, but the low BLK rate and stretch scoring role override that tie-breaker in favor of Forward. Metadata position and bucket v1 both confirm Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1627936,
+      "name": "Alex Caruso",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'5\" (77 inches) with AST/36 of 4.4 and a guard-level stat profile, Caruso is clearly a Guard archetype in the 2019-26 window. He is primarily deployed as a defensive guard/wing who guards opposing ball-handlers, with perimeter-oriented offense (1.73 3PM/36) and moderate playmaking. His REB (4.83) and BLK (0.81) do not indicate a forward role. Both metadata_position and metadata_bucket_v1 confirm Guard; Yahoo's SF primary listing reflects lineup flexibility but not his true archetype. Guard is the correct bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628380,
+      "name": "Zach Collins",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "Zach Collins is 6'9\" (81 inches) and Yahoo classifies him exclusively as C with no Forward eligibility. His career REB/36 of 9.78 aligns with a Center archetype, and BLK/36 of 1.21 is consistent with a rim-adjacent big. The elevated AST/36 of 4.22 reflects his modern stretch-center role and passing ability from the elbow, not a Guard or Forward archetype. FG3M/36 of 1.24 marks him as a floor-spacing Center. In the 2019-26 window he has been used as a backup/rotational stretch center. Yahoo's C-only designation serves as the tiebreaker over the metadata_position of Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628381,
+      "name": "John Collins",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "John Collins is a 6'9\" athletic power forward whose 2019-26 archetype is a rim-running, stretch-4 big. His per-36 profile (REB 9.11, AST 1.65, BLK 1.2, FG3M 1.53) is classic PF — strong rebounding, low playmaking, moderate shot-blocking, with enough 3-point volume to mark him as a stretch forward rather than a traditional center. He defends and operates primarily at the 4, not as a true 5. Yahoo primary C is an artifact of roster eligibility thresholds; his on-court role firmly places him in the Forward bucket. Metadata position and v1 bucket both confirm Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628389,
+      "name": "Bam Adebayo",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Adebayo at 6'9\" (81 in) plays true center for Miami: anchors paint defense, operates as the roll man and elbow passer. REB 10.53 and BLK 0.94 per 36 fit the center archetype; elevated AST 4.38 reflects modern passing-big role, not a guard/forward identity. FG3M 0.5 per 36 rules out stretch forward. Yahoo primary position is C. All signals converge on Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628404,
+      "name": "Josh Hart",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Hart is 6'5\" which nominally leans Guard, but his on-court archetype in the 2019-26 window is clearly Forward. His REB/36 of 8.8 is elite for any non-center and well above guard range; he is consistently used as a rebounding wing/small-ball forward, especially with the Knicks. AST/36 of 4.29 is forward-range, not guard-range. BLK of 0.33 rules out Center. Yahoo primary position is PF. The counting-stat profile (high REB, moderate AST, low BLK) maps to Forward archetype, and his role as a physical, high-motor wing doing forward-like work overrides the height signal.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628415,
+      "name": "Dillon Brooks",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Brooks is a 6'7\" 3-and-D wing whose 2019-26 archetype is perimeter forward. His career stat profile (REB/36 4.03, AST/36 2.48, BLK/36 0.30, 3PM/36 2.41) fits a wing forward: moderate rebounding, minimal playmaking, no interior shot-blocking, active perimeter shooting. He defends 2s and 3s on the wing and is used as a slashing/spot-up forward on offense. Yahoo primary PF and SF/PF eligibility reinforce Forward over Guard. The low AST rules out Guard archetype despite metadata labeling him Guard; the very low BLK and modest REB rule out Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628427,
+      "name": "Vlatko Čančar",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "At 6'8\" with a stretch-forward role on Denver alongside Jokic, Čančar's on-court archetype is a wing/forward. BLK 0.46 per 36 is far too low for a Center profile; FG3M 1.54 per 36 signals floor-spacing rather than interior play. AST 2.4 and REB 5.59 fit a forward range. Yahoo's C primary reflects roster-slot elasticity, not true archetype. Metadata independently tags him Forward in both fields. The window (2019-2025) confirms a consistent stretch-forward role throughout.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628449,
+      "name": "Chris Boucher",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Boucher is a 6'8\" mobile big who functions as a stretch-5/center in Toronto's rotation during the 2019-26 window. His per-36 profile — REB 10.02, BLK 1.82, AST 1.01 — matches a classic Center archetype (high rebounding, meaningful shot-blocking, very low assists). The 1.73 FG3M/36 marks him as a stretch variant but does not shift his primary role off the 5. Yahoo primary position is C, consistent with his on-court usage. Height at 6'8\" is borderline but the role and stat profile push him to Center over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628467,
+      "name": "Maxi Kleber",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "Kleber is 6'10\" (the Center threshold), Yahoo primary position is C, and his per-36 profile — REB 7.1, BLK 1.18, AST 2.05 — matches a big-man archetype. In the 2019-26 Dallas window he functions as a stretch center/power forward, defending opposing bigs and spacing the floor. The low AST and meaningful BLK tilt him toward Center over Forward. Yahoo primary C serves as the tie-breaker at the boundary.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628960,
+      "name": "Grayson Allen",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'3\" (75 inches), Allen firmly sits in Guard territory by height. His career per-36 profile — high 3PM (3.03), moderate AST (3.08), moderate REB (4.34), near-zero BLK (0.36) — is the classic 3-and-D shooting guard archetype. He has functioned as a wing scorer/shooter in the 2019-26 window, not a playmaker or forward. Yahoo eligibility at SG and PG reinforces the Guard bucket. No ambiguity between Forward and Guard here given his height and role.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628963,
+      "name": "Marvin Bagley III",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Bagley is 6'10\" with a classic big-man stat line: REB/36 of 10.57, AST/36 of 1.68, and only 0.62 FG3M/36. His role throughout the 2019-26 window has been interior — rebounding, post/mid-range scoring, minimal perimeter activity. Yahoo primary position is C. The combination of height at the top of the Forward/Center boundary, high rebound rate, near-zero playmaking, and minimal three-point shooting places him squarely in the Center bucket rather than Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628969,
+      "name": "Mikal Bridges",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "Bridges is a 6'6\" 3-and-D wing whose 2019-26 career is defined by perimeter defense and catch-and-shoot play at the 2/3. Height below 6'7\" leans Guard. Stat profile (BLK 0.66, AST 3.15, REB 4.38, FG3M 1.93) fits a perimeter Guard archetype. Yahoo PF primary is an outlier vs his actual role. Metadata position and v1 bucket both tag Guard, consistent with his perimeter defensive assignments and offensive usage.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628989,
+      "name": "Kevin Huerter",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "Huerter is a 6'6\" perimeter shooting wing (2.58 3PM/36) whose archetype across 2019-26 is a spot-up/off-ball guard on the SG-SF boundary. Height at 78 inches falls below the 6'7\" Forward threshold. BLK (0.49) is very low, ruling out frontcourt lean. REB (4.55) and AST (3.82) are balanced rather than Forward-dominant. Metadata position and bucket are both Guard; Yahoo primary SF is a tie-breaker that points slightly toward Forward, but the sub-6'7\" height, perimeter role, and Guard metadata classification hold. The shooting-wing archetype at this height fits Guard more cleanly than Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628991,
+      "name": "Jaren Jackson Jr.",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "At 6'10\" with a BLK/36 of 2.4 (2x Defensive Player of the Year, primary rim protector for Memphis), low AST (1.96), and Yahoo primary position of C, JJJ's 2019-26 archetype is a modern mobile center. He anchors the paint defensively and plays the 5 in most lineups. The three-point shooting (2.27/36) is a stretch-5 trait, not a forward signal — it does not override his rim-anchoring defensive role. High BLK + low AST decisively points Center over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1628998,
+      "name": "Cody Martin",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Cody Martin's per-36 profile (REB 6.39, AST 3.34, BLK 0.65) is the textbook switchable wing-forward: rebound rate well above guard norms, assist rate moderate, block rate too low for Center. His Charlotte role was a versatile defensive forward covering 2-through-4. Height at 6'6\" is borderline but his Yahoo primary PF and SF eligibility, combined with the REB-dominated counting profile, firmly place him in the Forward bucket over Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629004,
+      "name": "Svi Mykhailiuk",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Mykhailiuk is a 6'7\" perimeter shooter whose Yahoo primary position is SF and who profiles as a stretch wing. His per-36 stats show moderate REB (4.01) and AST (2.75) with very low BLK (0.16), consistent with a floor-spacing small forward rather than a guard or center. High 3PM (3.07 per 36) confirms the stretch-wing/3-and-D role across the 2019-26 window. Height sits at the Guard/Forward boundary but role and Yahoo primary both point Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629006,
+      "name": "Josh Okogie",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'4\" Okogie sits at the Guard/Forward boundary, but his Yahoo primary position (SF), low AST per-36 (2.11), and moderate REB (5.79) point to a wing/3-and-D forward archetype rather than a true guard. His role throughout the 2019-26 window is a defensive-minded wing deployed as a small forward, not a ball-handler or playmaker. Forward is the best single bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629013,
+      "name": "Landry Shamet",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Shamet is a 6'5\" catch-and-shoot specialist whose entire 2019-26 career is defined by perimeter shooting (2.91 FG3M per 36). Low BLK (0.25) and modest REB (2.9) firmly exclude any frontcourt role. AST (2.64) is functional but not a playmaker's profile. His on-court archetype is a shooting guard who occasionally plays SF minutes due to size, but his skill set and defensive assignment are backcourt. Yahoo SF primary is a thin eligibility tag, not an archetype signal. Guard bucket is the clear fit.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629018,
+      "name": "Gary Trent Jr.",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'5\" with career per-36 averages of 2.91 REB, 1.82 AST, 0.2 BLK, and 3.09 3PM, Trent is a prototypical off-ball shooting guard. His profile is a perimeter scorer who spots up and attacks closeouts — not a playmaker and not a rebounder. Height (77 inches) falls squarely in the Guard-to-small-wing range. Yahoo SF designation reflects positional flexibility on some rosters, but the counting-stat archetype is Guard: high 3PM, low REB, minimal AST, negligible BLK. No ambiguity about the bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629020,
+      "name": "Jarred Vanderbilt",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'8\" Vanderbilt sits on the Forward/Center border, but his 2019-26 on-court archetype is firmly interior: career REB/36 of 10.55 with near-zero 3PM (0.4) and low AST (2.53) is a classic rebounding big profile. He is deployed as the center-eligible, paint-crashing anchor in small-ball lineups across Denver, Minnesota, and LA. Yahoo primary position is C, reinforcing this read. The modest BLK rate is consistent with a physical help-defender rather than a shot-blocker center, but the overall role — interior rebounding, no perimeter creation — maps to Center over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629021,
+      "name": "Moritz Wagner",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Wagner is 6'11\" (83 inches) and Yahoo-listed as a primary C. His per-36 profile shows 8.81 REB and only 2.7 AST, consistent with a big-man archetype. The 1.53 3PM reflects a modern stretch-center role rather than a forward role. Despite the metadata_bucket_v1 label of Forward, height plus Yahoo primary position plus rebounding profile all converge on Center in the 2019-26 window with Orlando.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629022,
+      "name": "Lonnie Walker IV",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'4\" (76 inches), Walker is firmly in guard-height territory. His career per-36 profile — low AST (2.53), moderate REB (4.15), minimal BLK (0.5), and meaningful 3PM (2.34) — fits a scoring off-guard/wing archetype rather than a true forward. He is a shot-creator and scorer deployed at the 2/3, not a spacer-forward. Yahoo lists him SF-eligible but that reflects positional flexibility, not his primary archetype. Metadata position and bucket_v1 both say Guard, and nothing in the stat or height profile contradicts that.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629023,
+      "name": "P.J. Washington",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Washington is a 6'7\" stretch-4 whose career profile (7.01 REB/36, 2.61 AST/36, 1.98 FG3M/36, 1.19 BLK/36) matches a modern power forward archetype. His 3-point volume and assist rate exceed typical Center norms, and his rebounding/blocking are below Center thresholds. Yahoo primary C likely reflects positional scarcity in leagues rather than his true archetype. Throughout the 2019-26 window with Charlotte and Dallas he has been used as a versatile PF/stretch-4, not a true center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629026,
+      "name": "Kenrich Williams",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Williams is 6'7\" (79 inches), sits at the Guard/Forward boundary but Yahoo classifies him as PF (primary and only eligible position). His per-36 rebounding of 7.38 is forward-level, BLK of 0.43 rules out Center, and AST of 3.24 is moderate — not guard-dominant. In the 2019-26 window he has been deployed as a 3-and-D forward/wing in OKC's system, defending 3/4 positions. The metadata Guard label appears to reflect raw positional listing rather than on-court archetype; Yahoo PF plus the rebounding profile tips the verdict to Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629029,
+      "name": "Luka Dončić",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Dončić functions as the primary ball-handler and playmaker in every season of the 2019-26 window. Despite being 6'8\", Yahoo lists him PG/SG with PG primary. His per-36 AST (8.66) nearly equals REB (8.81) with near-zero BLK (0.48) and high 3PM (3.36) — classic guard/point-forward profile skewing Guard. On-court archetype is that of a high-usage point guard who runs pick-and-roll and initiates the entire offense.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629056,
+      "name": "Terence Davis",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'4\" (76 inches), Davis is firmly a perimeter guard/wing. His career profile — high 3PM (2.79 per 36), modest AST (3.1), low BLK (0.47), and moderate REB (5.84) — fits a shooting guard who plays off the ball and defends on the perimeter. The slightly elevated rebounding is consistent with a physical 6'4\" SG/wing, not a forward role. Both metadata sources flag him as Guard, and while Yahoo lists SF as primary with SG eligibility, the 6'4\" frame and guard-archetype stat profile place him squarely in the Guard bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629130,
+      "name": "Duncan Robinson",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Robinson is a prototypical stretch forward/wing specialist in the 2019-26 window. At 6'7\" with Yahoo primary SF, he operates on the perimeter as a floor-spacer and spot-up shooter. His per-36 profile (3.8 3PM, 3.71 REB, 2.56 AST, 0.25 BLK) is the textbook forward archetype: not enough AST to be Guard, not enough REB/BLK to be Center, and the high 3PM volume confirms wing-forward usage. All five criteria converge on Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629234,
+      "name": "Drew Eubanks",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Eubanks is 6'10\" with a stat profile that reads as a classic rim-running center: 10.53 REB/36, 1.84 BLK/36, only 2.09 AST/36, and essentially zero three-point shooting (0.1 FG3M/36). Yahoo lists him at C (both primary and eligible). His on-court archetype throughout the 2019-26 window is a backup/rotation center who defends the rim and cleans glass — not a forward who spaces the floor or initiates offense. The metadata_position of Forward appears to be a mismatch with his actual role.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629599,
+      "name": "Amir Coffey",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'7\" with Yahoo eligibility exclusively at PF/SF (no Guard listing), Coffey fits the Forward bucket. His per-36 stat profile — REB 3.35, AST 2.27, BLK 0.25, 3PM 1.52 — reflects a wing/stretch forward role: not enough AST to be Guard-archetypal, not enough REB/BLK for Center. The metadata_position of Guard likely reflects positional versatility or a team's lineup use, but Yahoo's PF primary and the counting-stat shape both point to Forward as the primary on-court archetype across the 2019-26 window.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629610,
+      "name": "DaQuan Jeffries",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'5\" Jeffries is below center/PF height, but Yahoo primary_position is PF and eligible PF/SF — coaches deployed him as a wing forward. His stat profile fits a 3-and-D forward: REB 5.09 per36 is above guard range, AST 1.88 is low (not an initiator), BLK 0.69 is modest (not a rim protector), 3PM 1.49 fits stretch-forward role. Low AST rules out Guard archetype. The Yahoo PF primary and rebounding-heavy, low-assist profile in the 2019-26 window points to Forward as best-fit bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629611,
+      "name": "Terance Mann",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Mann is 6'6\" and sits right at the Guard/Forward boundary. Yahoo primary position is SF, which serves as the tie-breaker. His per-36 profile (REB 5.91, AST 3.35, BLK 0.37) fits a wing Forward archetype — above-average rebounding for his size, modest playmaking, and negligible shot-blocking. In the 2019-26 window he has been used primarily as a physical 3/2 wing with Clippers, defending SF/SG slots but identified primarily as a small forward. The combination of SF primary Yahoo tag, moderate rebounding, and limited playmaking pushes him to Forward over Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629622,
+      "name": "Max Strus",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "Strus is 6'5\" (77 inches), firmly in the guard/wing range. His career per-36 profile shows nearly equal REB (4.67) and AST (3.16) with very low BLK (0.33) and high 3PM (3.2), matching a shooting guard/wing archetype rather than a true forward. He operates as a 3-and-D wing off-ball shooter, historically deployed at SG/SF in Miami and Cleveland rosters. Yahoo lists SF as primary but SG as eligible; the metadata_position and metadata_bucket_v1 both say Guard. Height and role tip toward Guard over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629626,
+      "name": "Bol Bol",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Bol Bol is 7'3\" (87 inches), well above the Center threshold. His career per-36 profile (REB 8.72, BLK 2.05, AST 1.81) is the classic rim-protector pattern. Yahoo primary position is C. The modest three-point shooting marks him as a stretch-5 variant, but his size, shot-blocking, and rebounding role are unambiguously Center archetype throughout the 2019-26 window.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629627,
+      "name": "Zion Williamson",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Zion is a 6'6\" physical power forward throughout the 2019-26 window. Near-zero three-point volume (0.14/36) confirms no perimeter role. REB 7.47 and AST 4.72 per 36 fit a playmaking power forward archetype — not a guard (too rebound-heavy, insufficient playmaking rate) and not a true center (low BLK 0.72, undersized at 6'6\"). Yahoo primary C reflects matchup context against bigs, not true center archetype. Forward is the unambiguous primary bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629628,
+      "name": "RJ Barrett",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Barrett is a 6'6\" wing who has played the 3/4 hybrid role his entire NBA career. His per-36 profile (REB 6.07, AST 3.66, BLK 0.32) matches a balanced forward archetype — not a guard (AST not dominant, REB too high) and not a center (too short, BLK far too low). Yahoo lists him PF primary, consistent with his role as a scoring/rebounding wing who defends multiple forward spots. No genuine positional ambiguity exists here.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629634,
+      "name": "Brandon Clarke",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "Clarke plays an interior big-man role throughout the 2019-26 window: 9.49 REB/36 and 1.36 BLK/36 with near-zero 3PM (0.25/36) signal a basket-anchored archetype with no perimeter function. At 6'8\" he is undersized for a traditional center, but his role — rim running, interior finishing, rebounding, shot-blocking — is unambiguously that of a center. Yahoo lists him C primary, consistent with how Memphis deployed him. The AST/36 of 2.33 is too low to suggest a forward-playmaker role. The REB/BLK over AST/3PM ratio decisively favors Center over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629638,
+      "name": "Nickeil Alexander-Walker",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'5\" (77 inches), Alexander-Walker is clearly below the Forward threshold. His Yahoo primary position is PG, and his per-36 profile shows balanced AST (4.17) and REB (4.22) with low BLK (0.65) and solid 3PM (2.58) — a textbook combo guard/wing shooter archetype. SF eligibility reflects his size relative to undersized guards, not a true forward role. All indicators converge on Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629652,
+      "name": "Luguentz Dort",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'4\" Dort is below the Guard/Forward height threshold. His on-court archetype across 2019-26 is a lockdown perimeter defender who guards 1-3 positions and functions as a spot-up shooter (2.46 3PM/36). Low AST (1.92) confirms a non-playmaking role. While Yahoo primary is SF and he has some wing defensive versatility, his height and role profile — perimeter stopper, not a power wing — align squarely with the Guard bucket. Both metadata_position and metadata_bucket_v1 independently confirm Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629655,
+      "name": "Daniel Gafford",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Gafford is 6'10\" (82 inches), Yahoo primary position C, with career per-36 numbers of 10.2 REB, 2.65 BLK, 1.73 AST, and 0 FG3M. This profile — high rebounds, elite shot-blocking, minimal assists, zero perimeter shooting — is the textbook rim-running center archetype. Every signal (height, Yahoo eligibility, counting-stat profile) converges on Center with no ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629656,
+      "name": "Quentin Grimes",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Grimes is 6'5\" (77 inches), firmly below the 6'7\" Forward threshold. His career archetype is a 3-and-D shooting guard — high 3PM rate (2.63/36), low BLK (0.41), moderate REB (4.45) and AST (3.0) consistent with a perimeter role. Metadata position is Guard across both primary metadata and bucket_v1. Yahoo's SF primary is a tie-breaker here but his height and perimeter-shooting profile override it toward Guard. No genuine positional ambiguity exists.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629659,
+      "name": "Talen Horton-Tucker",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'4\" (76 inches), Horton-Tucker falls well below the 6'7\" threshold for Forward consideration. His per-36 profile shows near-equal REB (4.73) and AST (4.87) with very low BLK (0.6) and modest 3PM (1.45) — a classic guard-wing stat fingerprint. Despite Yahoo listing him SF primary (likely due to his stocky build and versatile defending), his height and balanced REB/AST-over-BLK profile place him squarely in the Guard bucket. Both metadata fields independently label him Guard. He is a ball-handling perimeter player who occasionally played up positionally, not a true forward archetype.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629661,
+      "name": "Cameron Johnson",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Cameron Johnson is a 6'8\" stretch forward whose 2019-26 profile is unambiguously Forward. High 3PM/36 (3.01) signals a perimeter-oriented forward role; REB/36 of 5.2 is forward-range, not center-range; BLK/36 of 0.43 rules out a rim-protection center archetype; AST/36 of 2.64 is moderate, not guard-level. Yahoo PF primary with SF/SG eligibility confirms a wing/stretch-4 role. No genuine positional ambiguity here.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629674,
+      "name": "Neemias Queta",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Neemias Queta is a clear Center archetype across every dimension. At 84 inches (7'0\") he sits well above the 6'10\" Center threshold. His career per-36 profile — 11.52 REB, 1.91 BLK, and only 2.45 AST with virtually zero three-point production (0.02 FG3M) — is the classic rim-running, shot-blocking big-man fingerprint. Yahoo primary position is C. Debut 2021 means the entire career window falls within the 2019-26 frame with no pre-window role to discount. All five criteria converge without ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629675,
+      "name": "Naz Reid",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Reid is a classic modern stretch center. At 6'9\" with Yahoo primary C, career REB/36 of 8.42, BLK/36 of 1.56, and low AST/36 of 2.39, his counting-stat profile aligns clearly with the Center archetype. His 2.37 FG3M/36 reflects his stretch-big role but does not shift his positional bucket — shooting from range is now standard for Centers. He plays as Minnesota's backup C and defends in the paint. All signals (height, position metadata, REB/BLK profile, low AST) converge on Center with no meaningful ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629680,
+      "name": "Matisse Thybulle",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Thybulle is a 6'5\" perimeter defensive specialist whose entire 2019-26 career is as an off-ball wing. Yahoo primary position is SF. His stat profile — REB 3.5, AST 1.9 (too low for Guard), BLK 1.33 (perimeter deflections, not paint) — fits a wing/forward archetype. He is shorter than a classic Forward but his role, usage, and Yahoo designation all point to SF/Forward rather than Guard (no ball-handling role) or Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629684,
+      "name": "Grant Williams",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'7\", Williams sits at the lower bound for Center. His 2019-26 archetype is a stretch power forward: moderate REB (5.96/36), low AST (2.26/36), modest BLK (0.87/36), and real three-point output (1.81 3PM/36). This matches a PF/small-ball 4, not a true center. Yahoo C eligibility reflects lineup scarcity, not his natural role. The Forward metadata and counting-stat profile together outweigh the Yahoo primary-position tie-breaker.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629723,
+      "name": "John Konchar",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Konchar is 6'5\" and plays as a 3-and-D wing for Memphis. Yahoo primary position is SF. His per-36 rebounding (8.08) is unusually high for his height, consistent with a forward role rather than a guard role. Low AST (2.91) and minimal 3-point volume (1.28) further distance him from a Guard archetype. While his height nudges toward Guard, his on-court archetype — defensive wing, strong rebounder, low creation responsibility — fits Forward. No genuine positional ambiguity that would warrant no_fit.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629726,
+      "name": "Garrison Mathews",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "Mathews is 6'5\" (77 inches), placing him firmly in the guard/shooting-wing range. His per-36 profile is dominated by 3-point shooting (2.86 3PM) with low AST (1.53) and modest REB (3.66) and near-zero BLK (0.36) — classic spot-up shooting guard archetype. While Yahoo lists SF as primary and he is SF/SG eligible, at 6'5\" with this stat profile he functions as a shooting guard/wing scorer rather than a true forward. Both metadata_position and metadata_bucket_v1 agree on Guard, consistent with the height and shooting-heavy, low-creation profile.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1629750,
+      "name": "Javonte Green",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Green is 6'5\" which is borderline, but his career archetype across 2019-26 is a physical, athletic wing who crashes boards (6.57 REB/36) and defends rather than facilitates (1.42 AST/36). The very low AST rules out Guard, and Yahoo primary position is SF. He functions as an energy small forward — a role player deployed at the 3 for rebounding and defensive intensity, not as a true guard or a big. Forward is the best-fit bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630166,
+      "name": "Deni Avdija",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Avdija is 6'8\" with a balanced REB/AST profile (7.98 / 4.12 per 36) and modest BLK (0.62), matching the Forward archetype exactly. He plays SF/PF as a switchable wing defender and ball-handler, never operating as a true center or guard. Yahoo primary PF, eligible at PF/SF/SG, debut 2020 — the entire career arc falls within the 2019-26 window as a forward. No ambiguity across any of the five criteria.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630168,
+      "name": "Onyeka Okongwu",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Okongwu is 6'10\" and his entire career falls within the 2019-26 window as Atlanta's primary rim-protecting center. His per-36 profile — 10.16 REB, 1.63 BLK, 2.26 AST, 0.69 FG3M — is a textbook paint-anchor stat line: high rebounding, meaningful shot-blocking, minimal perimeter shooting, low playmaking. Yahoo primary position is C and he is eligible only at C/PF. No ambiguity here; the archetype, height, role, and Yahoo designation all converge on Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630170,
+      "name": "Devin Vassell",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'5\", Vassell is below the Forward threshold and operates as a perimeter player. His 2.59 3PM/36 confirms perimeter orientation; BLK/36 of 0.56 rules out any interior role. REB/36 4.95 and AST/36 3.15 are both moderate, consistent with a Guard/wing. Metadata position and bucket_v1 both tag Guard. Yahoo lists SG eligible alongside SF; his height, skillset, and metadata align clearly with Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630173,
+      "name": "Precious Achiuwa",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Achiuwa's 2019-26 profile is unambiguously rim-oriented: 10.1 REB/36 with only 1.82 AST/36 and 0.58 FG3M/36 signals a non-stretch, non-playmaking big. Yahoo primary position is C. At 6'8\" he sits at the high end of forward range but his role — rebounding, rim-running, interior defense — is functionally Center. The high REB, moderate BLK, near-zero three-point production, and low AST all point to the Center archetype bucket over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630174,
+      "name": "Aaron Nesmith",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Nesmith is 6'5\" — at the low end of wing range — but his Yahoo primary position is SF, he plays as a perimeter wing defender and stretch shooter (2.46 3PM/36), and his stat profile (REB 5.36, AST 1.89, BLK 0.57) is consistent with a 3/SG-type Forward rather than a true Guard. His role with Indiana as a wing stopper/spot-up shooter anchors him in the Forward bucket over Guard despite the borderline height.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630180,
+      "name": "Saddiq Bey",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Bey is 6'8\" with Yahoo eligibility at PF/SF (primary PF), 6.28 REB/36 and only 2.27 AST/36 — classic stretch-forward footprint. His 2.56 3PM/36 confirms a perimeter-forward role, not a guard. BLK of 0.19 rules out any center lean. The metadata_position of Guard appears to be a misclassification; his entire 2020-2024 career archetype is a wing/stretch-4 forward. Forward bucket is unambiguous.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630182,
+      "name": "Josh Green",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Josh Green is a 6'6\" wing who plays SF as his Yahoo primary position. His per-36 profile (REB 4.36, AST 2.34, BLK 0.28, 3PM 1.45) is consistent with a 3-and-D forward archetype — balanced rebounding and assist numbers with low rim-protection. He operates as a perimeter defender and spot-up shooter for Dallas, not as a primary ball-handler (low AST) or interior presence (low BLK). While metadata lists him as Guard, his Yahoo primary SF, height at the guard/forward boundary (6'6\"), and on-court role firmly place him in the Forward bucket across the 2019-26 window.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630188,
+      "name": "Jalen Smith",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'8\" Smith sits at the Forward/Center boundary, but his archetype in the 2019-26 window is Center-leaning. REB/36 of 11.59 and BLK/36 of 1.33 match a rim-anchoring big profile; AST/36 of 1.84 confirms he is not used as a playmaker. Yahoo primary position is C (not PF), reinforcing the call. The 1.92 FG3M/36 adds range but does not shift the archetype. Medium confidence due to undersized 6'8\" frame.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630191,
+      "name": "Isaiah Stewart",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Stewart's 2019-26 archetype is firmly interior: REB/36 of 10.03 and BLK/36 of 1.84 with only 1.94 AST/36 and 0.86 FG3M/36 match a true big-man profile. At 6'8\" he is borderline height, but Yahoo primary position is C (not PF), and his on-court role is defending and rebounding in the paint against 4s and 5s. The counting-stat signature — high REB, solid BLK, very low AST — is the canonical Center bucket pattern. No meaningful positionless ambiguity; he anchors the paint rather than operating as a wing or stretch forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630192,
+      "name": "Zeke Nnaji",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'10\" (82 inches) with a Yahoo primary position of C, Nnaji profiles as a Center. His per-36 stats support this: REB 6.9 and BLK 1.21 with very low AST (1.33) is a classic rim-running big profile. The modest 3PM/36 (0.94) reflects some stretch utility but does not shift his archetype to Forward — he is used as an energy center/backup big. Yahoo primary C and the counting-stat pattern (REB/BLK dominant, AST minimal) both point to Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630194,
+      "name": "Paul Reed",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Reed is 6'9\" with a Center-archetypal stat line: REB/36 of 11.07 and BLK/36 of 2.15 paired with near-zero 3PM (0.46) and low AST (2.28). He has functioned as a backup center/rim-running big for Philadelphia throughout the 2019-26 window. Yahoo primary position is C, corroborating the on-court role. Every signal — height, counting-stat profile, perimeter non-involvement, and Yahoo designation — converges on Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630198,
+      "name": "Isaiah Joe",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'4\" (76 inches), Isaiah Joe sits firmly in Guard territory by height. His career per-36 profile — 3.75 3PM with only 2.46 AST and 0.29 BLK — is a textbook shooting specialist/3-and-D off-guard. The low AST rules out playmaking Guard but the low REB/BLK and high 3PM combined with 6'4\" height point squarely to Guard archetype. Yahoo SF listing reflects positional flexibility in lineups but does not override the height and statistical profile. Metadata position and bucket_v1 both say Guard, consistent with this read.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630214,
+      "name": "Xavier Tillman",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'8\" (80 in), Tillman sits at the lower center threshold, but his archetype is clearly interior. Yahoo primary position is C. Stat profile: REB/36=7.92, BLK/36=0.96, FG3M/36=0.55 (minimal perimeter shooting), AST/36=2.43 — high-REB/BLK with low 3PM matches a paint-anchored center, not a forward. He played backup center for Memphis and Boston in the window, defending in the paint. Height is borderline but role and counting stats tip Center over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630217,
+      "name": "Desmond Bane",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'6\" Bane sits at the Guard/Forward boundary, but his on-court archetype in the 2019-26 window is wing Forward. He operates as Memphis's primary 3-and-D wing, defending on the perimeter against opposing wings/forwards and functioning as a high-volume catch-and-shoot threat. Per-36 REB (5.36) and AST (4.43) are balanced — consistent with a wing Forward, not a pass-first Guard. Yahoo primary position is SF. The high 3PM rate confirms a perimeter wing role, but the rebounding load and positional usage align more with SF than SG.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630222,
+      "name": "Mason Jones",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'4\" (76 inches), Jones falls clearly in guard/small wing territory. His per-36 profile (REB 5.95, AST 5.33, BLK 0.15) shows balanced REB/AST typical of a guard who can handle the ball, with essentially no rim-protection (BLK 0.15). Yahoo's SF listing reflects his size relative to pure guards but his height and stat archetype — low BLK, high-AST relative to REB, guard-level defensive footprint — anchor him in the Guard bucket. Both metadata fields independently confirm Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630224,
+      "name": "Jalen Green",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Jalen Green is a 6'4\" high-usage shooting guard for the Houston Rockets (debut 2021). Every indicator converges on Guard: height well below 6'7\" threshold, Yahoo primary PG with SG/SF eligibility, low BLK (0.32/36), moderate-low AST (3.73/36), and a 3PM profile (2.78/36) consistent with a guard scorer. Career REB of 4.76/36 is not elevated enough to suggest any frontcourt role. His on-court archetype is pure off-guard/scorer — no positional ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630230,
+      "name": "Naji Marshall",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Marshall is a 6'6\" versatile wing whose career per-36 profile (REB 6.21, AST 3.85, BLK 0.28) is textbook Forward archetype: balanced rebounding and playmaking with negligible shot-blocking. His height sits just below the 6'7\" threshold but his rebounding output and PF-primary Yahoo designation anchor him firmly in the Forward bucket rather than Guard. The low BLK rules out Center; AST below REB rules out Guard as primary. All metadata (position, bucket v1, Yahoo primary) converge on Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630241,
+      "name": "Sam Merrill",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'4\" (76 inches), Merrill is firmly in the perimeter-guard height band. His career archetype in the 2019-26 window is a shooting specialist: 3.63 3PM/36 is the dominant trait, paired with modest AST (3.27) and very low BLK (0.19), confirming he operates exclusively on the perimeter. His REB (3.83) is low-moderate, not a forward-caliber number. Yahoo lists him SF-eligible but at his height and role profile — off-ball shooter who spaces the floor — the Guard bucket captures his true archetype more accurately than Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630243,
+      "name": "Trevelin Queen",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "At 6'5\" Trevelin Queen sits in the Guard/wing zone. His career profile (FG3M 1.73, moderate AST 2.66, modest BLK 0.95) fits a shooting-wing role player. Yahoo lists him SF-primary but also SG-eligible, while both metadata_position and metadata_bucket_v1 call him Guard. Height below 6'7\" is the deciding factor — combined with the Guard metadata consensus and a stat profile that lacks the elevated REB/BLK of a true Forward archetype, Guard is the better primary bucket. The SF Yahoo listing reflects positional versatility on a wing rather than a true Forward role.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630245,
+      "name": "Ayo Dosunmu",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Dosunmu is 6'4\" (76 inches), firmly in guard territory. His entire career falls within the 2019-26 window (debut 2021). Per-36 AST (4.13) nearly matches REB (3.93) with very low BLK (0.48) — a classic guard stat fingerprint. Yahoo primary is PG, eligible at PG/SG/SF. He functions as a combo guard / point-of-attack defender for Chicago, with no credible case for a forward bucket given height and role.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630249,
+      "name": "Vít Krejčí",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "At 6'8\" with Yahoo primary position SF, Krejčí fits cleanly in the Forward bucket. His per-36 profile (REB 4.47, AST 3.26, FG3M 2.31, BLK 0.45) reflects a wing/forward archetype: balanced rebounding and playmaking with outside shooting, not the high-AST/low-REB of a Guard or the high-REB/BLK of a Center. Entire career falls within the 2019-26 evaluation window, so no era-adjustment needed.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630322,
+      "name": "Lindy Waters III",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "At 6'5\" Waters plays as a stretch wing SF per Yahoo primary position. His career per-36 profile — 4.59 REB, 2.55 AST, 3.76 3PM, 0.69 BLK — fits a 3-and-D/stretch forward archetype. REB and AST are balanced rather than Guard-skewed (high AST/low REB) or Center-skewed (high REB/BLK). The high 3PM rate confirms a floor-spacing wing role, not a Guard ball-handler. All four signals (height, role, stats, Yahoo position) converge on Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630526,
+      "name": "Jeremiah Robinson-Earl",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Robinson-Earl is 6'9\", at the C/PF boundary. REB/36 of 8.94 leans big, but BLK/36 of only 0.34 argues against a true center archetype, and FG3M/36 of 1.62 signals a stretch-big role. Yahoo primary is C, providing a tie-break push toward Center, but his on-court profile across 2021-2025 is a stretch-4 power forward who plays up to center in small-ball lineups — low rim protection, perimeter shooting, moderate rebounding. Forward is the primary bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630527,
+      "name": "Brandon Boston",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Brandon Boston at 6'6\" sits right at the Guard/Forward boundary, but his on-court archetype is a wing scorer/defender (SF role) rather than a ball-handling guard. His AST (2.25/36) is too low for a guard archetype, his REB (4.58/36) and 3PT volume fit a perimeter wing forward, and Yahoo lists him PF/SF eligible with PF primary. The metadata Guard designation reflects his height and perimeter role, but the low AST + wing deployment tips the archetype to Forward over Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630529,
+      "name": "Herbert Jones",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Jones is a 6'7\" versatile wing defender for the Pelicans across the full 2021-2025 window. His per-36 profile (REB 4.5, AST 3.04, BLK 0.82) is balanced and consistent with a Forward archetype — not enough REB/BLK for Center, not enough AST for Guard. Yahoo primary is PF, metadata confirms Forward. He plays the 3/4 wing role defensively and offensively, with no ambiguity that pushes toward Guard or Center buckets.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630530,
+      "name": "Trey Murphy III",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Murphy is a 6'8\" stretch wing (80 inches) who plays both SF and PF roles. His per-36 profile — 5.35 REB, 2.67 AST, 0.54 BLK, 3.13 3PM — is textbook 3-and-D forward: enough rebounding to play the 4, not enough rim-protection or board-crashing for Center, and not enough playmaking for Guard. Yahoo primary PF, eligible at SF/SG. Debut 2021 means the 2019-26 window captures his entire career in this role with no earlier archetype to discount. No ambiguity between buckets.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630533,
+      "name": "Ziaire Williams",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Ziaire Williams is a 6'9\" SF who debuted in 2021 and played entirely within the 2019-26 window. His three-point production (2.02 FG3M/36) confirms a stretch-wing role. Moderate rebounding (4.89 REB/36), low assists (1.98 AST/36), and minimal shot-blocking (0.46 BLK/36) all align with a wing Forward archetype rather than Center or Guard. Yahoo primary position SF and eligible SF/SG reinforce this. No ambiguity — this is a Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630534,
+      "name": "Ochai Agbaji",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "Agbaji is a 6'5\" perimeter wing who debuted in 2022 and plays a 3-and-D role. His height places him firmly in guard/small-forward territory. His stat profile (AST 1.87, REB 4.57, BLK 0.64, FG3M 1.79 per 36) is consistent with a perimeter shooter rather than a forward who creates or defends the post. Yahoo lists him SG/SF with SF as primary, but metadata position and bucket both classify him as Guard. The low AST and lack of playmaking, combined with 6'5\" frame and perimeter shooting role, tip toward Guard over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630541,
+      "name": "Moses Moody",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Moses Moody is 6'5\" (77 inches), clearly below the forward threshold. His on-court role with Golden State is a 3-and-D shooting guard/wing: active three-point shooting (2.46 FG3M/36), low playmaking (1.95 AST/36), modest rebounding (4.81 REB/36), and minimal shot-blocking (0.62 BLK/36). The Yahoo PF primary designation is an eligibility quirk rather than a reflection of his actual archetype. Both metadata_position and metadata_bucket_v1 confirm Guard. The counting-stat profile (low AST, moderate REB, low BLK) with high 3PM fits a perimeter wing Guard bucket, not a Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630543,
+      "name": "Isaiah Jackson",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Jackson's career per-36 profile (REB 10.77, BLK 3.09, AST 1.79, 3PM 0.06) is a textbook rim-protecting center archetype — high rebounding, elite shot-blocking, minimal playmaking, and virtually zero perimeter shooting. At 6'8\" (80 in) he is on the boundary, but his role is unambiguously that of a traditional big/center, confirmed by Yahoo primary position C and eligible position C. No evidence of forward/wing offensive usage in the 2021-2025 window.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630545,
+      "name": "Terrence Shannon Jr.",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "At 6'6\" (78 inches), Shannon falls below the 6'7\" threshold, pointing toward Guard. Per-36 stats — REB 3.34, AST 2.61, BLK 0.21, FG3M 1.51 — reflect a perimeter wing with no interior presence. Very low BLK and modest REB rule out any big-man archetype. Yahoo's PF/SF eligibility appears to be roster-flexibility, not true archetype. Both metadata_position and metadata_bucket_v1 independently say Guard. Sub-6'7\" height plus perimeter shooting and guard-level counting stats tips the verdict to Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630548,
+      "name": "Johnny Juzang",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Juzang is 6'7\" and Yahoo-primary SF, placing him at the wing/forward archetype. His REB/36 of 5.06 and AST/36 of 1.88 are inconsistent with a Guard bucket — guards typically show higher assists and lower rebounds. His BLK/36 of 0.23 rules out Center. The 3.02 FG3M/36 fits a wing shooter role. Despite metadata listing Guard, his Yahoo primary position (SF), height, and stat profile collectively point to Forward as the best-fit bucket within the 2019-26 window.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630551,
+      "name": "Justin Champagnie",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "At 6'6\" Champagnie sits at the Guard/Forward border by height, but his on-court archetype firmly places him in the Forward bucket. His REB/36 of 9.45 is a high-volume rebounding rate typical of a power forward, not a guard. AST/36 of 2.03 is low, ruling out Guard. BLK/36 of 0.95 and limited three-point production further confirm a physical, rebounding wing role. Yahoo primary PF and eligibility at PF/SF align with this read. The metadata_position of Guard appears to be a mislabeling inconsistent with his statistical profile and Yahoo classifications.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630556,
+      "name": "Kessler Edwards",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'7\" with 1.53 3PM per 36, Edwards profiles as a stretch forward rather than a true center. His REB (5.06) and BLK (0.84) are modest — not the dominant interior numbers of a center archetype — and his three-point output signals perimeter usage. AST (1.92) confirms non-guard role. Yahoo lists C as primary, but that likely reflects roster construction rather than true archetype; metadata_position and metadata_bucket_v1 both designate Forward, which better matches a 6'7\" stretch-4 wing playing on the perimeter.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630559,
+      "name": "Austin Reaves",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Reaves is 6'5\" (77 in), plays PG/SG for the Lakers, and his per-36 profile shows AST (4.97) slightly exceeding REB (4.52) with minimal BLK (0.39) and meaningful 3PM (2.08) — a textbook perimeter guard fingerprint. Yahoo primary PG, eligible PG/SG/SF. All four decision criteria (archetype, height, Yahoo tie-breaker, counting-stat profile) point unambiguously to Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630560,
+      "name": "Cam Thomas",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Cam Thomas is 6'3\" (75 inches), a score-first Brooklyn Nets guard who debuted in 2021 and has played entirely within the evaluation window. His per-36 profile — low BLK (0.21), modest REB (3.9), moderate AST (3.15), and 1.81 3PM — matches a ball-dominant scoring guard archetype. He defends and scores as a guard, not a wing or forward. Yahoo SF listing is a minor positional elevation but does not override his on-court role as a primary ball-handler/scorer at the 2-guard spot.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630561,
+      "name": "David Duke Jr.",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "At 6'4\" (76 inches), Duke Jr. is well below the Forward threshold. He debuted in 2021, fully within the evaluation window. Per-36 stats: REB 5.91, AST 3.86, BLK 0.28, FG3M 1.22. Low BLK, modest AST, and guard-range height all point Guard. Elevated rebounding reflects hustle/athletic wing defense, not a true forward role. Yahoo SF primary is outweighed by his size and both metadata fields tagging him Guard. Primary bucket is Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630567,
+      "name": "Scottie Barnes",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Barnes (6'8\", debut 2021) plays the entire window as a versatile, ball-handling forward for Toronto. His per-36 AST of 5.48 is a playmaking-forward number inconsistent with a center archetype. REB 7.85 and BLK 1.14 are solid but not paint-dominant. Yahoo primary C reflects fantasy positional scarcity rules, not on-court role. Metadata position and bucket both flag Forward, and his height and role profile — switchable wing/power forward who initiates offense — firmly land him here.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630570,
+      "name": "Trendon Watford",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'8\" (80 inches), Watford sits in the Forward band. His stat profile shows balanced REB (7.67) and AST (4.04) per 36 with low BLK (0.93) and minimal 3PM — classic power forward archetype. High AST relative to BLK rules out Center; low AST relative to REB rules out Guard. Yahoo lists C/PF eligible with primary C, but his height and balanced REB/AST profile fit Forward more naturally. The metadata Guard label appears to be a mismatch. Forward is the best single-bucket fit.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630572,
+      "name": "Sandro Mamukelashvili",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "Mamukelashvili is 6'9\" (81 inches), Yahoo-primary C, eligible C/PF. His per-36 profile (REB 8.62, AST 2.69, BLK 0.82) fits a big archetype — high rebounds, low assists, modest blocks. The 2.29 3PM per 36 signals stretch usage that pulls toward Forward, and metadata calls him Forward, but the Yahoo primary position tie-breaker plus the rebounding-dominant/low-AST counting profile tips the verdict to Center. No evidence of guard-like playmaking or perimeter-primary role in the 2021-2025 window.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630577,
+      "name": "Julian Champagnie",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Julian Champagnie is a 6'7\" (79 inches) wing who debuted in 2022 and plays SF/SG per Yahoo. His per-36 profile — 6.08 REB, 2.03 AST, 0.74 BLK, 2.87 3PM — is a textbook 3-and-D wing/forward archetype: moderate rebounding, low playmaking, low shot-blocking, high three-point volume. Height sits at the low end of the Forward-Center border but his role, Yahoo primary position of SF, and counting-stat balance all point clearly to Forward. No ambiguity between buckets.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630578,
+      "name": "Alperen Sengun",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Sengun is 6'11\" and plays as a post-anchor for Houston. His 10.69 REB/36 and 0.49 FG3M/36 confirm an inside-oriented Center archetype. His elevated 5.36 AST/36 reflects modern post-passing skills, not a guard role. Yahoo primary position is C, debut 2021, and his entire NBA career falls within the 2019-26 window as a classic (if skilled) center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630583,
+      "name": "Santi Aldama",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "At 7'0\" (84 inches), Aldama clears the Center height threshold decisively. Yahoo primary position is C. Career rebounding (8.41/36) and blocking (0.93/36) with modest assists (2.97/36) fit the Center counting-stat profile. His 2.0 3PM/36 marks him as a modern stretch center — common in the current era — but does not shift the primary bucket. All four decision criteria (archetype, height, Yahoo position, counting stats) converge on Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630596,
+      "name": "Evan Mobley",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Evan Mobley is a clear Center archetype across all decision criteria. At 83 inches (6'11\"), he exceeds the 6'10\" threshold that leans Center. His career per-36 profile shows high REB (10.02) and BLK (1.76) with moderate AST (3.4) — a classic rim-anchoring big profile. Yahoo primary position is C. He debuted in 2021 and the entire observed window falls within 2021-2025, so no era-shift concern. The combination of size, blocking rate, rebounding, and Yahoo C designation makes this an unambiguous Center bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630598,
+      "name": "Aaron Wiggins",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Wiggins is a 6'5\" (77\") 3-and-D wing for OKC, active entirely within the 2019-26 window. Height falls clearly below the 6'7\" Forward threshold. His per-36 profile (AST 2.41, REB 5.62, BLK 0.46, FG3M 1.83) matches an off-ball shooting guard archetype — he is used as a spot-up scorer and perimeter defender, not a primary ball-handler or post/forward. Yahoo lists SF/SG eligible with SG-style usage; metadata_position and bucket_v1 both confirm Guard. The SF Yahoo primary reflects his physical size, not a true power-forward role. Guard is the clear primary bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630604,
+      "name": "E.J. Liddell",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'6\" (78 inches) Liddell is undersized for a true center despite Yahoo's C primary designation. His per-36 profile — 6.84 REB, 1.66 AST, 0.94 BLK, 1.46 3PM — matches a stretch power forward archetype: moderate rebounding, minimal playmaking, some rim protection, and perimeter shooting activity. The REB/AST ratio signals a big-wing rather than guard, and the 3PM presence rules out a pure center. Yahoo C eligibility reflects positional scarcity on rosters, not true archetype. Forward is the best-fit bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630625,
+      "name": "Dalano Banton",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Banton is 6'8\" with Yahoo primary SF and eligible SF/SG. His per-36 profile shows balanced REB (5.94) and AST (4.85) with modest BLK (0.88) and wing-level 3-point production (1.44) — the classic modern wing/forward archetype. The REB/AST balance rules out a Guard classification, while height and role rule out Center. All four decision criteria (archetype, height, Yahoo position, counting-stat profile) converge on Forward without ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630639,
+      "name": "A.J. Lawson",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'6\" Lawson sits at the Guard/Forward boundary, but his Yahoo primary position (SF), rebounding rate (7.13 per 36), and low assist rate (1.35 per 36) collectively point to a wing/forward archetype rather than a Guard. His 3-point production (1.81 per 36) fits the stretch-forward mold. The metadata Guard label appears to reflect positional flexibility rather than true archetype — the SF primary position and the rebounding-heavy, assist-light stat profile resolve the tie toward Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630649,
+      "name": "Stanley Umude",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "At 6'6\" (78 inches), Umude sits at the Guard/Forward boundary, but his stat profile decisively points to Forward. AST per 36 of 1.04 is far too low for a Guard archetype. REB 5.58 and BLK 1.92 per 36 signal a wing/forward defensive role rather than a guard. FG3M 1.61 is consistent with a stretch-forward. Yahoo primary position is SF, corroborating the Forward bucket. The low AST rules out Guard; height and role rule out Center. Forward is the clear primary bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630658,
+      "name": "Colin Castleton",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Colin Castleton checks every Center indicator. Height is 82 inches (6'10\"), right at the upper boundary that leans Center. Yahoo primary position is C. Career per-36 profile is classic big-man: REB 9.08, BLK 0.64, AST 1.44, and near-zero 3PM (0.08) — high rebounding, low assists, minimal perimeter shooting. Debut 2023 and last seen 2024-25 means the entire career window falls squarely within the 2019-26 evaluation period with no earlier-era role to discount. All five decision criteria align unambiguously on Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630692,
+      "name": "Jordan Goodwin",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'3\" (75 inches), Goodwin is clearly a guard by height. His Yahoo primary position is PG. His AST/36 of 4.38 confirms guard-level playmaking. The elevated REB/36 of 7.74 reflects a hustle/energy-guard archetype (active on the glass despite position) rather than a forward role. BLK/36 of 0.58 and FG3M/36 of 1.66 are both consistent with a switchable guard. SF eligibility stems from his defensive versatility and rebounding effort, not from a true forward role. All signals converge on Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630695,
+      "name": "Micah Potter",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Micah Potter is 6'9\" (81 inches), Yahoo-primary C, with career per-36 profile of 8.44 REB and only 1.99 AST — classic big-man rebounding archetype. BLK (0.59) is modest but consistent with a stretch-5 role. The 2.02 3PM per-36 indicates a modern floor-spacing center, not a traditional post anchor, but the overall profile (high REB, low AST, C-eligible, debut 2021 through 2024-25) firmly places him in the Center bucket throughout the entire 2019-26 window.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630699,
+      "name": "MarJon Beauchamp",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Beauchamp is a 6'7\" wing who plays SF per Yahoo, with a stat profile matching a Forward archetype: solid REB/36 (6.73), minimal AST/36 (1.57), low BLK (0.46), and perimeter shooting (2.11 3PM/36). Height sits at the Guard/Forward boundary but role, position listing, and rebounding all point to Forward. Not enough rim-protection or size for Center; not enough playmaking for Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1630700,
+      "name": "Dyson Daniels",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Daniels is 6'7\" (79 in), Yahoo primary PG, eligible PG/SG/SF. His per-36 AST (5.05) and PG role confirm a Guard archetype. REB (6.67) is elevated for a guard but reflects his defensive activity and length, not a forward role. BLK (0.57) and very low 3PM (0.83) are consistent with a defensive-specialist guard, not a stretch forward. No ambiguity across height, position eligibility, and stat profile — all converge on Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631094,
+      "name": "Paolo Banchero",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Banchero at 6'10\" sits on the height boundary, but his archetype is clearly Forward. AST/36 of 4.99 is far too high for a center, BLK/36 of 0.6 is low, and FG3M/36 of 1.45 reflects a skilled ball-handling big wing — not a rim anchor. Both metadata fields confirm Forward. Yahoo's C designation reflects fantasy eligibility conventions for tall forwards, not a true positional role. The balanced REB/AST with low BLK is the canonical Forward archetype.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631095,
+      "name": "Jabari Smith Jr.",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'11\" with per-36 stats of REB 8.15, AST 1.63, BLK 0.94, and 3PM 2.03, Smith Jr. profiles as a stretch-4 archetype — mobile, floor-spacing, low-assist big. He plays PF/C for Houston but his role is not a traditional paint-anchoring center. Yahoo primary C is a tie-breaker factor but the on-court archetype and metadata both point to Forward. Confidence is medium because his height and Yahoo primary C genuinely straddle the boundary.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631096,
+      "name": "Chet Holmgren",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Holmgren checks every Center indicator. At 85 inches (7'1\") he is well above the 6'10\" threshold. His debut-to-present role with OKC is as a rim-protecting, shot-blocking center: BLK/36 of 2.69 is elite and clearly Center-tier, REB/36 of 10.48 is strong, and AST/36 of 2.52 is low — matching the high-REB/high-BLK/low-AST Center archetype. Yahoo primary position is C. The 3PM/36 (1.76) reflects modern center shooting range but does not override the dominant rim-protection and rebounding profile. No ambiguity exists between buckets.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631097,
+      "name": "Bennedict Mathurin",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Mathurin is a 6'5\" scoring wing who debuted in 2022 and operates as a 2/3 combo guard for Indiana. His height (below the 6'7\" Forward threshold) and stat profile — moderate REB (5.69), low AST (2.38), minimal BLK (0.30) — fit a Guard archetype. Metadata_position, metadata_bucket_v1, and his on-court role as a scoring guard/shooting guard all point to Guard. Yahoo SF primary is a mild counter but his height and offensive usage as a perimeter scorer anchor him firmly in the Guard bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631101,
+      "name": "Shaedon Sharpe",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Sharpe is 6'5\" (77 inches), a shooting guard/wing scorer archetype for Portland since 2022. His per-36 profile — low AST (2.63), very low BLK (0.36), moderate REB (5.11), and active 3-point shooting (2.19) — is consistent with a Guard bucket. Yahoo lists him PG/SG/SF with primary PG. Despite SF eligibility, his height (below 6'7\" threshold) and low-BLK/low-AST profile with guard usage firmly place him in the Guard bucket rather than Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631103,
+      "name": "Malaki Branham",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Malaki Branham is 6'4\" (76 inches), debuted in 2022, and plays SF/SG per Yahoo eligibility with SF as his primary position. His per-36 profile shows moderate REB (4.24) and AST (3.22) — balanced for a wing — with minimal BLK (0.17) and solid 3-point volume (2.19 3PM/36). This is a classic wing/small forward archetype: not guard-heavy enough in AST to call Guard, and at 6'4\" he is below the threshold for Center. Yahoo SF primary and the balanced stat profile both point to Forward. The slight AST presence keeps him from being a pure Guard bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631106,
+      "name": "Tari Eason",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Tari Eason is a 6'8\" energy forward who debuted in 2022 and plays entirely within the evaluation window. His stat profile — REB/36 of 9.63, BLK/36 of 1.03, and AST/36 of 1.97 — matches the high-REB/moderate-BLK/low-AST Forward archetype. He is not tall enough (80 inches) to be a Center, and his perimeter shooting (1.59 3PM/36) plus SG eligibility confirm a versatile PF/SF role rather than a true big. Yahoo primary position of PF aligns with this read. No ambiguity between buckets here.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631107,
+      "name": "Nikola Jović",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Jović is 6'10\" (right at the Forward/Center border) with C/PF Yahoo eligibility, but his stat profile is decisively forward-leaning: AST per 36 of 3.65 and FG3M per 36 of 2.16 indicate a stretch-playmaker role, while BLK per 36 of only 0.52 rules out a rim-anchoring center archetype. The high assist-to-block ratio and three-point volume place him in the stretch power forward bucket. Both metadata_position and metadata_bucket_v1 confirm Forward; Yahoo primary C is the lone counter-signal but is outweighed by the skill set and role evidence.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631108,
+      "name": "Max Christie",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Christie is 6'5\" (77 inches), debuted in 2022, and operates entirely within the 2019-26 window as a 3-and-D shooting guard/wing for the Lakers. His stat profile — low AST (2.23), moderate REB (4.63), low BLK (0.48), and meaningful 3PM (2.06 per 36) — fits a shooting guard archetype. Metadata position and bucket_v1 both classify him as Guard. Yahoo lists SG eligibility alongside SF, with SF as primary, but at 6'5\" the height and role both point to the Guard bucket over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631110,
+      "name": "Jeremy Sochan",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Sochan at 6'8\" plays the 4/5 spot for San Antonio but his archetype is more Forward than Center. His 8.18 REB/36 supports a big-wing/power-forward role, but 3.41 AST/36 reflects ball-handling duties atypical of a true center, and his 0.62 BLK/36 is low for a rim-protecting center. Low 3PM (0.85/36) confirms he operates inside but not as a stretch-5. The balanced REB+AST with modest BLK fits the Forward bucket. Yahoo primary C is a tie-breaker candidate, but on-court archetype — switchable, rebounding, ball-handling PF — lands squarely as Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631111,
+      "name": "Wendell Moore Jr.",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "At 6'5\" (77 inches), Moore falls below the 6'7\" Forward threshold and leans Guard by height. His career stat profile — AST/36 of 3.01, REB/36 of 4.91, BLK/36 of 0.62, and very low 3PM volume — does not match a forward archetype (no dominant rebounding or shot-blocking) nor a primary ball-handler Guard. Yahoo lists him as SF, but at 6'5\" that reflects eligible-position flexibility rather than a true forward archetype. Metadata and bucket_v1 both align on Guard, which is consistent with his height and the modest, balanced stat profile of a wing Guard in the 2022-2025 window.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631114,
+      "name": "Jalen Williams",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'5\", Williams is undersized for a true forward. His OKC role is primary ball-handler and scorer — he leads the offense and creates off the dribble. Per-36 AST (5.28) nearly matches REB (5.38), consistent with a guard who rebounds well. BLK of 0.64 rules out any interior archetype. Yahoo PF is a fantasy eligibility artifact, not reflective of his actual role. Both metadata fields tag him Guard, aligning with his height and playmaking responsibilities since his 2022 debut.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631119,
+      "name": "Jaylin Williams",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'9\" Williams sits in the Forward/Center overlap, but Yahoo primary position is C (eligible C/PF), and REB/36 of 10.2 strongly supports a Center archetype. BLK/36 of 0.97 is moderate; AST/36 of 4.16 reflects his passing-big modern role without overriding the rebounding signal. FG3M/36 of 2.28 marks him as a stretch-5, not a wing. The combination of Yahoo C designation and rebounding volume tips the balance to Center over Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631124,
+      "name": "Julian Strawther",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Strawther is a 6'6\" shooting wing debuting in 2023, with Yahoo primary SF and SF/SG eligibility. His per-36 profile — REB 4.0, AST 2.53, BLK 0.41, FG3M 2.0 — fits a 3-and-D small forward archetype rather than a Guard. AST at 2.53 is not Guard-high, and 4.0 REB with moderate 3PM is consistent with a wing forward role. Height is borderline (just under 6'7\") but Yahoo primary SF and the shooting-wing on-court role tip this to Forward over Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631128,
+      "name": "Christian Braun",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Braun is 6'6\" (borderline Guard/Forward by height) but his on-court role with Denver is as a wing forward — he defends forwards and wings, not guards, and is used as a slashing/energy forward rather than a ball-handler. Per-36 REB of 5.73 is forward-range; AST of 2.63 is too low for a Guard archetype. Yahoo primary position is PF. BLK 0.53 and the overall profile point to a Forward bucket over Guard. The metadata_position of Guard likely reflects his shooting-guard collegiate role, but the 2022-25 NBA window is clearly forward-oriented.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631131,
+      "name": "Oscar Tshiebwe",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Tshiebwe's profile is an unambiguous interior big: REB/36 of 14.55 is elite center-tier rebounding, AST/36 of 2.36 is very low, and FG3M/36 of 0 confirms zero perimeter role. Yahoo primary position is C. At 6'8\" he sits at the low end of the Center height range, but his entire on-court archetype — rebounding specialist with no perimeter game, no rim protection, no playmaking — is prototypically interior. The role and stat profile override the modest height ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631133,
+      "name": "Jabari Walker",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'7\" (79 inches), Walker sits at the low end for Center. His stat profile — REB/36 of 9.29 and AST/36 of 1.78 — is clearly frontcourt, ruling out Guard. BLK/36 of 0.48 is modest for a true center, and FG3M/36 of 1.18 indicates some perimeter utility consistent with a stretch-4/power forward role. Yahoo lists C as primary but also PF eligible; metadata and bucket_v1 both say Forward. The combination of borderline height, modest shot-blocking, and some 3-point shooting points to Power Forward as the primary archetype rather than a traditional Center, despite the rebounding volume.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631170,
+      "name": "Jaime Jaquez Jr.",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Jaquez is 6'6\" (just under the 6'7\" Forward threshold) but his on-court archetype in Miami (2023-25) is a physical, defensive wing who plays forward minutes. Yahoo primary position is PF with SF/SG eligibility. Per-36 profile: REB 6.26 and AST 4.65 reflect a balanced wing forward, not a Guard (Guards typically show lower REB and higher AST ratio). BLK 0.35 rules out Center. The REB/AST balance and Yahoo PF primary outweigh the metadata Guard label and the borderline height.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631172,
+      "name": "Ousmane Dieng",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Dieng is 6'9\" and debuted in 2022, fully within the window. His stat profile — BLK 0.52 per 36 (well below center norms), FG3M 1.72 per 36 (active shooter), and AST 3.47 per 36 (real playmaking) — signals a stretch-forward archetype rather than a true center. Yahoo lists him C/PF/SF with primary C, but that likely reflects roster construction; the low block rate and shooting profile are inconsistent with a Center bucket. Moderate rebounding (6.34) with the shooting/assist mix fits a modern 4/3 Forward. Both metadata sources agree on Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631199,
+      "name": "Ron Harper Jr.",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'5\" Harper sits at the Guard/Forward boundary, but his Yahoo primary position is SF and his stat profile fits a wing forward: moderate rebounding (4.95 per 36), low assists (2.51), modest shot-blocking (1.12), and stretch contribution (2.2 3PM per 36). The AST/REB balance does not fit a Guard archetype (too little playmaking, enough rebounding), and he is nowhere near a Center. Yahoo SF designation is the tiebreaker over the metadata Guard label.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631207,
+      "name": "Dalen Terry",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Terry is 6'6\" (78 inches), debut 2022, Yahoo eligible at SF/SG with primary SF. His per-36 profile shows balanced REB (5.25) and AST (3.6) with modest BLK (0.77) and some 3-point shooting (1.55 3PM/36) — consistent with a wing/forward archetype. Height sits below the 6'7\" center threshold. The REB/AST balance without dominant BLK or playmaking volume fits the Forward bucket cleanly. No reason for no_fit; he is a prototypical modern wing forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631212,
+      "name": "Peyton Watson",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Watson is 6'8\" and plays PF/SF per Yahoo eligibility (primary PF). His entire career falls within the 2019-26 window. His stat profile — REB 5.67, BLK 1.79, AST 2.1 per 36 — is a textbook athletic wing/forward: high blocks for a non-center, low assists, moderate rebounds, modest 3-point shooting. This is a defensive-forward archetype. The metadata_position of Guard is inconsistent with every other signal (height, Yahoo positions, stat profile) and is overridden. Forward is the clear primary bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631213,
+      "name": "Tyrese Martin",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "At 6'6\" (78 inches) with Yahoo primary position PG and eligibility spanning PG/SG/SF, Martin's archetype in the 2019-26 window is a combo guard / 3-and-D wing who occupies backcourt slots. The stat profile supports this: very low BLK (0.22) eliminates any big-man lean, moderate AST (3.05) and high 3PM (2.36) fit a guard-oriented role, and the rebounding (5.99) is consistent with a long wing rather than a true Forward. Yahoo primary PG serves as the tiebreaker over the metadata Forward label.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631216,
+      "name": "Caleb Houstan",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Houstan is a 6'8\" wing (80 inches) who debuted in 2022 and plays entirely within the 2019-26 window. His per-36 profile — 4.0 REB, 1.4 AST, 0.3 BLK, 2.7 3PM — is textbook 3-and-D stretch forward. Yahoo primary position is SF. Height and role both point clearly to Forward; AST is too low for Guard and BLK/height too low for Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631217,
+      "name": "Moussa Diabaté",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Diabaté is 6'10\" with a classic rim-center stat profile: 11.66 REB/36, 1.22 BLK/36, near-zero three-point shooting (0.01 FG3M/36), and low AST (2.03). Yahoo primary position is C. His entire career falls within the 2019-26 window and he has never operated as a stretch forward or perimeter-oriented player. All criteria — height, role, counting-stat pattern, and Yahoo designation — point to Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631218,
+      "name": "Trayce Jackson-Davis",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Jackson-Davis (81 inches, debuted 2023) has an unambiguous Center profile: 10.37 REB/36, 1.89 BLK/36, near-zero 3PM (0.03). He plays in the paint on both ends — rim protection, lob rolls, and post cuts — not on the perimeter. The 3.34 AST/36 reflects passing out of the post and roll, not ball-handling guard usage. Yahoo primary position is C. High REB + BLK + zero shooting = classic Center archetype with no meaningful ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631230,
+      "name": "Dominick Barlow",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'9\" (81 inches) with Yahoo primary position C and PF eligibility, Barlow's counting-stat profile is that of a traditional big: 8.26 REB/36, 1.16 BLK/36, only 1.89 AST/36, and near-zero three-point shooting (0.38/36). The low AST and negligible 3PM rule out Guard and stretch-Forward archetypes. The REB/BLK profile without playmaking tilts toward Center over Forward, and Yahoo's primary designation of C confirms the on-court role. Confidence is medium rather than high because 6'9\" is a borderline height and PF eligibility is present.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631243,
+      "name": "Mouhamed Gueye",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Gueye is 6'11\" (83 inches), clearing the Center height threshold. Yahoo primary position is C. His stat profile — 8.41 REB/36, 1.46 BLK/36, and only 1.82 AST/36 — matches a classic Center archetype (high REB/BLK, low AST). The modest 1.09 FG3M/36 indicates some floor spacing but not enough to reclassify him as a Forward. All four decision criteria (height, Yahoo primary, stat profile, on-court role) converge on Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631246,
+      "name": "Vince Williams Jr.",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "At 6'4\" (76 inches), Williams Jr. is firmly guard-sized. Debuted 2022, active through 2024-25. Yahoo primary is PG with PG/SG/SF eligibility. Per-36 profile: AST 4.48, REB 6.72, BLK 0.69, FG3M 2.0. The AST rate and sub-6'7\" height anchor a Guard archetype. High REB for a guard reflects physical wing defense but not a Forward role. PG primary position as tie-breaker confirms Guard bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631248,
+      "name": "Baylor Scheierman",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Scheierman is 6'6\" (78 inches), right at the Guard/Forward boundary, but his Yahoo primary position is SF and his on-court profile fits a wing Forward archetype: REB 6.61/36 is robust for a non-center, AST 2.74/36 is too low for a true guard role, and BLK 0.12/36 rules out any center lean. His FG3M rate (1.93/36) confirms a stretch-wing usage. The metadata Guard label conflicts with Yahoo SF designation; the rebounding and low-assist profile tips the balance toward Forward over Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631255,
+      "name": "Karlo Matković",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Matković is 6'10\" with a classic rim-anchor profile: 10.23 REB and 3.06 BLK per-36 with only 2.17 AST per-36. The high block rate signals rim-protecting role, and the rebounding volume confirms a paint-anchored assignment. Yahoo primary position is C. The modest 1.16 3PM per-36 does not indicate a stretch-forward role. Every criterion — height, role archetype, counting-stat shape, and Yahoo position — converges on Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631260,
+      "name": "AJ Green",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "AJ Green is 6'4\" (76 inches), debuted 2022, and carries a shooting-guard archetype throughout the 2019-26 window. His per-36 profile is dominated by 3-point volume (3.52 3PM) with low BLK (0.13), modest AST (2.31), and moderate REB (3.71) — all consistent with an off-ball shooting guard. Yahoo primary position is PG and he is eligible at SG/SF, but his role and stat profile align squarely with a Guard bucket. Height, role, metadata, and counting stats all converge on Guard with no ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631288,
+      "name": "Jamal Cain",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Cain is a 6'7\" wing who debuted in 2022 and plays entirely within the 2019-26 window. His per-36 profile (REB 5.82, AST 1.81, BLK 0.37, FG3M 1.99) is a textbook small forward archetype: moderate wing rebounding, minimal playmaking, negligible rim protection, and active 3-point shooting. Yahoo primary position is SF. Height, role, and stat profile all converge on Forward with no meaningful ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631303,
+      "name": "Justin Minaya",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Minaya at 6'5\" sits just below the typical forward threshold, but all available signals align on Forward: Yahoo primary position is SF, both metadata fields tag him Forward, and his per-36 stat profile (REB 5.56, AST 2.03, BLK 0.64, low 3PM 0.7) matches a wing/3-and-D forward archetype — solid rebounding for his size, limited playmaking, not the high-AST profile of a guard. The SF designation over SG as primary confirms the on-court role leans toward the forward bucket despite his height.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631311,
+      "name": "Lester Quinones",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "At 6'4\" (76 inches), Quinones falls clearly in the guard/wing range. His per-36 profile shows a perimeter shooter (2.58 3PM) with solid AST (4.15) and very low BLK (0.41), consistent with a guard archetype. The REB (7.07) is elevated for his size but does not override the height and shooting profile. Yahoo SF primary likely reflects small-roster versatility rather than a true forward role. metadata_position and metadata_bucket_v1 both confirm Guard, providing additional tie-breaking support.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631321,
+      "name": "Sidy Cissoko",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'6\" (78 inches), Cissoko sits just below the 6'7\" guard/forward threshold, but Yahoo classifies him as PF primary with SF eligibility — both forward slots. His per-36 stat profile (REB 4.89, AST 2.72, BLK 0.43, FG3M 1.14) is inconsistent with a guard archetype: assists are too low and rebounds too high for a guard role, and the 3-point rate is modest rather than guard-volume. The profile fits a wing/stretch forward. Metadata calls him Guard, but Yahoo's PF primary serves as the tie-breaker per the decision criteria, and the counting-stat shape supports Forward over Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1631342,
+      "name": "Daeqwon Plowden",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Plowden is 6'4\" (76 inches), which nominally leans Guard by height, but his Yahoo eligibility (PF/SF, primary PF) and counting-stat profile point to a Forward archetype. REB 4.3 vs AST 1.51 per 36 is a forward ratio, not a guard ratio. High FG3M (2.49/36) marks him as a stretch forward type used for floor-spacing at the 3/4. Low BLK (0.32) rules out Center. The metadata Guard label likely reflects his height, but his on-court role in 2024-25 — the only window available — aligns with a stretch forward bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641705,
+      "name": "Victor Wembanyama",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "At 7'4\" (88 inches), Wembanyama clears the Center height threshold by a wide margin. His per-36 profile — 13.12 REB and 4.12 BLK — is archetypal rim-protecting, rebounding Center. Yahoo primary position is C. The 4.19 AST/36 and 2.53 3PM/36 reflect his unusual versatility but do not override the dominant Center signals. The metadata Forward tag is an artifact of positional fluidity, not a true archetype designation. Within the 2023-2025 window he plays and is deployed as a Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641707,
+      "name": "Taylor Hendricks",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Hendricks is 6'9\" with C/PF/SF eligibility, debuted 2023, fully within the window. Per-36: REB 7.45, BLK 1.14, AST 1.67, FG3M 2.44. The 2.44 FG3M marks him as a stretch-4 rather than a traditional center. Low AST and solid BLK fit a big forward archetype. SF eligibility and both metadata fields (Forward) outweigh the Yahoo primary C tiebreaker. Forward is the best primary bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641708,
+      "name": "Amen Thompson",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'7\" with 8.82 REB/36 and 0.99 BLK/36, Thompson's counting-stat profile is firmly in Forward territory — those rebounding numbers are anomalous for a guard and reflect his physical, above-the-rim slashing archetype. His 3-point output (0.31/36) is nearly absent, ruling out stretch-guard usage. While Yahoo lists him as PG and he handles ball-initiation duties in Houston, his on-court role is an athletic wing/forward who attacks the rim and crashes the glass, not a perimeter-oriented guard. The archetype and counting-stat criteria outweigh the Yahoo PG tie-breaker in priority order.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641709,
+      "name": "Ausar Thompson",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Ausar Thompson is a 6'7\" athletic wing who plays a clear Forward archetype in the 2023-25 window. His per-36 profile — 8.51 REB, 1.30 BLK, only 0.28 3PM — is a physical, non-shooting forward who crashes boards and blocks shots, not a guard. Yahoo's primary position of PF reinforces this. The metadata_position of Guard appears misclassified; his on-court role (elite defender/rebounder, near-zero perimeter shooting, Yahoo PF) firmly places him in the Forward bucket. Height of 6'7\" sits at the Guard-Forward boundary but role and Yahoo primary position resolve it to Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641710,
+      "name": "Anthony Black",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Anthony Black is 6'7\" with Yahoo primary position PG and eligibility at PG/SG/SF. Debuting in 2023, his entire career falls in the 2019-26 window as a long, switchable guard. His per-36 profile shows balanced AST (4.03) and REB (4.34) consistent with a playmaking wing-guard, not a forward or center archetype. The elevated BLK (0.97) reflects his length rather than a true big-man role. His primary usage is as a ball-handler and guard, firmly placing him in the Guard bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641711,
+      "name": "Gradey Dick",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Dick is a 6'7\" shooting wing (79 inches) who debuted in 2023 and plays SF/SG. Yahoo primary position is SF. His per-36 profile — moderate REB (4.27), low AST (1.96), negligible BLK (0.18), and high 3PM (2.07) — fits a perimeter wing forward archetype rather than a guard. The low AST rules out Guard as primary; the low BLK and moderate REB rule out Center. SF is the dominant on-court role, placing him squarely in the Forward bucket despite the metadata_bucket_v1 listing of Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641713,
+      "name": "GG Jackson",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "GG Jackson (6'9\", debuted 2023) profiles as a stretch Power Forward. His 2.18 3PM per 36 signals a face-up/stretch-big role rather than a traditional center. REB 6.98 is moderate, BLK 0.86 is low, AST 2.06 is low — a big-man profile but not a dominant interior center. The metadata position (Forward) and eligible positions (C/PF/SF) both point to a PF archetype. Yahoo's primary C designation likely reflects Memphis roster scarcity rather than true archetype. In the modern era, a 6'9\" stretch-big with this 3-point volume and moderate REB/BLK is canonically a Forward, not a Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641717,
+      "name": "Cason Wallace",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "Wallace is 6'3\" (75 inches), debuted 2023 for OKC, and plays as a point/combo guard. Yahoo primary position is PG. His stat profile (AST 3.05, REB 4.16, BLK 0.67 per 36) is consistent with an active, long guard — moderate assists, low-to-moderate rebounds, slightly elevated blocks for a guard but well within range. All height, role, positional eligibility, and counting-stat signals converge on Guard with no ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641721,
+      "name": "Maxwell Lewis",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Maxwell Lewis is a 6'7\" wing who debuted in 2023, entirely within the evaluation window. His Yahoo primary position is SF with SF/SG eligibility. His per-36 profile (REB 3.07, AST 1.54, BLK 0.41, 3PM 1.31) is consistent with a perimeter forward/wing archetype: not enough rebounding or shot-blocking for Center, not enough playmaking for Guard. The 3PM rate confirms a perimeter offensive role. Forward bucket is the clear primary assignment.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641722,
+      "name": "Jordan Hawkins",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'5\" (77 inches), Hawkins falls below the 6'7\" Forward threshold. His profile — high 3PM (3.17/36), very low AST (1.83/36), and low BLK (0.4/36) — is a classic off-ball shooting guard archetype. Despite Yahoo listing SF as primary, his height and low playmaking role anchor him firmly in the Guard bucket. Metadata also confirms Guard. The 3-and-D wing profile at this height is a Guard in this framework.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641724,
+      "name": "Jett Howard",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Jett Howard is 6'8\" and plays SF per Yahoo, with a stat profile matching a stretch-forward archetype: moderate rebounding (4.15 REB/36), low assist rate (2.21 AST/36), and high 3-point volume (3.71 FG3M/36). His role is as a wing shooter/forward, not a ball-handler or interior player. All signals — height, position designation, and counting stats — converge on Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641727,
+      "name": "Dariq Whitehead",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Whitehead is 6'6\" (78 inches), right at the Guard/Forward boundary, but his Yahoo primary position is SF and he has no meaningful playmaking (AST 1.37 per 36) which rules out a Guard archetype. His high FG3M (4.17 per 36) paired with moderate rebounding (4.17) and minimal shot-blocking (0.52) profile him as a shooting wing forward. The SF primary position is the tie-breaker over SG, and his counting-stat profile is more consistent with a perimeter forward than a Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641729,
+      "name": "Brice Sensabaugh",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "At 6'6\" he sits just below the forward height floor, but Yahoo primary position PF and eligibility at PF/SF/SG confirm a wing/forward role. Stat profile: moderate REB (5.52/36), low AST (2.81/36), very low BLK (0.23/36), high 3PM (3.17/36) — classic stretch-4 forward archetype. BLK rate rules out Center; AST rate too low for Guard. Yahoo PF primary is the tie-breaker, landing him firmly in Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641730,
+      "name": "Noah Clowney",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At exactly 6'10\", Clowney sits on the Center/Forward border. His stats (REB 6.29, AST 1.91, BLK 0.93, FG3M 2.43) show a stretch-big role with low assists ruling out Guard/perimeter-forward. The high 3PM is consistent with modern stretch-center play. Yahoo primary_position is C (eligible C, PF only), serving as the explicit tiebreaker per criteria. Both eligible positions are big-man slots, confirming center-archetype placement.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641731,
+      "name": "Bilal Coulibaly",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Coulibaly is a 6'7\" athletic wing who debuted in 2023 and plays exclusively in the 2019-26 window. Yahoo primary position is SF. His per-36 profile — 5.59 REB, 3.2 AST, 1.01 BLK — is a classic defensive-minded forward archetype: rebounds above guard level, blocks well above guard level, and assists are wing-moderate rather than guard-high. He is used as a switchable 3/wing defender, not a ball-handler. All signals (height, Yahoo SF, REB/BLK profile) converge on Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641732,
+      "name": "Colby Jones",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'6\", Jones sits at the Guard/Forward boundary, but his per-36 profile tilts Forward: REB 7.9 is high for a wing, BLK 1.02 is above typical guard range, and AST 2.65 is moderate rather than guard-high. Yahoo primary is SF (eligible SF/SG). His entire career falls within the 2019-26 window. The rebounding and shot-blocking load relative to assist output aligns more with a forward archetype than a guard archetype.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641737,
+      "name": "Adem Bona",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Bona is 6'10\" (82 inches), debuted 2024, with a stat profile that is unambiguously center-archetypical: 9.21 REB/36, 2.57 BLK/36, only 0.96 AST/36, and virtually no three-point shooting (0.02 FG3M/36). Yahoo primary position is C. He is a traditional rim-running, shot-blocking big who operates in the paint on both ends. All five decision criteria align on Center with no ambiguity.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641738,
+      "name": "Kobe Brown",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Kobe Brown (6'7\", debut 2023) profiles as a stretch power forward. His BLK of 0.24/36 is far below Center norms, while his 3PM (1.27/36) and AST (2.8/36) indicate a perimeter-facing big rather than a paint anchor. REB at 6.61/36 is solid but not rim-protecting Center territory. Yahoo primary C is noted but the overall stat signature — low blocks, moderate assists, perimeter shooting — fits a modern PF/stretch-4 Forward archetype. Metadata position and v1 bucket both confirm Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641739,
+      "name": "Toumani Camara",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Camara is 6'7\" with a stretch/3-and-D profile: 2.03 3PM per 36 signals a wing/forward role, BLK of 0.6 per 36 rules out rim-protecting center archetype, and AST 2.36 suggests wing playmaking rather than post-up big. REB 6.3 is consistent with a physical forward, not a dominant center rebounder. Yahoo's C listing reflects roster construction flexibility, not true archetype. Both metadata fields independently call him Forward, which matches the statistical evidence. Forward is the clear primary bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641740,
+      "name": "Jaylen Clark",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "medium",
+      "rationale": "At 6'5\" (77 inches), Clark falls below the 6'7\" Forward threshold, placing him firmly in Guard/wing range by height. His career per-36 profile (AST 1.64, REB 4.59, BLK 0.22) shows low playmaking and negligible rim-protection, consistent with a perimeter wing rather than a traditional Forward. Yahoo lists him SF-primary but SG-eligible, and both metadata_position and metadata_bucket_v1 tag him as Guard. The modest 3PM (1.47) fits a perimeter Guard/wing archetype. Despite the SF Yahoo primary, height and metadata consensus pull toward Guard as the primary bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641741,
+      "name": "Ricky Council IV",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'6\" (78 inches), Council sits at the Guard/Forward boundary. His Yahoo primary position is SF, he is eligible at SF and SG. His per-36 profile — REB 5.27, AST 3.07, BLK 0.29, 3PM 1.57 — is consistent with an athletic wing/small forward: rebounding is above guard norms, AST is moderate (not point-guard high), and he lacks the shot-blocking profile of a bigger player. The SF primary Yahoo designation is the tie-breaker over Guard. Archetype is best described as a scoring wing/small forward in the 2023-25 window.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641748,
+      "name": "Andre Jackson Jr.",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'6\" with Yahoo primary SF and SF/SG eligibility, Jackson Jr. fits the wing/forward archetype. REB/36 of 6.89 is above typical guard rebounding, consistent with a small forward role. Low BLK (0.34) and moderate AST (3.2) rule out Center. While height is at the Guard/Forward boundary, the SF primary designation and rebounding profile tip the scale to Forward over Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641757,
+      "name": "Jordan Miller",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Jordan Miller is 6'5\" (77 inches), which sits just below the 6'7\" threshold but his Yahoo primary position is SF, serving as the tiebreaker. His per-36 profile — REB 4.47, AST 3.64, BLK 0.29 — is balanced rather than guard-skewed (guards typically show higher AST relative to REB). The low BLK eliminates Center. The REB/AST parity and SF primary designation point to a wing/forward archetype. He is a recent player (debuted 2023) fully within the 2019-26 window playing a contemporary 3-and-D wing role at SF.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641765,
+      "name": "Olivier-Maxence Prosper",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'7\" with 1.15 3PM per 36 and only 0.41 BLK per 36, Prosper fits a stretch-4/wing-forward archetype rather than a true center. His rebounding (8.28 per 36) and low assists (1.9) confirm a non-guard role, but the 3-point shooting and modest block rate at his height point to Forward over Center. Yahoo's C primary likely reflects positional scarcity; metadata_position and metadata_bucket_v1 both code him as Forward, consistent with his actual on-court profile as a modern versatile big wing.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641767,
+      "name": "Ben Sheppard",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "At 6'6\" with Yahoo primary SF and SG/SF eligibility, Sheppard occupies a classic wing role. His per-36 stats (REB 4.55, AST 2.52, BLK 0.22, 3PM 2.08) show a balanced profile without a strong guard signature — AST of 2.52 is low for a true guard archetype, while REB of 4.55 and shooting volume fit a stretch forward/wing. The metadata Guard tags reflect his smaller stature and SG eligibility, but Yahoo primary SF is the tie-breaker here alongside the stat profile that leans Forward over Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641774,
+      "name": "Tristan Vukcevic",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "At 7'0\" (84 inches), Vukcevic clears the >6'10\" Center threshold comfortably. Yahoo primary position is C. Career per-36 profile shows solid rebounding (8.34) and blocking (1.86) with modest assists (2.8), consistent with a Center archetype. The elevated 3PM (2.39 per 36) marks him as a stretch-center variant but does not displace him from the Center bucket. All four signals — height, Yahoo position, REB/BLK profile, and role context — converge on Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641775,
+      "name": "Jordan Walsh",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Walsh is 6'6\" (borderline) but Yahoo slots him primary PF, and his career per-36 profile — REB 6.93, AST 1.61, BLK 0.77 — is a classic forward fingerprint: meaningful rebounding, low playmaking, modest shot-blocking. The 1.27 3PM fits a stretch-forward role. Despite metadata labeling him Guard, the Yahoo primary position (PF) and counting-stat profile both align with Forward. His archetype in the 2023-2025 window is a young, versatile wing/forward, not a Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641796,
+      "name": "Pelle Larsson",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Larsson is 6'5\" with Yahoo primary position SF and eligible at SF/SG. His per-36 profile shows balanced REB (4.21) and AST (3.67) with minimal BLK (0.30) and moderate 3PM (1.31), consistent with a wing/small forward archetype rather than a true guard. Height is borderline (6'5\" skews Guard), but Yahoo primary SF and the REB-heavy-relative-to-AST profile tips to Forward. No interior BLK presence rules out Center entirely.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641810,
+      "name": "Antonio Reeves",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Guard",
+      "raw_assignment": "Guard",
+      "confidence": "high",
+      "rationale": "At 6'5\" with a career 3PM per 36 of 3.08, low REB (3.34), low AST (2.27), and negligible BLK (0.24), Reeves is a perimeter shooter with a classic off-ball scoring guard profile. Yahoo lists him SF/SG with SF primary, but his height and stat signature — dominant 3-point volume, minimal playmaking and rebounding — are squarely Guard archetype. Both metadata fields independently confirm Guard. No meaningful Center or power Forward attributes present.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1641998,
+      "name": "Trey Jemison III",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Jemison fits the Center bucket cleanly on every criterion. At 6'10\" with zero 3-point attempts, 11.44 REB/36, 1.63 AST/36, and 1.24 BLK/36, his counting-stat profile is a textbook traditional big: high rebounding, minimal playmaking, no perimeter shooting. Yahoo lists him C primary. His entire career falls within the 2019-26 window (debut 2023), so there is no pre-window role to discount.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642261,
+      "name": "Dalton Knecht",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Knecht is 6'6\" with Yahoo primary SF, eligible at SF/SG. His per-36 profile (REB 4.96, AST 1.47, BLK 0.35, FG3M 3.04) is a classic scoring wing: moderate rebounding, minimal playmaking, negligible shot-blocking, and high three-point volume. Debuted 2024 so the entire window is current. Height rules out Center; low AST rules out Guard as primary. SF archetype is unambiguous.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642262,
+      "name": "Cody Williams",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Cody Williams is a 6'8\" (80 inches) wing who debuted in 2024. His Yahoo primary position is SF and he is eligible at SF/SG. His per-36 stat profile — REB 4.08, AST 2.31, BLK 0.58, FG3M 0.82 — fits the Forward archetype: moderate rebounding, modest playmaking, low shot-blocking, and some three-point production. Nothing in the profile suggests Center (no rim-protection, insufficient rebounding dominance) or Guard (AST too low relative to REB). All signals converge on Forward.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642271,
+      "name": "Kyle Filipowski",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Filipowski is 6'11\" and Yahoo-listed as C (primary) with C/PF eligibility. His 10.63 REB/36 confirms a big man rebounding role. The 3.66 AST/36 and 1.58 FG3M/36 reflect a modern stretch-passing center archetype, not a guard or forward role. BLK/36 of 0.6 is low but does not disqualify Center — many modern skill bigs are not rim-protectors. All signals (height, Yahoo position, metadata, rebounding volume) converge on Center with no meaningful pull toward Forward or Guard.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642273,
+      "name": "Kyshawn George",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "At 6'8\" with a balanced REB/AST profile (6.32/4.27 per 36), meaningful 3-point shooting (2.32 FG3M per 36), and moderate BLK (1.05), George fits the stretch/versatile forward archetype cleanly. AST rate is too high for a Center bucket; REB and BLK are too low for a true big. Yahoo primary PF confirms. No positional ambiguity — Forward is the clear primary bucket.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642276,
+      "name": "Kel'el Ware",
+      "metadata_bucket_v1": "Center",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "Kel'el Ware is a clear Center archetype across all five decision criteria. At 84 inches (7'0\"), he is well above the 6'10\" Center threshold. His career per-36 profile shows elite rebounding (13.24 REB), solid shot-blocking (1.7 BLK), and very low assists (1.4 AST) — the canonical high-REB/BLK low-AST Center pattern. Yahoo primary position is C. He debuted in 2024 so the entire career window falls within scope. The 1.42 FG3M per 36 suggests some floor-spacing ability but does not dilute the dominant interior archetype given the rebounding and block rates.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642277,
+      "name": "Johnny Furphy",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Furphy is 6'8\" (80 inches), firmly in the Forward band. Yahoo primary position is SF (eligible SF/SG). Per-36 stats: REB 6.8 (moderate, wing-level), AST 1.46 (too low for Guard), BLK 0.75 (too low for Center). Rebounding wing profile without playmaking fits Forward cleanly. Metadata Guard flag likely reflects SG eligibility, but height and Yahoo primary SF override it. Short career window (2024-25 only) limits certainty, hence medium confidence.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642281,
+      "name": "Jaylon Tyson",
+      "metadata_bucket_v1": "Guard",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "medium",
+      "rationale": "Tyson is 6'6\" with Yahoo primary position SF and eligible at SF/SG. His per-36 profile shows REB 6.92 (solid wing rebounder, not Guard-level), AST 3.3 (moderate, not a primary playmaker), BLK 0.37 (low, consistent with a wing), and FG3M 1.99 (perimeter shooter). This is a classic scoring wing/small forward archetype. While metadata labels him Guard, the Yahoo primary SF and rebounding rate tip the balance to Forward. The 6'6\" height sits on the Guard-Forward boundary but the role is clearly SF-oriented.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642345,
+      "name": "Oso Ighodaro",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "high",
+      "rationale": "At 6'11\" with Yahoo primary position C, zero three-point shooting, and a rebounding-forward stat profile (8.09 REB, 1.06 BLK per 36), Ighodaro fits the Center bucket clearly. The 3.36 AST/36 reflects modern big-man passing ability but does not override height, position eligibility, and the complete absence of perimeter shooting. All four decision criteria (archetype, height, Yahoo primary, counting-stat profile) converge on Center.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642367,
+      "name": "Jonathan Mogbo",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Center",
+      "raw_assignment": "Center",
+      "confidence": "medium",
+      "rationale": "At 6'9\" (81 inches) with Yahoo primary position C and C/PF-only eligibility, Mogbo profiles as a modern playmaking center. His REB/36 of 8.83 and BLK/36 of 1.07 anchor him in the big-man bucket, while his AST/36 of 3.53 reflects a passing big rather than a wing forward. Minimal 3-point shooting (0.34/36) rules out stretch-forward archetype. The AST rate is elevated for a center but not enough to shift the bucket — it is consistent with a contemporary PF/C who initiates short-roll offense. Yahoo primary C is the tiebreaker over Forward given the otherwise borderline height.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642377,
+      "name": "Jaylen Wells",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Jaylen Wells is a textbook 3-and-D wing. At 6'7\" with Yahoo primary position SF, he sits squarely in the Forward bucket. His per-36 profile — 4.67 REB, 2.28 AST, 0.16 BLK, 2.42 3PM — matches a wing forward archetype: moderate rebounding, minimal playmaking, no shot-blocking, active three-point shooting. Nothing in the profile suggests Guard (AST too low, height at ceiling) or Center (BLK near zero, REB moderate). Forward is unambiguous.",
+      "no_fit_reason": ""
+    },
+    {
+      "nba_api_id": 1642461,
+      "name": "Spencer Jones",
+      "metadata_bucket_v1": "Forward",
+      "adjudicated_bucket": "Forward",
+      "raw_assignment": "Forward",
+      "confidence": "high",
+      "rationale": "Spencer Jones is 6'7\", Yahoo primary SF, debuted 2024 so entirely within the window. His per-36 profile (REB 5.06, AST 1.24, BLK 0.70, FG3M 1.07) is a classic wing/stretch-forward signature: moderate rebounding well above Guard range, minimal playmaking, low shot-blocking, and modest 3-point volume. Low AST rules out Guard; low BLK and non-dominant rebounding rule out Center. All four criteria (archetype, height, Yahoo position, counting-stat ratio) converge on Forward.",
+      "no_fit_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "stat": "PTS",
+  "test_season": "2022-23",
+  "n_players": 199,
+  "mae": 1.9909308889499129,
+  "rmse": 2.604780180707,
+  "bias": -0.06873515347402501,
+  "coverage_50": 0.4723618090452261,
+  "coverage_80": 0.7788944723618091,
+  "coverage_90": 0.8241206030150754,
+  "z_error_mean": -0.03325583824307745,
+  "z_error_sd": 1.1899830903570328,
+  "top_25_accuracy": 0.88,
+  "top_50_accuracy": 0.72,
+  "worst_misses": [
+    {
+      "nba_api_id": 1628374,
+      "name": "Lauri Markkanen",
+      "projected": 18.809334441463886,
+      "projected_sd": 2.1264118565743964,
+      "actual": 26.805812417437252,
+      "error": -7.996477975973367,
+      "z_error": -3.7605499382680834
+    },
+    {
+      "nba_api_id": 1628983,
+      "name": "Shai Gilgeous-Alexander",
+      "projected": 24.193844591131846,
+      "projected_sd": 2.3176824042355118,
+      "actual": 31.799751758378157,
+      "error": -7.605907167246311,
+      "z_error": -3.281686547452183
+    },
+    {
+      "nba_api_id": 1628415,
+      "name": "Dillon Brooks",
+      "projected": 23.866603533552933,
+      "projected_sd": 2.57670819984796,
+      "actual": 17.032083145051963,
+      "error": 6.8345203885009695,
+      "z_error": 2.6524231144621826
+    },
+    {
+      "nba_api_id": 1628392,
+      "name": "Isaiah Hartenstein",
+      "projected": 15.610499480905357,
+      "projected_sd": 2.0570303575594173,
+      "actual": 8.96137339055794,
+      "error": 6.649126090347417,
+      "z_error": 3.2323908424163146
+    },
+    {
+      "nba_api_id": 1627747,
+      "name": "Caris LeVert",
+      "projected": 20.911523040418714,
+      "projected_sd": 2.413669510161608,
+      "actual": 14.448322147651007,
+      "error": 6.463200892767707,
+      "z_error": 2.677748907030342
+    },
+    {
+      "nba_api_id": 1628973,
+      "name": "Jalen Brunson",
+      "projected": 18.741135463648515,
+      "projected_sd": 2.1230999908740724,
+      "actual": 24.742424242424242,
+      "error": -6.001288778775727,
+      "z_error": -2.826663277552471
+    },
+    {
+      "nba_api_id": 1630170,
+      "name": "Devin Vassell",
+      "projected": 15.449042801963053,
+      "projected_sd": 2.0798388795049636,
+      "actual": 21.447457627118645,
+      "error": -5.998414825155592,
+      "z_error": -2.8840766870284273
+    },
+    {
+      "nba_api_id": 201567,
+      "name": "Kevin Love",
+      "projected": 20.629909912252185,
+      "projected_sd": 2.3681549800413415,
+      "actual": 14.801292407108239,
+      "error": 5.828617505143946,
+      "z_error": 2.461248336475932
+    },
+    {
+      "nba_api_id": 202692,
+      "name": "Alec Burks",
+      "projected": 15.090800369029399,
+      "projected_sd": 2.100244271181033,
+      "actual": 20.864,
+      "error": -5.773199630970602,
+      "z_error": -2.7488229394022587
+    },
+    {
+      "nba_api_id": 1630169,
+      "name": "Tyrese Haliburton",
+      "projected": 16.572438778693286,
+      "projected_sd": 1.9364643677636941,
+      "actual": 22.236421725239616,
+      "error": -5.66398294654633,
+      "z_error": -2.9249094591331533
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1630166,
+      "name": "Deni Avdija",
+      "projected": 12.4110608664893,
+      "projected_sd": 1.8655754980959516,
+      "actual": 12.415635823849579,
+      "error": -0.00457495736027802,
+      "z_error": -0.0024523035197167443
+    },
+    {
+      "nba_api_id": 1629684,
+      "name": "Grant Williams",
+      "projected": 11.30268111739275,
+      "projected_sd": 1.9367675805529552,
+      "actual": 11.284107579462104,
+      "error": 0.018573537930645756,
+      "z_error": 0.009589967385422124
+    },
+    {
+      "nba_api_id": 1626196,
+      "name": "Josh Richardson",
+      "projected": 15.385247067964688,
+      "projected_sd": 2.0619217467066364,
+      "actual": 15.35812133072407,
+      "error": 0.02712573724061862,
+      "z_error": 0.013155560963428736
+    },
+    {
+      "nba_api_id": 1629022,
+      "name": "Lonnie Walker IV",
+      "projected": 18.150838210510248,
+      "projected_sd": 2.1004501746739845,
+      "actual": 18.18069498069498,
+      "error": -0.02985677018473254,
+      "z_error": -0.014214462473201333
+    },
+    {
+      "nba_api_id": 1629639,
+      "name": "Tyler Herro",
+      "projected": 20.805305865157756,
+      "projected_sd": 2.111797768322003,
+      "actual": 20.75856164383562,
+      "error": 0.04674422132213607,
+      "z_error": 0.02213480003782663
+    }
+  ]
+}

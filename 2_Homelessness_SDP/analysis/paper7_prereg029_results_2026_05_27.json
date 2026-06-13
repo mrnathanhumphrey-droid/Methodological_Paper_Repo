@@ -1,0 +1,72 @@
+{
+  "pre_reg": "PRE_REG_029",
+  "framing": "correlational; SDP-legit = structure explains net of climate",
+  "deferred": "WRLURI zoning (v2); opioid 2018-proxy for 2024 (flagged)",
+  "cross_section_2024": {
+    "year": 2024,
+    "n_states": 51,
+    "homeless_per_10k": {
+      "loo_r2_climate": -0.1341,
+      "loo_r2_climate_plus_housing": 0.0652,
+      "loo_r2_climate_plus_allpolicy": 0.2208,
+      "loo_r2_full": 0.109,
+      "dR2_housing_given_climate": 0.1992,
+      "dR2_policy_given_climate": 0.3548
+    },
+    "unsheltered_share": {
+      "loo_r2_climate": 0.356,
+      "loo_r2_climate_plus_housing": 0.4194,
+      "loo_r2_climate_plus_allpolicy": 0.5549,
+      "loo_r2_full": 0.6718,
+      "dR2_housing_given_climate": 0.0634,
+      "dR2_policy_given_climate": 0.1989
+    },
+    "H3_housing_ols_on_level": {
+      "const": {
+        "coef": 20.699,
+        "p": 0.0
+      },
+      "rental_vacancy_rate": {
+        "coef": -3.766,
+        "p": 0.1862
+      },
+      "median_gross_rent": {
+        "coef": 11.638,
+        "p": 0.0044
+      },
+      "rent_to_income": {
+        "coef": -1.317,
+        "p": 0.7866
+      },
+      "jan_temp": {
+        "coef": 1.646,
+        "p": 0.6318
+      }
+    },
+    "H3_model_r2": 0.3883
+  },
+  "dispositions": {
+    "H1_structural_explanation": {
+      "verdict": "SUPPORTED",
+      "best_full_loo_r2": 0.6718,
+      "threshold": ">=0.40 support; <0.20 both => F1"
+    },
+    "H2_policy_net_of_climate_LOADBEARING": {
+      "verdict": "SUPPORTED",
+      "max_dR2_policy_given_climate": 0.3548,
+      "threshold": ">=0.10 support; <0.05 => F2 (weather artifact)"
+    },
+    "H3_housing_supply_mechanism": {
+      "verdict": "SUPPORTED",
+      "vacancy_coef": -3.766,
+      "vacancy_p": 0.1862,
+      "rent_coef": 11.638,
+      "rent_p": 0.0044,
+      "rent_to_income": {
+        "coef": -1.317,
+        "p": 0.7866
+      },
+      "threshold": "vacancy<0 & rent>0 & p<0.10"
+    }
+  }
+}

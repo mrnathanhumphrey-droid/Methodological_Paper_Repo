@@ -1,0 +1,69 @@
+{
+  "n": 411,
+  "hub_cut_potential_ast_pg": 4.99,
+  "network_role": {
+    "Hub": {
+      "ratio": 2.69,
+      "p": 5.219381372384178e-09,
+      "n": 137
+    },
+    "Connector": {
+      "ratio": 0.305,
+      "p": 3.0039374346053883e-10,
+      "n": 137
+    },
+    "Terminal": {
+      "ratio": 0.174,
+      "p": 5.0830301704144865e-15,
+      "n": 137
+    }
+  },
+  "position": {
+    "Guard": {
+      "ratio": 2.125,
+      "p": 1.27044642839706e-07,
+      "n": 202
+    },
+    "Forward": {
+      "ratio": 0.485,
+      "p": 7.314749332730897e-06,
+      "n": 152
+    },
+    "Center": {
+      "ratio": 0.476,
+      "p": 0.0003690473791904578,
+      "n": 57
+    }
+  },
+  "court_region_off_feast": {
+    "Perimeter": {
+      "ratio": 1.003,
+      "p": 0.21565201094947217,
+      "n": 307
+    },
+    "Rim": {
+      "ratio": 0.599,
+      "p": 0.006698218677781709,
+      "n": 94
+    },
+    "Paint": {
+      "ratio": 3.222,
+      "p": 0.017726281075280508,
+      "n": 10
+    }
+  },
+  "best_network": [
+    "Hub",
+    2.69
+  ],
+  "best_position": [
+    "Guard",
+    2.125
+  ],
+  "best_court_region": [
+    "Paint",
+    3.222
+  ],
+  "network_beats_position": true,
+  "network_beats_court_region": false
+}

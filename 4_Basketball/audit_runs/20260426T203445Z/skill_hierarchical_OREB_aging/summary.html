@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>skill fit · hierarchical_OREB_aging</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --white: #FFFFFF; --black: #0C0D0D;
+  --accent: #E0BBF1; --light: #F0DCFB; --dark: #C38BE3;
+  --olive: #4F7A12; --coral: #F0523D; --magenta: #F531C1;
+  --ink-soft: #3a3540; --rule: rgba(12, 13, 13, 0.12);
+  --serif-h: "Cormorant Garamond", "Orpheus Pro", Georgia, "Times New Roman", serif;
+  --serif-b: "EB Garamond", "Adobe Garamond Pro", Garamond, Georgia, serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--white); color: var(--black);
+  font-family: var(--serif-b); font-size: 16px; line-height: 1.45;
+}
+header {
+  background: var(--dark); color: var(--white); padding: 1.4rem 2rem 1.2rem;
+}
+header h1 {
+  font-family: var(--serif-h); font-weight: 600; font-size: 2.2rem;
+  margin: 0; letter-spacing: 0.01em;
+}
+header .meta {
+  font-style: italic; font-size: 0.95rem; margin-top: 0.4rem; opacity: 0.95;
+}
+main { padding: 1.6rem 2rem 3rem; max-width: 1200px; margin: 0 auto; }
+.summary-row {
+  display: flex; gap: 1rem; margin-bottom: 1.6rem; flex-wrap: wrap;
+}
+.stat {
+  flex: 1; min-width: 120px; padding: 1rem 1.2rem;
+  border: 1px solid var(--rule); border-radius: 8px; background: var(--light);
+}
+.stat .label {
+  font-size: 0.78rem; text-transform: lowercase;
+  letter-spacing: 0.06em; color: var(--ink-soft);
+}
+.stat .value {
+  font-family: var(--serif-h); font-size: 2.2rem; font-weight: 600;
+  line-height: 1; margin-top: 0.3rem;
+  font-variant-numeric: tabular-nums;
+}
+.stat.pass .value { color: var(--olive); }
+.stat.fail .value { color: var(--coral); }
+.stat.skip .value { color: var(--ink-soft); }
+.pass-bar {
+  height: 10px; background: var(--light); border-radius: 5px;
+  overflow: hidden; margin-bottom: 1.6rem; border: 1px solid var(--rule);
+}
+.pass-bar .fill { height: 100%; background: var(--olive); transition: width 0.3s ease; }
+table {
+  width: 100%; border-collapse: collapse; background: var(--white);
+  border: 1px solid var(--rule); border-radius: 8px; overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+th, td {
+  padding: 0.5rem 0.8rem; text-align: left; font-size: 0.95rem;
+  border-bottom: 1px solid var(--rule);
+}
+thead { background: var(--accent); }
+th {
+  font-family: var(--serif-h); font-weight: 600; font-size: 0.8rem;
+  letter-spacing: 0.06em; text-transform: lowercase;
+}
+tr.file-row td {
+  background: var(--light); font-family: var(--serif-h); font-size: 0.95rem;
+  padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--accent);
+}
+tr.file-row .file-name { font-weight: 600; letter-spacing: 0.02em; }
+tr.file-row .file-stats {
+  margin-left: 1rem; font-style: italic; font-size: 0.82rem;
+  color: var(--ink-soft); font-family: var(--serif-b); font-weight: 400;
+}
+tr.file-row .fail-count { color: var(--coral); font-weight: 600; }
+tr.result td { padding: 0.35rem 0.8rem; }
+tr.result.passed .status { color: var(--olive); }
+tr.result.failed .status { color: var(--coral); font-weight: 600; }
+tr.result.skipped .status { color: var(--ink-soft); }
+td.status { width: 120px; font-family: var(--serif-h); text-transform: lowercase; }
+td.duration {
+  width: 90px; text-align: right; font-variant-numeric: tabular-nums;
+  color: var(--ink-soft); font-style: italic;
+}
+td.test { font-family: "Consolas", "Menlo", monospace; font-size: 0.85rem; }
+td.metric-num { font-variant-numeric: tabular-nums; text-align: right; }
+section.failures { margin-top: 2.4rem; }
+section.failures h2 {
+  font-family: var(--serif-h); font-weight: 600;
+  border-bottom: 2px solid var(--coral); padding-bottom: 0.4rem; color: var(--coral);
+}
+section h2 {
+  font-family: var(--serif-h); font-weight: 600;
+  text-transform: lowercase; letter-spacing: 0.04em;
+  margin-top: 2rem; margin-bottom: 0.8rem;
+}
+details {
+  margin: 1rem 0; border: 1px solid var(--coral); border-left-width: 4px;
+  border-radius: 6px; padding: 0.6rem 0.9rem; background: #fef4f3;
+}
+details summary {
+  cursor: pointer; font-family: "Consolas", "Menlo", monospace; font-size: 0.88rem;
+}
+details pre {
+  margin-top: 0.6rem; padding: 0.7rem 0.9rem; background: var(--white);
+  border: 1px solid var(--rule); border-radius: 4px; font-size: 0.82rem;
+  overflow-x: auto; white-space: pre-wrap; word-break: break-word;
+}
+footer {
+  margin-top: 2.5rem; padding-top: 1.2rem; border-top: 1px solid var(--rule);
+  font-style: italic; color: var(--ink-soft); font-size: 0.82rem; text-align: center;
+}
+@media print {
+  body { font-size: 12px; }
+  header { padding: 0.8rem 1.2rem; }
+}
+</style>
+</head>
+<body>
+<header><h1>skill fit · hierarchical_OREB_aging</h1><div class="meta">20260426T203445Z · hierarchical_aging.stan · wall time 172.0s</div></header><main><div class="summary-row"><div class="stat fail"><div class="label">convergence</div><div class="value">FAILED</div></div><div class="stat"><div class="label">observations</div><div class="value">20,794</div></div><div class="stat"><div class="label">chains × iters</div><div class="value">4×500</div></div><div class="stat"><div class="label">wall time</div><div class="value">172s</div></div><div class="stat fail"><div class="label">max r-hat</div><div class="value">1.016</div></div><div class="stat pass"><div class="label">min ess</div><div class="value">1401</div></div></div><section><h2>posterior summary (top 25 params)</h2><table><thead><tr><th>param</th><th>mean</th><th>sd</th><th>90% ci</th><th>r-hat</th><th>ess</th></tr></thead><tbody><tr class="result"><td class="test">mu_league</td><td class="metric-num">-2.5478</td><td class="metric-num">0.4432</td><td class="metric-num">[-3.189, -1.755]</td><td class="metric-num">1.000</td><td class="metric-num">2682</td></tr><tr class="result"><td class="test">phi</td><td class="metric-num">+10.6513</td><td class="metric-num">0.8236</td><td class="metric-num">[+9.358, +12.053]</td><td class="metric-num">1.005</td><td class="metric-num">3809</td></tr><tr class="result"><td class="test">reb_per_36_league_at_27</td><td class="metric-num">+3.1311</td><td class="metric-num">1.6240</td><td class="metric-num">[+1.484, +6.226]</td><td class="metric-num">1.001</td><td class="metric-num">2682</td></tr><tr class="result"><td class="test">sigma_player</td><td class="metric-num">+0.5198</td><td class="metric-num">0.0572</td><td class="metric-num">[+0.438, +0.623]</td><td class="metric-num">1.002</td><td class="metric-num">3635</td></tr><tr class="result"><td class="test">sigma_position</td><td class="metric-num">+0.9385</td><td class="metric-num">0.4321</td><td class="metric-num">[+0.423, +1.732]</td><td class="metric-num">1.001</td><td class="metric-num">2685</td></tr><tr class="result"><td class="test">age_curve[1,10]</td><td class="metric-num">+0.7475</td><td class="metric-num">0.0804</td><td class="metric-num">[+0.625, +0.886]</td><td class="metric-num">1.000</td><td class="metric-num">4079</td></tr><tr class="result"><td class="test">age_curve[1,11]</td><td class="metric-num">+0.7535</td><td class="metric-num">0.0815</td><td class="metric-num">[+0.630, +0.893]</td><td class="metric-num">1.000</td><td class="metric-num">4004</td></tr><tr class="result"><td class="test">age_curve[1,12]</td><td class="metric-num">+0.7596</td><td class="metric-num">0.0831</td><td class="metric-num">[+0.631, +0.903]</td><td class="metric-num">1.000</td><td class="metric-num">3913</td></tr><tr class="result"><td class="test">age_curve[1,13]</td><td class="metric-num">+0.7658</td><td class="metric-num">0.0850</td><td class="metric-num">[+0.634, +0.910]</td><td class="metric-num">1.000</td><td class="metric-num">3768</td></tr><tr class="result"><td class="test">age_curve[1,14]</td><td class="metric-num">+0.7721</td><td class="metric-num">0.0873</td><td class="metric-num">[+0.637, +0.921]</td><td class="metric-num">1.000</td><td class="metric-num">3614</td></tr><tr class="result"><td class="test">age_curve[1,15]</td><td class="metric-num">+0.7785</td><td class="metric-num">0.0900</td><td class="metric-num">[+0.639, +0.932]</td><td class="metric-num">1.000</td><td class="metric-num">3434</td></tr><tr class="result"><td class="test">age_curve[1,16]</td><td class="metric-num">+0.7850</td><td class="metric-num">0.0930</td><td class="metric-num">[+0.642, +0.945]</td><td class="metric-num">1.000</td><td class="metric-num">3274</td></tr><tr class="result"><td class="test">age_curve[1,17]</td><td class="metric-num">+0.7915</td><td class="metric-num">0.0964</td><td class="metric-num">[+0.645, +0.958]</td><td class="metric-num">1.000</td><td class="metric-num">3096</td></tr><tr class="result"><td class="test">age_curve[1,18]</td><td class="metric-num">+0.7982</td><td class="metric-num">0.1001</td><td class="metric-num">[+0.645, +0.969]</td><td class="metric-num">1.000</td><td class="metric-num">2939</td></tr><tr class="result"><td class="test">age_curve[1,19]</td><td class="metric-num">+0.8050</td><td class="metric-num">0.1041</td><td class="metric-num">[+0.645, +0.983]</td><td class="metric-num">1.000</td><td class="metric-num">2752</td></tr><tr class="result"><td class="test">age_curve[1,1]</td><td class="metric-num">+0.6971</td><td class="metric-num">0.0855</td><td class="metric-num">[+0.569, +0.848]</td><td class="metric-num">1.002</td><td class="metric-num">2665</td></tr><tr class="result"><td class="test">age_curve[1,20]</td><td class="metric-num">+0.8118</td><td class="metric-num">0.1084</td><td class="metric-num">[+0.647, +0.998]</td><td class="metric-num">1.000</td><td class="metric-num">2617</td></tr><tr class="result"><td class="test">age_curve[1,21]</td><td class="metric-num">+0.8188</td><td class="metric-num">0.1131</td><td class="metric-num">[+0.648, +1.015]</td><td class="metric-num">1.000</td><td class="metric-num">2500</td></tr><tr class="result"><td class="test">age_curve[1,22]</td><td class="metric-num">+0.8259</td><td class="metric-num">0.1180</td><td class="metric-num">[+0.647, +1.030]</td><td class="metric-num">1.000</td><td class="metric-num">2390</td></tr><tr class="result"><td class="test">age_curve[1,23]</td><td class="metric-num">+0.8330</td><td class="metric-num">0.1231</td><td class="metric-num">[+0.648, +1.049]</td><td class="metric-num">1.000</td><td class="metric-num">2297</td></tr><tr class="result"><td class="test">age_curve[1,24]</td><td class="metric-num">+0.8403</td><td class="metric-num">0.1285</td><td class="metric-num">[+0.648, +1.068]</td><td class="metric-num">1.000</td><td class="metric-num">2212</td></tr><tr class="result"><td class="test">age_curve[1,2]</td><td class="metric-num">+0.7024</td><td class="metric-num">0.0838</td><td class="metric-num">[+0.577, +0.850]</td><td class="metric-num">1.002</td><td class="metric-num">2814</td></tr><tr class="result"><td class="test">age_curve[1,3]</td><td class="metric-num">+0.7078</td><td class="metric-num">0.0823</td><td class="metric-num">[+0.584, +0.853]</td><td class="metric-num">1.002</td><td class="metric-num">3003</td></tr><tr class="result"><td class="test">age_curve[1,4]</td><td class="metric-num">+0.7132</td><td class="metric-num">0.0811</td><td class="metric-num">[+0.591, +0.855]</td><td class="metric-num">1.001</td><td class="metric-num">3196</td></tr><tr class="result"><td class="test">age_curve[1,5]</td><td class="metric-num">+0.7187</td><td class="metric-num">0.0801</td><td class="metric-num">[+0.599, +0.859]</td><td class="metric-num">1.000</td><td class="metric-num">3536</td></tr></tbody></table></section><section class="failures"><h2>failures</h2><details open><summary><code>convergence diagnostics</code></summary><pre>R-hat for mu_player[14]: 1.015 &gt; 1.01
+R-hat for reb_per_36_at_27[14]: 1.016 &gt; 1.01</pre></details></section><footer>generated by NBA Projections skill model · open in any browser</footer></main>
+</body>
+</html>

@@ -1,0 +1,28 @@
+cohort,stat,n_obs,n_configs,verdict,k_star,silhouette,p_value,outlier_cluster_size,outlier_configs
+rookie_Center,PTS,0,0,insufficient_n,,,,,
+rookie_Center,REB,0,0,insufficient_n,,,,,
+rookie_Center,AST,0,0,insufficient_n,,,,,
+rookie_Forward,PTS,0,0,insufficient_n,,,,,
+rookie_Forward,REB,0,0,insufficient_n,,,,,
+rookie_Forward,AST,0,0,insufficient_n,,,,,
+rookie_Guard,PTS,0,0,insufficient_n,,,,,
+rookie_Guard,REB,0,0,insufficient_n,,,,,
+rookie_Guard,AST,0,0,insufficient_n,,,,,
+soph_Center,PTS,825,21,no_structure,2.0,0.20466052526244963,0.8566666666666667,1.0,bottom_mid_away
+soph_Center,REB,825,21,no_structure,2.0,0.26607812761390726,0.49666666666666665,2.0,high_bottom_home; mid_mid_home
+soph_Center,AST,825,21,no_structure,2.0,0.2773132686885956,0.61,2.0,high_mid_away; mid_top_away
+soph_Forward,PTS,3509,22,no_structure,2.0,0.2615786784906106,0.6466666666666666,1.0,bottom_mid_home
+soph_Forward,REB,3509,22,no_structure,2.0,0.24019228240715743,0.7833333333333333,3.0,high_bottom_home; top_mid_away; top_top_home
+soph_Forward,AST,3509,22,no_structure,2.0,0.2313763795193428,0.9333333333333333,2.0,bottom_bottom_home; bottom_mid_away
+soph_Guard,PTS,4046,22,ambiguous,2.0,0.4315801641885107,0.03666666666666667,1.0,high_bottom_away
+soph_Guard,REB,4046,22,no_structure,2.0,0.3235769369918186,0.44666666666666666,1.0,high_bottom_home
+soph_Guard,AST,4046,22,no_structure,2.0,0.24926123501400121,0.8366666666666667,1.0,high_top_home
+vet_Center,PTS,5178,24,no_structure,2.0,0.4374350738843142,0.6666666666666666,1.0,bottom_bottom_home
+vet_Center,REB,5178,24,no_structure,2.0,0.26185874873592846,0.9933333333333333,1.0,top_bottom_away
+vet_Center,AST,5178,24,no_structure,2.0,0.3353845056551978,0.84,1.0,top_bottom_away
+vet_Forward,PTS,11252,24,no_structure,2.0,0.42601811646181026,0.32,1.0,top_bottom_away
+vet_Forward,REB,11252,24,no_structure,2.0,0.4007262006267955,0.43666666666666665,1.0,top_bottom_away
+vet_Forward,AST,11252,24,no_structure,2.0,0.5043995657764124,0.08333333333333333,1.0,high_bottom_away
+vet_Guard,PTS,15380,24,no_structure,2.0,0.4228307788535353,0.4166666666666667,1.0,top_bottom_away
+vet_Guard,REB,15380,24,no_structure,2.0,0.48685352889469397,0.19333333333333333,1.0,high_bottom_home
+vet_Guard,AST,15380,24,no_structure,2.0,0.3659401889415587,0.6766666666666666,1.0,top_bottom_away

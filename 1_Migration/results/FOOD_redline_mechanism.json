@@ -1,0 +1,50 @@
+{
+  "NH_White": {
+    "n": 33950,
+    "n_origins": 207,
+    "baseline": {
+      "redline": 0.737,
+      "p": 0.0
+    },
+    "gentrification": {
+      "redline": 0.61,
+      "p_redline": 0.0001,
+      "redline_x_rentgrowth": -0.433,
+      "p_interaction": 0.0024,
+      "rent_growth": 0.35,
+      "p_rg": 0.0
+    },
+    "expensive_core": {
+      "redline": 0.746,
+      "p_redline": 0.0,
+      "rent_lvl": -0.029,
+      "p_rl": 0.5825,
+      "opp_lvl": 0.004,
+      "p_opp": 0.9403
+    }
+  },
+  "NH_Black": {
+    "n": 8452,
+    "n_origins": 207,
+    "baseline": {
+      "redline": 0.13,
+      "p": 0.4774
+    },
+    "gentrification": {
+      "redline": 0.089,
+      "p_redline": 0.6516,
+      "redline_x_rentgrowth": -0.423,
+      "p_interaction": 0.022,
+      "rent_growth": 0.287,
+      "p_rg": 0.0
+    },
+    "expensive_core": {
+      "redline": 0.193,
+      "p_redline": 0.3162,
+      "rent_lvl": -0.09,
+      "p_rl": 0.1867,
+      "opp_lvl": 0.071,
+      "p_opp": 0.2001
+    }
+  }
+}

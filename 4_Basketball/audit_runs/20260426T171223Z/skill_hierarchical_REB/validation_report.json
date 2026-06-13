@@ -1,0 +1,29 @@
+{
+  "fit_label": "hierarchical_REB",
+  "checks": [
+    {
+      "name": "shrinkage_pattern",
+      "passed": false,
+      "summary": "insufficient volume contrast: high=50 low=0",
+      "details": []
+    },
+    {
+      "name": "position_ordering_REB",
+      "passed": true,
+      "summary": "REB ordering: actual=['C', 'F', 'G'] expected=['C', 'F', 'G']",
+      "details": [
+        "  position means: G=4.48, F=7.84, C=11.85"
+      ]
+    },
+    {
+      "name": "top_performers",
+      "passed": false,
+      "summary": "top-10 contains 2 of expected (need >= 3)",
+      "details": [
+        "  model top-10: ['Jonas Valan\u010di\u016bnas', 'Rudy Gobert', 'Domantas Sabonis', 'Ivica Zubac', 'Giannis Antetokounmpo', 'Kevon Looney', 'Nikola Joki\u0107', 'Jarrett Allen', 'Mason Plumlee', 'Nikola Vu\u010devi\u0107']",
+        "  expected names: ['Nikola Jokic', 'Clint Capela', 'Domantas Sabonis', 'Andre Drummond', 'Victor Wembanyama', 'Rudy Gobert']",
+        "  matches: ['Rudy Gobert', 'Domantas Sabonis']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "calibration_date": "2026-05-04T18:43:03.062403+00:00",
+  "min_rookie_gp": 20,
+  "stats": [
+    "PTS",
+    "REB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV",
+    "FGM",
+    "FGA",
+    "FG3M",
+    "FG3A",
+    "FTM",
+    "FTA"
+  ],
+  "leagues": [
+    "ncaa",
+    "g_league",
+    "intl_pooled"
+  ],
+  "n_nba_rookies": 990,
+  "n_ncaa_pairs": 316,
+  "n_g_league_pairs": 506,
+  "n_intl_pooled_pairs": 0,
+  "model_form": "y = intercept + slope * x  (per-36 NBA rookie ~ per-40 source)"
+}

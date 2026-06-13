@@ -1,0 +1,26 @@
+{
+  "label": "backtest_PTS_phase4_v2_pos5_2019-20-2020-21-2021-22-2022-23__2023-24",
+  "model_path": "D:\\NBA Projections\\models\\skill\\stan\\hierarchical_aging_pace_usage_v2.stan",
+  "n_observations": 47136,
+  "n_chains": 4,
+  "n_iter_warmup": 400,
+  "n_iter_sampling": 400,
+  "fit_started_at": "2026-04-27T19:42:32.258813+00:00",
+  "fit_ended_at": "2026-04-27T20:33:16.740258+00:00",
+  "elapsed_seconds": 3044.481445,
+  "stat": "PTS",
+  "phase": "4_regime_B_v2",
+  "mates_usage_stat": "FGA",
+  "train_seasons": [
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23"
+  ],
+  "test_season": "2023-24",
+  "min_games": 20,
+  "max_players": 200,
+  "oos_sd_added": 1.9738108431462342,
+  "pace_coverage": 1.0,
+  "mates_usage_coverage": 0.6731517509727627
+}

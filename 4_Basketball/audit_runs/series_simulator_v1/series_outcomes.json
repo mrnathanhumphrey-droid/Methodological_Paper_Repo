@@ -1,0 +1,92 @@
+[
+  {
+    "team_a": "OKC",
+    "team_b": "DEN",
+    "team_a_strength_points": 15.411621602964553,
+    "team_b_strength_points": 7.944577592484588,
+    "p_team_a_wins_series": 0.9208,
+    "expected_series_length": 5.23104,
+    "p_sweep_a": 0.28422,
+    "p_series_length": {
+      "4": 0.2889,
+      "5": 0.34254,
+      "6": 0.21718,
+      "7": 0.15138
+    },
+    "n_sims": 50000,
+    "already_played": [],
+    "label": "Western Conf Final hypothetical"
+  },
+  {
+    "team_a": "OKC",
+    "team_b": "SAS",
+    "team_a_strength_points": 15.411621602964553,
+    "team_b_strength_points": 12.856224205468553,
+    "p_team_a_wins_series": 0.69534,
+    "expected_series_length": 5.72958,
+    "p_sweep_a": 0.11304,
+    "p_series_length": {
+      "4": 0.14294,
+      "5": 0.27384,
+      "6": 0.29392,
+      "7": 0.2893
+    },
+    "n_sims": 50000,
+    "already_played": [],
+    "label": "Western Conf Final hypothetical"
+  },
+  {
+    "team_a": "BOS",
+    "team_b": "DET",
+    "team_a_strength_points": 10.541762993199267,
+    "team_b_strength_points": 12.062041322892933,
+    "p_team_a_wins_series": 0.40684,
+    "expected_series_length": 5.79796,
+    "p_sweep_a": 0.03858,
+    "p_series_length": {
+      "4": 0.12842,
+      "5": 0.25034,
+      "6": 0.3161,
+      "7": 0.30514
+    },
+    "n_sims": 50000,
+    "already_played": [],
+    "label": "Eastern Conf Final hypothetical"
+  },
+  {
+    "team_a": "BOS",
+    "team_b": "NYK",
+    "team_a_strength_points": 10.541762993199267,
+    "team_b_strength_points": 7.037517304594719,
+    "p_team_a_wins_series": 0.7508,
+    "expected_series_length": 5.66434,
+    "p_sweep_a": 0.13892,
+    "p_series_length": {
+      "4": 0.1605,
+      "5": 0.28546,
+      "6": 0.28324,
+      "7": 0.2708
+    },
+    "n_sims": 50000,
+    "already_played": [],
+    "label": "Eastern Conf Final hypothetical"
+  },
+  {
+    "team_a": "OKC",
+    "team_b": "BOS",
+    "team_a_strength_points": 15.411621602964553,
+    "team_b_strength_points": 10.541762993199267,
+    "p_team_a_wins_series": 0.8223,
+    "expected_series_length": 5.53364,
+    "p_sweep_a": 0.18178,
+    "p_series_length": {
+      "4": 0.19482,
+      "5": 0.30906,
+      "6": 0.26378,
+      "7": 0.23234
+    },
+    "n_sims": 50000,
+    "already_played": [],
+    "label": "NBA Finals hypothetical (top seeds)"
+  }
+]

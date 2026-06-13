@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "notes": [
+    "R-hat for mu_player[81]: 1.012 > 1.01",
+    "R-hat for sigma_age_player: 1.011 > 1.01",
+    "ESS for sigma_age_player: 305 < 400",
+    "R-hat for phi[2]: 1.011 > 1.01",
+    "R-hat for age_tilt_player[154]: 1.011 > 1.01",
+    "R-hat for rate_per_36_at_27[81]: 1.012 > 1.01",
+    "R-hat for phi_position[2]: 1.011 > 1.01"
+  ],
+  "max_rhat": 1.01177,
+  "min_ess": 305.432,
+  "n_params_summarized": 910
+}

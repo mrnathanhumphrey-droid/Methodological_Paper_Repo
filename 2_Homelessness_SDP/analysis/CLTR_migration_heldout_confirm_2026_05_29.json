@@ -1,0 +1,21 @@
+{
+  "check": "migration v1.7 pull-taxonomy held-out signature correlation",
+  "claim_in_prose": "RESULTS_migration_substrate.md line 78: train(2012-17) vs holdout(2018-21) = 0.999 (>=0.80) PASS",
+  "backing_before_this": "NONE \u2014 prose only; flow_taxonomy.py pools all years (no train/holdout split); no results JSON",
+  "independent_recompute": {
+    "n_train": 588317,
+    "n_holdout": 402090,
+    "pull_4flows": {
+      "signature_dim": 16,
+      "heldout_r": 0.9004,
+      "p": 2e-06
+    },
+    "with_desperation_5flows": {
+      "signature_dim": 20,
+      "heldout_r": 0.8626,
+      "p": 1e-06
+    }
+  },
+  "VERDICT": "PARTIAL \u2014 recompute gives r=0.900 (>=0.80 gate PASS) but does not match the claimed 0.999 exactly; signature definition may differ",
+  "note": "This script is the committed, reproducible backing the prose lacked. Read-only on D:/Migration."
+}

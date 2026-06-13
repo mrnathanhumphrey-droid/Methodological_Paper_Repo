@@ -1,0 +1,29 @@
+{
+  "fit_label": "backtest_FGA_phase4_v2_2025-26",
+  "checks": [
+    {
+      "name": "coverage_80_in_band",
+      "passed": false,
+      "summary": "80% CI coverage = 95.5%",
+      "details": []
+    },
+    {
+      "name": "bias_near_zero",
+      "passed": true,
+      "summary": "bias = -0.542",
+      "details": []
+    },
+    {
+      "name": "z_error_well_calibrated",
+      "passed": false,
+      "summary": "z-error mean=-0.31, sd=0.56",
+      "details": []
+    },
+    {
+      "name": "top_25_tier_accuracy",
+      "passed": true,
+      "summary": "top-25 overlap = 76.0%",
+      "details": []
+    }
+  ]
+}

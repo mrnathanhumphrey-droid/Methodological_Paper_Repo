@@ -1,0 +1,372 @@
+{
+  "locked_sha": "db0ed9a899c28691183cd5b640f460c10f3c2a75",
+  "K_raw_materialized": 34,
+  "K_final": 19,
+  "qualifying_player_seasons": 2798,
+  "merge_log": [
+    {
+      "merged_target": "Center|Soph_Early|High_usage",
+      "into_neighbor": "Center|Soph_Early|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 6,
+      "target_min_per_season": 0
+    },
+    {
+      "merged_target": "Forward|Rookie|High_usage",
+      "into_neighbor": "Forward|Rookie|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 8,
+      "target_min_per_season": 0
+    },
+    {
+      "merged_target": "Center|Mid|High_usage",
+      "into_neighbor": "Center|Mid|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 12,
+      "target_min_per_season": 0
+    },
+    {
+      "merged_target": "Center|Deep_vet|Low_usage",
+      "into_neighbor": "Center|Deep_vet|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 13,
+      "target_min_per_season": 0
+    },
+    {
+      "merged_target": "Forward|Deep_vet|Low_usage",
+      "into_neighbor": "Forward|Deep_vet|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 16,
+      "target_min_per_season": 1
+    },
+    {
+      "merged_target": "Forward|Deep_vet|High_usage",
+      "into_neighbor": "Forward|Deep_vet|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 17,
+      "target_min_per_season": 1
+    },
+    {
+      "merged_target": "Guard|Deep_vet|Low_usage",
+      "into_neighbor": "Guard|Deep_vet|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 19,
+      "target_min_per_season": 1
+    },
+    {
+      "merged_target": "Guard|Rookie|High_usage",
+      "into_neighbor": "Guard|Rookie|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 27,
+      "target_min_per_season": 1
+    },
+    {
+      "merged_target": "Center|Deep_vet|Mid_usage",
+      "into_neighbor": "Center|Mid|Mid_usage",
+      "axis": "years_pro",
+      "target_total": 27,
+      "target_min_per_season": 2
+    },
+    {
+      "merged_target": "Guard|Deep_vet|High_usage",
+      "into_neighbor": "Guard|Deep_vet|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 27,
+      "target_min_per_season": 2
+    },
+    {
+      "merged_target": "Center|Rookie|Low_usage",
+      "into_neighbor": "Center|Rookie|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 31,
+      "target_min_per_season": 2
+    },
+    {
+      "merged_target": "Forward|Soph_Early|High_usage",
+      "into_neighbor": "Forward|Soph_Early|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 36,
+      "target_min_per_season": 4
+    },
+    {
+      "merged_target": "Forward|Mid|High_usage",
+      "into_neighbor": "Forward|Mid|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 44,
+      "target_min_per_season": 5
+    },
+    {
+      "merged_target": "Center|Mid|Low_usage",
+      "into_neighbor": "Center|Mid|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 46,
+      "target_min_per_season": 4
+    },
+    {
+      "merged_target": "Center|Soph_Early|Low_usage",
+      "into_neighbor": "Center|Soph_Early|Mid_usage",
+      "axis": "role_cohort",
+      "target_total": 48,
+      "target_min_per_season": 3
+    }
+  ],
+  "final_cells": {
+    "Center|Mid|Mid_usage": {
+      "total": 172,
+      "per_season": {
+        "2019-20": 25,
+        "2020-21": 26,
+        "2021-22": 25,
+        "2022-23": 21,
+        "2023-24": 21,
+        "2024-25": 25,
+        "2025-26": 29
+      },
+      "min_per_season": 21
+    },
+    "Center|Rookie|Mid_usage": {
+      "total": 68,
+      "per_season": {
+        "2019-20": 9,
+        "2020-21": 7,
+        "2021-22": 8,
+        "2022-23": 12,
+        "2023-24": 8,
+        "2024-25": 11,
+        "2025-26": 13
+      },
+      "min_per_season": 7
+    },
+    "Center|Soph_Early|Mid_usage": {
+      "total": 129,
+      "per_season": {
+        "2019-20": 18,
+        "2020-21": 20,
+        "2021-22": 19,
+        "2022-23": 17,
+        "2023-24": 20,
+        "2024-25": 21,
+        "2025-26": 14
+      },
+      "min_per_season": 14
+    },
+    "Forward|Deep_vet|Mid_usage": {
+      "total": 67,
+      "per_season": {
+        "2019-20": 9,
+        "2020-21": 9,
+        "2021-22": 11,
+        "2022-23": 8,
+        "2023-24": 10,
+        "2024-25": 9,
+        "2025-26": 11
+      },
+      "min_per_season": 8
+    },
+    "Forward|Mid|Low_usage": {
+      "total": 107,
+      "per_season": {
+        "2019-20": 12,
+        "2020-21": 11,
+        "2021-22": 15,
+        "2022-23": 11,
+        "2023-24": 22,
+        "2024-25": 17,
+        "2025-26": 19
+      },
+      "min_per_season": 11
+    },
+    "Forward|Mid|Mid_usage": {
+      "total": 220,
+      "per_season": {
+        "2019-20": 25,
+        "2020-21": 34,
+        "2021-22": 32,
+        "2022-23": 38,
+        "2023-24": 33,
+        "2024-25": 31,
+        "2025-26": 27
+      },
+      "min_per_season": 25
+    },
+    "Forward|Rookie|Low_usage": {
+      "total": 108,
+      "per_season": {
+        "2019-20": 13,
+        "2020-21": 21,
+        "2021-22": 15,
+        "2022-23": 16,
+        "2023-24": 17,
+        "2024-25": 13,
+        "2025-26": 13
+      },
+      "min_per_season": 13
+    },
+    "Forward|Rookie|Mid_usage": {
+      "total": 134,
+      "per_season": {
+        "2019-20": 20,
+        "2020-21": 21,
+        "2021-22": 20,
+        "2022-23": 19,
+        "2023-24": 16,
+        "2024-25": 22,
+        "2025-26": 16
+      },
+      "min_per_season": 16
+    },
+    "Forward|Soph_Early|Low_usage": {
+      "total": 155,
+      "per_season": {
+        "2019-20": 28,
+        "2020-21": 20,
+        "2021-22": 20,
+        "2022-23": 26,
+        "2023-24": 23,
+        "2024-25": 22,
+        "2025-26": 16
+      },
+      "min_per_season": 16
+    },
+    "Forward|Soph_Early|Mid_usage": {
+      "total": 281,
+      "per_season": {
+        "2019-20": 37,
+        "2020-21": 34,
+        "2021-22": 41,
+        "2022-23": 41,
+        "2023-24": 40,
+        "2024-25": 38,
+        "2025-26": 50
+      },
+      "min_per_season": 34
+    },
+    "Guard|Deep_vet|Mid_usage": {
+      "total": 83,
+      "per_season": {
+        "2019-20": 9,
+        "2020-21": 7,
+        "2021-22": 13,
+        "2022-23": 15,
+        "2023-24": 15,
+        "2024-25": 16,
+        "2025-26": 8
+      },
+      "min_per_season": 7
+    },
+    "Guard|Mid|High_usage": {
+      "total": 109,
+      "per_season": {
+        "2019-20": 14,
+        "2020-21": 15,
+        "2021-22": 18,
+        "2022-23": 15,
+        "2023-24": 13,
+        "2024-25": 18,
+        "2025-26": 16
+      },
+      "min_per_season": 13
+    },
+    "Guard|Mid|Low_usage": {
+      "total": 74,
+      "per_season": {
+        "2019-20": 11,
+        "2020-21": 12,
+        "2021-22": 11,
+        "2022-23": 9,
+        "2023-24": 7,
+        "2024-25": 9,
+        "2025-26": 15
+      },
+      "min_per_season": 7
+    },
+    "Guard|Mid|Mid_usage": {
+      "total": 210,
+      "per_season": {
+        "2019-20": 28,
+        "2020-21": 30,
+        "2021-22": 27,
+        "2022-23": 27,
+        "2023-24": 32,
+        "2024-25": 36,
+        "2025-26": 30
+      },
+      "min_per_season": 27
+    },
+    "Guard|Rookie|Low_usage": {
+      "total": 76,
+      "per_season": {
+        "2019-20": 10,
+        "2020-21": 13,
+        "2021-22": 8,
+        "2022-23": 12,
+        "2023-24": 17,
+        "2024-25": 8,
+        "2025-26": 8
+      },
+      "min_per_season": 8
+    },
+    "Guard|Rookie|Mid_usage": {
+      "total": 246,
+      "per_season": {
+        "2019-20": 40,
+        "2020-21": 36,
+        "2021-22": 43,
+        "2022-23": 29,
+        "2023-24": 23,
+        "2024-25": 36,
+        "2025-26": 39
+      },
+      "min_per_season": 23
+    },
+    "Guard|Soph_Early|High_usage": {
+      "total": 109,
+      "per_season": {
+        "2019-20": 12,
+        "2020-21": 16,
+        "2021-22": 15,
+        "2022-23": 16,
+        "2023-24": 19,
+        "2024-25": 16,
+        "2025-26": 15
+      },
+      "min_per_season": 12
+    },
+    "Guard|Soph_Early|Low_usage": {
+      "total": 114,
+      "per_season": {
+        "2019-20": 13,
+        "2020-21": 11,
+        "2021-22": 21,
+        "2022-23": 18,
+        "2023-24": 17,
+        "2024-25": 21,
+        "2025-26": 13
+      },
+      "min_per_season": 11
+    },
+    "Guard|Soph_Early|Mid_usage": {
+      "total": 336,
+      "per_season": {
+        "2019-20": 48,
+        "2020-21": 52,
+        "2021-22": 47,
+        "2022-23": 48,
+        "2023-24": 45,
+        "2024-25": 42,
+        "2025-26": 54
+      },
+      "min_per_season": 42
+    }
+  },
+  "diagnostics": {
+    "missing_debut_dropped": 0,
+    "missing_position_dropped": 0,
+    "rookie_default_mid_usage": 277,
+    "empty_position_string_defaulted_guard": 0,
+    "min_games": 20,
+    "min_mpg": 10.0,
+    "sparse_total_floor": 50,
+    "sparse_per_season_floor": 5
+  }
+}

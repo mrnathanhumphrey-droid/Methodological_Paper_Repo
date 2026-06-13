@@ -1,0 +1,176 @@
+{
+  "cases": {
+    "POL_Tusk": {
+      "iso": "POL",
+      "baseline_year": 2014,
+      "trough_year": 2022,
+      "latest_year": 2025,
+      "libdem_baseline": 0.812,
+      "libdem_trough": 0.417,
+      "libdem_latest": 0.645,
+      "tiers": {
+        "horizontal": {
+          "half_life_years": 2,
+          "ceiling_ratio": 0.8605282199710564,
+          "latest_recovery_fraction": 0.6674257478561236
+        },
+        "diagonal": {
+          "half_life_years": 2,
+          "ceiling_ratio": 0.8349339735894358,
+          "latest_recovery_fraction": 0.7400756143667299
+        },
+        "vertical": {
+          "half_life_years": null,
+          "ceiling_ratio": 0.8226547501283912,
+          "latest_recovery_fraction": 0.44413272226267475
+        }
+      }
+    },
+    "BRA_Lula": {
+      "iso": "BRA",
+      "baseline_year": 2014,
+      "trough_year": 2019,
+      "latest_year": 2025,
+      "libdem_baseline": 0.783,
+      "libdem_trough": 0.528,
+      "libdem_latest": 0.704,
+      "tiers": {
+        "horizontal": {
+          "half_life_years": 4,
+          "ceiling_ratio": 1.0454366007720202,
+          "latest_recovery_fraction": 1.1726730795285187
+        },
+        "diagonal": {
+          "half_life_years": 4,
+          "ceiling_ratio": 0.8728971962616823,
+          "latest_recovery_fraction": 0.7283621837549934
+        },
+        "vertical": {
+          "half_life_years": null,
+          "ceiling_ratio": 0.845115434087865,
+          "latest_recovery_fraction": 0.024194756554307008
+        }
+      }
+    },
+    "KOR_Yoon": {
+      "iso": "KOR",
+      "baseline_year": 2021,
+      "trough_year": 2023,
+      "latest_year": 2025,
+      "libdem_baseline": 0.775,
+      "libdem_trough": 0.62,
+      "libdem_latest": 0.739,
+      "tiers": {
+        "horizontal": {
+          "half_life_years": 1,
+          "ceiling_ratio": 1.0364995878753065,
+          "latest_recovery_fraction": 1.0955179663608565
+        },
+        "diagonal": {
+          "half_life_years": 2,
+          "ceiling_ratio": 0.9519038076152304,
+          "latest_recovery_fraction": 0.8633776091081593
+        },
+        "vertical": {
+          "half_life_years": null,
+          "ceiling_ratio": 0.9547283973680387,
+          "latest_recovery_fraction": 0.04464285714285624
+        }
+      }
+    },
+    "BGD_Yunus": {
+      "iso": "BGD",
+      "baseline_year": 2015,
+      "trough_year": 2022,
+      "latest_year": 2025,
+      "libdem_baseline": 0.108,
+      "libdem_trough": 0.091,
+      "libdem_latest": 0.116,
+      "tiers": {
+        "horizontal": {
+          "half_life_years": 2,
+          "ceiling_ratio": 1.412266239577936,
+          "latest_recovery_fraction": 4.397260273972603
+        },
+        "diagonal": {
+          "half_life_years": 3,
+          "ceiling_ratio": 2.278787878787879,
+          "latest_recovery_fraction": 4.403225806451612
+        },
+        "vertical": {
+          "half_life_years": 2,
+          "ceiling_ratio": 2.5369127516778525,
+          "latest_recovery_fraction": 5.244755244755245
+        }
+      }
+    },
+    "LKA_Sirisena": {
+      "iso": "LKA",
+      "baseline_year": 2010,
+      "trough_year": 2011,
+      "latest_year": 2018,
+      "libdem_baseline": 0.244,
+      "libdem_trough": 0.243,
+      "libdem_latest": 0.481,
+      "tiers": {
+        "horizontal": {
+          "half_life_years": null,
+          "ceiling_ratio": -5.762692625206384,
+          "latest_recovery_fraction": null
+        },
+        "diagonal": {
+          "half_life_years": 2,
+          "ceiling_ratio": -23.363636363636367,
+          "latest_recovery_fraction": 31.628571428571426
+        },
+        "vertical": {
+          "half_life_years": null,
+          "ceiling_ratio": 1.3150143872257645,
+          "latest_recovery_fraction": null
+        }
+      }
+    },
+    "ZMB_Hichilema": {
+      "iso": "ZMB",
+      "baseline_year": 2012,
+      "trough_year": 2020,
+      "latest_year": 2025,
+      "libdem_baseline": 0.421,
+      "libdem_trough": 0.292,
+      "libdem_latest": 0.375,
+      "tiers": {
+        "horizontal": {
+          "half_life_years": 2,
+          "ceiling_ratio": 0.7626291510199619,
+          "latest_recovery_fraction": 0.5942028985507244
+        },
+        "diagonal": {
+          "half_life_years": 2,
+          "ceiling_ratio": 1.2191283292978208,
+          "latest_recovery_fraction": 1.4813829787234043
+        },
+        "vertical": {
+          "half_life_years": 1,
+          "ceiling_ratio": 0.9301357704161584,
+          "latest_recovery_fraction": 0.8750708968450905
+        }
+      }
+    }
+  },
+  "prereg031": {
+    "n": 6,
+    "horizontal_le_vertical_HL": 5,
+    "vertical_censored": 4,
+    "predA_supported": true,
+    "predB_supported": true
+  },
+  "prereg032": {
+    "n": 6,
+    "horizontal_ge90": 3,
+    "vertical_lt90": 4,
+    "overshoot": 3,
+    "predA1_supported": false,
+    "predA2_supported": true,
+    "predB_supported": true
+  }
+}

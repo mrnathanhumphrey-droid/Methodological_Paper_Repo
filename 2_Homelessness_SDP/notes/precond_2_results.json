@@ -1,0 +1,33 @@
+{
+  "overall": "FAIL_OR_MIXED",
+  "results": [
+    {
+      "country": "colombia",
+      "verdict": "FAIL",
+      "spearman_correlation": -0.11288133139132434,
+      "n_admin2_year_cells": 5489,
+      "threshold": 0.6
+    },
+    {
+      "country": "sudan",
+      "verdict": "FAIL",
+      "spearman_correlation": 0.32772333457259395,
+      "n_admin2_year_cells": 823,
+      "threshold": 0.6
+    },
+    {
+      "country": "drc",
+      "verdict": "FAIL",
+      "spearman_correlation": 0.18232239513666107,
+      "n_admin2_year_cells": 1691,
+      "threshold": 0.6
+    },
+    {
+      "country": "yemen",
+      "verdict": "FAIL",
+      "spearman_correlation": 0.10874391903211177,
+      "n_admin2_year_cells": 2820,
+      "threshold": 0.6
+    }
+  ]
+}

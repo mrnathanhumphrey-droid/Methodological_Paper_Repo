@@ -1,0 +1,154 @@
+{
+  "stat": "PTS",
+  "test_season": "2025-26",
+  "n_players": 133,
+  "mae": 1.2394931132084583,
+  "rmse": 1.56757913077671,
+  "bias": -0.7485710760051955,
+  "coverage_50": 0.7293233082706767,
+  "coverage_80": 0.9548872180451128,
+  "coverage_90": 0.9849624060150376,
+  "z_error_mean": -0.2966159876318134,
+  "z_error_sd": 0.5392760114157975,
+  "top_25_accuracy": 0.88,
+  "top_50_accuracy": 0.92,
+  "worst_misses": [
+    {
+      "nba_api_id": 203076,
+      "name": "Anthony Davis",
+      "projected": 22.2737261801173,
+      "projected_sd": 2.749246565766559,
+      "actual": 26.640845070422536,
+      "error": -4.367118890305235,
+      "z_error": -1.5884784379416232
+    },
+    {
+      "nba_api_id": 2544,
+      "name": "LeBron James",
+      "projected": 20.894682122896448,
+      "projected_sd": 2.583085609832839,
+      "actual": 25.157335512872905,
+      "error": -4.262653389976457,
+      "z_error": -1.6502176210304964
+    },
+    {
+      "nba_api_id": 1626204,
+      "name": "Larry Nance Jr.",
+      "projected": 11.583566558764439,
+      "projected_sd": 2.4589767642150036,
+      "actual": 15.78401727861771,
+      "error": -4.200450719853272,
+      "z_error": -1.70821082207103
+    },
+    {
+      "nba_api_id": 201935,
+      "name": "James Harden",
+      "projected": 19.187013138789457,
+      "projected_sd": 2.511645944584579,
+      "actual": 23.25161290322581,
+      "error": -4.064599764436352,
+      "z_error": -1.618301247116511
+    },
+    {
+      "nba_api_id": 1628970,
+      "name": "Miles Bridges",
+      "projected": 19.14357216241086,
+      "projected_sd": 2.451264484168005,
+      "actual": 23.06554953178906,
+      "error": -3.921977369378201,
+      "z_error": -1.5999813136073635
+    },
+    {
+      "nba_api_id": 1626181,
+      "name": "Norman Powell",
+      "projected": 20.153622906736356,
+      "projected_sd": 2.610866908688865,
+      "actual": 24.0,
+      "error": -3.8463770932636443,
+      "z_error": -1.4732183706733761
+    },
+    {
+      "nba_api_id": 1628983,
+      "name": "Shai Gilgeous-Alexander",
+      "projected": 31.290176258250202,
+      "projected_sd": 2.8816598598063816,
+      "actual": 34.44684129429892,
+      "error": -3.156665036048718,
+      "z_error": -1.0954329065959971
+    },
+    {
+      "nba_api_id": 203552,
+      "name": "Seth Curry",
+      "projected": 11.99227106836606,
+      "projected_sd": 2.4448704724705355,
+      "actual": 15.093484419263456,
+      "error": -3.101213350897396,
+      "z_error": -1.268457116979137
+    },
+    {
+      "nba_api_id": 203903,
+      "name": "Jordan Clarkson",
+      "projected": 19.670502368943293,
+      "projected_sd": 2.6765071799535383,
+      "actual": 22.383419689119172,
+      "error": -2.7129173201758796,
+      "z_error": -1.0136036026710653
+    },
+    {
+      "nba_api_id": 201939,
+      "name": "Stephen Curry",
+      "projected": 24.857010004361683,
+      "projected_sd": 2.667843873166627,
+      "actual": 27.500222321031572,
+      "error": -2.6432123166698887,
+      "z_error": -0.9907672421371864
+    }
+  ],
+  "best_hits": [
+    {
+      "nba_api_id": 1626168,
+      "name": "Trey Lyles",
+      "projected": 12.049286392712215,
+      "projected_sd": 2.427642087043074,
+      "actual": 12.0355819125278,
+      "error": 0.013704480184415502,
+      "z_error": 0.005645181494240728
+    },
+    {
+      "nba_api_id": 1627752,
+      "name": "Taurean Prince",
+      "projected": 10.91702567648846,
+      "projected_sd": 2.368560855455,
+      "actual": 10.887966804979252,
+      "error": 0.029058871509208828,
+      "z_error": 0.01226857711605076
+    },
+    {
+      "nba_api_id": 1626157,
+      "name": "Karl-Anthony Towns",
+      "projected": 25.185542280370438,
+      "projected_sd": 2.6920782379515713,
+      "actual": 25.148530579825255,
+      "error": 0.037011700545182435,
+      "z_error": 0.01374837477730402
+    },
+    {
+      "nba_api_id": 1626172,
+      "name": "Kevon Looney",
+      "projected": 10.726054676097942,
+      "projected_sd": 2.337324557594064,
+      "actual": 10.815720524017468,
+      "error": -0.0896658479195267,
+      "z_error": -0.038362600362110026
+    },
+    {
+      "nba_api_id": 1629675,
+      "name": "Naz Reid",
+      "projected": 18.697031781862268,
+      "projected_sd": 2.509790834178665,
+      "actual": 18.579591836734693,
+      "error": 0.11743994512757538,
+      "z_error": 0.04679272213774256
+    }
+  ]
+}
