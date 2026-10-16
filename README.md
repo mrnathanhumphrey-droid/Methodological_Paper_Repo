@@ -2,6 +2,12 @@
 
 Lean reproduction materials for the five substrates evaluated in the methodology paper
 on a falsifier-disciplined protocol for residue-class panel analysis (Resolve Research).
+
+**The method in brief:** a six-step decomposition protocol run under four pre-registered
+falsifiers. When a falsifier fires, it is read as a diagnosis (wrong labels, wrong axis,
+or wrong resolution) that triggers a pre-registered re-decomposition from a bounded set.
+A firing that clears is a recovered result; one that persists through every alternative is
+a boundary result. The substrates below are the test bed: four recoveries and one boundary.
 **The manuscript is submitted separately; this repository exists so referees can
 reproduce the substrate results.** It contains no manuscript text.
 
@@ -30,4 +36,8 @@ arrays (`*.npy`, reproducible from the basketball phase scripts).
 
 ## Companion repositories
 
-The Migration and Homelessness/SDP substrates also have standalone reproduction repos.
+Standalone reproduction repos: [Migration](https://github.com/mrnathanhumphrey-droid/Migration),
+[SDP_Study](https://github.com/mrnathanhumphrey-droid/SDP_Study) (homelessness),
+[Centers_Deterrence](https://github.com/mrnathanhumphrey-droid/Centers_Deterrence) (NBA).
+
+MIT license.
